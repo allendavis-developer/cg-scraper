@@ -6,15 +6,19 @@ export const cex: CompetitorConfig = {
   searchUrl: ({ item, category, subcategory, attributes }: SearchParams) => {
     let url = `https://uk.webuy.com/search?stext=${encodeURIComponent(item)}`;
 
-    if (attributes?.storage) {
-      url += `&Capacity=${encodeURIComponent(attributes.storage)}`;
+    if (subcategory) {
+      url += `&categoryFriendlyName=${encodeURIComponent(subcategory)}`;
     }
 
     if (category) {
       switch (category.toLowerCase()) {
         case "smartphones and mobile":
           url += "&superCatName=Phones&Grade=B";
+          if (attributes?.storage) {
+            url += `&Capacity=${encodeURIComponent(attributes.storage)}`;
+          }
           break;
+
         case "games (discs & cartridges)":
           url += "&superCatName=Gaming";
           break;
@@ -28,11 +32,5 @@ export const cex: CompetitorConfig = {
     title: ".content .card-title a",
     price: ".content .product-main-price",
     url: ".content .card-title a",
-  }
+  },
 };
-
-// FOR BROAD SEARCHING through category friendly name 
-export function cexMobileBroadSearchUrl(baseQuery: string, subcategory: string) {
-  const baseUrl = "https://uk.webuy.com/search";
-  return `${baseUrl}?stext=${encodeURIComponent(baseQuery)}&categoryFriendlyName=${encodeURIComponent(subcategory)}&Grade=B`;
-}

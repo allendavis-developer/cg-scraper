@@ -1,5 +1,5 @@
 import { Page } from "playwright";
-import { cex, cexMobileBroadSearchUrl } from "../competitors/cex";
+import { cex } from "../competitors/cex";
 import { scrapeCEX } from "../scrapers/cex";
 
 /* ----------------------------- Type Definitions ----------------------------- */
@@ -127,15 +127,19 @@ export async function getMobileResults(
     throw new Error(`Unsupported competitor: ${competitor}`);
   }
 
-  const baseUrl = broad
-    ? cexMobileBroadSearchUrl(item, subcategory || item)
-    : cex.searchUrl({
-        item,
-        category: "smartphones and mobile",
-        attributes,
-      });
+  const searchParams: any = {
+    item,
+    category: "smartphones and mobile",
+    attributes,
+  };
 
-  console.log(`🌐 Navigating to: ${baseUrl}`);
+  if (subcategory) {
+    searchParams.subcategory = subcategory;
+  }
+
+  const baseUrl = cex.searchUrl(searchParams);
+
+  console.log(`Navigating to: ${baseUrl}`);
   await page.goto(baseUrl, { waitUntil: "domcontentloaded" });
 
   if (!broad) {
@@ -147,6 +151,8 @@ export async function getMobileResults(
   const { results, models } = await scrapeAllMobilePages(page, baseUrl);
   return { competitor, results, models };
 }
+
+
 
 import fs from "fs";
 import path from "path";
