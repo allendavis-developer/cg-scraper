@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "lib": ["ES2020", "DOM"],        // DOM if you use browser APIs
+    "types": ["node"]                // <--- this tells TS to include Node types
+  },
+  "include": ["src/**/*"]
+}
