@@ -19,6 +19,23 @@ export async function scrapeCEX(page: Page, containerSelector: string, titleSele
   // Wait for the main container to load
   await page.waitForSelector(containerSelector, { state: "attached", timeout: 10000 });
 
+   // Wait for the number of cards to stabilize
+    await page.waitForFunction(
+      (sel) => {
+        const counts: number[] = (window as any)._cardCounts || [];
+        const current = document.querySelectorAll(sel).length;
+        counts.push(current);
+        (window as any)._cardCounts = counts.slice(-5);
+        // Check if the last few counts are identical (stable)
+        return counts.length >= 3 && counts.every((n) => n === counts[0]);
+      },
+      containerSelector,
+      { timeout: 10000 }
+    );
+
+    // Small buffer to ensure final renders are done
+    await page.waitForTimeout(500);
+
   // Get all product cards
   const cards = await page.$$(containerSelector);
   for (const card of cards) {

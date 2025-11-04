@@ -65,20 +65,18 @@ async function scrapeAllMobilePages(
   page: Page,
   baseUrl: string
 ): Promise<{ results: any[]; models: MobileVariant[] }> {
-  const totalResults = await getTotalResultsCount(page);
   const resultsPerPage = 17;
-  const totalPages = Math.ceil(totalResults / resultsPerPage) || 1;
-
-  console.log(`📱 Found ${totalResults} results (${totalPages} pages)`);
 
   const allResults: any[] = [];
   const modelsMap: Record<string, MobileVariant> = {};
 
   const { container, title, price, url: urlSel } = cex.selectors;
 
-  for (let pageNum = 1; pageNum <= totalPages; pageNum++) {
+  let pageNum = 1;
+
+  while (true) {
     const pagedUrl = `${baseUrl}&page=${pageNum}`;
-    console.log(`🔍 Scraping page ${pageNum}/${totalPages}: ${pagedUrl}`);
+    console.log(`🔍 Scraping page ${pageNum}: ${pagedUrl}`);
 
     await page.goto(pagedUrl, { waitUntil: "domcontentloaded" });
     await page.waitForTimeout(1000);
@@ -100,6 +98,14 @@ async function scrapeAllMobilePages(
       modelsMap[model].rawTitles.push(result.title);
       allResults.push(result);
     }
+
+    //  Stop if fewer than 17 results found (last page)
+    if (pageResults.length < resultsPerPage) {
+      console.log(`🚧 Last page reached (only ${pageResults.length} results).`);
+      break;
+    }
+
+    pageNum++;
   }
 
   const models = Object.values(modelsMap);
@@ -107,6 +113,7 @@ async function scrapeAllMobilePages(
 
   return { results: allResults, models };
 }
+
 
 /* --------------------------- Entry Function --------------------------- */
 
@@ -139,4 +146,32 @@ export async function getMobileResults(
 
   const { results, models } = await scrapeAllMobilePages(page, baseUrl);
   return { competitor, results, models };
+}
+
+import fs from "fs";
+import path from "path";
+
+export function logScrapePlan(models: MobileVariant[], startTime: number) {
+  const lines: string[] = ["📝 Scrape Plan:"];
+
+  for (const model of models) {
+    if (model.storages.length === 0) {
+      lines.push(`- ${model.model}`);
+    } else {
+      for (const storage of model.storages) {
+        lines.push(`- ${model.model} ${storage}`);
+      }
+    }
+  }
+
+  const output = lines.join("\n");
+
+  // Save to a file in the current working directory
+  const filePath = path.join(process.cwd(), "scrape-plan.txt");
+  fs.writeFileSync(filePath, output, { encoding: "utf-8" });
+
+  console.log(output);
+
+  const durationSeconds = ((Date.now() - startTime) / 1000).toFixed(2);
+  console.log(`⏱️ Scraping completed in ${durationSeconds} seconds.`);
 }

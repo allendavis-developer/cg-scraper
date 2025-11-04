@@ -1,0 +1,64 @@
+📝 Scrape Plan:
+- apple iphone 7 128GB
+- apple iphone 7 32GB
+- apple iphone 7 256GB
+- apple iphone x 64GB
+- apple iphone x 256GB
+- apple iphone xr 64GB
+- apple iphone xr 128GB
+- apple iphone xr 256GB
+- apple iphone 8 64GB
+- apple iphone 8 256GB
+- apple iphone 8 128GB
+- apple iphone se 32GB
+- apple iphone se 16GB
+- apple iphone se 64GB
+- apple iphone se 128GB
+- apple iphone xs 64GB
+- apple iphone xs 256GB
+- apple iphone xs 512GB
+- apple iphone 8 plus 64GB
+- apple iphone 8 plus 256GB
+- apple iphone 8 plus 128GB
+- apple iphone 6s 32GB
+- apple iphone 6s 16GB
+- apple iphone 6s 64GB
+- apple iphone 6s 128GB
+- apple iphone 5s 16GB
+- apple iphone 5s 32GB
+- apple iphone 5s 64GB
+- apple iphone 7 plus 32GB
+- apple iphone 7 plus 128GB
+- apple iphone 7 plus 256GB
+- apple iphone xs max 64GB
+- apple iphone xs max 256GB
+- apple iphone xs max 512GB
+- apple iphone 6 16GB
+- apple iphone 6 64GB
+- apple iphone 6 32GB
+- apple iphone 6 128GB
+- apple iphone 6s plus 32GB
+- apple iphone 6s plus 64GB
+- apple iphone 6s plus 16GB
+- apple iphone 6s plus 128GB
+- apple iphone 4s 16GB
+- apple iphone 4s 8GB
+- apple iphone 4s 32GB
+- apple iphone 4s 64GB
+- apple iphone 5 16GB
+- apple iphone 5 32GB
+- apple iphone 5 64GB
+- apple iphone 5c 8GB
+- apple iphone 5c 16GB
+- apple iphone 5c 32GB
+- apple iphone 6 plus 16GB
+- apple iphone 6 plus 64GB
+- apple iphone 6 plus 128GB
+- apple iphone 4 16GB
+- apple iphone 4 32GB
+- apple iphone 4 8GB
+- apple iphone 3gs 32GB
+- apple iphone 3gs 8GB
+- apple iphone 3gs 16GB
+- apple iphone 3g 8GB
+- apple iphone 3g 16GB

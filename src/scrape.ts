@@ -1,23 +1,12 @@
 // main.ts
 import { setupPlaywright } from "./utils/playwright";
-import { getMobileResults } from "./utils/getMobileResults";
+import { getMobileResults, logScrapePlan } from "./utils/getMobileResults";
 
 (async () => {
   const { browser, page } = await setupPlaywright(true);
+  const startTime = Date.now();
 
-  // // Single product
-  // const single = await getResults(page, {
-  //   competitor: "CEX",
-  //   item: "iPhone 15 Pro Max",
-  //   category: "smartphones and mobile",
-  //   attributes: { storage: "256GB" },
-  //   broad: false,
-  // });
-
-  // console.log("Single product results:");
-  // console.log(single.results);
-
-  // Broad scrape
+  // Broad scrape gets ALL results page
   const broad = await getMobileResults(page, {
     competitor: "CEX",
     item: "iPhone",
@@ -26,8 +15,17 @@ import { getMobileResults } from "./utils/getMobileResults";
     broad: true,
   });
 
-  console.log("Broad results:");
-  console.log(broad.models);
+
+  if (broad.models) {
+    logScrapePlan(broad.models, startTime);
+  } else {
+    console.log("No detailed models to log.");
+    const durationSeconds = ((Date.now() - startTime) / 1000).toFixed(2);
+    console.log(`⏱️ Scraping completed in ${durationSeconds} seconds.`);
+  }
+
 
   await browser.close();
 })();
+
+
