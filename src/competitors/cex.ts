@@ -32,7 +32,7 @@ export const cex: CompetitorConfig = {
 };
 
 // FOR BROAD SEARCHING through category friendly name 
-export function cexBroadSearchUrl(baseQuery: string, subcategory: string) {
+export function cexMobileBroadSearchUrl(baseQuery: string, subcategory: string) {
   const baseUrl = "https://uk.webuy.com/search";
-  return `${baseUrl}?stext=${encodeURIComponent(baseQuery)}&categoryFriendlyName=${encodeURIComponent(subcategory)}`;
+  return `${baseUrl}?stext=${encodeURIComponent(baseQuery)}&categoryFriendlyName=${encodeURIComponent(subcategory)}&Grade=B`;
 }

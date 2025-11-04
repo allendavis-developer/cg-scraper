@@ -21,7 +21,6 @@ export async function scrapeCEX(page: Page, containerSelector: string, titleSele
 
   // Get all product cards
   const cards = await page.$$(containerSelector);
-  
   for (const card of cards) {
     try {
       const titleEl = await card.$(titleSelector);
