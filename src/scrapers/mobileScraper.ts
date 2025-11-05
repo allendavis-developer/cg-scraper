@@ -1,7 +1,7 @@
-import { Page } from "playwright";
+import { Browser } from "playwright";
 import { cex } from "../competitors/cex";
 import { scrapeCEX } from "../scrapers/cex";
-import { scrapeAllPages, ScrapeResult } from "./baseScraper";
+import { scrapeAllPriceRangesCEX, ScrapeResult, VariantGroup } from "./baseScraper";
 
 /* ----------------------------- Type Definitions ----------------------------- */
 
@@ -12,6 +12,7 @@ export interface MobileSearchOptions {
   attributes?: { storage?: string };
   broad?: boolean;
   subcategory?: string;
+  priceRanges?: [number, number][]; // optional, allows custom ranges
 }
 
 export interface MobileVariant {
@@ -44,13 +45,24 @@ function parseMobileVariantKey(title: string): string {
   return storage ? `${model} ${storage}` : model;
 }
 
+/* --------------------------- Default Price Ranges --------------------------- */
+
+const defaultMobilePriceRanges: [number, number][] = [
+  [0, 100],
+  [101, 200],
+  [201, 400],
+  [401, 600],
+  [601, 1000],
+  [1001, 2000],
+];
+
 /* --------------------------- Main Entry --------------------------- */
 
 export async function getMobileResults(
-  page: Page,
+  browser: Browser,
   options: MobileSearchOptions
 ): Promise<ScrapeResult> {
-  const { competitor, item, attributes, broad, subcategory } = options;
+  const { competitor, item, attributes, broad, subcategory, priceRanges } = options;
 
   if (competitor !== "CEX") {
     throw new Error(`Unsupported competitor: ${competitor}`);
@@ -62,22 +74,29 @@ export async function getMobileResults(
     attributes,
   };
 
-  if (subcategory) {
-    searchParams.subcategory = subcategory;
-  }
+  if (subcategory) searchParams.subcategory = subcategory;
 
   const baseUrl = cex.searchUrl(searchParams);
   console.log(`Navigating to: ${baseUrl}`);
-  await page.goto(baseUrl, { waitUntil: "domcontentloaded" });
 
-  // Simple one-page scrape
+  // Single page scrape
   if (!broad) {
+    const page = await browser.newPage();
+    await page.goto(baseUrl, { waitUntil: "domcontentloaded" });
     const { container, title, price, url } = cex.selectors;
     const results = await scrapeCEX(page, container, title, price, url);
+    await page.close();
     return { competitor, results };
   }
 
-  // Multi-page scrape + variant grouping
-  const { results, variants } = await scrapeAllPages(page, baseUrl, parseMobileVariantKey);
+  // Multi-page scrape (parallel) using price ranges
+  const { results, variants } = await scrapeAllPriceRangesCEX(
+    browser,
+    baseUrl,
+    defaultMobilePriceRanges, // this is the new parameter we'll handle
+    parseMobileVariantKey,
+    3, // concurrency
+  );
+
   return { competitor, results, variants };
 }

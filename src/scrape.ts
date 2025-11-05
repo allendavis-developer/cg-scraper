@@ -8,30 +8,23 @@ import { logScrapePlan } from "./utils/logUtils";
   const startTime = Date.now();
 
   try {
-    // const result = await getMobileResults(page, {
-    //   competitor: "CEX",
-    //   item: "iPhone 14",
-    //   category: "smartphones and mobile",
-    //   subcategory: "iPhone 14",
-    //   broad: true, // scrape all pages
-    // });
-
-    const gamesResult = await getGameResults(browser, {
+    const result = await getMobileResults(browser, {
       competitor: "CEX",
-      item: "",
-      category: "games (discs/cartridges)",
-      subcategory: "switch games",
-      broad: true, 
+      item: "iPhone",
+      category: "smartphones and mobile",
+      subcategory: "Legacy iPhones",
+      broad: true, // scrape all pages
     });
 
-    console.log(gamesResult.variants);
+    // const gamesResult = await getGameResults(browser, {
+    //   competitor: "CEX",
+    //   item: "",
+    //   category: "games (discs/cartridges)",
+    //   subcategory: "switch games",
+    //   broad: true, 
+    // });
 
-    if (gamesResult.variants?.length) {
-      logScrapePlan(gamesResult.variants, startTime);
-    } else {
-      console.log(`✅ Scraped ${gamesResult.results.length} results (no variant grouping).`);
-    }
-
+    console.log(result);
 
   } catch (error) {
     console.error("❌ Scraping failed:", error);

@@ -153,19 +153,10 @@ export async function scrapeAllPagesParallel(
   return { results: allResults, variants };
 }
 
-// Define price ranges (inclusive)
-const priceRanges: [number, number][] = [
-  [0, 10],
-  [11, 20],
-  [21, 30],
-  [31, 40],
-  [41, 50],
-  [51, 200],
-];
-
 export async function scrapeAllPriceRangesCEX(
   browser: Browser,
   baseUrl: string, // e.g., "https://uk.webuy.com/search?sortBy=prod_cex_uk_price_desc&categoryFriendlyName=switch+games"
+  priceRanges: [number, number][], // now passed in
   parseVariantKey?: (title: string) => string,
   concurrency: number = 3
 ): Promise<{ results: any[]; variants: VariantGroup[] }> {
