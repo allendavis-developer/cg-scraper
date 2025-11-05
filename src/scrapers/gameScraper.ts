@@ -1,7 +1,7 @@
-import { Page } from "playwright";
+import { Browser, Page } from "playwright";
 import { cex } from "../competitors/cex";
 import { scrapeCEX } from "../scrapers/cex";
-import { scrapeAllPages, ScrapeResult } from "./baseScraper";
+import { scrapeAllPages, scrapeAllPriceRangesCEX, scrapeAllPagesParallel, ScrapeResult } from "./baseScraper";
 
 /* ----------------------------- Type Definitions ----------------------------- */
 
@@ -23,7 +23,7 @@ function parseGameVariantKey(title: string): string {
 /* --------------------------- Main Entry --------------------------- */
 
 export async function getGameResults(
-  page: Page,
+  browser: Browser,
   options: GameSearchOptions
 ): Promise<ScrapeResult> {
   const { competitor, item, broad, subcategory } = options;
@@ -32,27 +32,23 @@ export async function getGameResults(
     throw new Error(`Unsupported competitor: ${competitor}`);
   }
 
-  const searchParams: any = {
-    item,
-    category: "games (discs/cartridges)",
-  };
-
-  if (subcategory) {
-    searchParams.subcategory = subcategory;
-  }
+  const searchParams: any = { item, category: "games (discs/cartridges)" };
+  if (subcategory) searchParams.subcategory = subcategory;
 
   const baseUrl = cex.searchUrl(searchParams);
   console.log(`Navigating to: ${baseUrl}`);
-  await page.goto(baseUrl, { waitUntil: "domcontentloaded" });
 
   // Single page scrape
   if (!broad) {
+    const page = await browser.newPage();
+    await page.goto(baseUrl, { waitUntil: "domcontentloaded" });
     const { container, title, price, url } = cex.selectors;
     const results = await scrapeCEX(page, container, title, price, url);
+    await page.close();
     return { competitor, results };
   }
 
-  // Multi-page scrape (grouping by title)
-  const { results, variants } = await scrapeAllPages(page, baseUrl, parseGameVariantKey);
+  // Multi-page scrape (parallel)
+  const { results, variants } = await scrapeAllPriceRangesCEX(browser, baseUrl, parseGameVariantKey);
   return { competitor, results, variants };
 }

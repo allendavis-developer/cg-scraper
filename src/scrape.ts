@@ -4,7 +4,7 @@ import { getGameResults } from "./scrapers/gameScraper";
 import { logScrapePlan } from "./utils/logUtils";
 
 (async () => {
-  const { browser, page } = await setupPlaywright(true); // headless by default
+  const { browser, page } = await setupPlaywright(false); // headless by default
   const startTime = Date.now();
 
   try {
@@ -16,7 +16,7 @@ import { logScrapePlan } from "./utils/logUtils";
     //   broad: true, // scrape all pages
     // });
 
-    const gamesResult = await getGameResults(page, {
+    const gamesResult = await getGameResults(browser, {
       competitor: "CEX",
       item: "",
       category: "games (discs/cartridges)",

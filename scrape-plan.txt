@@ -1,482 +1,413 @@
 📝 Scrape Plan:
-- mario kart 8 deluxe
-- animal crossing: new horizons
-- minecraft
-- super mario odyssey
-- legend of zelda: breath of the wild
-- super smash bros. ultimate
-- pokemon legends: arceus
-- luigi's mansion 3
-- super mario bros. wonder
-- legend of zelda: tears of the kingdom
-- pokemon violet
-- pokemon: let's go, pikachu!
-- new super mario bros. u deluxe
-- pokemon scarlet
-- pokemon sword
-- super mario 3d world + bowser's fury
+- sushi striker: the way of sushido
+- jojo siwa: worldwide party
+- transformers battlegrounds
+- everybody 1-2 switch
+- aew: fight forever
+- nba 2k18
+- scribblenauts showdown
+- instant sports: summer games
+- pj masks heroes of the night
+- you suck at parking (no dlc)
+- starlink: battle for atlas starter pack
+- portal knights
+- balan wonderworld
+- troll hunters defenders of arcadia
+- fort boyard 2022
+- ben 10
+- penny punching princess
+- fifa 22
+- monster hunter rise (no dlc)
+- fifa 21
+- fifa 20
+- fifa 19
+- immortals: fenyx rising (no dlc)
+- fifa 18
+- two point campus (no dlc)
+- sports party
+- hello neighbor: hide & seek
+- race with ryan
+- keywe
+- yooka-laylee and the impossible lair
+- bakugan: champions of vestroia
+- l.o.l. surprise! b.bs born to travel
+- rabbids: party of legends
+- no more heroes iii
+- advent calendar
+- race with ryan: road trip
+- valthirian arc: hero school story
+- monster jam - crush it
+- supermarket shriek
+- geminose: animal popstars
+- star renegades
+- survivalists, the
+- street power football
+- dc super hero girls: teen power
+- oddworld: munch's oddysey
+- star trek prodigy: supernova
+- road to guangdong
+- fantasy friends: under the sea
+- gigantosaurus - the game
+- close to the sun
+- sayonara wild hearts
+- blazblue cross tag battle
+- r.i.c.o
+- wargroove
+- travis strikes again: no more heroes (no dlc)
+- nba 2k20 (no dlc)
+- contra: rogue corps
+- unicorn princess, the
+- shaq fu - a legend reborn
+- cris tales
+- karate kid. the: street rumble
+- celestia: chain of fate
+- ary and the secret of seasons
+- my universe: green adventure - farmer friends
+- rad rodgers radical edition
+- battle chasers nightwar
+- little dragons cafe
+- arcade spirits
+- troll and i
+- snk heroines tag team frenzy
+- sine mora ex
+- nba 2k22 (no dlc)
+- unbox: newbies adventure
+- trailblazers
+- ancestors legacy
+- are you smarter than a 5th grader?
+- pj masks power heroes: mighty alliance
+- clive 'n' wrench
+- override 2: super mech league (no dlc)
+- vampire: the masquerade - swansong
+- neon white
+- ty the tasmanian tiger hd only (no dlc)
+- aokana: four rhythms across the blue (game only)
+- made in abyss
+- hokko life
+- no straight roads
+- rustler
+- chocobo gp
+- project highrise: architect's edition
+- gal metal: world tour edition
+- vegas party
+- snack world: the dungeon crawl gold
+- azure striker gunvolt striker pack
+- indivisible
+- very very valet
+- jitsu squad
+- my universe: my baby
+- just die already
+- epic chef
+- risen
+- fresh start
+- stranded sails: explorers of the cursed islands
+- alchemic cutie
+- bibi and tina: new adventures with horses
+- asterix & obelix xxl 3: the crystal menhir
+- this is the police
+- 88 heroes: 98 heroes edition
+- nintendo labo toy-con 02: robot (game only)
+- tennis world tour
+- dodgeball academia
+- crash dummy
+- nintendo labo toy-con 01: variety (game only)
+- nba 2k19
+- poi
+- nba 2k21
+- them's fightin' herds: deluxe edition
+- hellpoint
+- diofield chronicle, the
+- taito milestones
+- instant sports tennis
+- atari mania
+- train valley collection
+- embr
+- heroland
+- everdream valley
+- days of doom
+- tin & kuna
+- samba de amigo: party central
+- king's bounty ii
+- last spell, the
+- asterix & obelix: slap them all! 2
+- valthirian arc: hero school story 2
+- farm expert 2019
+- monstrum
+- happy birthdays
+- sushi bar express
+- spacebase startopia
+- immortal realms: vampire wars
+- professor rubik's brain fitness
+- nintendo labo toy-con 03: vehicle (game only)
+- monster harvest
+- yesterday origins
+- captain tsubasa: rise of new champions
+- nintendo labo toy-con 04: vr (game only)
+- greak: memories of azur
+- demon throttle
+- nippon marathon
+- max: the curse of brotherhood
+- toki
+- root letter: last answer
+- constructor plus
+- nexomon: extinction
+- umihara kawase bazooka
+- farmers vs zombies (farm for your life)
+- slide stars
+- big pharma
+- akka arrh
+- i*chu
+- sky oceans: wings for hire
+- zengeon
+- warborn
+- loop8: summer of gods
+- spells & secrets
+- bounty battle: the ultimate indie brawler
+- sparklite
+- autonauts
+- treasures of the aegean
+- sociable soccer 24
+- bibi & tina at the horse farm
+- new tales from the borderlands
+- rock of ages 3: make & break
+- aaero - strictly limited games
+- root double: before crime * after days
+- matchpoint: tennis championships (no dlc)
+- super crazy rhythm castle
+- fimbul
+- survivor
+- my universe: my baby dragon
+- new joe & mac caveman ninja
+- super kickers league ultimate
+- my fantastic ranch
+- giana sisters twisted dreams
+- persistence, the
+- harvest moon: mad dash
+- superbeat xonic ex
+- bibi & tina: adventures with horses
+- whisper ari's arrival
+- instant chef party
+- secret of magic 1 & 2: book of spells + witches & wizards
+- lastfight
+- under night in-birth exe: late [cl-r]
+- kotodama: the 7 mysteries of fujisawa
+- cartoon network battle crashers
+- this is the police 2
+- soldam: drop/connect/erase
+- jigsaw fun: piece it together!
+- orange season
+- spirit of the island
+- goodbye world
+- arcade spirits: the new challengers
+- whisker waters
+- time on frog island
+- riot: civil unrest
+- songbird symphony
+- lunar lander beyond
+- loop hero (no dlc)
+- blade assault
+- ever forward
+- superepic: the entertainment war
+- martian panic
+- summer sports games
+- gem smashers
+- bayala - the game
+- kraken academy
+- suicide guy
+- sisters, the: party of the year
+- noob: the factionless
+- kraken odyssey
+- beasties
+- zorro: the chronicles
 - splatoon 2
-- crash bandicoot n. sane trilogy
-- nintendo switch sports (game only)
-- pokemon brilliant diamond
-- pokemon legends: z-a
-- super mario party
-- super mario 3d all-stars
-- super mario maker 2 (no dlc)
-- pokemon shield
 - mario + rabbids kingdom battle
-- hogwarts legacy (no dlc)
-- mario & sonic at the olympic games tokyo 2020
-- mario party superstars
 - fifa 23
 - lego harry potter collection
 - mario + rabbids: sparks of hope
-- super mario galaxy + super mario galaxy 2
-- splatoon 3 (no dlc)
-- ea sports fc 25 (no dlc)
-- minecraft dungeons: hero edition
-- spyro reignited trilogy
-- pokemon shining pearl
 - ea sports fc 24
-- kirby and the forgotten land
 - ring fit adventure w/fitness ring & leg strap
-- pokemon: let's go, eevee!
-- lego star wars: the skywalker saga
-- legend of zelda: link's awakening
-- donkey kong country: tropical freeze
-- super mario party jamboree
 - 1-2-switch
-- legend of zelda, the: echoes of wisdom
-- captain toad: treasure tracker
 - hello neighbor
-- legend of zelda: skyward sword hd
 - lego marvel super heroes 2
 - sonic mania plus
 - little friends: dogs & cats
 - sonic forces (no dlc)
-- fifa 22
-- mario strikers: battle league football
 - just dance 2020
 - lego city undercover
-- hyrule warriors: age of calamity
 - lego worlds
-- grand theft auto: the trilogy - definitive edition
 - just dance 2021
 - sonic frontiers
-- need for speed: hot pursuit remastered
 - lego the incredibles
-- super mario rpg
-- pokken tournament dx
 - just dance 2022
-- metroid dread
 - spongebob squarepants: battle for bikini bottom - rehydrated
-- luigi's mansion 2 hd
 - lego jurassic world
-- paper mario: the origami king
-- new pokemon snap
 - sonic colours ultimate
-- mario tennis aces
-- yoshi's crafted world
 - 51 worldwide games
 - crash team racing nitro-fueled (no dlc)
-- monster hunter rise (no dlc)
 - lego ninjago movie game
 - lego dc super-villains (no dlc or minifig)
 - plants vs zombies: battle for neighborville complete edition
-- mario & luigi: brothership
 - team sonic racing
-- sonic superstars
-- mario golf: super rush
 - rayman legends: definitive edition
-- fifa 21
-- princess peach: showtime!
-- fifa 20
-- paper mario: the thousand-year door
-- mysims: cosy bundle
-- bluey: the video game
 - jumanji: the video game
-- metroid prime remastered
-- red dead redemption
-- pikmin 4
 - monopoly
-- pokemon mystery dungeon: rescue team dx
-- fifa 19
-- mario vs. donkey kong
 - among us crewmate edition
-- immortals: fenyx rising (no dlc)
-- marvel ultimate alliance 3: the black order
-- elder scrolls v: skyrim
-- sega mega drive classics
-- sonic x shadow generations
-- donkey kong country returns hd
-- witcher 3: wild hunt complete edition
-- dr kawashima's brain training (game only)
-- miitopia
-- fire emblem: three houses
 - human fall flat
 - lego movie 2 videogame (no minifig)
-- five nights at freddy's: core collection
-- bayonetta 3
-- crash bandicoot 4: it's about time
-- batman: arkham trilogy
 - big brain academy: brain vs. brain
-- fifa 18
 - arms
-- minecraft legends (no dlc)
 - warioware: get it together!
 - just dance 2019
-- layton's mystery journey: katrielle and the millionaires' conspiracy
-- xenoblade chronicles 3
-- five nights at freddy's: help wanted
-- two point campus (no dlc)
-- tomb raider i-iii remastered
-- grinch, the: christmas adventures
 - paw patrol: on a roll!
 - fae farm
 - rocket league (no dlc)
-- dragon quest xi s: echoes of an elusive age
-- detective pikachu returns
-- cooking mama: cookstar
-- sports party
-- hot wheels unleashed
 - prince of persia: the lost crown
-- dark souls: remastered
 - sonic origins plus (no dlc)
 - just dance 2018
-- hello neighbor: hide & seek
 - 30 in 1 game collection vol 1
-- burnout paradise remastered
 - paw patrol: mighty pups save adventure bay
-- kirby's return to dreamland deluxe
-- diablo iii: eternal collection (no dlc)
-- kirby star allies
 - shin megami tensei v
-- pikmin 3 deluxe
-- stardew valley
-- five nights at freddy's: security breach
 - carnival games
 - south park: snow day
-- sonic racing: crossworlds
-- gang beasts
 - my universe: pet clinic cats & dogs
-- xenoblade chronicles x: definitive edition
-- cuphead (no dlc)
 - disney classic games: aladdin & the lion king
-- no man's sky
-- untitled goose game
-- it takes two
 - monster hunter stories 2: wings of ruin
-- xenoblade chronicles: definitive edition
-- xenoblade chronicles 2
-- astral chain
 - l.o.l. surprise! remix: we rule the world
-- fire emblem engage
 - two point hospital
-- lego horizon adventures
-- hyrule warriors: definitive edition
 - jumanji wild adventures
-- little nightmares
-- hello kitty island adventure
 - mortal kombat 11 (no dlc)
-- cars 3: driven to win
 - bendy & the ink machine
-- persona 5 royal
-- dragons: dawn of new riders
 - hasbro game night
 - wwe 2k battlegrounds
-- rollercoaster tycoon adventures
 - game builder garage
 - super bomberman r
-- la noire
 - bravely default ii
 - paw patrol: the movie - adventure city calls
-- spongebob squarepants: the cosmic shake
-- dragon quest i&ii hd-2d remake
-- dragon quest iii hd-2d remake
-- hot wheels unleashed 2 - turbocharged
-- octopath traveler
-- bayonetta 2 (no dlc)
 - teenage mutant ninja turtles: the cowabunga collection
 - persona 5 tactica
-- barbie dreamhouse adventures
-- race with ryan
 - little friends: puppy island
 - warioware: move it!
 - crisis core: final fantasy vii reunion
 - teenage mutant ninja turtles: shredders revenge
-- epic mickey rebrushed
-- sports camp: a 35-game adventure
-- ea sports fc 26
-- keywe
-- unicorn overlord
 - digimon survive
-- dragon quest builders 2
-- final fantasy vii/ viii
 - lego brawls
-- teenage mutant ninja turtles: mutants unleashed
-- tony hawk's pro skater 1+2
-- little nightmares 2 (no dlc)
-- minecraft dungeons: ultimate edition
-- doom (no dlc)
 - yu-gi-oh! legacy of the duelist: link evolution (no cards)
-- sniper elite 4
 - lol surprise! movie night
-- wwe 2k18
-- assassin's creed iii/3 remastered
-- yooka-laylee and the impossible lair
-- final fantasy x hd only
 - nickelodeon all-star brawl
-- bioshock: the collection
-- hollow knight
-- bakugan: champions of vestroia
 - disney illusion island
-- goat simulator: the goaty
-- assassin's creed: the rebel collection
 - nerf legends
 - terraria
-- nier automata: the end of yorha edition
-- triangle strategy
 - go vacation
-- l.o.l. surprise! b.bs born to travel
-- namco museum arcade pac
-- rabbids: party of legends
-- stray
-- sugardew island
 - barbie: project friendship
-- pikmin 1+2
 - dragon quest treasures (no dlc)
-- my friend peppa pig
-- no more heroes iii
-- metal gear solid master collection vol. 1
-- wreckfest
 - miraculous: rise of the sphinx
-- farming simulator 23
-- advance wars 1+2: re-boot camp
 - dragonball xenoverse 2
-- fire emblem warriors
 - nickelodeon kart racers
-- fast & furious: spy racers rise of sh1ft3r
 - borderlands 1 only (no dlc)
-- dog man: mission impawsible
-- spongebob squarepants: the patrick star game
-- little nightmares iii (3)
 - fashion dreamer
 - shovel knight: treasure trove
-- farming simulator 20
-- monster hunter generations ultimate
-- final fantasy xii the zodiac age
-- fire emblem warriors: three hopes
 - star wars jedi knight collection
-- mortal kombat 1 (no dlc)
-- final fantasy tactics: ivalice chronicles
 - squish
 - colors live + sonar pen
-- minecraft story mode the complete adventure (no dlc)
 - persona 5 strikers
-- dragon ball z kakarot
-- star wars heritage pack (no dlc)
 - harvestella
-- assassin's creed: the ezio collection
-- addams family, the: mansion mayhem
 - olympic games tokyo 2020
-- sushi striker: the way of sushido
-- outer worlds, the
 - nickelodeon kart racers 2 grand prix
-- pokemon scarlet + the hidden treasure of area zero
 - tetris 99 (no subscription code)
 - trolls remix rescue
 - descenders
 - looney tunes: wacky world of sports
 - dreamworks all-star kart racing
-- jojo siwa: worldwide party
 - two point hospital: jumbo edition
 - nba 2k23
 - rainbow high: runway rush
-- transformers battlegrounds
 - peppa pig world adventures
-- monster high: skulltimate secrets
-- shin megami tensei v: vengeance
-- streets of rage 4
-- sniper elite 3 - ultimate edition
-- pga tour 2k21 (offline only)
 - dragon quest builders
 - dragon ball: fighterz
-- ghostbusters the video game remastered
-- disney magical world 2: enchanted edition
-- south park: the fractured but whole
 - harvest moon: one world
 - disney classic games collection: the jungle book, aladdin, & the lion king
 - monster jam showdown
-- discounty
-- tales of the shire
-- unravel two
-- overcooked! all you can eat
-- ys viii: lacrimosa of dana
 - new super lucky's tale
-- sniper elite v2 remastered
-- paw patrol world
-- life is strange: true colors
 - sakuna: of rice & ruin
 - saints row the third, full package
-- sifu
-- everybody 1-2 switch
 - deadly premonition 2: a blessing in disguise
 - cobra kai 2: dojos rising
-- potionomics: masterwork edition
 - rugrats adventures in gameland
-- tony hawk's pro skater 3+4
-- let's build a zoo
-- octopath traveler ii
 - destroy all humans
 - neo: the world ends with you
 - horse club adventures
 - rune factory 5
 - bratz: flaunt your fashion
 - live a live
-- fairy tail
-- daemon x machina
-- monster jam - steel titans
 - nickelodeon kart racers 3: slime speedway
 - story of seasons - friends of mineral town
 - trials of mana
 - who wants to be a millionaire
-- aew: fight forever
 - hotel transylvania 3: monsters overboard
-- nba 2k18
-- scribblenauts showdown
-- paw patrol: grand prix
-- mighty morphin power rangers: rita's rewind
-- super monkey ball banana rumble
 - spirit: lucky's big adventure
 - new 'n' tasty! oddworld: abe's odyssey
-- instant sports: summer games
 - star wars racer & commando
 - fitness boxing
 - overcooked 2
-- house of the dead: remake
-- ni no kuni: wrath of the white witch
 - tales of vesperia definitive edition
 - super monkey ball banana mania
-- street fighter 30th anniversary collection
 - trials rising (no dlc)
-- pj masks heroes of the night
 - temtem
-- you suck at parking (no dlc)
-- cult of the lamb
-- dragon quest monsters: the dark prince
-- star ocean: the second story r
-- final fantasy i-vi collection: pixel remaster
 - my universe: puppies & kittens
-- demon slayer kimetsu no yaiba: the hinokami chronicles
 - atari 50: the anniversary celebration
 - my hero one's justice
 - monster jam steel titans 2
 - hello neighbor 2
-- dragons: legends of the nine realms
-- bayonetta origins: cereza and the lost demon
 - sid meier's civilization vi
-- starlink: battle for atlas starter pack
-- tokyo mirage sessions fe encore
 - remnant: from the ashes (no dlc)
 - beyond a steel sky
-- doctor who: the edge of reality + the lonely assassins
 - power rangers: battle for the grid
-- friday the 13th: the game (offline)
 - darksiders genesis
 - avatar the last airbender quest for balance
-- bendy: lone wolf
 - smurfs, the: mission vileaf
-- mx vs atv all out
 - last kids on earth and the staff of doom, the
-- digimon world: next order
-- subnautica/ subnautica: below zero
 - bomb rush cyberfunk
 - dead cells: action game of the year ed. (no dlc)
 - dredge (no dlc)
 - puzzle bobble everybubble!
 - fitness boxing 2 rhythm and exercise
-- farming simulator 2017
-- digimon story cyber sleuth complete edition
-- taiko no tatsujin: drum 'n' fun! col. ed. w/drum set
 - moonlighter
 - ni no kuni ii: revenant kingdom prince's edition
 - hat in time, a
-- overcooked! + overcooked! 2
-- ark: survival evolved
-- ori and the will of the wisps
-- portal knights
-- lego 2k drive
 - big rumble boxing - creed champions
 - gear. club unlimited
-- balan wonderworld
-- hot wheels monster trucks: stunt mayhem
 - skull island rise of kong
-- troll hunters defenders of arcadia
-- rollercoaster tycoon adventures deluxe
 - nba 2k25
 - nba 2k24
-- five nights at freddy's: help wanted 2
-- yu-gi-oh! early days collection
-- fort boyard 2022
-- ooblets
-- my singing monsters playground
 - cube, the
-- neogeo pocket color selection vol 1
-- hades
 - super dragon ball heroes: world mission
 - snipperclips plus: cut it out together!
 - kingdoms of amalur: re-reckoning
-- snowrunner
 - we love katamari reroll + royal reverie
 - moving out
 - fantasy friends
-- baten kaitos i & ii hd remaster
 - disgaea 5 complete
-- ben 10
-- house flipper
 - super monkey ball: banana blitz hd
-- wolfenstein ii: the new colossus
-- penny punching princess
 - ryan's rescue squad
-- advent calendar
 - stubbs the zombie in rebel without a pulse
 - redemption reapers
-- hotel transylvania: scary tale adventures
-- race with ryan: road trip
-- legacy of kain soul reaver 1-2 remastered
-- life is strange: double exposure
 - foretales
-- valthirian arc: hero school story
 - pups & purrs: animal hospital
 - cobra kai: the karate saga continues
-- monster jam - crush it
 - instant sports
 - tales of symphonia remastered
 - my hero one's justice 2
 - payday 2
-- dying light platinum edition
-- supermarket shriek
 - ben 10 - power trip
-- danganronpa decadence
-- batman - the telltale series
-- just dance 2017
-- another code: recollection
 - saints row iv: re-elected
-- world ends with you, the: final remix
 - chronos: before the ashes
 - darksiders 2 deathinitive edition
 - collection of mana
-- ultra street fighter ii: the final challengers
 - disgaea 1 complete
 - escapists 2, the
 - puyo puyo tetris
 - zumba burn it up
-- witcher 3: wild hunt (no dlc)
-- air conflicts collection
 - star wars pinball
-- metro redux
-- truck driver
-- geminose: animal popstars
 - wonderful 101, the - remastered
 - my little pony: a maretime bay adventure
 - bloodstained: ritual of the night
@@ -485,38 +416,15 @@
 - transformers: galactic trials
 - nick jr. party adventure
 - my little pony: a zephyr heights mystery
-- dave the diver: anniversary edition
 - baby shark: sing and swim party
 - teenage mutant ninja turtles: shredders revenge anniversary edition
-- thing, the: remastered
-- retro realms: halloween & ash vs evil dead
-- jurassic park classic games collection
-- spongebob squarepants: krusty cook-off
-- demon slayer kimetsu no yaiba: the hinokami chronicles 2
-- star renegades
-- endless ocean: luminous
 - cat quest + cat quest ii/2 pawsome pack
 - blaze and the monster machines: axle city racers
-- survivalists, the
-- street power football
-- truck & logistics simulator
-- gear club unlimited 2
-- one piece: pirate warriors 4
-- dc super hero girls: teen power
-- minecraft story mode - season 2
-- xenoblade chronicles 2: torna - the golden country
 - bramble: the mountain king
-- binding of isaac, the: afterbirth+
-- deadly premonition: origins
 - shin megami tensei iii nocturne hd remaster
 - my universe: school teacher
-- oddworld: munch's oddysey
-- cadence of hyrule - crypt of the necrodancer
 - let's sing 2024 (game only) no dlc
-- signalis
 - my universe: fashion boutique
-- life is strange (no dlc)
-- pokemon violet + the hidden treasure of area zero
 - nba 2k playgrounds 2
 - snow bros. nick & tom special
 - transformers: earth spark expedition
@@ -525,53 +433,25 @@
 - trek to yomi
 - kingdom hearts: melody of memory
 - disney tsum tsum festival
-- lego party!
-- star trek prodigy: supernova
 - kao the kangaroo
-- biomutant (no dlc)
 - curse of the sea rats
-- chaos; double pack: chaos; head noah/ chaos; child
-- road to guangdong
 - starsand
-- sid meier's civilization vii
-- poppy playtime triple pack
 - yum yum cookstar
 - inspector gadget: mad time party
 - smurfs 2, the: prisoner of the green stone
-- 60 in 1 game collection
-- fantasy friends: under the sea
 - tales of graces f remastered
-- world war z
-- walking dead, the: destinies
-- slime rancher (no dlc)
 - gris
 - story of seasons: pioneers of olive town
 - justice league: cosmic chaos
-- gigantosaurus - the game
 - overcooked
-- close to the sun
-- zombie army 4: dead war
-- sayonara wild hearts
-- fire emblem: three houses limited ed. w/artbook, usb, badges & steelbook
-- warriors orochi 4 ultimate
-- jump force - deluxe edition (offline)
 - axiom verge
 - final vendetta
 - sphinx and the cursed mummy
 - moving out 2
-- hidden objects collection
 - yonder: the cloud catcher chronicles
-- beast quest
-- disco elysium: the final cut
-- labyrinth of refrain: coven of dusk
 - rune factory 3 special
-- blazblue cross tag battle
-- r.i.c.o
-- wargroove
 - youtubers life 2
 - dead by daylight
-- pokemon shield + expansion pass
-- travis strikes again: no more heroes (no dlc)
 - spirit of the north
 - tactics ogre: reborn
 - double dragon gaiden: rise of the dragons
@@ -579,87 +459,46 @@
 - journey to the savage planet
 - ice age: scrat's nutty adventure
 - kill la kill if
-- nba 2k20 (no dlc)
-- contra: rogue corps
 - xiii
-- unicorn princess, the
 - pathless, the
-- shaq fu - a legend reborn
 - rime
-- cris tales
 - dynasty warriors 9 empires
 - peaky blinders: mastermind
 - bear & breakfast
 - matchbox driving adventures
 - pretty princess magical garden island
-- karate kid. the: street rumble
-- astroneer
-- celestia: chain of fate
-- five nights at freddy's - into the pit
 - neva
 - secret neighbor/hello engineer
-- stanley parable, the: ultra deluxe
 - human: fall flat - dream collection
-- balatro (game only)
 - core keeper
-- romancing saga 2: revenge of the seven
 - cat quest iii
-- ary and the secret of seasons
 - construction 2+3
-- kingdom come: deliverance
-- let's sing 2025 (game only)
 - getsufumaden: undying moon
 - metal slug tactics
 - my universe: my baby - new edition
-- my universe: green adventure - farmer friends
-- 30 sport games in 1
 - chef life: a restaurant simulator
-- everybody’s golf hotshots
-- eastward
-- r-type final 2
 - poison control
-- trails in the sky 1st chapter
-- my time at sandrock
-- carrion
 - shadowverse champion's battle
 - ugly dolls: an imperfect adventure
-- atelier ryza 3: alchemist of the end & the secret key
-- atelier sophie 2: the alchemist of the mysterious dream
 - no place like home
 - alex kidd in miracle world dx
 - cat quest
 - borderlands 3 (no dlc)
 - wonder boy: asha in monster world
 - syberia
-- v-rally 4
-- metroid dread special ed. w/steelbook, artbook & 5x art cards
 - darksiders: warmastered edition
-- cruis'n blast
-- rad rodgers radical edition
 - shantae: half-genie hero
 - lost sphear
 - maneater
-- ori: the collection
 - de blob 2
 - atelier lydie and suelle the alchemists and the mysterious paintings
-- cities: skylines
 - wrc 8
-- battle chasers nightwar
-- little dragons cafe
 - red faction guerilla re-mars-tered
-- arcade spirits
 - into the dead 2
-- troll and i
 - space invaders forever
 - klonoa: phantasy reverie series
-- pokemon sword + expansion pass
-- crysis remastered
 - my time at portia
-- snk heroines tag team frenzy
-- sine mora ex
-- turnip boy commits tax evasion
 - lumo
-- one piece: unlimited world red deluxe
 - god eater 3
 - void bastards
 - risk of rain 1 & 2
@@ -667,298 +506,127 @@
 - garfield kart furious racing
 - smurfs kart: turbo edition
 - spintires: mudrunner - american wilds edition
-- pac-man world: re-pac
-- nba 2k22 (no dlc)
-- unbox: newbies adventure
 - nelke & the legendary alchemists: ateliers of the new world
 - story of seasons: a wonderful life
 - our world is ended
-- trailblazers
-- ancestors legacy
-- are you smarter than a 5th grader?
-- taxi chaos
 - bunny park
 - hard west
-- ys x: nordics (no dlc)
-- hot wheels unleashed collection
 - death or treat
-- gabby's dollhouse: ready to party
-- pj masks power heroes: mighty alliance
-- nicktoons & the dice of destiny
-- miraculous: paris under siege
 - tmnt arcade: wrath of the mutants
 - farmagia
 - gigantosaurus: dino kart
-- tomb raider iv-vi remastered
-- another crab's treasure (no dlc)
 - plucky squire, the
-- last faith, the
-- sea of stars
 - slave zero x
-- clive 'n' wrench
 - kukoos: lost pets
-- override 2: super mech league (no dlc)
-- suikoden 1 & 2 hd remaster
-- smurfs, the: dreams
 - 30 in 1 game collection vol 2
-- cricket 24
-- vampire: the masquerade - swansong
-- pac-man world 2: re-pac
-- naruto x boruto ultimate ninja storm connections
 - sword art online: alicization lycoris
-- neon white
-- fitness boxing 3: your personal trainer
-- nintendo world championships: nes ed. deluxe set w/game pak, pins&artcards
-- my life: pet vet
-- spiritfarer
 - planescape: torment & icewind dale enhanced edition
-- ty the tasmanian tiger hd only (no dlc)
 - hotline miami collection
-- aokana: four rhythms across the blue (game only)
 - is it wrong to try & pick up girls in a dungeon? infinite combate
 - aragami: shadow edition
 - black future '88
-- world of horror
-- made in abyss
-- horizon chase turbo
-- hokko life
-- no straight roads
-- theatrhythm final bar line
-- rustler
 - remothered: broken porcelain
 - warhammer 40,000: shootas, blood & teef
 - warhammer 40k mechanicus
 - horse club adventures 2: hazelwood
 - lets sing 2018 (game only)
 - my universe: interior designer
-- agatha christie - murder on the orient express
-- wrc 10
-- one piece: pirate warriors 3
 - goosebumps: dead of night
-- legend of zelda: totk col. ed. w/artbook, 4x pins, poster & steelbook
-- chocobo gp
-- legend of zelda: link's awakening limited ed. w/artbook & steelbook
 - huntdown
-- atelier ryza: ever darkness & the secret hideout
 - rune factory 4 special
 - guilty gear 20th anniversary ed.
-- blasphemous (no dlc)
-- catherine: full body
 - shining resonance refrain
 - zombieland: double tap roadtrip
 - trine 4: the nightmare prince (no dlc)
-- project highrise: architect's edition
-- disgaea 4 complete+
-- xenoblade chronicles 2 collector's ed. w/artbook, cd & steelbook
 - darksiders iii/3
 - urban trial playground
-- gal metal: world tour edition
-- samurai warriors 5
-- northgard
 - zombie army trilogy
-- vegas party
-- atelier ryza 2: lost legends & the secret fairy
 - dead cells
 - gal gun 2
-- ion fury
 - american fugitive: state of emergency
 - potion permit
 - dusk diver
 - harvest moon: light of hope
 - cotton reboot!
-- bus simulator city ride
-- ai: the somnium files
-- 13 sentinels: aegis rim
 - fate/samurai remnant
 - mutant football league
-- snack world: the dungeon crawl gold
 - oddworld: stranger's wrath hd
-- azure striker gunvolt striker pack
-- remothered: tormented fathers
-- neverwinter nights: enhanced edition
-- indivisible
-- very very valet
-- blue reflection: second light
 - killer frequency
 - tracks: toybox edition
-- jitsu squad
-- super street racer
-- my universe: my baby
 - legendary fishing
 - skater xl
-- just die already
-- epic chef
 - paleo pines: the dino valley
 - blue fire
 - mahjong deluxe 3
-- farmer's dynasty
 - winter sports games
 - horse tales: emerald valley ranch
-- locomoto
-- gothic: classic khorinis saga
-- gothic 2 complete classic
-- risen
 - endling - extinction is forever
-- wobbly life
-- darkest dungeon 2 (no dlc)
 - grow: song of the evertree
-- snufkin melody of moominvalley
-- lunar remastered collection
 - akupara collection - super rare games
-- star overdrive
-- harvest moon: the lost valley/skytree village
-- goosebumps: terror in little creek
-- virche evermore -epic: lycoris-
 - neptunia game maker r:evolution
 - alice gear aegis cs: concerto of simulatrix
 - fabledom
-- fresh start
-- stranded sails: explorers of the cursed islands
-- funko fusion: deluxe edition
-- rollercoaster tycoon classic
-- graveyard keeper: undead edition
 - atari 50: the anniversary celebration - expanded edition
 - little to the left, a: extra tidy edition
-- outer wilds
 - my friend pedro
-- alchemic cutie
 - world of goo 2
-- bibi and tina: new adventures with horses
-- nba 2k26
 - wild bastards
 - redout 2
 - youtubers life omg!
 - darq (no dlc)
-- have a nice death
 - ufouria: the saga 2
-- asterix & obelix xxl 3: the crystal menhir
-- double dragon revive
-- arsene lupin: once a thief
-- oddworld: soulstorm
-- arcade game zone
-- toy soldiers
-- garden life: a cozy simulator
 - tt isle of man: ride on the edge 3
-- hunting simulator 2
-- tamagotchi plaza
-- ace combat 7: skies unknown (no dlc)
-- spy x anya: operation memories
-- jujutsu kaisen: cursed clash
-- reynatis
-- emio: the smiling man
-- sword art online: hollow realisation deluxe edition
-- this is the police
 - super puzzle pack
 - xenon racer
-- legend of nayuta, the: boundless trails
 - akai katana shin
 - has been heroes
-- darkside detective, the: a fumble in the dark - super rare games
-- graceful explosion machine - super rare games
-- flame in the flood - super rare games
 - plate up!
 - kitaria fables
 - tormented souls
 - zoids wild blast unleashed
-- atelier lulua: the scion of arland
-- house flipper: pets edition
-- infernax
 - road 96
-- dead cells: return to castlevania edition
 - blazblue central fiction
-- code: realize guardian of rebirth
 - steam world dig 2
-- 88 heroes: 98 heroes edition
-- celeste
 - prodeus
 - fun! fun! animal park
 - astria ascending
 - skully
-- wonder boy collection
 - dinosaurs: mission dino camp
-- blasphemous 2
 - let's sing 2022 (game only)
-- pilot sports
-- oddworld collection
 - syberia 3
 - flashback collector's ed. w/metal card & instruction book (no dlc)
-- tt isle of man: ride on the edge
 - disgaea 7: vows of the virtueless
-- crystar
 - snk 40th anniversary collection
-- xenoblade chronicles: def. ed. col. set w/vinyl, artbook, steelbook&poster
-- nintendo labo toy-con 02: robot (game only)
-- slay the spire
-- legend of heroes, the: trails to azure
 - ys origin
 - fate/extella link
 - victor vran: overkill edition
-- banner saga trilogy, the
-- deadly premonition: origins collector's ed. w/6x pin badges
 - valkyria chronicles 4
-- ninja saviors, the: return of the warriors
-- tennis world tour
-- taiko no tatsujin: drum 'n' fun!
 - my riding stables 2: a new adventure
 - puyo puyo tetris 2
-- snooker 19
-- cricket 22
 - bee simulator
 - sword art online: fatal bullet complete edition
 - telltale's the walking dead: the final season
-- a.o.t. 2 final battle
-- a.o.t. 2
-- wonder boy: the dragon's trap
 - bubble bobble 4 friends
-- bugsnax
-- dodgeball academia
-- nexomon & nexomon extinction: complete collection
-- doki doki literature club plus
 - wasteland 2: directors cut
-- tunic
-- ai: the somnium files - nirvana initiative
 - holy potatoes compendium
-- crash dummy
-- power rangers: battle for the grid super edition
 - railway empire
-- call of cthulhu
-- triangle strategy tactician's limited ed. w/6x dice, card deck & steelbook
-- nintendo labo toy-con 01: variety (game only)
-- skylanders imaginators starter pack
-- nba 2k19
-- ultrawings flat
 - for the king
-- poi
 - pocky & rocky reshrined
 - g-darius hd
 - turrican flashback
 - vampyr
 - disgaea 6: defiance of destiny
-- legend of heroes, the: trails of cold steel iii
-- fire emblem warriors limited ed. w/3x cd ost & character cards
 - titan quest
 - pixark
-- airoheart
 - longest five minutes, the
-- andro dunos ii
-- fairy fencer f: refrain chord
-- little witch nobeta (game only)
-- road redemption
-- gal guardians: demon purge
 - gal*gun returns
-- trinity trigger
 - brawlout
 - aeternoblade ii
-- nba 2k21
 - afterimage (no dlc)
 - air twister
 - asterix & obelix xxl2 (no figures)
-- moto racer 4
-- overpass
-- tt isle of man: ride on the edge 2
 - family trainer w/2x leg straps
 - let's get fit
-- them's fightin' herds: deluxe edition
 - fate/extella: the umbral star
 - chicken range
 - adventure time pirates of the enchiridion
@@ -966,19 +634,11 @@
 - goosebumps the game
 - aces of the luftwaffe squadron: extended edition
 - pocoyo party
-- hellpoint
-- bomber crew complete edition
 - ghostbusters: spirits unleashed
-- diofield chronicle, the
-- taito milestones
 - blacksad: under the skin
-- instant sports tennis
 - world's end club: deluxe ed.
-- john wick hex
 - harvest moon: light of hope complete edition
-- langrisser i & ii
 - inertial drift
-- rugby challenge 4
 - raven remastered, the
 - fitness boxing: fist of the north star
 - my life: farm vet
@@ -986,16 +646,1440 @@
 - life in willowdale: farm adventures
 - angry alligator
 - guns and spurs 2
+- baobabs mausoleum: country of woods & creepy tales
+- metal max xeno: reborn
+- dc league of super-pets: the adventures of krypto and ace
+- hell warders
+- wildermyth
+- pepper grinder
+- l.o.l surprise! roller dream racing
+- werewolf: the apocalypse - heart of the forest
+- cytus alpha (game only)
+- galak-z: the void & skulls of the shogun
+- railway empire 2 (no dlc)
+- police simulator: patrol officers
+- empire of sin
+- mato anomalies (game only)
+- expeditions: a mudrunner game
+- flashback 25th anniversary
+- dino ranch: ride to the rescue
+- little big adventure - twinsen's quest
+- operation wolf returns: first mission
+- alfred hitchcock: vertigo
+- sea of solitude - director's cut
+- hotshot racing
+- g.i. joe: operation blackout
+- agatha christie hercule poirot the london case
+- battle worlds: kronos
+- legendary eleven
+- motogp 19
+- monster energy supercross 2
+- fitness circuit
+- crayola scoot
+- aggelos
+- tiny troopers: global ops
+- hentai vs. evil
+- let's sing 2020 (game only)
+- marsupilami: hoobadventure
+- asterix & obelix: slap them all
+- syberia 1 & 2
+- garfield lasagna party
+- mystery investigations 1: noir chronicles + path of sin
+- naruto shippuden: ultimate ninja storm 4 road to boruto
+- yoku's island express
+- book of unwritten tales 2, the
+- motogp 18
+- ghostrunner
+- wild at heart, the
+- warriors orochi 4
+- nights of azure 2
+- children of morta
+- truberbrook
+- gun gun pixies
+- dariusburst: another chronicle ex+
+- surviving the aftermath
+- my universe: doctors & nurses
+- kaze and the wild masks
+- super putty squad
+- hercule poirot - the first cases
+- monster crown
+- among the sleep: enhanced edition
+- lovecraft's untold stories
+- caligula effect, the: overdose
+- darkest dungeon
+- moonscars
+- enter/exit the gungeon
+- vampire - the masquerade: the new york bundle
+- perky little things
+- hellmut: the badass from hell
+- ninja jajamaru: the great yokai battle + hell
+- snow moto racing freedom
+- waifu uncovered
+- mutant year zero: road to eden
+- let's sing 2023 (game only)
+- mxgp3 - the official motocross videogame
+- akiba's trip: hellbound & debriefed
+- will: a wonderful world
+- waifu discovered 2: medieval fantasy
+- bluecoats, the: north vs south
+- cloudpunk
+- ministry of broadcast
+- crazy chicken kart 2
+- castaway paradise
+- windstorm: start of a great friendship
+- adam's venture origin
+- effie
+- giraffe & annika (game only)
+- princess guide, the
+- fallen legion: rise to glory
+- rumble fish 2, the
+- aerial knight's never yield - super rare games
+- smoke and sacrifice - super rare games
+- gigantosaurus: dino sports
+- pups & purrs: pet shop
+- spooky spirit shooting gallery
+- archetype arcadia
+- white day: a labyrinth named school
+- gal gun double peace (no dlc)
+- maglam lord
+- kowloon high-school chronicle
+- heroland: knowble edition
+- cry babies magic tears: the big game
+- slaycation: paradise
+- aragami 2
+- count lucanor, the
+- bassmaster fishing 2022
+- lumote: the mastermote chronicles
+- narcos: rise of the cartels
+- flipping death
+- yars rising
+- boardwalk arcade 2
+- pui pui molcar let's! molcar party!
+- astronite
+- super bullet break (no dlc)
+- rico london
+- battle axe
+- tchia: oleti edition
+- god of rock
+- 80 days & overboard!
+- hidden through time (no dlc)
+- witchspring3 [re:fine] the story of eirudy
+- dungeons 3
+- winter games 2023
+- conscript (no dlc)
+- vectronom
+- hover
+- oni road to be the mightiest oni
+- colt canyon
+- eternum ex
+- unto the end
+- asterix & obelix xxl - romastered
+- atv drift & tricks
+- syberia 2
+- naheulbeuk's dungeon master
+- totally spies - cyber mission
+- smurfs, the: village party
+- front mission 1st remake
+- kids vs parents
+- ultra mega xtra party challenge
+- instant sports plus
+- instant sports winter games
+- dungeon of naheulbeuk: the amulet of chaos
+- architect life
+- my little riding champion
+- aqua moto racing utopia
+- monopoly and monopoly madness
+- kunai
+- mon yu
+- cuddly forest friends
+- root film
+- raging loop
+- all-star fruit racing
+- tin hearts
+- falconeer, the (no dlc)
+- dragon marked for death
+- mary skelter finale
+- elderand
+- lord winklebottom investigates
+- in sound mind (no dlc)
+- big buck hunter arcade
+- mountain rescue simulator
+- lets sing 2019 (game only)
+- ash of gods: redemption
+- children of zodiarcs
+- record of lodoss war: deedlit in wonderland labyrinth
+- mega party - a tootuff adventure
+- dolphin spirit: ocean mission
+- farming simulator
+- ghost parade
+- knight witch, the
+- lets sing 2021 (game only)
+- let's sing: queen (game only)
+- fort boyard
+- yu-no: a girl who chants love at the bound of this world
+- chicken police
+- pang adventures
+- skul: the hero slayer
+- mineko's night market
+- runbow
+- killer queen black
+- undernauts: labyrinth of yomi
+- gas guzzlers extreme
+- hammerwatch 2 (no dlc)
+- gravity circuit
+- vengeful guardian: moonrider
+- construction machines simulator
+- ao tennis 2
+- shuttlecock-h
+- silence
+- state of mind
+- tennis world tour 2
+- deponia
+- gothic classic
+- paperman: adventure delivered
+- jigsaw fun/puzzle fun xxl - 3 in 1 collection
+- windstorm: an unexpected arrival
+- desolatium
+- cabela's the hunt: championship edition (game only)
+- evil nun: the broken mask
+- papetura
+- gerda: a flame in winter
+- golazo 2
+- many pieces of mr.coo, the
+- indiecalypse
+- 1971 project helios
+- tiny sticker tale, a
+- do not feed the monkeys
+- metal tales overkill
+- tale of synapse, a
+- colossus down
+- morkull ragast's rage
+- minabo - a walk through life
+- super toy cars 2 ultimate racing
+- kamiwaza: way of the thief
+- destiny connect: tick-tock travellers
+- super trench attack
+- espgaluda ii
+- under night in-birth 2 [sys:celes]
+- assault suit: leynos 2 - saturn tribute
+- atomik: run.gun.jump.gun - super rare games
+- will you snail - super rare games
+- dungeon defenders awakened - super rare games
+- octahedron - super rare games
+- thief simulator
+- neon apex beyond the limit
+- formula retro racing: world tour
+- zero to dance hero
+- tales from toyotoki: arrival of the witch
+- tengoku struggle -strayside-
+- dnf duel
+- horgihugh and friends
+- crypt of the necrodancer
+- beyond the ice palace 2
+- class of heroes 1&2 complete edition
+- pocket bravery
+- adventure academia: the fractured continent
+- labyrinth of zangetsu
+- tandem: a tale of shadows
+- wingspan (no dlc)
+- selfloss
+- morbid: the lords of ire
+- outbound ghost, the
+- severed steel
+- trash sailors
+- foreclosed
+- bounty battle - signature edition
+- last worker, the
+- arcade paradise
+- tiny troopers: joint ops xl
+- avicii invector - encore edition
+- vostok inc
+- paradigm paradox
+- code: realize wintertide miracles
+- touhou kobuto v: burst battle
+- zenith
+- blazing strike
+- ikai
+- against the storm
+- dysmantle
+- skabma snowfall
+- tee time golf
+- reverie knights tactics
+- ved
+- wrath: aeon of ruin
+- creepy tales - double pack
+- contraptions collection
+- otoko cross: naked remix 2
+- beholder 3
+- seed of life
+- pretty girls game collection iii
+- hidden objects collection volume 4
+- pretty girls game collection ii
+- pretty girls game collection
+- bishoujo battle: double strike!
+- time management game collection
+- terra trilogy
+- mozart requiem
+- classic racers elite
+- panda hero
+- junior league sports 3 in 1 collection
+- grave danger
+- ultros
+- eternights
+- leo the firefighter cat
+- street outlaws 2 - winner takes all
+- super life of pixel - strictly limited games
+- boulder dash ultimate collection (no dlc)
+- big bobby car: the big race
+- mad games tycoon
+- firefighters: airport fire department
+- 9 monkeys of shaolin
+- commandos 2: hd remaster
+- outward (no dlc)
+- gelly break
+- nefasto's misadventure
+- young souls
+- elrentaros wanderings
+- sanabi
+- captain velvet meteor: the jump +/plus dimensions
+- itorah
+- brotato
+- tokoyo: the tower of perpetuity
+- skautfold: shrouded in sanity
+- unsouled
+- lacuna
+- helvetii
+- omegabot
+- sophstar
+- metaloid origin
+- mask of mists
+- galaxy of pen and paper
+- blazing beaks
+- warlocks 2: god slayers
+- nongunz doppelganger edition
+- iron wings
+- arkanoid eternal battle
+- escape game - fort boyard
+- super chariot
+- ufo robot grendizer: the feast of the wolves
+- quest for excalibur, the: puy du fou
+- that's my family: family fun night
+- saga of sins
+- instant sports all stars
+- rims racing
+- bass pro shops the strike: championship edition (game only)
+- fallen legion: revenants
+- raiden iv x mikado remix
+- xenoblade chronicles 3
+- five nights at freddy's: help wanted
+- tomb raider i-iii remastered
+- grinch, the: christmas adventures
+- dragon quest xi s: echoes of an elusive age
+- detective pikachu returns
+- hot wheels unleashed
+- burnout paradise remastered
+- diablo iii: eternal collection (no dlc)
+- five nights at freddy's: security breach
+- gang beasts
+- untitled goose game
+- astral chain
+- lego horizon adventures
+- little nightmares
+- cars 3: driven to win
+- dragons: dawn of new riders
+- paper mario: the origami king
+- new pokemon snap
+- mario tennis aces
+- mario & luigi: brothership
+- sonic superstars
+- mario golf: super rush
+- mysims: cosy bundle
+- bluey: the video game
+- sega mega drive classics
+- sonic x shadow generations
+- dr kawashima's brain training (game only)
+- miitopia
+- five nights at freddy's: core collection
+- bayonetta 3
+- crash bandicoot 4: it's about time
+- minecraft legends (no dlc)
+- layton's mystery journey: katrielle and the millionaires' conspiracy
+- minecraft
+- luigi's mansion 3
+- crash bandicoot n. sane trilogy
+- super mario maker 2 (no dlc)
+- hogwarts legacy (no dlc)
+- mario & sonic at the olympic games tokyo 2020
+- splatoon 3 (no dlc)
+- ea sports fc 25 (no dlc)
+- minecraft dungeons: hero edition
+- spyro reignited trilogy
+- lego star wars: the skywalker saga
+- captain toad: treasure tracker
+- mario strikers: battle league football
+- need for speed: hot pursuit remastered
+- super mario rpg
+- pokken tournament dx
+- metroid dread
+- rollercoaster tycoon adventures
+- la noire
+- spongebob squarepants: the cosmic shake
+- hot wheels unleashed 2 - turbocharged
+- octopath traveler
+- bayonetta 2 (no dlc)
+- barbie dreamhouse adventures
+- epic mickey rebrushed
+- sports camp: a 35-game adventure
+- unicorn overlord
+- dragon quest builders 2
+- teenage mutant ninja turtles: mutants unleashed
+- tony hawk's pro skater 1+2
+- little nightmares 2 (no dlc)
+- doom (no dlc)
+- sniper elite 4
+- wwe 2k18
+- assassin's creed iii/3 remastered
+- final fantasy x hd only
+- bioshock: the collection
+- goat simulator: the goaty
+- assassin's creed: the rebel collection
+- nier automata: the end of yorha edition
+- triangle strategy
+- namco museum arcade pac
+- sugardew island
+- my friend peppa pig
+- wreckfest
+- fire emblem warriors
+- fast & furious: spy racers rise of sh1ft3r
+- dog man: mission impawsible
+- spongebob squarepants: the patrick star game
+- farming simulator 20
+- monster hunter generations ultimate
+- final fantasy xii the zodiac age
+- fire emblem warriors: three hopes
+- mortal kombat 1 (no dlc)
+- dragon ball z kakarot
+- addams family, the: mansion mayhem
+- outer worlds, the
+- monster high: skulltimate secrets
+- shin megami tensei v: vengeance
+- streets of rage 4
+- sniper elite 3 - ultimate edition
+- ghostbusters the video game remastered
+- disney magical world 2: enchanted edition
+- south park: the fractured but whole
+- discounty
+- unravel two
+- overcooked! all you can eat
+- ys viii: lacrimosa of dana
+- sniper elite v2 remastered
+- paw patrol world
+- life is strange: true colors
+- sifu
+- potionomics: masterwork edition
+- let's build a zoo
+- fairy tail
+- daemon x machina
+- monster jam - steel titans
+- paw patrol: grand prix
+- mighty morphin power rangers: rita's rewind
+- super monkey ball banana rumble
+- house of the dead: remake
+- ni no kuni: wrath of the white witch
+- street fighter 30th anniversary collection
+- dragon quest monsters: the dark prince
+- star ocean: the second story r
+- dragons: legends of the nine realms
+- bayonetta origins: cereza and the lost demon
+- doctor who: the edge of reality + the lonely assassins
+- friday the 13th: the game (offline)
+- bendy: lone wolf
+- mx vs atv all out
+- farming simulator 2017
+- overcooked! + overcooked! 2
+- ark: survival evolved
+- ori and the will of the wisps
+- lego 2k drive
+- hot wheels monster trucks: stunt mayhem
+- rollercoaster tycoon adventures deluxe
+- five nights at freddy's: help wanted 2
+- ooblets
+- my singing monsters playground
+- neogeo pocket color selection vol 1
+- snowrunner
+- baten kaitos i & ii hd remaster
+- house flipper
+- wolfenstein ii: the new colossus
+- hotel transylvania: scary tale adventures
+- legacy of kain soul reaver 1-2 remastered
+- batman - the telltale series
+- just dance 2017
+- another code: recollection
+- ultra street fighter ii: the final challengers
+- witcher 3: wild hunt (no dlc)
+- air conflicts collection
+- metro redux
+- truck driver
+- dave the diver: anniversary edition
+- thing, the: remastered
+- retro realms: halloween & ash vs evil dead
+- jurassic park classic games collection
+- spongebob squarepants: krusty cook-off
+- endless ocean: luminous
+- gear club unlimited 2
+- one piece: pirate warriors 4
+- xenoblade chronicles 2: torna - the golden country
+- binding of isaac, the: afterbirth+
+- deadly premonition: origins
+- cadence of hyrule - crypt of the necrodancer
+- signalis
+- life is strange (no dlc)
+- biomutant (no dlc)
+- chaos; double pack: chaos; head noah/ chaos; child
+- sid meier's civilization vii
+- 60 in 1 game collection
+- world war z
+- walking dead, the: destinies
+- zombie army 4: dead war
+- warriors orochi 4 ultimate
+- hidden objects collection
+- beast quest
+- labyrinth of refrain: coven of dusk
+- astroneer
+- five nights at freddy's - into the pit
+- stanley parable, the: ultra deluxe
+- balatro (game only)
+- romancing saga 2: revenge of the seven
+- kingdom come: deliverance
+- let's sing 2025 (game only)
+- eastward
+- my time at sandrock
+- carrion
+- atelier ryza 3: alchemist of the end & the secret key
+- atelier sophie 2: the alchemist of the mysterious dream
+- v-rally 4
+- cruis'n blast
+- cities: skylines
+- crysis remastered
+- turnip boy commits tax evasion
+- pac-man world: re-pac
+- taxi chaos
+- miraculous: paris under siege
+- tomb raider iv-vi remastered
+- another crab's treasure (no dlc)
+- last faith, the
+- sea of stars
+- smurfs, the: dreams
+- pac-man world 2: re-pac
+- naruto x boruto ultimate ninja storm connections
+- fitness boxing 3: your personal trainer
+- my life: pet vet
+- theatrhythm final bar line
+- agatha christie - murder on the orient express
+- atelier ryza: ever darkness & the secret hideout
+- catherine: full body
+- disgaea 4 complete+
+- samurai warriors 5
+- northgard
+- atelier ryza 2: lost legends & the secret fairy
+- ion fury
+- bus simulator city ride
+- 13 sentinels: aegis rim
+- remothered: tormented fathers
+- neverwinter nights: enhanced edition
+- blue reflection: second light
+- super street racer
+- farmer's dynasty
+- locomoto
+- gothic: classic khorinis saga
+- gothic 2 complete classic
+- wobbly life
+- darkest dungeon 2 (no dlc)
+- star overdrive
+- goosebumps: terror in little creek
+- virche evermore -epic: lycoris-
+- funko fusion: deluxe edition
+- graveyard keeper: undead edition
+- arsene lupin: once a thief
+- oddworld: soulstorm
+- arcade game zone
+- toy soldiers
+- garden life: a cozy simulator
+- tamagotchi plaza
+- ace combat 7: skies unknown (no dlc)
+- spy x anya: operation memories
+- jujutsu kaisen: cursed clash
+- reynatis
+- sword art online: hollow realisation deluxe edition
+- house flipper: pets edition
+- dead cells: return to castlevania edition
+- code: realize guardian of rebirth
+- wonder boy collection
+- pilot sports
+- oddworld collection
+- tt isle of man: ride on the edge
+- slay the spire
+- ninja saviors, the: return of the warriors
+- snooker 19
+- wonder boy: the dragon's trap
+- nexomon & nexomon extinction: complete collection
+- doki doki literature club plus
+- ai: the somnium files - nirvana initiative
+- power rangers: battle for the grid super edition
+- call of cthulhu
+- legend of heroes, the: trails of cold steel iii
+- airoheart
+- little witch nobeta (game only)
+- road redemption
+- gal guardians: demon purge
+- trinity trigger
+- moto racer 4
+- overpass
+- tt isle of man: ride on the edge 2
+- bomber crew complete edition
+- langrisser i & ii
 - white night
 - zombie night terror
-- baobabs mausoleum: country of woods & creepy tales
 - furwind
-- legend of legacy, the - hd remastered
 - eiyuden chronicle: hundred heroes
-- finding teddy 2: definitive edition
+- ninja gaiden: ragebound
+- absolum
+- tevi
+- neptunia: sisters vs sisters
+- death's door: ultimate ed. w/artbook & ost
+- bridge curse 2, the: the extrication
+- cuisineer
+- ultimate chicken horse
+- hellboy: web of wyrd
+- broforce
+- steamworld heist ii
+- demon slayer: kimetsu no yaiba - sweep the board!
+- hot lap racing
+- date everything!
+- goat simulator 3 (no dlc)
+- autobahn: police simulator 2
+- shadow labrinth
+- one piece odyssey (no dlc)
+- de blob
+- dungeon of the endless
+- magical bakery
+- norn9: last era
+- birushana: rising flower of genpei
+- piofiore: episodio 1926
+- my universe: pet clinic cats & dogs (panda edition)
+- dokapon kingdom: connect
+- dusk diver 2
+- stranded deep
+- dead or school
+- valfaris
+- super neptunia rpg
+- eldrador creatures
+- tropico 6 (no dlc)
+- samurai shodown - neogeo collection
+- vernal edge
+- toki retrollector ed. w/arcade machine, prints & comic
+- fist: forged in shadow torch
+- garden simulator
+- wrc generations
+- taiko no tatsujin: rhythm festival
+- rpg maker mv
+- master detective archives: rain code
+- ori and the blind forest
+- death mark
+- legend of heroes, the: trails from zero
+- wrc 9
+- olympia soiree
+- broken sword 5: the serpent's curse
+- oninaki
+- knockout home fitness
+- death's door
+- forager
+- ghost song
+- mortal shell: complete edition
+- equestrian training
+- my riding stables - life with horses
+- frog detective: the entire mystery
+- petit island
+- charon's staircase
+- beholder: complete edition
+- monster energy supercross
+- toaplan arcade collection vol. 2
+- anno: mutationem
+- ship of fools - super rare games
+- caravan sandwitch
+- elf on the shelf, the: christmas heroes
+- lumo 2
+- read only memories: double pack
+- touhou spell carnival
+- 9 r.i.p.
+- spirit hunter: death mark 2
+- amnesia: later x crowd (game only)
+- fairy tail 2
+- spirittea
+- deeeer simulator: your average everyday deer game
+- code: realize future blessings
+- crypt custodian
+- teenage mutant ninja turtles: splintered fate
+- yasha: legends of the demon blade
+- plucky squire, the: deluxe ed. w/ artbook, ost
+- ty the tasmanian tiger bush rescue bundle
+- vampire - the masquerade: new york bundle ce w/artbook, usb, keyring
+- bladed fury
+- talisman - 40th anniversary edition
+- catan console edition (no dlc)
+- fantasian neo dimension
+- care bears: unlock the magic
+- 100 in 1 game collection
+- carmen sandiego (no dlc)
+- 34 sports games - world edition
+- rapala fishing pro series
+- eldrador creatures shadowfall
+- port royale 4
+- emergency call - the attack squad
+- demetrios the big cynical adventure/project xenon valkyrie+
+- promenade
+- super zangyura
+- nuclear blaze
+- chinatown detective agency
+- croixleur sigma
+- smurfs, the: 2 in 1 game collection (mission vileaf/ smurfs kart)
+- my universe: pet clinic cats & dogs + puppies & kittens
+- grand mountain adventure: wonderlands
+- crime o clock
+- instant sports paradise
+- animal hospital
+- sword art online: fractured daydream
+- jojo's bizarre adventure: all star battle r
+- crymachina
+- yomawari: lost in the dark (no dlc)
+- tales of the neon sea
+- farm together
+- labyrinth of galleria: the moon society
+- monster energy supercross 3
+- golden force
+- everspace - stellar edition
+- alwa's legacy + alwa's awakening
+- tartarus key, the - super rare games
+- 3d mini golf
+- norn9: var commons
+- oxide room 104
+- bomber crew
+- gloomhaven: mercenaries edition
+- forgive me father
+- crawlco block knockers
+- commandos 2: hd remaster/commandos 3: hd remaster
+- island flight simulator
+- redeemer enhanced edition
+- samurai shodown
+- leisure suit larry - wet dreams dry twice
+- baldo: the guardian owls
+- hardcore mecha
+- session: skate sim
+- train life: a railway simulator
+- monster truck championship
+- psikyo shooting stars - bravo
+- yomawari: the long night collection
+- caligula effect 2, the
+- harvest moon: the winds of anthos
+- world end syndrome
+- cytus alpha collector's ed. w/cd
+- doraemon: story of seasons
+- monark (no dlc)
+- slain: back from hell
+- hello kitty kruisers
+- ginger beyond the crystal
+- anima: gate of memories arcane edition
+- pode
+- ultra age
+- aeterna noctis
+- mail mole
+- tanuki justice
+- dairoku: agents of sakuratani
+- gearshifters
+- bubble bobble 4 friends: the baron is back!
+- sword of the vagrant
+- sir lovelot
+- another world/ flashback
+- brigandine: the legend of runersia
+- yurukill: the calumniation games
+- robotics; notes double pack
+- made in abyss: binary star falling into darkness col. ed.w/notebook&poster
+- phar lap horse racing challenge
+- trine 5: a clockwork conspiracy
+- wild card football
+- super puzzle pack 2
+- speed 3 grand prix
+- garden witch life
+- saint kotar
+- real farm
+- stories from sol: the gun-dog
+- neon blood ltd. ed. w/art book, city guide
+- encodya
+- absolute drift
+- sword of the necromancer
+- art of rally
+- red wings - aces of the sky
+- big helmet heroes
+- kemono heroes
+- spirit mancer
+- fading afternoon - uncensored
+- rebel transmute
+- virgo versus the zodiac
+- terracotta
+- space for the unbound, a
+- creature in the well
+- koa and the five pirates of mara
+- chronicles of 2 heroes: amaterasu's wrath
+- figment 1&2
+- ankora - lost days & deiland - pocket planet
+- reknum origins collection
+- summer in mara
+- coffee crisis
+- x-morph: defense
+- touhou luna nights
+- one last breath
+- overlord: escape from nazarick
+- crown trick
+- rpg maker with
+- monster menu: the scavenger's cookbook: deluxe edition
+- neo atlas 1469
+- god wars the complete legend
+- guns of mercy
+- shing!
+- liberated: enhanced edition
+- cursed castilla ex col. ed. w/arcade cutout, keyring, book, ost & manual
+- arzette the jewel of faramore
+- ender magnolia: bloom in the mist
+- mamorukun recurse!
+- gimmick 2
+- absolute tactics: daughters of mercy
+- making of karateka, the
+- mushihimesama
+- dodonpachi resurrection
+- tetris forever
+- wizardry: proving grounds of the mad overlord
+- gimmick: special edition
+- terra memoria
+- hell is other demons - super rare games
+- hell pie - super rare games
+- transiruby - super rare games
+- book of demons - super rare games
+- dicey dungeons - super rare games
+- monster prom xxl - super rare games
+- old school musical - super rare games
+- q.u.b.e. 2 - super rare games
+- rise eterna
+- sparkle ultimate collection
+- harvest life
+- cattle country
+- battlefield waltz
+- bratz rhythm & style
+- paw patrol: grand prix - complete edition
+- mr. run and jump + kombinera adrenaline
+- nickelodeon all-star brawl 2 (no dlc)
+- radiant tale - fanfare!
+- tokyo xanadu ex+
+- sympathy kiss
+- charade maniacs
+- inescapable
+- hello neighbour 2: imbir edition w/ imbir backpack hanger plushie
+- chronicles of the wolf
+- gal guardians: servants of the dark
+- phantom breaker: battlegrounds ultimate
+- genso manège
+- since memories - off the starry sky
+- b-project ryusei*fantasia
+- konosuba: love for these clothes of desire!
+- madison
+- house flipper signature ed. w/pins, keyring, pencil & certificate
+- candle: the power of the flame
+- coma, the: recut
+- winter's wish: spirits of edo
+- azur lane: crosswave
+- nikoderiko: the magical world
+- messenger, the
+- cocoon
+- ugly
+- slave zero x calamity edition w/ comic, artbook, ost, guidebook, postcards
+- re:zero: the prophecy of the throne
+- tracks winter wonderland kitw/wooden train,carriage and characters(no dlc)
+- jerry anker and the quest to get love
+- my vet practice: in the zoo
+- hot blood
+- adam wolfe
+- pretty girls game collection iv
+- boo party
+- slime girls smoothies
+- otoko cross: naked remix (no stylus)
+- hidden objects collection volume 2
+- tales of the tiny planet
+- street outlaws: the list
+- 7th sector
+- space invaders forever s.e w/keychain,button,3xpostcard,art plate,notepad
+- speed limit - strictly limited games
+- xeno crisis
+- ultracore - strictly limited games
+- fox n forests
+- dungeons 4 (no dlc)
+- construction simulator 4
+- firefighting simulator: the squad
+- football tactics & glory
+- firefighters - the simulation
+- getsufumaden: undying moon del ed. w/ ost, 3x art cards, artbook
+- donut dodo
+- king of fighters xiii, the: global match
+- windjammers 2
+- windjammers
+- xeodrifter
+- war tech fighters
+- neurovoider
+- shinorubi
+- berserk boy (game only)
+- lost ruins
+- beholder 2
+- catmaze
+- heidelberg 1693
+- arise: a simple story definitive edition
+- bullet hell collection: volume 1
+- mayhem brawler
+- smelter
+- gunborg: dark matters
+- butcher
+- arietta of spirits
+- double kick heroes
+- legend of the skyfish
+- agatha christie - the abc murders
+- off road racing
+- oddworld anthology: the unlikely heroes collection (no dlc)
+- tintin reporter: cigars of the pharaoh
+- oddworld: soulstorm oddtimized edition (w/ 3 art prints, metal case)
+- asterix & obelix xxxl: the ram from hibernia ce w/ figurine & lithograph
+- asterix & obelix xxxl: the ram from hibernia (no dlc)
+- fantasy friends 2 game collection
+- ganryu 2: hakuma kojiro
+- ravenswatch
+- wildshade: unicorn champions
+- asterix & obelix: heroes
+- fia european truck racing championship
+- guilty gear strive
+- void* trrlm2(); //void terrarium 2
+- guns n' runs
+- mario kart 8 deluxe
+- animal crossing: new horizons
+- super mario odyssey
+- legend of zelda: breath of the wild
+- super smash bros. ultimate
+- pokemon legends: arceus
+- super mario bros. wonder
+- legend of zelda: tears of the kingdom
+- pokemon violet
+- pokemon: let's go, pikachu!
+- new super mario bros. u deluxe
+- pokemon scarlet
+- pokemon sword
+- super mario 3d world + bowser's fury
+- nintendo switch sports (game only)
+- pokemon brilliant diamond
+- super mario party
+- pokemon shield
+- mario party superstars
+- pokemon shining pearl
+- kirby and the forgotten land
+- pokemon: let's go, eevee!
+- legend of zelda: link's awakening
+- donkey kong country: tropical freeze
+- legend of zelda, the: echoes of wisdom
+- legend of zelda: skyward sword hd
+- hyrule warriors: age of calamity
+- grand theft auto: the trilogy - definitive edition
+- luigi's mansion 2 hd
+- yoshi's crafted world
+- princess peach: showtime!
+- paper mario: the thousand-year door
+- metroid prime remastered
+- red dead redemption
+- pikmin 4
+- pokemon mystery dungeon: rescue team dx
+- mario vs. donkey kong
+- marvel ultimate alliance 3: the black order
+- elder scrolls v: skyrim
+- donkey kong country returns hd
+- witcher 3: wild hunt complete edition
+- fire emblem: three houses
+- batman: arkham trilogy
+- cooking mama: cookstar
+- dark souls: remastered
+- kirby's return to dreamland deluxe
+- kirby star allies
+- pikmin 3 deluxe
+- stardew valley
+- cuphead (no dlc)
+- no man's sky
+- it takes two
+- xenoblade chronicles: definitive edition
+- xenoblade chronicles 2
+- fire emblem engage
+- hyrule warriors: definitive edition
+- persona 5 royal
+- dragon quest i&ii hd-2d remake
+- dragon quest iii hd-2d remake
+- final fantasy vii/ viii
+- minecraft dungeons: ultimate edition
+- hollow knight
+- stray
+- metal gear solid master collection vol. 1
+- farming simulator 23
+- advance wars 1+2: re-boot camp
+- little nightmares iii (3)
+- star wars heritage pack (no dlc)
+- assassin's creed: the ezio collection
+- pga tour 2k21 (offline only)
+- tales of the shire
+- tony hawk's pro skater 3+4
+- octopath traveler ii
+- cult of the lamb
+- tokyo mirage sessions fe encore
+- digimon world: next order
+- subnautica/ subnautica: below zero
+- digimon story cyber sleuth complete edition
+- yu-gi-oh! early days collection
+- life is strange: double exposure
+- world ends with you, the: final remix
+- truck & logistics simulator
+- poppy playtime triple pack
+- slime rancher (no dlc)
+- jump force - deluxe edition (offline)
+- disco elysium: the final cut
+- 30 sport games in 1
+- everybody’s golf hotshots
+- r-type final 2
+- ori: the collection
+- one piece: unlimited world red deluxe
+- ys x: nordics (no dlc)
+- hot wheels unleashed collection
+- gabby's dollhouse: ready to party
+- nicktoons & the dice of destiny
+- suikoden 1 & 2 hd remaster
+- horizon chase turbo
+- wrc 10
+- snufkin melody of moominvalley
+- harvest moon: the lost valley/skytree village
+- rollercoaster tycoon classic
+- outer wilds
+- nba 2k26
+- double dragon revive
+- emio: the smiling man
+- graceful explosion machine - super rare games
+- atelier lulua: the scion of arland
+- infernax
+- blasphemous 2
+- crystar
+- banner saga trilogy, the
+- deadly premonition: origins collector's ed. w/6x pin badges
+- taiko no tatsujin: drum 'n' fun!
+- cricket 22
+- a.o.t. 2
+- bugsnax
+- tunic
+- ultrawings flat
+- fire emblem warriors limited ed. w/3x cd ost & character cards
+- andro dunos ii
+- fairy fencer f: refrain chord
+- john wick hex
+- legend of legacy, the - hd remastered
 - ender lilies quietus of the knights
-- smushi come home - super rare games
-- grime: definitive edition - super rare games
-- dorfromantik - super rare games
 - last hero of nostalgaia, the - super rare games
 - joe dever's lone wolf - super rare games
+- raidou remastered: the mystery of the soulless army
+- souldiers
+- piofiore: fated memories
+- super bomberman r 2
+- illusion of itehari
+- variable barricade
+- lemon cake
+- nis classics volume 3: la pucelle: ragnarok/ rhapsody: a musical adventure
+- orbital bullet - super rare games
+- toki tori collection - super rare games
+- human fall flat - super rare games ed.
+- let's sing abba (game only)
+- splasher
+- legend of heroes, the: trails of cold steel iv
+- child of light: ultimate edition/valiant hearts: the great war
+- saviors of sapphire wings/ stranger of sword city revisited
+- taito milestones 2
+- cabela's the hunt: championship ed. w/bullseye pro
+- ashwalkers: a survival journey
+- jonah lomu rugby challenge 4
+- dollhouse
+- neversong collector's ed. w/pin, card deck, ost & music score
+- little town hero
+- lollipop chainsaw repop
+- toaplan arcade collection vol. 1
+- might & magic clash of heroes
+- radiant silvergun
+- lil gator - super rare games
+- caveblazers - super rare games
+- dogworld - super rare games
+- no sleep for kaname date
+- tmnt: mutants unleashed w/ steelbook, art book, 4xkeychains, 4x pins
+- needy streamer overload
+- bakeru
+- cupid parasite: sweet and spicy darling
+- neptunia x senran kagura: ninja wars
+- into the breach
+- rune factory: guardians of azuma
+- farmagia limited edition w/ ost & artbook
+- ys memoire: the oath in felghana
+- death end re;quest 2
+- cafe enchante
+- legacy of kain: soul reaver 1 & 2 remastered deluxe ed.w/artbook, ost & sb
+- thing, the remastered-deluxe ed w/steelbook,poster,patches & blake id card
+- gris: deluxe ed. w/artbook & ost
+- doinksoft collection, the
+- iris fall
+- dreadout 2
+- hidden objects collection volume 3
+- raystorm x raycrisis hd collection
+- worms armageddon anni coll. ed. w/manual, coin, 3xpins
+- unruly heroes
+- asterix & obelix: xxl collection
+- tiebreak plus/+: official game of the atp and wta (no dlc)
+- warhammer 40,000: boltgun
+- hunting simulator
+- pinstripe
+- prinny presents nis classics volume 1
+- unrailed! - super rare games
+- project warlock - super rare games
+- little inferno - super rare games
+- gardens between, the - super rare games
+- fairune collection - super rare games
+- jack jeanne
+- harvest moon: light of hope collector's ed. w/mug, bag & badges (no dlc)
+- crosscode
+- coffee talk - strictly limited games
+- velocity 2x - strictly limited games
+- steins;gate elite
+- kingdom majestic
+- psikyo shooting stars - alpha
+- ys ix: monstrum nox (game only)
+- spirit hunter: ng
+- collar x malice
+- earthlock - super rare games
+- teslagrad
+- nightmare boy
+- coffee talk: double pack edition
+- vaporum
+- collar x malice - unlimited
+- bud spencer & terence hill slaps and beans 2
+- assault android cactus+ - super rare games
+- rhapsody: marl kingdom chronicles
+- spongebob squarepants: bfbb shiny ed. w/figurine, socks & 6x lithographs
+- pizza tower
+- little kitty, big city
+- bass pro shops the strike: championship ed. w/fishing rod
+- fury unleashed
+- death's gambit: afterlife
+- gylt
+- stonefly collector's ed. w/tape,art print,pin,artbook
+- stonefly
+- beholgar
+- yuppie psycho
+- white night deluxe ed. w/artbook, print & ost
+- neversong
+- fight'n rage (no dlc)
+- tad the lost explorer
+- grimgrimoire oncemore - deluxe edition
+- shin-chan: shiro and the coal town
+- llamasoft: the jeff minter story
+- double dragon collection
+- pronty
+- nuclear throne - super rare games
+- gibbon beyond the trees - super rare games
+- lil' guardsman - super rare games
+- monster camp xxl - super rare games
+- fights in tight spaces - super rare games
+- happy game/pilgrims - super rare games
+- source of madness - super rare games
+- grapple dog - super rare games
+- strange brigade - super rare games
+- necrobarista final pour - super rare games
+- bloodroots - super rare games
+- rogue heroes: ruins of tasos - super rare games
+- last day of june - super rare games
+- lion's song, the/the flower collectors - super rare games
+- itta - super rare games
+- chroma squad - super rare games
+- dandara: trials of fear - super rare games
+- tricky towers - super rare games
+- steamworld quest: hand of gilgamech - super rare games
+- rive: ultimate edition - super rare games
+- knights of pen and paper 2 - super rare games
+- green hell
+- mado monogatari: fia and the wondrous academy
+- terminator 2d: no fate day one ed. w/ cloth poster, token & manual book
+- 7'scarlet
+- nba bounce
+- kemco rpg selection vol. 1
+- lumo 2 col. ed. w/cassette,puzzle,poster,badge
+- my time at sandrock: collectors ed. w/ plush, 2xstandee, comic, workshop
+- bitmap bureau collection
+- neptunia riders vs dogoos
+- shiren the wanderer: the mystery dungeon of serpentcoil island
+- sympathy kiss: necklace ed. w/necklace, scarf, 6xcards
+- radiant tale
+- nascar rivals
+- class of heroes 3 - remaster
+- iwakura aria
+- bustafellows
+- evergate
+- story of seasons: grand bazaar
+- fate extella link joyeuse ed. w/diorama, 10xart cards, ost, poster
+- dead cells: signature edition w/ pin, artbook, ost
+- close to the sun limited ed. w/vinyl, artbook & pin (no dlc)
+- guacamelee: one-two punch collection (no dlc)
+- lover pretend
+- cupid parasite
+- turok trilogy bundle
+- yasha: legends of the demon blade deluxe ed. w/artbook, 3xpostcards&poster
+- schim
+- anonymous;code
+- final vendetta: super limited ed. w/artbook, usb, 32x cards & ost
+- fell seal: arbiter's mark
+- super woden gp (no dlc)
+- dreamcutter
+- lego marvel super heroes
+- oregon trail, the
+- among us: impostor ed. w/plush, pin, lanyard & card
+- shadow of the ninja - reborn
+- legend of steel empire, the
+- epics of hammerwatch w/4x postcards, ost, patch
+- pressure overdrive! strictly ltd col. ed. w/book, poster, ost & keychain
+- lawn mowing simulator
+- far: lone sails
+- bridge constructor portal
+- born of bread
+- blazing chrome
+- kholat
+- candleman
+- vectronom collector's ed. w/2x vinyl, 3xbadge & poster (no dlc)
+- riddled corpses ex
+- snk vs. capcom: svc chaos
+- broken sword - shadow of the templars reforged
+- goblin slayer: another adventurer - nightmare feast
+- triggerheart exelica
+- jets 'n' guns
+- castle of shikigami 2
+- demon gaze extra
+- calico
+- procession to calvary, the
+- sturmfront: the mutant war
+- space adventure cobra - the awakening
+- agatha christie - death on the nile
+- asterix maxi collection 6 games in 1
+- sifu: redemption ed. w/figurine, pendant, journal & lithograph
+- cat rescue story
+- tales of xillia remastered
+- phantom brave: the lost hero
+- la-mulana 1 & 2
+- prinny 1.2: exploded and reloaded - standard edition
+- alliance alive hd
+- master detective archives: limited ed. w/plush, artbook, ost & steelbook
+- pokemon legends: z-a
+- super mario galaxy + super mario galaxy 2
+- super mario party jamboree
+- xenoblade chronicles x: definitive edition
+- hello kitty island adventure
+- ea sports fc 26
+- pikmin 1+2
+- final fantasy tactics: ivalice chronicles
+- demon slayer kimetsu no yaiba: the hinokami chronicles
+- hades
+- dying light platinum edition
+- demon slayer kimetsu no yaiba: the hinokami chronicles 2
+- lego party!
+- trails in the sky 1st chapter
+- metroid dread special ed. w/steelbook, artbook & 5x art cards
+- cricket 24
+- spiritfarer
+- legend of heroes, the: trails into reverie
+- okinawa rush
+- bayonetta 3: trinity masquerade ed. w/artbook & 3x title sheets
+- faith: the unholy trinity
+- webbed - super rare games
+- metal unit - super rare games
+- valkyria chronicles 4: memoirs from battle ed. w/statue & artbook (no dlc)
+- taito milestones 3
+- legend of heroes, the: trails through daybreak ii
+- legend of heroes, the: trails through daybreak (no ost/artbook)
+- process of elimination: deluxe edition
+- prinny presents nis classics volume 2
+- silver case 2425, the
+- shmup collection
+- deathsmiles i & ii
+- roki - super rare games
+- evoland - super rare games
+- world of horror
+- one piece: pirate warriors 3
+- ai: the somnium files
+- lunar remastered collection
+- have a nice death
+- hunting simulator 2
+- legend of nayuta, the: boundless trails
+- celeste
+- legend of heroes, the: trails to azure
+- rugby challenge 4
+- finding teddy 2: definitive edition
+- grime: definitive edition - super rare games
+- virche evermore -error: salvation-
+- crypt of the necrodancer: col. ed. w/bandana, pin, ost,cd,manual&steelbook
+- tomb raider iv-vi remastered dlx ed. (w/ ost cd, exploration maps, sb)
+- tomb raider i-iii remastered: deluxe ed. w/book, cd & steelbook
+- brothers: a tale of two sons - super rare games
+- wulverblade - super rare games
+- mutant mudds collection - super rare games
+- rune factory 4 special: archival ed. w/artbook & ost (no dlc)
+- beyond a steel sky: utopia ed. w/lamp, artbook, dog tags, pin & steelbook
+- super crush k.o. - super rare games
+- gris: collector's ed. w/artbook & ost
+- darkest dungeon collector's edition
+- stern pinball arcade
+- leisure suit larry - wet dreams don't dry
+- mario + rabbids kingdom battle collector's ed. w/figurine & ost
+- archvale - super rare games
+- destroy all humans! dna col. ed. w/figurine, toy, keychain & 6x lithograph
+- citizen sleeper
+- many pieces of mr. coo col. ed. w/vinyl, book, puzzle, flipbook & print
+- lovecraft's untold stories: col ed w/artbook, ost, litographs & badge
+- slay the princess - pristine cut
+- creature in the well col ed. w/ standee, keychain, ost, artbook
+- unmetal: collector's ed. w/ artbook, patch, ost, dogtag
+- unmetal
+- figment 1&2 collector's ed. w/artbook, cloth, 2xpins, 2xost
+- reknum origins collection limited edition (w/ art book, pin, ost)
+- narita boy
+- cuphead ltd. ed. w/ figure, 7x cards
+- mad rat dead
+- lapis x labyrinth
+- hunter x hunter: nen x impact
+- mortuary assistant, the - super rare games
+- duck detective: the secret salami - super rare games
+- cavern of dreams - super rare games
+- crowns and pawns: kingdom of deceit - super rare games
+- post void - super rare games
+- spirit and the mouse, the - super rare games
+- lost in play - super rare games
+- horace - super rare games
+- littlewood - super rare games
+- yes, your grace - super rare games
+- steamworld heist: ultimate edition - super rare games
+- panzer dragoon: remake
+- my next life as a villainess: all routes lead to doom! p.o.t.d
+- amnesia: memories / amnesia: later x crowd
+- amnesia: memories (game only)
+- rune factory 5 limited ed. w/artbook, cd & steelbook (no dlc)
+- northgard signature ed. w/artbook, postcard, 2 pins, coa & ost
+- nikoderiko: the magical world directors cut col. ed. w/ost and artbook
+- no straight roads collector's ed. w/vinyl, drumsticks & artbook
+- cat quest: the fur-tastic trilogy
+- among us: ejected ed. w/plush, beanie, fleece, pin, lanyard & card (nodlc)
+- epics of hammerwatch - strictly limited games
+- first tree, the - strictly limited games
+- abarenbo tengu & zombie nation col ed w/ost 2xcard, 4xpst card,poster,mask
+- door kickers action squad - strictly limited games
+- king's bounty ii: king collector's ed. w/crown, artbook & ost
+- rigid force redux
+- sturmwind ex
+- old man's journey
+- dex
+- asterix & obelix: slap them all! collector's edition
+- may's mysteries: the secret of dragonville
+- doraemon story of seasons: friends of the great kingdom
+- raiden iii x mikado maniax - deluxe edition
+- cruel king and the great hero, the
+- disaster report 4: summer memories
+- super mario 3d all-stars
+- sonic racing: crossworlds
+- minecraft story mode the complete adventure (no dlc)
+- final fantasy i-vi collection: pixel remaster
+- danganronpa decadence
+- blasphemous (no dlc)
+- triangle strategy tactician's limited ed. w/6x dice, card deck & steelbook
+- smushi come home - super rare games
+- dorfromantik - super rare games
+- fire emblem engage divine ed. w/artbook, art cards & steelbook
+- baldur's gate i & ii enhanced edition
+- totally accurate battle simulator (tabs) - super rare games
+- steven universe save the light & ok k.o.! lets play heroes
+- postal: brain damaged - super rare games
+- nightmare reaper - super rare games
+- sexy brutale - super rare games
+- knights of pen and paper 1 - super rare games
+- streets of rogue - super rare games
+- wargroove 1 + 2 - super rare games
+- here comes niko - super rare games
+- wavetale - super rare games
+- vigil: the longest night - super rare games
+- heaven's machine - super rare games
+- freedom finger - super rare games
+- n++ - super rare games
+- fitness boxing feat. hatsune miku
+- alex kidd in miracle world dx sig. ed. w/medallion, artbook, pins, cd &coa
+- streets of rage 4: sig. ed. w/headband, artbook,5xpins,keyring,artcard&ost
+- dead cells: prisoner's ed. w/figure, vinyl,artbook,card,keyring&pin(nodlc)
+- guilty gear 20th anniversary collector's ed. w/switch pouch & artbook
+- brigandine: legend of runersia col. ed. w/artbook, map, 6x postcards & 2cd
+- bud spencer & terence hill slaps & beans 2 se w/punching bag,pump,artbook
+- rolling gunner collector's edition w/snow globe, patch,ost,keychain,artbk
+- clockwork aquario col. ed. w/pc-b box,diorama,artbook,coin, 2x cd, 3xcard
+- wytchwood - super rare games
+- ghost of a tale - super rare games
+- darkside detective - super rare games
+- eiyuden chronicle rising
+- snk heroines diamond dream ed.w/cap,towel,shirt,sweatband,pins,artbook&ost
+- daemon x machina orbital ed. w/statue & artbook
+- abzu - super rare games
+- world of goo - super rare games
+- this war of mine complete edition
+- prinny 1.2: exploded & reloaded just desserts ed. w/block set, artbook&ost
+- hoa
+- owlboy limited ed. w/coins, pins, ost, notebook, manual & coa
+- space for the unbound, a: col. ed. w/ brooch,keychain,artbook,ost,booklet
+- la-mulana 1 & 2: hidden treasures ed. w/artbook, jigsaw & ost
+- cyber shadow - super rare games
+- steamworld build - super rare games
+- wildfrost - super rare games
+- neogeo pocket color selection vol.2
+- syberia trilogy
+- blacksad: under the skin collector's ed. w/figurine & artbook
+- oddworld: soulstorm collector's ed. w/figurine, artbook, keychain & print
+- tales of vesperia premium ed. w/pins, card set, artbook, ost & metalcase
+- tony hawk's pro skater 3+4 collector's ed. w/skateboard deck (no dlc)
+- hunter x hunter: nen x impact ltd. ed. w/2x standees,artbook&poster(nodlc)
+- laika: aged through blood deluxe ed. w/artbook, pin, 52x cards & poster
+- tinykin - super rare games
+- islets - super rare games
+- heaven dust collection - super rare games
+- mundaun - super rare games
+- inmost - super rare games
+- sexy brutale collector's edition
+- adventure pals - super rare games
+- ai: the somnium files special agent ed. w/acrylic stand, artbook & ost
+- vasara collection - strictly limited games
+- little nightmares iii mirror ed. w/ statue, steelbook, book, cd (no dlc)
+- nintendo world championships: nes ed. deluxe set w/game pak, pins&artcards
+- legend of zelda: link's awakening limited ed. w/artbook & steelbook
+- darkside detective, the: a fumble in the dark - super rare games
+- a.o.t. 2 final battle
+- lost child, the
+- cassette beasts - super rare games
+- shin megami tensei v: fall of man premium ed. w/bag, book, ost & steelbook
+- touryst, the - super rare games
+- superliminal - super rare games
+- mechstermination force - super rare games
+- re:zero: the prophecy of the throne lim. ed.w/4xpins,artbook,ost&steelbook
+- void trrlm(); // void terrarium
+- octopath traveler: traveler's compendium ed. w/book, coin & map
+- touhou luna nights limited ed. w/booklet, ost, coa, 3x inlays & steelbook
+- aeterna noctis caos edition w/steelbook/artbook/ost
+- wallachia reign of dracula
+- gigantic army
