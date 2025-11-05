@@ -1,0 +1,58 @@
+import { Page } from "playwright";
+import { cex } from "../competitors/cex";
+import { scrapeCEX } from "../scrapers/cex";
+import { scrapeAllPages, ScrapeResult } from "./baseScraper";
+
+/* ----------------------------- Type Definitions ----------------------------- */
+
+export interface GameSearchOptions {
+  competitor: "CEX";
+  item: string;
+  category: "games (discs/cartridges)";
+  subcategory?: string; // e.g. "switch games"
+  broad?: boolean;
+}
+
+/* --------------------------- Helper --------------------------- */
+
+// 🎮 Each game title itself is the variant
+function parseGameVariantKey(title: string): string {
+  return title.trim().toLowerCase(); // normalize to avoid duplicates
+}
+
+/* --------------------------- Main Entry --------------------------- */
+
+export async function getGameResults(
+  page: Page,
+  options: GameSearchOptions
+): Promise<ScrapeResult> {
+  const { competitor, item, broad, subcategory } = options;
+
+  if (competitor !== "CEX") {
+    throw new Error(`Unsupported competitor: ${competitor}`);
+  }
+
+  const searchParams: any = {
+    item,
+    category: "games (discs/cartridges)",
+  };
+
+  if (subcategory) {
+    searchParams.subcategory = subcategory;
+  }
+
+  const baseUrl = cex.searchUrl(searchParams);
+  console.log(`Navigating to: ${baseUrl}`);
+  await page.goto(baseUrl, { waitUntil: "domcontentloaded" });
+
+  // Single page scrape
+  if (!broad) {
+    const { container, title, price, url } = cex.selectors;
+    const results = await scrapeCEX(page, container, title, price, url);
+    return { competitor, results };
+  }
+
+  // Multi-page scrape (grouping by title)
+  const { results, variants } = await scrapeAllPages(page, baseUrl, parseGameVariantKey);
+  return { competitor, results, variants };
+}

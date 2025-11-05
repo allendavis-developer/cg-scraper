@@ -1,41 +1,41 @@
-// main.ts
 import { setupPlaywright } from "./utils/playwright";
-import { getMobileResults, logScrapePlan } from "./utils/getMobileResults";
+import { getMobileResults } from "./scrapers/mobileScraper";
+import { getGameResults } from "./scrapers/gameScraper";
+import { logScrapePlan } from "./utils/logUtils";
 
 (async () => {
-  const { browser, page } = await setupPlaywright(true);
+  const { browser, page } = await setupPlaywright(true); // headless by default
   const startTime = Date.now();
 
-  // // Broad scrape gets ALL results page
-  // const broad = await getMobileResults(page, {
-  //   competitor: "CEX",
-  //   item: "iPhone",
-  //   category: "smartphones and mobile",
-  //   subcategory: "Legacy iPhones",
-  //   broad: true,
-  // });
+  try {
+    // const result = await getMobileResults(page, {
+    //   competitor: "CEX",
+    //   item: "iPhone 14",
+    //   category: "smartphones and mobile",
+    //   subcategory: "iPhone 14",
+    //   broad: true, // scrape all pages
+    // });
 
-  // if (broad.models) {
-  //   logScrapePlan(broad.models, startTime);
-  // } else {
-  //   console.log("No detailed models to log.");
-  //   const durationSeconds = ((Date.now() - startTime) / 1000).toFixed(2);
-  //   console.log(`⏱️ Scraping completed in ${durationSeconds} seconds.`);
-  // }
+    const gamesResult = await getGameResults(page, {
+      competitor: "CEX",
+      item: "",
+      category: "games (discs/cartridges)",
+      subcategory: "switch games",
+      broad: true, 
+    });
 
-  // Single product
-  const single = await getMobileResults(page, {
-    competitor: "CEX",
-    item: "iPhone 15 Pro Max",
-    category: "smartphones and mobile",
-    subcategory: "iPhone 15",
-    attributes: { storage: "256GB" },
-    broad: false,
-  });
+    console.log(gamesResult.variants);
 
-  console.log(single.results);
+    if (gamesResult.variants?.length) {
+      logScrapePlan(gamesResult.variants, startTime);
+    } else {
+      console.log(`✅ Scraped ${gamesResult.results.length} results (no variant grouping).`);
+    }
 
-  await browser.close();
+
+  } catch (error) {
+    console.error("❌ Scraping failed:", error);
+  } finally {
+    await browser.close();
+  }
 })();
-
-
