@@ -87,11 +87,18 @@ export async function scrapeAllPagesParallel(
   const variantsMap: Record<string, VariantGroup> = {};
   const { container, title, price, url } = cex.selectors;
 
+
   // 1️⃣ Open a temp page to get total results
   const tempPage = await browser.newPage();
-  await tempPage.goto(baseUrl, { waitUntil: "networkidle" });
+  await tempPage.goto(baseUrl, { waitUntil: "domcontentloaded" });
+  const html = await tempPage.content();
 
-  // Wait for element to be attached (exists in DOM) instead of visible
+  // Wait for JS to render the stats element dynamically
+  await tempPage.waitForFunction(() => {
+    const el = document.querySelector('div.ais-Stats.stats-text p.text-base.font-normal');
+    return el && /\d/.test(el.textContent || '');
+  }, { timeout: 20000 });
+
   const resultsElements = await tempPage.locator('div.ais-Stats.stats-text p.text-base.font-normal');
   await resultsElements.first().waitFor({ state: 'attached', timeout: 15000 });
 

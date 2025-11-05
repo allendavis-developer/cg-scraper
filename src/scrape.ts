@@ -17,7 +17,7 @@ import util from 'util';
       broad: true,
     });
 
-  console.log(util.inspect(result, { depth: null, colors: true }));
+    console.log(util.inspect(result, { depth: null, colors: true }));
 
   
   } catch (error) {
