@@ -1,7 +1,8 @@
 import { setupPlaywright } from "./utils/playwright";
-import { getMobileResults } from "./scrapers/mobileScraper";
+import { getMobileResults, transformScrapeResultToMobileScrapeResult } from "./scrapers/mobileScraper";
 import { getGameResults } from "./scrapers/gameScraper";
 import { logScrapePlan } from "./utils/logUtils";
+import util from 'util';
 
 (async () => {
   const { browser, page } = await setupPlaywright(false); // headless by default
@@ -10,22 +11,15 @@ import { logScrapePlan } from "./utils/logUtils";
   try {
     const result = await getMobileResults(browser, {
       competitor: "CEX",
-      item: "iPhone",
+      item: "",
       category: "smartphones and mobile",
-      subcategory: "Legacy iPhones",
-      broad: true, // scrape all pages
+      subcategory: "iPhone 11",
+      broad: true,
     });
 
-    // const gamesResult = await getGameResults(browser, {
-    //   competitor: "CEX",
-    //   item: "",
-    //   category: "games (discs/cartridges)",
-    //   subcategory: "switch games",
-    //   broad: true, 
-    // });
+  console.log(util.inspect(result, { depth: null, colors: true }));
 
-    console.log(result);
-
+  
   } catch (error) {
     console.error("❌ Scraping failed:", error);
   } finally {
