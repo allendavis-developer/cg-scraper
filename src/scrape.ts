@@ -1,9 +1,10 @@
 import { setupPlaywright } from "./utils/playwright";
 import { getMobileResults, transformScrapeResultToMobileScrapeResult } from "./scrapers/mobileScraper";
 import { getGameResults } from "./scrapers/gameScraper";
-import { logScrapePlan } from "./utils/logUtils";
+import { uploadMobileScrapeResultToDjango } from "./uploadToDjango";
 import util from 'util';
 
+  
 (async () => {
   const { browser, page } = await setupPlaywright(false); // headless by default
   const startTime = Date.now();
@@ -18,6 +19,12 @@ import util from 'util';
     });
 
     console.log(util.inspect(result, { depth: null, colors: true }));
+
+    // Send to Django
+  await uploadMobileScrapeResultToDjango(result, {
+    categoryName: "Smartphones and Mobile",
+    subcategoryName: "iPhone 11"
+  });
 
   
   } catch (error) {

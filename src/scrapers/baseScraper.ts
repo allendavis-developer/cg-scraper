@@ -91,7 +91,6 @@ export async function scrapeAllPagesParallel(
   // 1️⃣ Open a temp page to get total results
   const tempPage = await browser.newPage();
   await tempPage.goto(baseUrl, { waitUntil: "domcontentloaded" });
-  const html = await tempPage.content();
 
   // Wait for JS to render the stats element dynamically
   await tempPage.waitForFunction(() => {
