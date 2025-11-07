@@ -24,6 +24,31 @@ export interface ScrapeResult {
   variants?: VariantGroup[];
 }
 
+export interface CompetitorListing {
+  title: string;
+  url: string;
+  price: number;
+  competitor: string;
+  condition: string;
+  store: string;
+  id: string;
+}
+
+export interface BaseVariant {
+  listings: {
+    competitor: string;
+    id: string;
+    title: string;
+    price: number;
+    url: string;
+    condition?: string;
+    store?: string;
+  }[];
+  storage?: string | null; // for mobiles
+  variant?: string | null; // for games
+}
+
+
 /* ----------------------------- Generic Scraper ----------------------------- */
 
 export async function scrapeAllPages(

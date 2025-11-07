@@ -1,7 +1,7 @@
 import { Browser } from "playwright";
 import { cex } from "../competitors/cex";
 import { scrapeCEX } from "../scrapers/cex";
-import { scrapeAllPriceRangesCEX, ScrapeResult, VariantGroup } from "./baseScraper";
+import { scrapeAllPriceRangesCEX, ScrapeResult, CompetitorListing, VariantGroup } from "./baseScraper";
 
 /* ----------------------------- Type Definitions ----------------------------- */
 
@@ -16,21 +16,17 @@ export interface MobileSearchOptions {
 }
 
 
-export interface MobileListing {
-  title: string;
-  url: string;
-  price: number;
-  competitor: string;
+
+export interface MobileVariantGroup {
+  variant: string;               // ✅ added
+  storage: string | null;
+  listings: CompetitorListing[];
 }
 
-export interface MobileStorageGroup {
-  storage: string | null;
-  listings: MobileListing[];
-}
 
 export interface MobileModelGroup {
   model: string;
-  variants: Record<string, MobileStorageGroup>; // key = model + storage
+  variants: Record<string, MobileVariantGroup>; // key = model + storage
 }
 
 export interface MobileScrapeResult {
@@ -66,30 +62,6 @@ export function parseMobileVariantKey(title: string): string {
 
 /* --------------------------- Types --------------------------- */
 
-export interface MobileListing {
-  title: string;
-  url: string;
-  price: number;
-  competitor: string;
-  [key: string]: any; // other optional fields
-}
-
-export interface MobileStorageGroup {
-  storage: string | null;
-  listings: MobileListing[];
-}
-
-export interface MobileModelGroup {
-  model: string;
-  variants: Record<string, MobileStorageGroup>; // key = model + storage
-}
-
-export interface MobileScrapeResult {
-  competitor: string;
-  models: Record<string, MobileModelGroup>; // key = model name
-}
-
-/* --------------------------- Transform Function --------------------------- */
 
 export function transformScrapeResultToMobileScrapeResult(
   scrapeResult: ScrapeResult
@@ -97,30 +69,32 @@ export function transformScrapeResultToMobileScrapeResult(
   const models: Record<string, MobileModelGroup> = {};
 
   const parseVariantKey = (title: string) => {
-    // Reuse your existing function
     const { model, storage } = extractMobileModelAndStorage(title);
     return { model, storage };
   };
 
-  for (const item of scrapeResult.results) {
+  for (const item of scrapeResult.results as CompetitorListing[]) {
     const { model, storage } = parseVariantKey(item.title);
 
-    // Initialize model if not exists
+    if (!model) continue; // skip malformed titles
+
+    // Initialize model group
     if (!models[model]) {
       models[model] = { model, variants: {} };
     }
 
     const variantKey = storage ? `${model} ${storage}` : model;
 
-    // Initialize storage variant if not exists
+    // Initialize variant entry
     if (!models[model].variants[variantKey]) {
       models[model].variants[variantKey] = {
-        storage,
+        variant: variantKey, // ✅ add this field (matches uploader expectations)
+        storage: storage ?? null,
         listings: [],
       };
     }
 
-    // Add the actual listing
+    // Add listing
     models[model].variants[variantKey].listings.push({
       ...item,
       competitor: scrapeResult.competitor,

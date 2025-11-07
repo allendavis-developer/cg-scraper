@@ -1,11 +1,13 @@
 import fetch from "node-fetch"; // npm i node-fetch if needed
 import { MobileScrapeResult } from "./scrapers/mobileScraper"; // adjust import to your path
+import { GameScrapeResult } from "./scrapers/gameScraper"; // adjust import to your path
+import { BaseVariant } from "./scrapers/baseScraper"; // adjust import to your path
 
 /**
- * Sends the result from getMobileResults() to Django.
+ * Sends scrape result to Django
  */
-export async function uploadMobileScrapeResultToDjango(
-  scrapeResult: MobileScrapeResult,
+export async function uploadScrapeResultToDjango(
+  scrapeResult: MobileScrapeResult | GameScrapeResult,
   {
     categoryName,
     subcategoryName,
@@ -16,44 +18,41 @@ export async function uploadMobileScrapeResultToDjango(
     djangoUrl?: string;
   }
 ) {
-  const payloads: any[] = [];
+  const payload: any = {
+    category_name: categoryName,
+    subcategory_name: subcategoryName,
+    results: [],
+  };
 
-  // Flatten the model/variant/listing hierarchy into smaller payloads per model
   for (const [modelName, modelGroup] of Object.entries(scrapeResult.models)) {
-    for (const [variantKey, variant] of Object.entries(modelGroup.variants)) {
-      const itemName = `${modelName} ${variant.storage ?? ""}`.trim();
+    for (const [variantKey, variantRaw] of Object.entries(modelGroup.variants)) {
+      const variant = variantRaw as BaseVariant;
+      const itemName = variant.variant!;
 
-      payloads.push({
+      payload.results.push({
         item_name: itemName,
-        category_name: categoryName,
-        subcategory_name: subcategoryName, // e.g. “iPhone 11” = subcategory
-        model_name: modelName,       // matches ItemModel
-        results: variant.listings.map((listing) => ({
+        model_name: modelName,
+        listings: variant.listings.map((listing) => ({
           competitor: listing.competitor,
+          stable_id: listing.id,
           title: listing.title,
-          url: listing.url,
           price: listing.price,
+          url: listing.url,
           condition: listing.condition ?? "",
           store: listing.store ?? "",
-          stable_id: listing.id, // CeX-style id
         })),
       });
     }
   }
 
-  // Send each variant's data to Django
-  for (const payload of payloads) {
-    console.log(`Sending ${payload.item_name} to Django...`);
-    const res = await fetch(djangoUrl, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    });
+  console.log(`Sending all variants to Django...`);
+  const res = await fetch(djangoUrl, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
 
-    const data = await res.json();
-    console.log(
-      `${payload.item_name} → Django responded:`,
-      JSON.stringify(data, null, 2)
-    );
-  }
+  const data = await res.json();
+  console.log("Django responded:", JSON.stringify(data, null, 2));
+
 }

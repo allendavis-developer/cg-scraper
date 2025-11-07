@@ -1,7 +1,7 @@
 import { setupPlaywright } from "./utils/playwright";
 import { getMobileResults, transformScrapeResultToMobileScrapeResult } from "./scrapers/mobileScraper";
 import { getGameResults } from "./scrapers/gameScraper";
-import { uploadMobileScrapeResultToDjango } from "./uploadToDjango";
+import { uploadScrapeResultToDjango } from "./uploadToDjango";
 import util from 'util';
 
   
@@ -10,6 +10,14 @@ import util from 'util';
   const startTime = Date.now();
 
   try {
+    // const result = await getGameResults(browser, {
+    //   competitor: "CEX",
+    //   item: "",
+    //   category: "games (discs/cartridges)",
+    //   subcategory: "Switch Games",
+    //   broad: false,
+    // });
+
     const result = await getMobileResults(browser, {
       competitor: "CEX",
       item: "",
@@ -21,10 +29,10 @@ import util from 'util';
     console.log(util.inspect(result, { depth: null, colors: true }));
 
     // Send to Django
-  await uploadMobileScrapeResultToDjango(result, {
-    categoryName: "Smartphones and Mobile",
-    subcategoryName: "iPhone 11"
-  });
+    await uploadScrapeResultToDjango(result, {
+      categoryName: "smartphones and mobile",
+      subcategoryName: "iPhone"
+    });
 
   
   } catch (error) {
