@@ -1,7 +1,7 @@
 import { Browser } from "playwright";
 import { cex } from "../competitors/cex";
 import { scrapeCEX } from "../scrapers/cex";
-import { scrapeAllPriceRangesCEX, ScrapeResult, CompetitorListing, VariantGroup } from "./baseScraper";
+import { scrapeAllPriceRangesCEX, ScrapeResult, CompetitorListing, VariantGroup, groupResultsByVariant  } from "./baseScraper";
 
 /* ----------------------------- Type Definitions ----------------------------- */
 
@@ -66,46 +66,36 @@ export function parseMobileVariantKey(title: string): string {
 export function transformScrapeResultToMobileScrapeResult(
   scrapeResult: ScrapeResult
 ): MobileScrapeResult {
-  const models: Record<string, MobileModelGroup> = {};
+  const { competitor, results } = scrapeResult;
 
-  const parseVariantKey = (title: string) => {
-    const { model, storage } = extractMobileModelAndStorage(title);
-    return { model, storage };
-  };
+  const genericModels = groupResultsByVariant(results as CompetitorListing[], (item) => {
+    const { model, storage } = extractMobileModelAndStorage(item.title);
+    return { model, variant: storage ? `${model} ${storage}` : model, extra: { storage } };
+  });
 
-  for (const item of scrapeResult.results as CompetitorListing[]) {
-    const { model, storage } = parseVariantKey(item.title);
+  // ✅ Map generic structure → Mobile-specific structure
+  const models: Record<string, MobileModelGroup> = Object.fromEntries(
+    Object.entries(genericModels).map(([modelKey, grouped]) => [
+      modelKey,
+      {
+        model: grouped.model,
+        variants: Object.fromEntries(
+          Object.entries(grouped.variants).map(([variantKey, v]) => [
+            variantKey,
+            {
+              variant: v.variant ?? variantKey,
+              storage: v.extra?.storage ?? null,
+              listings: v.listings,
+            },
+          ])
+        ),
+      },
+    ])
+  );
 
-    if (!model) continue; // skip malformed titles
-
-    // Initialize model group
-    if (!models[model]) {
-      models[model] = { model, variants: {} };
-    }
-
-    const variantKey = storage ? `${model} ${storage}` : model;
-
-    // Initialize variant entry
-    if (!models[model].variants[variantKey]) {
-      models[model].variants[variantKey] = {
-        variant: variantKey, // ✅ add this field (matches uploader expectations)
-        storage: storage ?? null,
-        listings: [],
-      };
-    }
-
-    // Add listing
-    models[model].variants[variantKey].listings.push({
-      ...item,
-      competitor: scrapeResult.competitor,
-    });
-  }
-
-  return {
-    competitor: scrapeResult.competitor,
-    models,
-  };
+  return { competitor, models };
 }
+
 
 
 /* --------------------------- Default Price Ranges --------------------------- */

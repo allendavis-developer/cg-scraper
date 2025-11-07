@@ -49,58 +49,43 @@ export interface BaseVariant {
 }
 
 
-/* ----------------------------- Generic Scraper ----------------------------- */
-
-export async function scrapeAllPages(
-  page: Page,
-  baseUrl: string,
-  parseVariantKey?: (title: string) => string
-): Promise<{ results: any[]; variants: VariantGroup[] }> {
-  const resultsPerPage = 17;
-  const allResults: any[] = [];
-  const variantsMap: Record<string, VariantGroup> = {};
-  const { container, title, price, url } = cex.selectors;
-
-  let pageNum = 1;
-
-  while (true) {
-    const pagedUrl = `${baseUrl}&page=${pageNum}`;
-    console.log(`🔍 Scraping page ${pageNum}: ${pagedUrl}`);
-
-    await page.goto(pagedUrl, { waitUntil: "domcontentloaded" });
-    await page.waitForTimeout(1000);
-
-    const pageResults = await scrapeCEX(page, container, title, price, url);
-    console.log(`✅ Page ${pageNum}: ${pageResults.length} items`);
-
-    for (const result of pageResults) {
-      const key = parseVariantKey
-        ? parseVariantKey(result.title)
-        : result.title.trim();
-
-      if (!variantsMap[key]) {
-        variantsMap[key] = { key, rawTitles: [] };
-      }
-
-      variantsMap[key].rawTitles.push(result.title);
-      allResults.push(result);
-    }
-
-    // Stop if fewer than 17 results (last page)
-    if (pageResults.length < resultsPerPage) {
-      console.log(`🚧 Last page reached (only ${pageResults.length} results).`);
-      break;
-    }
-
-    pageNum++;
-  }
-
-  const variants = Object.values(variantsMap);
-  console.log(`🎉 Scraped ${variants.length} distinct variants.`);
-
-  return { results: allResults, variants };
+interface GroupedVariant<T> {
+  variant: string | null;
+  extra?: Record<string, any>; // storage, edition, etc.
+  listings: T[];
 }
 
+interface GroupedModel<T> {
+  model: string;
+  variants: Record<string, GroupedVariant<T>>;
+}
+
+export function groupResultsByVariant<T>(
+  results: T[],
+  parseVariantKey: (item: T) => { model: string; variant?: string; extra?: Record<string, any> }
+): Record<string, GroupedModel<T>> {
+  const models: Record<string, GroupedModel<T>> = {};
+
+  for (const item of results) {
+    const { model, variant, extra } = parseVariantKey(item);
+    if (!model) continue;
+
+    if (!models[model]) models[model] = { model, variants: {} };
+
+    const variantKey = variant ?? model;
+    if (!models[model].variants[variantKey]) {
+      models[model].variants[variantKey] = { variant: variantKey, extra, listings: [] };
+    }
+
+    models[model].variants[variantKey].listings.push(item);
+  }
+
+  return models;
+}
+
+
+
+/* ----------------------------- Generic Scraper ----------------------------- */
 export async function scrapeAllPagesParallel(
   browser: Browser,
   baseUrl: string,

@@ -5,6 +5,7 @@ import {
   scrapeAllPriceRangesCEX,
   ScrapeResult,
   CompetitorListing,
+  groupResultsByVariant
 } from "./baseScraper";
 
 /* ----------------------------- Type Definitions ----------------------------- */
@@ -50,35 +51,14 @@ const priceRangesGames: [number, number][] = [
 
 /* --------------------------- Transformer --------------------------- */
 
-export function transformGameResults(
-  scrapeResult: ScrapeResult,
-  subcategory?: string
-): GameScrapeResult {
+export function transformGameResults(scrapeResult: ScrapeResult, subcategory?: string): GameScrapeResult {
   const { competitor, results } = scrapeResult;
 
-  const models: Record<string, GameModelGroup> = {};
-
-  for (const listing of results) {
-    const normalizedTitle = listing.title.trim().toLowerCase();
-    const subcatPrefix = subcategory ? `${subcategory.trim()} ` : "";
-    const variantKey = `${subcatPrefix}${normalizedTitle}`;
-
-    if (!models[normalizedTitle]) {
-      models[normalizedTitle] = {
-        model: normalizedTitle,
-        variants: {},
-      };
-    }
-
-    if (!models[normalizedTitle].variants[variantKey]) {
-      models[normalizedTitle].variants[variantKey] = {
-        variant: variantKey,
-        listings: [],
-      };
-    }
-
-    models[normalizedTitle].variants[variantKey].listings.push(listing);
-  }
+  const models = groupResultsByVariant(results as CompetitorListing[], (item) => {
+    const normalizedTitle = item.title.trim().toLowerCase();
+    const variantKey = subcategory ? `${subcategory.trim()} ${normalizedTitle}` : normalizedTitle;
+    return { model: normalizedTitle, variant: variantKey };
+  });
 
   return { competitor, models };
 }
