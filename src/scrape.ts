@@ -10,21 +10,21 @@ import fs from "fs/promises";
   const startTime = Date.now();
 
   try {
-    // const result = await getGameResults(browser, {
-    //   competitor: "CEX",
-    //   item: "",
-    //   category: "games (discs/cartridges)",
-    //   subcategory: "Switch Games",
-    //   broad: false,
-    // });
-
-    const result = await getMobileResults(browser, {
+    const result = await getGameResults(browser, {
       competitor: "CEX",
       item: "",
-      category: "smartphones and mobile",
-      subcategory: "iPhone 14",
-      broad: true,
+      category: "games (discs/cartridges)",
+      subcategory: "Switch Games",
+      broad: false,
     });
+
+    // const result = await getMobileResults(browser, {
+    //   competitor: "CEX",
+    //   item: "",
+    //   category: "smartphones and mobile",
+    //   subcategory: "iPhone 14",
+    //   broad: true,
+    // });
 
     console.log(util.inspect(result, { depth: null, colors: true }));
 
@@ -39,8 +39,8 @@ import fs from "fs/promises";
 
     // --- Upload parsed object (type stays consistent) ---
     await uploadScrapeResultToDjango(parsedResult, {
-      categoryName: "Smartphones and Mobile",
-      subcategoryName: "iPhone 14",
+      categoryName: "Games (Discs/Cartridges)",
+      subcategoryName: "Switch Games",
     });
 
 
