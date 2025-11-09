@@ -8,13 +8,20 @@ export interface CEXProduct {
   title: string;
   price: number | null;
   url: string | null;
+  tradeVoucher?: number | null;
+  tradeCash?: number | null;
 }
 
+
+/**
+ * Scrape CEX search results from a page
+ */
 /**
  * Scrape CEX search results from a page
  */
 export async function scrapeCEX(page: Page, containerSelector: string, titleSelector: string, priceSelector: string, urlSelector: string): Promise<CEXProduct[]> {
   const results: CEXProduct[] = [];
+  const BASE_URL = "https://uk.webuy.com";
 
   // Wait for the main container to load
   await page.waitForSelector(containerSelector, { state: "attached", timeout: 10000 });
@@ -33,8 +40,13 @@ export async function scrapeCEX(page: Page, containerSelector: string, titleSele
       { timeout: 10000 }
     );
 
-    // Small buffer to ensure final renders are done
-    await page.waitForTimeout(500);
+  // Turn on the Trade-in toggle (shows voucher & cash)
+  const tradeInToggle = await page.$("div.trade-price-sort-panel .toggle-switch label span.slider");
+  if (tradeInToggle) {
+    await tradeInToggle.click();
+    await page.waitForTimeout(500); // brief wait for re-render
+  }
+
 
   // Get all product cards
   const cards = await page.$$(containerSelector);
@@ -50,8 +62,23 @@ export async function scrapeCEX(page: Page, containerSelector: string, titleSele
       const title = (await titleEl.innerText()).trim();
       const priceText = (await priceEl.innerText()).trim();
       const price = parsePrice(priceText);
-      const url = urlEl ? await urlEl.getAttribute("href") : null;
+      const relativeUrl = urlEl ? await urlEl.getAttribute("href") : null;
       const grade = gradeEl ? (await gradeEl.innerText()).trim() : null;
+
+      // Make URL absolute
+      const url = relativeUrl
+        ? relativeUrl.startsWith("http")
+          ? relativeUrl
+          : new URL(relativeUrl, BASE_URL).href
+        : null;
+
+        
+        // Trade-in values
+      const voucherEl = await card.$('.tradeInPrices p:first-child span');
+      const cashEl = await card.$('.tradeInPrices p:nth-child(2) span');
+      const tradeVoucher = voucherEl ? parsePrice(await voucherEl.innerText()) : null;
+      const tradeCash = cashEl ? parsePrice(await cashEl.innerText()) : null;
+
 
       // Extract ID from URL query param `id`
       let id: string | null = null;
@@ -62,7 +89,7 @@ export async function scrapeCEX(page: Page, containerSelector: string, titleSele
 
       // Only include products with grade B or missing grade
       if (!grade || grade == "B") {
-        results.push({ competitor: "CEX", id, title, price, url });
+        results.push({ competitor: "CEX", id, title, price, url, tradeVoucher, tradeCash });
       }
     } catch (err) {
       console.error("Error parsing CEX card:", err);

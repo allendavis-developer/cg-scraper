@@ -43,6 +43,9 @@ export interface BaseVariant {
     url: string;
     condition?: string;
     store?: string;
+    tradeVoucher?: number;  
+    tradeCash?: number;     
+
   }[];
   storage?: string | null; // for mobiles
   variant?: string | null; // for games
@@ -192,10 +195,16 @@ export async function scrapeAllPriceRangesCEX(
 
     // Merge and deduplicate results
     for (const result of results) {
-      const key = parseVariantKey ? parseVariantKey(result.title) : result.title.trim();
-      if (!variantsMap[key]) variantsMap[key] = { key, rawTitles: [] };
-      variantsMap[key].rawTitles.push(result.title);
+      // Normalize key for grouping (case-insensitive), but preserve original case in data
+      const rawKey = parseVariantKey ? parseVariantKey(result.title) : result.title.trim();
+      const normalizedKey = rawKey.toLowerCase();
+
+      if (!variantsMap[normalizedKey]) {
+        variantsMap[normalizedKey] = { key: rawKey, rawTitles: [] };
+      }
+      variantsMap[normalizedKey].rawTitles.push(result.title);
       allResults.push(result);
+
     }
   }
 

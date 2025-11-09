@@ -37,7 +37,7 @@ export interface GameScrapeResult {
 
 // 🎮 Each game title itself is the variant
 function parseGameVariantKey(title: string): string {
-  return title.trim().toLowerCase(); // normalize to avoid duplicates
+  return title.trim().toLowerCase();
 }
 
 const priceRangesGames: [number, number][] = [

@@ -9,13 +9,12 @@ import fs from "fs/promises";
 const SCRAPE_OUTPUT_DIR = "./scrapeResults";
 
 (async () => {
-  const { browser } = await setupPlaywright(true); // headless true for nightly runs
+  const { browser } = await setupPlaywright(false); // headless true for nightly runs
   const startTime = Date.now();
 
   try {
     await fs.mkdir(SCRAPE_OUTPUT_DIR, { recursive: true });
 
-    // ✅ TypeScript now knows each config's shape
     for (const config of scrapeConfigs) {
       console.log(`\n🚀 Starting scrape: ${config.type.toUpperCase()} - ${config.subcategory}`);
 

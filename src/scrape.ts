@@ -29,19 +29,19 @@ import fs from "fs/promises";
     console.log(util.inspect(result, { depth: null, colors: true }));
 
 
-    //   // --- Save to JSON file ---
+    // //   // --- Save to JSON file ---
     const filePath = "./scrapeResult.json";
     await fs.writeFile(filePath, JSON.stringify(result, null, 2));
 
-    // --- Read and parse the JSON file back into an object ---
-    const fileBuffer = await fs.readFile(filePath);
-    const parsedResult = JSON.parse(fileBuffer.toString());
+    // // --- Read and parse the JSON file back into an object ---
+    // const fileBuffer = await fs.readFile(filePath);
+    // const parsedResult = JSON.parse(fileBuffer.toString());
 
-    // --- Upload parsed object (type stays consistent) ---
-    await uploadScrapeResultToDjango(parsedResult, {
-      categoryName: "Games (Discs/Cartridges)",
-      subcategoryName: "Switch Games",
-    });
+    // // --- Upload parsed object (type stays consistent) ---
+    // await uploadScrapeResultToDjango(parsedResult, {
+    //   categoryName: "Games (Discs/Cartridges)",
+    //   subcategoryName: "Switch Games",
+    // });
 
 
   } catch (error) {

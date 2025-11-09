@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "npm run build && node dist/scrape.js"
+    "start": "npm run build && node dist/scrape.js",
+    "scrape": "npm run build && node dist/runAllScrapes.js"
+
   },
   "keywords": [],
   "author": "",

@@ -19,7 +19,7 @@ export const cex: CompetitorConfig = {
           }
           break;
 
-        case "games (discs & cartridges)":
+        case "games (discs/cartridges)":
           url += "&superCatName=Gaming";
           break;
       }
@@ -28,7 +28,7 @@ export const cex: CompetitorConfig = {
     return url;
   },
   selectors: {
-    container: ".wrapper-box",
+    container: ".search-product-card",
     title: ".content .card-title a",
     price: ".content .product-main-price",
     url: ".content .card-title a",

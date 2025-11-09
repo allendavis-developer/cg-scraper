@@ -37,6 +37,8 @@ export async function uploadScrapeResultToDjango(
           stable_id: listing.id,
           title: listing.title,
           price: listing.price,
+          tradeVoucher: listing.tradeVoucher,  // add this
+          tradeCash: listing.tradeCash,        // add this
           url: listing.url,
           condition: listing.condition ?? "",
           store: listing.store ?? "",
