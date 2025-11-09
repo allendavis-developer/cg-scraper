@@ -22,6 +22,7 @@ export const cex: CompetitorConfig = {
         case "games (discs/cartridges)":
           url += "&superCatName=Gaming";
           break;
+
       }
     }
 

@@ -1,0 +1,1081 @@
+{
+  "competitor": "CEX",
+  "models": {
+    "xbox 360 \"e\"": {
+      "model": "xbox 360 \"e\"",
+      "variants": {
+        "xbox 360 \"e\" boxed": {
+          "variant": "xbox 360 \"e\" boxed",
+          "storage": null,
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360E001A",
+              "title": "Xbox 360 \"E\" Console, No HD, Boxed",
+              "price": 80,
+              "url": "https://uk.webuy.com/product-detail?id=SX360E001A&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BCC76EF03AA798BAABCD84ED46DF6355&position=35",
+              "tradeVoucher": 52,
+              "tradeCash": 36
+            }
+          ]
+        },
+        "xbox 360 \"e\" 4GB boxed": {
+          "variant": "xbox 360 \"e\" 4GB boxed",
+          "storage": "4GB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360E4A",
+              "title": "Xbox 360 \"E\" Console, 4GB, Boxed",
+              "price": 95,
+              "url": "https://uk.webuy.com/product-detail?id=SX360E4A&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BCC76EF03AA798BAABCD84ED46DF6355&position=36",
+              "tradeVoucher": 61,
+              "tradeCash": 43
+            }
+          ]
+        },
+        "xbox 360 \"e\" 250GB unboxed": {
+          "variant": "xbox 360 \"e\" 250GB unboxed",
+          "storage": "250GB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360E002B",
+              "title": "Xbox 360 \"E\" Console, 250GB, Unboxed",
+              "price": 85,
+              "url": "https://uk.webuy.com/product-detail?id=SX360E002B&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=EC8599FC0674D8A592A2CD4F08DCC016&position=19",
+              "tradeVoucher": 55,
+              "tradeCash": 39
+            }
+          ]
+        },
+        "xbox 360 \"e\" 500GB discounted": {
+          "variant": "xbox 360 \"e\" 500GB discounted",
+          "storage": "500GB",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360E005C",
+              "title": "Xbox 360 \"E\" Console, 500GB, Blue SE, Discounted",
+              "price": 85,
+              "url": "https://uk.webuy.com/product-detail?id=SX360E005C&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=EC8599FC0674D8A592A2CD4F08DCC016&position=26",
+              "tradeVoucher": 55,
+              "tradeCash": 39
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360E003C",
+              "title": "Xbox 360 \"E\" Console, 500GB, Discounted",
+              "price": 75,
+              "url": "https://uk.webuy.com/product-detail?id=SX360E003C&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=2BEDBBD23A118EA1D5324882814E0291&position=9",
+              "tradeVoucher": 48,
+              "tradeCash": 34
+            }
+          ]
+        },
+        "xbox 360 \"e\" unboxed": {
+          "variant": "xbox 360 \"e\" unboxed",
+          "storage": null,
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360E001B",
+              "title": "Xbox 360 \"E\" Console, No HD, Unboxed",
+              "price": 60,
+              "url": "https://uk.webuy.com/product-detail?id=SX360E001B&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=EC8599FC0674D8A592A2CD4F08DCC016&position=30",
+              "tradeVoucher": 39,
+              "tradeCash": 27
+            }
+          ]
+        },
+        "xbox 360 \"e\" 4GB unboxed": {
+          "variant": "xbox 360 \"e\" 4GB unboxed",
+          "storage": "4GB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360E4B",
+              "title": "Xbox 360 \"E\" Console, 4GB, Unboxed",
+              "price": 80,
+              "url": "https://uk.webuy.com/product-detail?id=SX360E4B&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=EC8599FC0674D8A592A2CD4F08DCC016&position=33",
+              "tradeVoucher": 52,
+              "tradeCash": 36
+            }
+          ]
+        },
+        "xbox 360 \"e\" discounted": {
+          "variant": "xbox 360 \"e\" discounted",
+          "storage": null,
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360E001C",
+              "title": "Xbox 360 \"E\" Console, No HD, Discounted",
+              "price": 50,
+              "url": "https://uk.webuy.com/product-detail?id=SX360E001C&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=EC8599FC0674D8A592A2CD4F08DCC016&position=34",
+              "tradeVoucher": 32,
+              "tradeCash": 23
+            }
+          ]
+        },
+        "xbox 360 \"e\" 250GB discounted": {
+          "variant": "xbox 360 \"e\" 250GB discounted",
+          "storage": "250GB",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360E002C",
+              "title": "Xbox 360 \"E\" Console, 250GB, Discounted",
+              "price": 70,
+              "url": "https://uk.webuy.com/product-detail?id=SX360E002C&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=2BEDBBD23A118EA1D5324882814E0291&position=3",
+              "tradeVoucher": 45,
+              "tradeCash": 32
+            }
+          ]
+        },
+        "xbox 360 \"e\" 4GB discounted": {
+          "variant": "xbox 360 \"e\" 4GB discounted",
+          "storage": "4GB",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360E4C",
+              "title": "Xbox 360 \"E\" Console, 4GB, Discounted",
+              "price": 75,
+              "url": "https://uk.webuy.com/product-detail?id=SX360E4C&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=2BEDBBD23A118EA1D5324882814E0291&position=15",
+              "tradeVoucher": 48,
+              "tradeCash": 34
+            }
+          ]
+        },
+        "xbox 360 \"e\" 500GB unboxed": {
+          "variant": "xbox 360 \"e\" 500GB unboxed",
+          "storage": "500GB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360E003B",
+              "title": "Xbox 360 \"E\" Console, 500GB, Unboxed",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=SX360E003B&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BE1ABF4B2D64F95A9930034B1DAC3D54&position=5",
+              "tradeVoucher": 68,
+              "tradeCash": 48
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360E005B",
+              "title": "Xbox 360 \"E\" Console, 500GB, Blue SE, Unboxed",
+              "price": 150,
+              "url": "https://uk.webuy.com/product-detail?id=SX360E005B&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BE1ABF4B2D64F95A9930034B1DAC3D54&position=7",
+              "tradeVoucher": 97,
+              "tradeCash": 69
+            }
+          ]
+        },
+        "xbox 360 \"e\" 250GB boxed": {
+          "variant": "xbox 360 \"e\" 250GB boxed",
+          "storage": "250GB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360E002A",
+              "title": "Xbox 360 \"E\" Console, 250GB, Boxed",
+              "price": 130,
+              "url": "https://uk.webuy.com/product-detail?id=SX360E002A&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BE1ABF4B2D64F95A9930034B1DAC3D54&position=6",
+              "tradeVoucher": 89,
+              "tradeCash": 74
+            }
+          ]
+        },
+        "xbox 360 \"e\" 500GB boxed": {
+          "variant": "xbox 360 \"e\" 500GB boxed",
+          "storage": "500GB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360E003A",
+              "title": "Xbox 360 \"E\" Console, 500GB, Boxed",
+              "price": 150,
+              "url": "https://uk.webuy.com/product-detail?id=SX360E003A&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BE1ABF4B2D64F95A9930034B1DAC3D54&position=9",
+              "tradeVoucher": 103,
+              "tradeCash": 85
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360E005A",
+              "title": "Xbox 360 \"E\" Console, 500GB, Blue SE, Boxed",
+              "price": 225,
+              "url": "https://uk.webuy.com/product-detail?id=SX360E005A&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=B3913A4368392BF6FD9A5B3ACF86665B&position=4",
+              "tradeVoucher": 155,
+              "tradeCash": 128
+            }
+          ]
+        }
+      }
+    },
+    "xbox 360": {
+      "model": "xbox 360",
+      "variants": {
+        "xbox 360 boxed": {
+          "variant": "xbox 360 boxed",
+          "storage": null,
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXB3XBOE010",
+              "title": "Xbox 360 Console (No HDMI) W/ Wired Pad, Boxed",
+              "price": 70,
+              "url": "https://uk.webuy.com/product-detail?id=SXB3XBOE010&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BCC76EF03AA798BAABCD84ED46DF6355&position=37",
+              "tradeVoucher": 45,
+              "tradeCash": 32
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB3XBOE016",
+              "title": "Xbox 360 Console (HDMI) W/ Wired Pad, Boxed",
+              "price": 90,
+              "url": "https://uk.webuy.com/product-detail?id=SXB3XBOE016&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BCC76EF03AA798BAABCD84ED46DF6355&position=38",
+              "tradeVoucher": 58,
+              "tradeCash": 41
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB3XBOE013",
+              "title": "Xbox 360 Console (No HDMI) W/ Wireless Pad, Boxed",
+              "price": 70,
+              "url": "https://uk.webuy.com/product-detail?id=SXB3XBOE013&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=2BEDBBD23A118EA1D5324882814E0291&position=8",
+              "tradeVoucher": 45,
+              "tradeCash": 32
+            },
+            {
+              "competitor": "CEX",
+              "id": "882224509374",
+              "title": "Xbox 360 Console, Halo Premium Pack, Boxed",
+              "price": 200,
+              "url": "https://uk.webuy.com/product-detail?id=882224509374&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=057BCCB82B90753ED9E348F5BCF7F0C1&position=28",
+              "tradeVoucher": 130,
+              "tradeCash": 92
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB3XBOE019",
+              "title": "Xbox 360 Console (HDMI) W/ Wireless Pad, Boxed",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=SXB3XBOE019&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BE1ABF4B2D64F95A9930034B1DAC3D54&position=3",
+              "tradeVoucher": 68,
+              "tradeCash": 48
+            }
+          ]
+        },
+        "xbox 360 unboxed": {
+          "variant": "xbox 360 unboxed",
+          "storage": null,
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXB3XBOE011",
+              "title": "Xbox 360 Console (No HDMI) W/ Wired Pad, Unboxed",
+              "price": 60,
+              "url": "https://uk.webuy.com/product-detail?id=SXB3XBOE011&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BCC76EF03AA798BAABCD84ED46DF6355&position=41",
+              "tradeVoucher": 39,
+              "tradeCash": 27
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB3XBOE014",
+              "title": "Xbox 360 Console (No HDMI) W/ Wireless Pad, Unboxed",
+              "price": 55,
+              "url": "https://uk.webuy.com/product-detail?id=SXB3XBOE014&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=EC8599FC0674D8A592A2CD4F08DCC016&position=28",
+              "tradeVoucher": 35,
+              "tradeCash": 25
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB3XBOE020",
+              "title": "Xbox 360 Console (HDMI) W/ Wireless Pad, Unboxed",
+              "price": 70,
+              "url": "https://uk.webuy.com/product-detail?id=SXB3XBOE020&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=2BEDBBD23A118EA1D5324882814E0291&position=10",
+              "tradeVoucher": 45,
+              "tradeCash": 32
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB3XBOE017",
+              "title": "Xbox 360 Console (HDMI) W/ Wired Pad, Unboxed",
+              "price": 60,
+              "url": "https://uk.webuy.com/product-detail?id=SXB3XBOE017&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=2BEDBBD23A118EA1D5324882814E0291&position=13",
+              "tradeVoucher": 39,
+              "tradeCash": 27
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB3XBOE009",
+              "title": "Xbox 360 Console, Halo Premium Pack, Unboxed",
+              "price": 190,
+              "url": "https://uk.webuy.com/product-detail?id=SXB3XBOE009&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BE1ABF4B2D64F95A9930034B1DAC3D54&position=13",
+              "tradeVoucher": 123,
+              "tradeCash": 87
+            }
+          ]
+        },
+        "xbox 360 discounted": {
+          "variant": "xbox 360 discounted",
+          "storage": null,
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXB3XBOE015",
+              "title": "Xbox 360 Console (No HDMI) W/ Wireless Pad, Discounted",
+              "price": 50,
+              "url": "https://uk.webuy.com/product-detail?id=SXB3XBOE015&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=EC8599FC0674D8A592A2CD4F08DCC016&position=18",
+              "tradeVoucher": 32,
+              "tradeCash": 23
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB3XBOE012",
+              "title": "Xbox 360 Console (No HDMI) W/ Wired Pad, Discounted",
+              "price": 45,
+              "url": "https://uk.webuy.com/product-detail?id=SXB3XBOE012&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=EC8599FC0674D8A592A2CD4F08DCC016&position=22",
+              "tradeVoucher": 29,
+              "tradeCash": 20
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB3XBOE021",
+              "title": "Xbox 360 Console (HDMI) W/ Wireless Pad, Discounted",
+              "price": 60,
+              "url": "https://uk.webuy.com/product-detail?id=SXB3XBOE021&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=2BEDBBD23A118EA1D5324882814E0291&position=2",
+              "tradeVoucher": 39,
+              "tradeCash": 27
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB3XBOE018",
+              "title": "Xbox 360 Console (HDMI) W/ Wired Pad, Discounted",
+              "price": 50,
+              "url": "https://uk.webuy.com/product-detail?id=SXB3XBOE018&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=2BEDBBD23A118EA1D5324882814E0291&position=7",
+              "tradeVoucher": 32,
+              "tradeCash": 23
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB3XB0E009D",
+              "title": "Xbox 360 Console, Halo Premium Pack, Discounted",
+              "price": 160,
+              "url": "https://uk.webuy.com/product-detail?id=SXB3XB0E009D&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BE1ABF4B2D64F95A9930034B1DAC3D54&position=14",
+              "tradeVoucher": 104,
+              "tradeCash": 73
+            }
+          ]
+        },
+        "xbox 360 250GB discounted": {
+          "variant": "xbox 360 250GB discounted",
+          "storage": "250GB",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "S360ELIE0061C",
+              "title": "Xbox 360 Console,250GB, Modern Warfare 2 Ed. +1 Pad (No Game), Discounted",
+              "price": 80,
+              "url": "https://uk.webuy.com/product-detail?id=S360ELIE0061C&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=EC8599FC0674D8A592A2CD4F08DCC016&position=32",
+              "tradeVoucher": 52,
+              "tradeCash": 36
+            },
+            {
+              "competitor": "CEX",
+              "id": "S360ELIE006C",
+              "title": "Xbox 360 Console,250GB, Modern Warfare 2 Ed. +2 Pad (No Game), Discounted",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=S360ELIE006C&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=057BCCB82B90753ED9E348F5BCF7F0C1&position=22",
+              "tradeVoucher": 68,
+              "tradeCash": 48
+            }
+          ]
+        },
+        "xbox 360 250GB boxed": {
+          "variant": "xbox 360 250GB boxed",
+          "storage": "250GB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "S360ELIE006A",
+              "title": "Xbox 360 Console,250GB, Modern Warfare 2 Ed. +1 Pad (No Game), Boxed",
+              "price": 115,
+              "url": "https://uk.webuy.com/product-detail?id=S360ELIE006A&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=13443979064C627EB0F9BEDE29EBB0B2&position=37",
+              "tradeVoucher": 74,
+              "tradeCash": 52
+            },
+            {
+              "competitor": "CEX",
+              "id": "S360ELIE006",
+              "title": "Xbox 360 Console,250GB, Modern Warfare 2 Ed. +2 Pad (No Game), Boxed",
+              "price": 185,
+              "url": "https://uk.webuy.com/product-detail?id=S360ELIE006&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=057BCCB82B90753ED9E348F5BCF7F0C1&position=23",
+              "tradeVoucher": 120,
+              "tradeCash": 85
+            }
+          ]
+        },
+        "xbox 360 250GB unboxed": {
+          "variant": "xbox 360 250GB unboxed",
+          "storage": "250GB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "S360ELIE006B",
+              "title": "Xbox 360 Console,250GB, Modern Warfare 2 Ed. +2 Pad (No Game), Unboxed",
+              "price": 140,
+              "url": "https://uk.webuy.com/product-detail?id=S360ELIE006B&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=13443979064C627EB0F9BEDE29EBB0B2&position=39",
+              "tradeVoucher": 91,
+              "tradeCash": 64
+            },
+            {
+              "competitor": "CEX",
+              "id": "S360ELIE0061B",
+              "title": "Xbox 360 Console,250GB, Modern Warfare 2 Ed. +1 Pad (No Game), Unboxed",
+              "price": 110,
+              "url": "https://uk.webuy.com/product-detail?id=S360ELIE0061B&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=057BCCB82B90753ED9E348F5BCF7F0C1&position=30",
+              "tradeVoucher": 71,
+              "tradeCash": 50
+            }
+          ]
+        }
+      }
+    },
+    "xbox 360 elite": {
+      "model": "xbox 360 elite",
+      "variants": {
+        "xbox 360 elite 250GB unboxed": {
+          "variant": "xbox 360 elite 250GB unboxed",
+          "storage": "250GB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360E250D",
+              "title": "Xbox 360 Elite Console, 250GB, Unboxed",
+              "price": 100,
+              "url": "https://uk.webuy.com/product-detail?id=SX360E250D&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BCC76EF03AA798BAABCD84ED46DF6355&position=39",
+              "tradeVoucher": 65,
+              "tradeCash": 46
+            }
+          ]
+        },
+        "xbox 360 elite 250GB discounted": {
+          "variant": "xbox 360 elite 250GB discounted",
+          "storage": "250GB",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360E250B",
+              "title": "Xbox 360 Elite Console, 250GB, Discounted",
+              "price": 90,
+              "url": "https://uk.webuy.com/product-detail?id=SX360E250B&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=EC8599FC0674D8A592A2CD4F08DCC016&position=24",
+              "tradeVoucher": 58,
+              "tradeCash": 41
+            }
+          ]
+        },
+        "xbox 360 elite 120GB discounted": {
+          "variant": "xbox 360 elite 120GB discounted",
+          "storage": "120GB",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "S360ELIE002",
+              "title": "Xbox 360 Elite Console, 120GB, Discounted",
+              "price": 60,
+              "url": "https://uk.webuy.com/product-detail?id=S360ELIE002&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=2BEDBBD23A118EA1D5324882814E0291&position=4",
+              "tradeVoucher": 39,
+              "tradeCash": 27
+            }
+          ]
+        },
+        "xbox 360 elite 120GB boxed": {
+          "variant": "xbox 360 elite 120GB boxed",
+          "storage": "120GB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "882224390149",
+              "title": "Xbox 360 Elite Console, 120GB, Boxed",
+              "price": 100,
+              "url": "https://uk.webuy.com/product-detail?id=882224390149&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=2BEDBBD23A118EA1D5324882814E0291&position=11",
+              "tradeVoucher": 65,
+              "tradeCash": 46
+            }
+          ]
+        },
+        "xbox 360 elite 120GB unboxed": {
+          "variant": "xbox 360 elite 120GB unboxed",
+          "storage": "120GB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "S360ELIE001",
+              "title": "Xbox 360 Elite Console, 120GB, Unboxed",
+              "price": 75,
+              "url": "https://uk.webuy.com/product-detail?id=S360ELIE001&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=2BEDBBD23A118EA1D5324882814E0291&position=16",
+              "tradeVoucher": 48,
+              "tradeCash": 34
+            }
+          ]
+        },
+        "xbox 360 elite 250GB boxed": {
+          "variant": "xbox 360 elite 250GB boxed",
+          "storage": "250GB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360E250A",
+              "title": "Xbox 360 Elite Console, 250GB, Boxed",
+              "price": 140,
+              "url": "https://uk.webuy.com/product-detail?id=SX360E250A&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=057BCCB82B90753ED9E348F5BCF7F0C1&position=21",
+              "tradeVoucher": 91,
+              "tradeCash": 64
+            }
+          ]
+        },
+        "xbox 360 elite discounted": {
+          "variant": "xbox 360 elite discounted",
+          "storage": null,
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "S360ELIE005",
+              "title": "Xbox 360 Elite Console, Resident Evil 5 Ltd. Ed. (No Game), Discounted",
+              "price": 125,
+              "url": "https://uk.webuy.com/product-detail?id=S360ELIE005&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=057BCCB82B90753ED9E348F5BCF7F0C1&position=24",
+              "tradeVoucher": 81,
+              "tradeCash": 57
+            }
+          ]
+        },
+        "xbox 360 elite unboxed": {
+          "variant": "xbox 360 elite unboxed",
+          "storage": null,
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "S360ELIE004",
+              "title": "Xbox 360 Elite Console, Resident Evil 5 Ltd. Ed. (No Game), Unboxed",
+              "price": 165,
+              "url": "https://uk.webuy.com/product-detail?id=S360ELIE004&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=057BCCB82B90753ED9E348F5BCF7F0C1&position=25",
+              "tradeVoucher": 107,
+              "tradeCash": 75
+            }
+          ]
+        },
+        "xbox 360 elite boxed": {
+          "variant": "xbox 360 elite boxed",
+          "storage": null,
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "S360ELIE003",
+              "title": "Xbox 360 Elite Console, Resident Evil 5 Ltd. Ed. (No Game), Boxed",
+              "price": 175,
+              "url": "https://uk.webuy.com/product-detail?id=S360ELIE003&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=057BCCB82B90753ED9E348F5BCF7F0C1&position=26",
+              "tradeVoucher": 113,
+              "tradeCash": 80
+            }
+          ]
+        }
+      }
+    },
+    "xbox 360s (slim)": {
+      "model": "xbox 360s (slim)",
+      "variants": {
+        "xbox 360s (slim) boxed": {
+          "variant": "xbox 360s (slim) boxed",
+          "storage": null,
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360SNHDA",
+              "title": "Xbox 360S (Slim) Console, No HD, Boxed",
+              "price": 55,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SNHDA&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BCC76EF03AA798BAABCD84ED46DF6355&position=40",
+              "tradeVoucher": 35,
+              "tradeCash": 25
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SCODMW31A",
+              "title": "Xbox 360S (Slim) Console, Modern Warfare 3 Ed. +1Pad (No Game), Boxed",
+              "price": 135,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SCODMW31A&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=057BCCB82B90753ED9E348F5BCF7F0C1&position=20",
+              "tradeVoucher": 87,
+              "tradeCash": 62
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SGEAR31A",
+              "title": "Xbox 360S (Slim) Console, Gears of War 3 Ed. +1Pad (No Game), Boxed",
+              "price": 160,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SGEAR31A&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BE1ABF4B2D64F95A9930034B1DAC3D54&position=17",
+              "tradeVoucher": 104,
+              "tradeCash": 73
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SSTWRA",
+              "title": "Xbox 360S (Slim) Console, Star Wars Ltd. Ed. +Kinect (No Game), Boxed",
+              "price": 210,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SSTWRA&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=B3913A4368392BF6FD9A5B3ACF86665B&position=1",
+              "tradeVoucher": 136,
+              "tradeCash": 96
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SGEAR3A",
+              "title": "Xbox 360S (Slim) Console, Gears of War 3 Ed. +2Pad (No Game), Boxed",
+              "price": 240,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SGEAR3A&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=B3913A4368392BF6FD9A5B3ACF86665B&position=3",
+              "tradeVoucher": 156,
+              "tradeCash": 110
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SCODMW3A",
+              "title": "Xbox 360S (Slim) Console, Modern Warfare 3 Ed. +2Pad (No Game), Boxed",
+              "price": 225,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SCODMW3A&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=B3913A4368392BF6FD9A5B3ACF86665B&position=6",
+              "tradeVoucher": 146,
+              "tradeCash": 103
+            }
+          ]
+        },
+        "xbox 360s (slim) discounted": {
+          "variant": "xbox 360s (slim) discounted",
+          "storage": null,
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360SGEAR31C",
+              "title": "Xbox 360S (Slim) Console, Gears of War 3 Ed. +1Pad (No Game), Discounted",
+              "price": 80,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SGEAR31C&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=EC8599FC0674D8A592A2CD4F08DCC016&position=20",
+              "tradeVoucher": 52,
+              "tradeCash": 36
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SNHDD",
+              "title": "Xbox 360S (Slim) Console, No HD, Discounted",
+              "price": 45,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SNHDD&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=EC8599FC0674D8A592A2CD4F08DCC016&position=21",
+              "tradeVoucher": 29,
+              "tradeCash": 20
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SCODMW31C",
+              "title": "Xbox 360S (Slim) Console, Modern Warfare 3 Ed. +1Pad (No Game), Discounted",
+              "price": 100,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SCODMW31C&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=EC8599FC0674D8A592A2CD4F08DCC016&position=27",
+              "tradeVoucher": 65,
+              "tradeCash": 46
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SCODMW3AC",
+              "title": "Xbox 360S (Slim) Console, Modern Warfare 3 Ed. +2Pad (No Game), Discounted",
+              "price": 110,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SCODMW3AC&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=057BCCB82B90753ED9E348F5BCF7F0C1&position=19",
+              "tradeVoucher": 71,
+              "tradeCash": 50
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SGEAR3C",
+              "title": "Xbox 360S (Slim) Console, Gears of War 3 Ed. +2Pad (No Game), Discounted",
+              "price": 110,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SGEAR3C&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=057BCCB82B90753ED9E348F5BCF7F0C1&position=33",
+              "tradeVoucher": 71,
+              "tradeCash": 50
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SSTWRU",
+              "title": "Xbox 360S (Slim) Console, Star Wars Ltd. Ed. +Kinect (No Game), Discounted",
+              "price": 135,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SSTWRU&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BE1ABF4B2D64F95A9930034B1DAC3D54&position=15",
+              "tradeVoucher": 87,
+              "tradeCash": 62
+            }
+          ]
+        },
+        "xbox 360s (slim) 250GB discounted": {
+          "variant": "xbox 360s (slim) 250GB discounted",
+          "storage": "250GB",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360SHALO1C",
+              "title": "Xbox 360S (Slim) Console, 250GB, Halo Reach Ed. +1Pad(No Game), Discounted",
+              "price": 85,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SHALO1C&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=EC8599FC0674D8A592A2CD4F08DCC016&position=23",
+              "tradeVoucher": 55,
+              "tradeCash": 39
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360S250D",
+              "title": "Xbox 360S (Slim) Console, 250GB, Discounted",
+              "price": 65,
+              "url": "https://uk.webuy.com/product-detail?id=SX360S250D&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=2BEDBBD23A118EA1D5324882814E0291&position=5",
+              "tradeVoucher": 42,
+              "tradeCash": 29
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SHALOD",
+              "title": "Xbox 360S (Slim) Console, 250GB, Halo Reach Ed. +2Pad(No Game), Discounted",
+              "price": 110,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SHALOD&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BE1ABF4B2D64F95A9930034B1DAC3D54&position=16",
+              "tradeVoucher": 71,
+              "tradeCash": 50
+            }
+          ]
+        },
+        "xbox 360s (slim) unboxed": {
+          "variant": "xbox 360s (slim) unboxed",
+          "storage": null,
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360SNHDB",
+              "title": "Xbox 360S (Slim) Console, No HD, Unboxed",
+              "price": 50,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SNHDB&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=EC8599FC0674D8A592A2CD4F08DCC016&position=25",
+              "tradeVoucher": 32,
+              "tradeCash": 23
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SCODMW31B",
+              "title": "Xbox 360S (Slim) Console, Modern Warfare 3 Ed. +1Pad (No Game), Unboxed",
+              "price": 115,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SCODMW31B&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=13443979064C627EB0F9BEDE29EBB0B2&position=35",
+              "tradeVoucher": 74,
+              "tradeCash": 52
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SCODMW3B",
+              "title": "Xbox 360S (Slim) Console, Modern Warfare 3 Ed. +2Pad (No Game), Unboxed",
+              "price": 130,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SCODMW3B&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BE1ABF4B2D64F95A9930034B1DAC3D54&position=4",
+              "tradeVoucher": 84,
+              "tradeCash": 59
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SSTWRB",
+              "title": "Xbox 360S (Slim) Console, Star Wars Ltd. Ed. +Kinect (No Game), Unboxed",
+              "price": 165,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SSTWRB&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BE1ABF4B2D64F95A9930034B1DAC3D54&position=8",
+              "tradeVoucher": 107,
+              "tradeCash": 75
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SGEAR3B",
+              "title": "Xbox 360S (Slim) Console, Gears of War 3 Ed. +2Pad (No Game), Unboxed",
+              "price": 150,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SGEAR3B&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BE1ABF4B2D64F95A9930034B1DAC3D54&position=10",
+              "tradeVoucher": 97,
+              "tradeCash": 69
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SGEAR31B",
+              "title": "Xbox 360S (Slim) Console, Gears of War 3 Ed. +1Pad (No Game), Unboxed",
+              "price": 115,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SGEAR31B&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BE1ABF4B2D64F95A9930034B1DAC3D54&position=12",
+              "tradeVoucher": 74,
+              "tradeCash": 52
+            }
+          ]
+        },
+        "xbox 360s (slim) 4GB discounted": {
+          "variant": "xbox 360s (slim) 4GB discounted",
+          "storage": "4GB",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360SCSEC",
+              "title": "Xbox 360S (Slim) Console 4GB, White S.E +Kinect (No Game), Discounted",
+              "price": 70,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SCSEC&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=EC8599FC0674D8A592A2CD4F08DCC016&position=29",
+              "tradeVoucher": 45,
+              "tradeCash": 32
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360S4D",
+              "title": "Xbox 360S (Slim) Console, 4GB, Discounted",
+              "price": 55,
+              "url": "https://uk.webuy.com/product-detail?id=SX360S4D&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=2BEDBBD23A118EA1D5324882814E0291&position=6",
+              "tradeVoucher": 35,
+              "tradeCash": 25
+            }
+          ]
+        },
+        "xbox 360s (slim) 4GB boxed": {
+          "variant": "xbox 360s (slim) 4GB boxed",
+          "storage": "4GB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360S4A",
+              "title": "Xbox 360S (Slim) Console, 4GB, Boxed",
+              "price": 70,
+              "url": "https://uk.webuy.com/product-detail?id=SX360S4A&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=EC8599FC0674D8A592A2CD4F08DCC016&position=31",
+              "tradeVoucher": 45,
+              "tradeCash": 32
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SCSEA",
+              "title": "Xbox 360S (Slim) Console 4GB, White S.E +Kinect (No Game), Boxed",
+              "price": 165,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SCSEA&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=13443979064C627EB0F9BEDE29EBB0B2&position=38",
+              "tradeVoucher": 107,
+              "tradeCash": 75
+            }
+          ]
+        },
+        "xbox 360s (slim) 250GB unboxed": {
+          "variant": "xbox 360s (slim) 250GB unboxed",
+          "storage": "250GB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360S250B",
+              "title": "Xbox 360S (Slim) Console, 250GB, Unboxed",
+              "price": 80,
+              "url": "https://uk.webuy.com/product-detail?id=SX360S250B&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=2BEDBBD23A118EA1D5324882814E0291&position=1",
+              "tradeVoucher": 52,
+              "tradeCash": 36
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SHALOB",
+              "title": "Xbox 360S (Slim) Console, 250GB, Halo Reach Ed. +2Pad(No Game), Unboxed",
+              "price": 140,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SHALOB&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=13443979064C627EB0F9BEDE29EBB0B2&position=36",
+              "tradeVoucher": 91,
+              "tradeCash": 64
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SHALO1B",
+              "title": "Xbox 360S (Slim) Console, 250GB, Halo Reach Ed. +1Pad(No Game), Unboxed",
+              "price": 130,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SHALO1B&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BE1ABF4B2D64F95A9930034B1DAC3D54&position=2",
+              "tradeVoucher": 84,
+              "tradeCash": 59
+            }
+          ]
+        },
+        "xbox 360s (slim) 4GB unboxed": {
+          "variant": "xbox 360s (slim) 4GB unboxed",
+          "storage": "4GB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360S4B",
+              "title": "Xbox 360S (Slim) Console, 4GB, Unboxed",
+              "price": 60,
+              "url": "https://uk.webuy.com/product-detail?id=SX360S4B&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=2BEDBBD23A118EA1D5324882814E0291&position=12",
+              "tradeVoucher": 39,
+              "tradeCash": 27
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SCSEB",
+              "title": "Xbox 360S (Slim) Console 4GB, White S.E +Kinect (No Game), Unboxed",
+              "price": 120,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SCSEB&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=057BCCB82B90753ED9E348F5BCF7F0C1&position=18",
+              "tradeVoucher": 78,
+              "tradeCash": 55
+            }
+          ]
+        },
+        "xbox 360s (slim) 320GB discounted": {
+          "variant": "xbox 360s (slim) 320GB discounted",
+          "storage": "320GB",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360S320D",
+              "title": "Xbox 360S (Slim) Console, 320GB, Discounted",
+              "price": 70,
+              "url": "https://uk.webuy.com/product-detail?id=SX360S320D&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=2BEDBBD23A118EA1D5324882814E0291&position=14",
+              "tradeVoucher": 45,
+              "tradeCash": 32
+            },
+            {
+              "competitor": "CEX",
+              "id": "8853704729502C",
+              "title": "Xbox 360S (Slim) Console, 320GB, Halo 4 Ed. + 2Pad (No Game) Discounted",
+              "price": 150,
+              "url": "https://uk.webuy.com/product-detail?id=8853704729502C&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=057BCCB82B90753ED9E348F5BCF7F0C1&position=27",
+              "tradeVoucher": 97,
+              "tradeCash": 69
+            },
+            {
+              "competitor": "CEX",
+              "id": "885370472950BC",
+              "title": "Xbox 360S (Slim) Console, 320GB, Halo 4 Ed. + 1Pad (No Game) Discounted",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=885370472950BC&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BE1ABF4B2D64F95A9930034B1DAC3D54&position=11",
+              "tradeVoucher": 68,
+              "tradeCash": 48
+            }
+          ]
+        },
+        "xbox 360s (slim) 320GB unboxed": {
+          "variant": "xbox 360s (slim) 320GB unboxed",
+          "storage": "320GB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360S320B",
+              "title": "Xbox 360S (Slim) Console, 320GB, Unboxed",
+              "price": 85,
+              "url": "https://uk.webuy.com/product-detail?id=SX360S320B&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=2BEDBBD23A118EA1D5324882814E0291&position=17",
+              "tradeVoucher": 55,
+              "tradeCash": 39
+            },
+            {
+              "competitor": "CEX",
+              "id": "885370472950A",
+              "title": "Xbox 360S (Slim) Console, 320GB, Halo 4 Ed. + 1Pad (No Game) Unboxed",
+              "price": 140,
+              "url": "https://uk.webuy.com/product-detail?id=885370472950A&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=057BCCB82B90753ED9E348F5BCF7F0C1&position=31",
+              "tradeVoucher": 91,
+              "tradeCash": 64
+            },
+            {
+              "competitor": "CEX",
+              "id": "8853704729502B",
+              "title": "Xbox 360S (Slim) Console, 320GB, Halo 4 Ed. + 2Pad (No Game) Unboxed",
+              "price": 180,
+              "url": "https://uk.webuy.com/product-detail?id=8853704729502B&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=057BCCB82B90753ED9E348F5BCF7F0C1&position=32",
+              "tradeVoucher": 117,
+              "tradeCash": 82
+            }
+          ]
+        },
+        "xbox 360s (slim) 250GB boxed": {
+          "variant": "xbox 360s (slim) 250GB boxed",
+          "storage": "250GB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SX360SHALO1A",
+              "title": "Xbox 360S (Slim) Console, 250GB, Halo Reach Ed. +1Pad(No Game), Boxed",
+              "price": 170,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SHALO1A&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=057BCCB82B90753ED9E348F5BCF7F0C1&position=29",
+              "tradeVoucher": 110,
+              "tradeCash": 78
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360S250A",
+              "title": "Xbox 360S (Slim) Console, 250GB, Boxed",
+              "price": 110,
+              "url": "https://uk.webuy.com/product-detail?id=SX360S250A&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=BE1ABF4B2D64F95A9930034B1DAC3D54&position=1",
+              "tradeVoucher": 71,
+              "tradeCash": 50
+            },
+            {
+              "competitor": "CEX",
+              "id": "SX360SHALOA",
+              "title": "Xbox 360S (Slim) Console, 250GB, Halo Reach Ed. +2Pad(No Game), Boxed",
+              "price": 210,
+              "url": "https://uk.webuy.com/product-detail?id=SX360SHALOA&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=B3913A4368392BF6FD9A5B3ACF86665B&position=5",
+              "tradeVoucher": 136,
+              "tradeCash": 96
+            }
+          ]
+        },
+        "xbox 360s (slim) 320GB boxed": {
+          "variant": "xbox 360s (slim) 320GB boxed",
+          "storage": "320GB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXBOX360320D",
+              "title": "Xbox 360S (Slim) Console, 320GB, Boxed",
+              "price": 140,
+              "url": "https://uk.webuy.com/product-detail?id=SXBOX360320D&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=057BCCB82B90753ED9E348F5BCF7F0C1&position=34",
+              "tradeVoucher": 91,
+              "tradeCash": 64
+            },
+            {
+              "competitor": "CEX",
+              "id": "885370472950",
+              "title": "Xbox 360S (Slim) Console, 320GB, Halo 4 Ed. + 2Pad (No Game) Boxed",
+              "price": 270,
+              "url": "https://uk.webuy.com/product-detail?id=885370472950&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=B3913A4368392BF6FD9A5B3ACF86665B&position=2",
+              "tradeVoucher": 175,
+              "tradeCash": 124
+            },
+            {
+              "competitor": "CEX",
+              "id": "885370472950B",
+              "title": "Xbox 360S (Slim) Console, 320GB, Halo 4 Ed. + 1Pad (No Game) Boxed",
+              "price": 210,
+              "url": "https://uk.webuy.com/product-detail?id=885370472950B&categoryName=XBOX-360-CONSOLES&superCatName=GAMING&title=&queryID=B3913A4368392BF6FD9A5B3ACF86665B&position=7",
+              "tradeVoucher": 136,
+              "tradeCash": 96
+            }
+          ]
+        }
+      }
+    }
+  }
+}

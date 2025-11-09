@@ -1,6 +1,7 @@
 import { setupPlaywright } from "./utils/playwright.js";
 import { getMobileResults } from "./scrapers/mobileScraper.js";
 import { getGameResults } from "./scrapers/gameScraper.js";
+import { getConsoleResults } from "./scrapers/consoleScraper.js"; // ✅ import console scraper
 import { uploadScrapeResultToDjango } from "./uploadToDjango.js";
 import { scrapeConfigs, ScrapeConfig } from "./scrapeConfigs.js";
 import util from "util";
@@ -26,8 +27,10 @@ const SCRAPE_OUTPUT_DIR = "./scrapeResults";
           result = await getGameResults(browser, config);
         } else if (config.type === "mobile") {
           result = await getMobileResults(browser, config);
+        } else if (config.type === "console") {
+          result = await getConsoleResults(browser, config); // ✅ handle consoles
         } else {
-        console.warn(`⚠️ Unknown scrape type: ${(config as ScrapeConfig).type}`);
+          console.warn(`⚠️ Unknown scrape type: ${(config as ScrapeConfig).type}`);
           continue;
         }
 
