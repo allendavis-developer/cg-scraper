@@ -12,26 +12,85 @@ export interface CEXProduct {
   tradeCash?: number | null;
 }
 
-async function handleCMP(tab: Page) {
+async function handleCMP(page: Page) {
   try {
-    // wait a bit for the banner to render
-    await tab.waitForTimeout(1000);
+    console.log("🧹 Waiting for and removing CEX cookie overlay...");
 
-    // try to click "Accept All" or hide the overlay if it exists
-    const cmpVisible = await tab.$('#cmpwrapper');
-    if (cmpVisible) {
-      console.log('🧹 Dismissing CEX cookie overlay...');
-      await tab.evaluate(() => {
+    // Wait longer for the CMP to potentially appear and load
+    await page.waitForTimeout(2500);
+
+    // Keep trying until the overlay is truly gone
+    for (let attempt = 0; attempt < 5; attempt++) {
+      const overlayStatus = await page.evaluate(() => {
+        let removed = false;
+        
+        // Remove CMP wrapper
         const cmp = document.querySelector('#cmpwrapper');
-        if (cmp) cmp.remove(); // just nuke it from orbit 💣
+        if (cmp) {
+          console.log('💣 Removing #cmpwrapper overlay');
+          cmp.remove();
+          removed = true;
+        }
+        
+        // Remove backdrop
+        const backdrop = document.querySelector('.cmpbox');
+        if (backdrop) {
+          backdrop.remove();
+          removed = true;
+        }
+
+        // Remove any iframes that might contain the consent form
+        const iframes = document.querySelectorAll('iframe[src*="cmp"], iframe[id*="cmp"]');
+        iframes.forEach(iframe => {
+          iframe.remove();
+          removed = true;
+        });
+
+        // Force body to be interactive
+        document.body.style.overflow = 'auto';
+        document.body.style.pointerEvents = 'auto';
+
+        // Check if cmpwrapper still exists (even if empty)
+        const stillExists = !!document.querySelector('#cmpwrapper');
+        
+        return { removed, stillExists };
       });
+
+      if (overlayStatus.removed) {
+        console.log(`🗑️  Removed overlay elements on attempt ${attempt + 1}`);
+      }
+
+      if (!overlayStatus.stillExists) {
+        console.log(`✅ CMP overlay confirmed gone after attempt ${attempt + 1}`);
+        break;
+      } else {
+        console.log(`⏳ CMP wrapper still exists, waiting... (attempt ${attempt + 1}/5)`);
+        await page.waitForTimeout(500);
+      }
     }
+
+    // Final nuclear option: verify nothing is blocking interactions
+    await page.waitForTimeout(500);
+    const finalCheck = await page.evaluate(() => {
+      const cmp = document.querySelector('#cmpwrapper');
+      return { exists: !!cmp, hasContent: cmp ? cmp.innerHTML.length > 0 : false };
+    });
+
+    if (finalCheck.exists) {
+      console.warn(`⚠️ #cmpwrapper still exists (${finalCheck.hasContent ? 'with content' : 'empty'}), force-removing...`);
+      await page.evaluate(() => {
+        document.querySelectorAll('#cmpwrapper, .cmpbox').forEach(el => el.remove());
+        document.body.style.overflow = 'auto';
+        document.body.style.pointerEvents = 'auto';
+      });
+      await page.waitForTimeout(1000);
+    }
+
+    console.log("✅ CMP overlay handling complete.");
   } catch (err) {
-    console.warn('⚠️ CMP overlay handler failed:', err);
+    console.warn("⚠️ CMP overlay handler failed:", err);
   }
 }
-
-
 
 /**
  * Scrape CEX search results from a page

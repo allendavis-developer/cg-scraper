@@ -1,234 +1,263 @@
 {
   "competitor": "CEX",
   "models": {
-    "Xbox Series S": {
-      "model": "Xbox Series S",
+    "MacBook Air 10,1": {
+      "model": "MacBook Air 10,1",
       "variants": {
-        "Xbox Series S 512GB discounted": {
-          "variant": "Xbox Series S 512GB discounted",
-          "storage": "512GB",
-          "condition": "discounted",
+        "MacBook Air 10,1 8GB 256GB": {
+          "variant": "MacBook Air 10,1 8GB 256GB",
+          "ram": "8GB",
+          "storage": "256GB",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SXSS512GBW003",
-              "title": "Xbox Series S Console, 512GB, White, Discounted",
-              "price": 225,
-              "url": "https://uk.webuy.com/product-detail?id=SXSS512GBW003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=9187149550784573F82A0B82828E12E5&position=1",
-              "tradeVoucher": 146,
-              "tradeCash": 103
-            }
-          ]
-        },
-        "Xbox Series S 512GB unboxed": {
-          "variant": "Xbox Series S 512GB unboxed",
-          "storage": "512GB",
-          "condition": "unboxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXSS512GBW002",
-              "title": "Xbox Series S Console, 512GB, White, Unboxed",
-              "price": 240,
-              "url": "https://uk.webuy.com/product-detail?id=SXSS512GBW002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=9187149550784573F82A0B82828E12E5&position=2",
-              "tradeVoucher": 156,
-              "tradeCash": 110
-            }
-          ]
-        },
-        "Xbox Series S 512GB boxed": {
-          "variant": "Xbox Series S 512GB boxed",
-          "storage": "512GB",
-          "condition": "boxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXSS512GBW001",
-              "title": "Xbox Series S Console, 512GB, White, Boxed",
-              "price": 250,
-              "url": "https://uk.webuy.com/product-detail?id=SXSS512GBW001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=9187149550784573F82A0B82828E12E5&position=6",
-              "tradeVoucher": 162,
-              "tradeCash": 115
-            }
-          ]
-        },
-        "Xbox Series S 1TB boxed": {
-          "variant": "Xbox Series S 1TB boxed",
-          "storage": "1TB",
-          "condition": "boxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXSS1TBRW001",
-              "title": "Xbox Series S Console, 1TB, Robot White, Boxed",
-              "price": 310,
-              "url": "https://uk.webuy.com/product-detail?id=SXSS1TBRW001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=9187149550784573F82A0B82828E12E5&position=7",
-              "tradeVoucher": 201,
-              "tradeCash": 142
+              "id": "SAPPMBA10182567SGB",
+              "title": "MacBook Air 10,1/M1 (8-CPU 7-GPU)/8GB Ram/256GB SSD/13\"/SG/B",
+              "price": 475,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPMBA10182567SGB&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=1",
+              "tradeVoucher": 318,
+              "tradeCash": 261
             },
             {
               "competitor": "CEX",
-              "id": "SXSS1TBB001",
-              "title": "Xbox Series S Console, 1TB, Carbon Black, Boxed",
-              "price": 320,
-              "url": "https://uk.webuy.com/product-detail?id=SXSS1TBB001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=9187149550784573F82A0B82828E12E5&position=8",
-              "tradeVoucher": 208,
-              "tradeCash": 147
-            }
-          ]
-        },
-        "Xbox Series S 1TB unboxed": {
-          "variant": "Xbox Series S 1TB unboxed",
-          "storage": "1TB",
-          "condition": "unboxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXSS1TBB002",
-              "title": "Xbox Series S Console, 1TB, Carbon Black, Unboxed",
-              "price": 310,
-              "url": "https://uk.webuy.com/product-detail?id=SXSS1TBB002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=9187149550784573F82A0B82828E12E5&position=9",
-              "tradeVoucher": 201,
-              "tradeCash": 142
+              "id": "SAPPMBA10182567GB",
+              "title": "MacBook Air 10,1/M1 (8-CPU 7-GPU)/8GB Ram/256GB SSD/13\"/Gold/B",
+              "price": 435,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPMBA10182567GB&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=5",
+              "tradeVoucher": 291,
+              "tradeCash": 239
             },
             {
               "competitor": "CEX",
-              "id": "SXSS1TBRW002",
-              "title": "Xbox Series S Console, 1TB, Robot White, Unboxed",
-              "price": 300,
-              "url": "https://uk.webuy.com/product-detail?id=SXSS1TBRW002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=9187149550784573F82A0B82828E12E5&position=12",
-              "tradeVoucher": 195,
-              "tradeCash": 138
-            }
-          ]
-        },
-        "Xbox Series S 1TB discounted": {
-          "variant": "Xbox Series S 1TB discounted",
-          "storage": "1TB",
-          "condition": "discounted",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXSS1TBB003",
-              "title": "Xbox Series S Console, 1TB, Carbon Black, Discounted",
-              "price": 300,
-              "url": "https://uk.webuy.com/product-detail?id=SXSS1TBB003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=9187149550784573F82A0B82828E12E5&position=13",
-              "tradeVoucher": 195,
-              "tradeCash": 138
+              "id": "SAPPMBA10182567SB",
+              "title": "MacBook Air 10,1/M1 (8-CPU 7-GPU)/8GB Ram/256GB SSD/13\"/Silver/B",
+              "price": 445,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPMBA10182567SB&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=9",
+              "tradeVoucher": 298,
+              "tradeCash": 244
             },
             {
               "competitor": "CEX",
-              "id": "SXSS1TBRW003",
-              "title": "Xbox Series S Console, 1TB, Robot White, Discounted",
-              "price": 290,
-              "url": "https://uk.webuy.com/product-detail?id=SXSS1TBRW003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=9187149550784573F82A0B82828E12E5&position=17",
-              "tradeVoucher": 188,
-              "tradeCash": 133
+              "id": "SAPPMBA10182567SGC",
+              "title": "MacBook Air 10,1/M1 (8-CPU 7-GPU)/8GB Ram/256GB SSD/13\"/SG/C",
+              "price": 390,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPMBA10182567SGC&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=10",
+              "tradeVoucher": 261,
+              "tradeCash": 214
             }
           ]
         }
       }
     },
-    "Xbox Series X": {
-      "model": "Xbox Series X",
+    "MacBook Air 7,2": {
+      "model": "MacBook Air 7,2",
       "variants": {
-        "Xbox Series X 1TB boxed": {
-          "variant": "Xbox Series X 1TB boxed",
-          "storage": "1TB",
-          "condition": "boxed",
+        "MacBook Air 7,2 8GB 128GB": {
+          "variant": "MacBook Air 7,2 8GB 128GB",
+          "ram": "8GB",
+          "storage": "128GB",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SXSX1TBB001",
-              "title": "Xbox Series X Console, 1TB, Black, Boxed",
-              "price": 410,
-              "url": "https://uk.webuy.com/product-detail?id=SXSX1TBB001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=9187149550784573F82A0B82828E12E5&position=3",
-              "tradeVoucher": 282,
-              "tradeCash": 233
+              "id": "SLAPAPPMBA7215B",
+              "title": "MacBook Air 7,2/i5-5350U/8GB Ram/128GB SSD/13\"/OSX/B",
+              "price": 185,
+              "url": "https://uk.webuy.com/product-detail?id=SLAPAPPMBA7215B&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=2",
+              "tradeVoucher": 116,
+              "tradeCash": 81
             },
             {
               "competitor": "CEX",
-              "id": "SXSXAD1TBRW001",
-              "title": "Xbox Series X All-Digital Console, 1TB, Robot White, Boxed",
-              "price": 410,
-              "url": "https://uk.webuy.com/product-detail?id=SXSXAD1TBRW001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=9187149550784573F82A0B82828E12E5&position=10",
-              "tradeVoucher": 266,
-              "tradeCash": 188
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXSX1TBHB001",
-              "title": "Xbox Series X Console, 1TB, Halo Infinite Black, (No Game), Boxed",
-              "price": 520,
-              "url": "https://uk.webuy.com/product-detail?id=SXSX1TBHB001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=9187149550784573F82A0B82828E12E5&position=15",
-              "tradeVoucher": 384,
-              "tradeCash": 332
+              "id": "SLAPAPPMBA7202B",
+              "title": "MacBook Air 7,2/i5-5250U/8GB Ram/128GB SSD/13\"/OSX/B",
+              "price": 170,
+              "url": "https://uk.webuy.com/product-detail?id=SLAPAPPMBA7202B&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=14",
+              "tradeVoucher": 107,
+              "tradeCash": 74
             }
           ]
         },
-        "Xbox Series X 1TB discounted": {
-          "variant": "Xbox Series X 1TB discounted",
-          "storage": "1TB",
-          "condition": "discounted",
+        "MacBook Air 7,2 4GB 128GB": {
+          "variant": "MacBook Air 7,2 4GB 128GB",
+          "ram": "4GB",
+          "storage": "128GB",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SXSX1TBB003",
-              "title": "Xbox Series X Console, 1TB, Black, Discounted",
-              "price": 385,
-              "url": "https://uk.webuy.com/product-detail?id=SXSX1TBB003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=9187149550784573F82A0B82828E12E5&position=4",
-              "tradeVoucher": 265,
-              "tradeCash": 219
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXSXAD1TBRW003",
-              "title": "Xbox Series X All-Digital Console, 1TB, Robot White, Discounted",
-              "price": 390,
-              "url": "https://uk.webuy.com/product-detail?id=SXSXAD1TBRW003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=9187149550784573F82A0B82828E12E5&position=16",
-              "tradeVoucher": 253,
-              "tradeCash": 179
+              "id": "SLAPAPPMBA7201B",
+              "title": "MacBook Air 7,2/i5-5250U/4GB Ram/128GB SSD/13\"/OSX/B",
+              "price": 145,
+              "url": "https://uk.webuy.com/product-detail?id=SLAPAPPMBA7201B&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=15",
+              "tradeVoucher": 91,
+              "tradeCash": 63
             }
           ]
-        },
-        "Xbox Series X 1TB unboxed": {
-          "variant": "Xbox Series X 1TB unboxed",
-          "storage": "1TB",
-          "condition": "unboxed",
+        }
+      }
+    },
+    "MacBook Air 14,2": {
+      "model": "MacBook Air 14,2",
+      "variants": {
+        "MacBook Air 14,2 8GB 256GB": {
+          "variant": "MacBook Air 14,2 8GB 256GB",
+          "ram": "8GB",
+          "storage": "256GB",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SXSX1TBB002",
-              "title": "Xbox Series X Console, 1TB, Black, Unboxed",
-              "price": 400,
-              "url": "https://uk.webuy.com/product-detail?id=SXSX1TBB002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=9187149550784573F82A0B82828E12E5&position=5",
-              "tradeVoucher": 276,
-              "tradeCash": 228
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXSXAD1TBRW002",
-              "title": "Xbox Series X All-Digital Console, 1TB, Robot White, Unboxed",
-              "price": 400,
-              "url": "https://uk.webuy.com/product-detail?id=SXSXAD1TBRW002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=9187149550784573F82A0B82828E12E5&position=11",
-              "tradeVoucher": 260,
-              "tradeCash": 184
+              "id": "SMBA142888256MB",
+              "title": "MacBook Air 14,2/M2 (8-CPU 8-GPU)/8GB Ram/256GB SSD/13\"/Midnight/B",
+              "price": 600,
+              "url": "https://uk.webuy.com/product-detail?id=SMBA142888256MB&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=3",
+              "tradeVoucher": 402,
+              "tradeCash": 330
             }
           ]
-        },
-        "Xbox Series X 2TB boxed": {
-          "variant": "Xbox Series X 2TB boxed",
-          "storage": "2TB",
-          "condition": "boxed",
+        }
+      }
+    },
+    "MacBook Air 16,12": {
+      "model": "MacBook Air 16,12",
+      "variants": {
+        "MacBook Air 16,12 16GB 256GB": {
+          "variant": "MacBook Air 16,12 16GB 256GB",
+          "ram": "16GB",
+          "storage": "256GB",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SXSX2TBGB001",
-              "title": "Xbox Series X Console, 2TB, Galaxy Black, Boxed",
-              "price": 690,
-              "url": "https://uk.webuy.com/product-detail?id=SXSX2TBGB001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=9187149550784573F82A0B82828E12E5&position=14",
-              "tradeVoucher": 476,
-              "tradeCash": 393
+              "id": "SMBA161210816G256GMB",
+              "title": "MacBook Air 16,12/M4 (10-CPU 8-GPU)/16GB/256GB SSD/13\"/Midnight/B",
+              "price": 785,
+              "url": "https://uk.webuy.com/product-detail?id=SMBA161210816G256GMB&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=4",
+              "tradeVoucher": 525,
+              "tradeCash": 431
+            }
+          ]
+        }
+      }
+    },
+    "MacBook Pro 16,1": {
+      "model": "MacBook Pro 16,1",
+      "variants": {
+        "MacBook Pro 16,1 16GB 4GB": {
+          "variant": "MacBook Pro 16,1 16GB 4GB",
+          "ram": "16GB",
+          "storage": "4GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SLAPAPPMP16101SGB",
+              "title": "MacBook Pro 16,1/i7-9750H/16GB/512GB SSD/5300M 4GB/16\"/SG/B",
+              "price": 540,
+              "url": "https://uk.webuy.com/product-detail?id=SLAPAPPMP16101SGB&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=6",
+              "tradeVoucher": 361,
+              "tradeCash": 297
+            }
+          ]
+        }
+      }
+    },
+    "MacBook Pro 15,4": {
+      "model": "MacBook Pro 15,4",
+      "variants": {
+        "MacBook Pro 15,4 8GB 128GB": {
+          "variant": "MacBook Pro 15,4 8GB 128GB",
+          "ram": "8GB",
+          "storage": "128GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SLAPAPPMBP154128B",
+              "title": "MacBook Pro 15,4/i5-8257U/8GB Ram/128GB SSD/TB/13\"/SG/B",
+              "price": 380,
+              "url": "https://uk.webuy.com/product-detail?id=SLAPAPPMBP154128B&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=7",
+              "tradeVoucher": 254,
+              "tradeCash": 209
+            }
+          ]
+        }
+      }
+    },
+    "MacBook Pro 17,1": {
+      "model": "MacBook Pro 17,1",
+      "variants": {
+        "MacBook Pro 17,1 8GB 256GB": {
+          "variant": "MacBook Pro 17,1 8GB 256GB",
+          "ram": "8GB",
+          "storage": "256GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPMBP17182568SGB",
+              "title": "MacBook Pro 17,1/M1 (8-CPU 8-GPU)/8GB Ram/256GB SSD/13\"/SG/B",
+              "price": 540,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPMBP17182568SGB&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=8",
+              "tradeVoucher": 361,
+              "tradeCash": 297
+            }
+          ]
+        }
+      }
+    },
+    "MacBook Air 8,1": {
+      "model": "MacBook Air 8,1",
+      "variants": {
+        "MacBook Air 8,1 8GB 128GB": {
+          "variant": "MacBook Air 8,1 8GB 128GB",
+          "ram": "8GB",
+          "storage": "128GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPMBA818G128SSPB",
+              "title": "MacBook Air 8,1/i5-8210Y/8GB Ram/128GB SSD/13\"/SG/B",
+              "price": 285,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPMBA818G128SSPB&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=11",
+              "tradeVoucher": 179,
+              "tradeCash": 125
+            }
+          ]
+        }
+      }
+    },
+    "MacBook Air 9,1": {
+      "model": "MacBook Air 9,1",
+      "variants": {
+        "MacBook Air 9,1 8GB 256GB": {
+          "variant": "MacBook Air 9,1 8GB 256GB",
+          "ram": "8GB",
+          "storage": "256GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SLAPAPPMA9100825SGB",
+              "title": "MacBook Air 9,1/i3-1000NG4/8GB Ram/256GB SSD/13\"/SG/B",
+              "price": 345,
+              "url": "https://uk.webuy.com/product-detail?id=SLAPAPPMA9100825SGB&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=16",
+              "tradeVoucher": 217,
+              "tradeCash": 151
+            }
+          ]
+        }
+      }
+    },
+    "MacBook Pro 14,1": {
+      "model": "MacBook Pro 14,1",
+      "variants": {
+        "MacBook Pro 14,1 8GB 128GB": {
+          "variant": "MacBook Pro 14,1 8GB 128GB",
+          "ram": "8GB",
+          "storage": "128GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SLAPAPPMBPSG14101B",
+              "title": "MacBook Pro 14,1/i5-7360U/8GB Ram/128GB SSD/13\"/SG/B",
+              "price": 310,
+              "url": "https://uk.webuy.com/product-detail?id=SLAPAPPMBPSG14101B&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=17",
+              "tradeVoucher": 207,
+              "tradeCash": 170
             }
           ]
         }
