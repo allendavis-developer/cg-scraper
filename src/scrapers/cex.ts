@@ -12,6 +12,26 @@ export interface CEXProduct {
   tradeCash?: number | null;
 }
 
+async function handleCMP(tab: Page) {
+  try {
+    // wait a bit for the banner to render
+    await tab.waitForTimeout(1000);
+
+    // try to click "Accept All" or hide the overlay if it exists
+    const cmpVisible = await tab.$('#cmpwrapper');
+    if (cmpVisible) {
+      console.log('🧹 Dismissing CEX cookie overlay...');
+      await tab.evaluate(() => {
+        const cmp = document.querySelector('#cmpwrapper');
+        if (cmp) cmp.remove(); // just nuke it from orbit 💣
+      });
+    }
+  } catch (err) {
+    console.warn('⚠️ CMP overlay handler failed:', err);
+  }
+}
+
+
 
 /**
  * Scrape CEX search results from a page
@@ -22,6 +42,8 @@ export interface CEXProduct {
 export async function scrapeCEX(page: Page, containerSelector: string, titleSelector: string, priceSelector: string, urlSelector: string): Promise<CEXProduct[]> {
   const results: CEXProduct[] = [];
   const BASE_URL = "https://uk.webuy.com";
+  // 🧹 Remove or dismiss the cookie consent overlay
+  await handleCMP(page);
 
   // Wait for the main container to load
   await page.waitForSelector(containerSelector, { state: "attached", timeout: 10000 });

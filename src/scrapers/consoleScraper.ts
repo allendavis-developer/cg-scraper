@@ -25,14 +25,17 @@ export function extractConsoleAttributes(title: string): ConsoleAttributes {
   let model = modelMatch ? modelMatch[1].replace(/console/i, "").trim() : title.trim();
 
   // ✅ Normalize common console naming inconsistencies
-  if (/^switch lite\b/.test(model)) model = "Nintendo Switch Lite";
-  else if (/^(switch|nintendo switch)\b/.test(model)) model = "Nintendo Switch";
-  else if (/^playstation\s*4/.test(model)) model = "PlayStation 4";
-  else if (/^playstation\s*5/.test(model)) model = "PlayStation 5";
-  else if (/^xbox series x/.test(model)) model = "Xbox Series X";
-  else if (/^xbox series s/.test(model)) model = "Xbox Series S";
-  else if (/^xbox one/.test(model)) model = "Xbox One";
-  
+  if (/^switch lite\b/i.test(model)) model = "Nintendo Switch Lite";
+  else if (/^(switch|nintendo switch)\b/i.test(model)) model = "Nintendo Switch";
+  else if (/^playstation\s*4\b/i.test(model)) model = "PlayStation 4";
+  else if (/^playstation\s*5\b/i.test(model)) model = "PlayStation 5";
+  else if (/^xbox series x\b/i.test(model)) model = "Xbox Series X";
+  else if (/^xbox series s\b/i.test(model)) model = "Xbox Series S";
+  else if (/^xbox one x\b/i.test(model)) model = "Xbox One X";
+  else if (/^xbox one s\b/i.test(model)) model = "Xbox One S";
+  else if (/^xbox one\b(?!\s*[sx])/i.test(model)) model = "Xbox One";
+
+
   // Extract storage
   const storageMatch = lower.match(/(\d+(?:\.\d+)?)(tb|gb)/i);
   const storage = storageMatch ? `${parseFloat(storageMatch[1])}${storageMatch[2].toUpperCase()}` : null;

@@ -105,6 +105,11 @@ export async function scrapeAllPagesParallel(
   const tempPage = await browser.newPage();
   await tempPage.goto(baseUrl, { waitUntil: "domcontentloaded" });
 
+  // After navigation, before waiting
+  const content = await tempPage.content();
+  console.log("Page HTML length:", content.length);
+  await tempPage.screenshot({ path: 'debug-headless.png' });
+
   // Wait for JS to render the stats element dynamically
   await tempPage.waitForFunction(() => {
     const el = document.querySelector('div.ais-Stats.stats-text p.text-base.font-normal');
@@ -143,23 +148,42 @@ export async function scrapeAllPagesParallel(
       const pagedUrl = `${baseUrl}&page=${pageNum}`;
       console.log(`🔍 Scraping page ${pageNum}: ${pagedUrl}`);
 
-      await tab.goto(pagedUrl, { waitUntil: "domcontentloaded" });
-      await tab.waitForSelector(container, { timeout: 10000 });
+      try {
+        await tab.goto(pagedUrl, { waitUntil: "domcontentloaded", timeout: 30000 });
+        await tab.waitForSelector(container, { timeout: 10000 });
+        const pageResults = await scrapeCEX(tab, container, title, price, url);
+        // console.log(`📄 Results for page ${pageNum}: ${pageResults.length}`);
 
-      const pageResults = await scrapeCEX(tab, container, title, price, url);
-      // Log all results for this page
-      console.log(`📄 Results for page ${pageNum}:`, pageResults);
+        for (const result of pageResults) {
+          const key = parseVariantKey ? parseVariantKey(result.title) : result.title.trim();
+          if (!variantsMap[key]) variantsMap[key] = { key, rawTitles: [] };
+          variantsMap[key].rawTitles.push(result.title);
+          allResults.push(result);
+        }
 
-      for (const result of pageResults) {
-        const key = parseVariantKey ? parseVariantKey(result.title) : result.title.trim();
-        if (!variantsMap[key]) variantsMap[key] = { key, rawTitles: [] };
-        variantsMap[key].rawTitles.push(result.title);
-        allResults.push(result);
+        console.log(`✅ Page ${pageNum} done`);
+      } catch (err) {
+        console.error(`❌ Failed to scrape page ${pageNum}: ${err}`);
+        console.log(`🔁 Retrying page ${pageNum}...`);
+
+        try {
+          await tab.waitForTimeout(3000); // small delay before retry
+          await tab.goto(pagedUrl, { waitUntil: "domcontentloaded", timeout: 20000 });
+          await tab.waitForSelector(container, { timeout: 10000 });
+          const retryResults = await scrapeCEX(tab, container, title, price, url);
+          console.log(`✅ Retry succeeded for page ${pageNum}`);
+
+          for (const result of retryResults) {
+            const key = parseVariantKey ? parseVariantKey(result.title) : result.title.trim();
+            if (!variantsMap[key]) variantsMap[key] = { key, rawTitles: [] };
+            variantsMap[key].rawTitles.push(result.title);
+            allResults.push(result);
+          }
+        } catch (retryErr) {
+          console.error(`❌ Retry failed for page ${pageNum}: ${retryErr}`);
+        }
       }
-
-      console.log(`✅ Page ${pageNum} done`);
     }
-
     await tab.close();
   }
 

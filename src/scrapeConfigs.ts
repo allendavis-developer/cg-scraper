@@ -25,7 +25,7 @@ export const scrapeConfigs: ScrapeConfig[] = [
     item: "",
     category: "games (discs/cartridges)",
     subcategory: "Switch Games",
-    broad: false,
+    broad: true,
     django: {
       categoryName: "Games (Discs/Cartridges)",
       subcategoryName: "Switch Games",

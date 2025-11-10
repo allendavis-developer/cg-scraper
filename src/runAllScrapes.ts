@@ -9,6 +9,23 @@ import fs from "fs/promises";
 
 const SCRAPE_OUTPUT_DIR = "./scrapeResults";
 
+// parsing command line
+const args = process.argv.slice(2);
+const filters = args.map(a => a.toLowerCase());
+
+const selectedConfigs =
+  filters.length === 0
+    ? scrapeConfigs
+    : scrapeConfigs.filter(
+        (c) =>
+          filters.includes(c.type.toLowerCase()) ||
+          filters.some((f) => c.name.toLowerCase().includes(f))
+      );
+
+console.log(`Running ${selectedConfigs.length} selected scrapes:`);
+selectedConfigs.forEach((c) => console.log(`  • ${c.name}`));
+
+
 (async () => {
   const { browser } = await setupPlaywright(false); // headless true for nightly runs
   const startTime = Date.now();
@@ -16,7 +33,7 @@ const SCRAPE_OUTPUT_DIR = "./scrapeResults";
   try {
     await fs.mkdir(SCRAPE_OUTPUT_DIR, { recursive: true });
 
-    for (const config of scrapeConfigs) {
+    for (const config of selectedConfigs) {
       console.log(`\n🚀 Starting scrape: ${config.type.toUpperCase()} - ${config.subcategory}`);
 
       try {
