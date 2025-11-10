@@ -1,5 +1,12 @@
+// Step 1: Install packages
+
 // utils/playwright.ts
-import { chromium, Browser, Page, BrowserContext } from "playwright";
+import { chromium } from "playwright-extra";
+import stealth from "puppeteer-extra-plugin-stealth";
+import { Browser, Page, BrowserContext } from "playwright";
+
+// Add the stealth plugin to chromium
+chromium.use(stealth());
 
 export async function setupPlaywright(headless = true): Promise<{
   browser: Browser;
@@ -22,13 +29,6 @@ export async function setupPlaywright(headless = true): Promise<{
     userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
     locale: 'en-GB',
     timezoneId: 'Europe/London',
-  });
-
-  // Hide automation markers
-  await context.addInitScript(() => {
-    Object.defineProperty(navigator, 'webdriver', {
-      get: () => undefined,
-    });
   });
 
   const page = await context.newPage();

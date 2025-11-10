@@ -63,10 +63,20 @@ export async function scrapeCEX(page: Page, containerSelector: string, titleSele
     );
 
   // Turn on the Trade-in toggle (shows voucher & cash)
-  const tradeInToggle = await page.$("div.trade-price-sort-panel .toggle-switch label span.slider");
-  if (tradeInToggle) {
-    await tradeInToggle.click();
-    await page.waitForTimeout(500); // brief wait for re-render
+  const tradeInToggleInput = await page.$('div.toggle-switch input[type="checkbox"]');
+  if (tradeInToggleInput) {
+    const isChecked = await tradeInToggleInput.isChecked(); // true if toggle is already on
+
+    if (!isChecked) {
+      console.log("🟢 Enabling trade-in toggle...");
+      const slider = await page.$('div.toggle-switch label.cx-switch-button span.slider');
+      if (slider) {
+        await slider.click();
+        await page.waitForTimeout(500); // wait for UI to update
+      }
+    } else {
+      console.log("✅ Trade-in toggle already enabled.");
+    }
   }
 
 

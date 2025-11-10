@@ -1,0 +1,118 @@
+{
+  "competitor": "CEX",
+  "models": {
+    "apple iphone se (3rd generation)": {
+      "model": "apple iphone se (3rd generation)",
+      "variants": {
+        "apple iphone se (3rd generation) 64GB": {
+          "variant": "apple iphone se (3rd generation) 64GB",
+          "storage": "64GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE364GMUNLB",
+              "title": "Apple iPhone SE (3rd Generation) 64GB Midnight, Unlocked B",
+              "price": 185,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE364GMUNLB&categoryName=IPHONE-SE-(3RD-GENERATION)&superCatName=PHONES&title=&queryID=DCE39CD18D0B8F66B0CD3145DD7AEFF7&position=1",
+              "tradeVoucher": 105,
+              "tradeCash": 81
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE364GRUNLB",
+              "title": "Apple iPhone SE (3rd Generation) 64GB Product RED, Unlocked B",
+              "price": 185,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE364GRUNLB&categoryName=IPHONE-SE-(3RD-GENERATION)&superCatName=PHONES&title=&queryID=DCE39CD18D0B8F66B0CD3145DD7AEFF7&position=2",
+              "tradeVoucher": 105,
+              "tradeCash": 81
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE364GSUNLB",
+              "title": "Apple iPhone SE (3rd Generation) 64GB Starlight, Unlocked B",
+              "price": 185,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE364GSUNLB&categoryName=IPHONE-SE-(3RD-GENERATION)&superCatName=PHONES&title=&queryID=DCE39CD18D0B8F66B0CD3145DD7AEFF7&position=3",
+              "tradeVoucher": 105,
+              "tradeCash": 81
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE364GMEVEB",
+              "title": "Apple iPhone SE (3rd Generation) 64GB Midnight, EE B",
+              "price": 175,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE364GMEVEB&categoryName=IPHONE-SE-(3RD-GENERATION)&superCatName=PHONES&title=&queryID=DCE39CD18D0B8F66B0CD3145DD7AEFF7&position=4",
+              "tradeVoucher": 99,
+              "tradeCash": 77
+            }
+          ]
+        },
+        "apple iphone se (3rd generation) 128GB": {
+          "variant": "apple iphone se (3rd generation) 128GB",
+          "storage": "128GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE3128GMUNLB",
+              "title": "Apple iPhone SE (3rd Generation) 128GB Midnight, Unlocked B",
+              "price": 225,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE3128GMUNLB&categoryName=IPHONE-SE-(3RD-GENERATION)&superCatName=PHONES&title=&queryID=B131FA9BECDD08EA62FAD8A192B5B9DB&position=1",
+              "tradeVoucher": 128,
+              "tradeCash": 99
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE3128GRUNLB",
+              "title": "Apple iPhone SE (3rd Generation) 128GB Product RED, Unlocked B",
+              "price": 225,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE3128GRUNLB&categoryName=IPHONE-SE-(3RD-GENERATION)&superCatName=PHONES&title=&queryID=B131FA9BECDD08EA62FAD8A192B5B9DB&position=2",
+              "tradeVoucher": 128,
+              "tradeCash": 99
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE3128GSUNLB",
+              "title": "Apple iPhone SE (3rd Generation) 128GB Starlight, Unlocked B",
+              "price": 225,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE3128GSUNLB&categoryName=IPHONE-SE-(3RD-GENERATION)&superCatName=PHONES&title=&queryID=B131FA9BECDD08EA62FAD8A192B5B9DB&position=3",
+              "tradeVoucher": 128,
+              "tradeCash": 99
+            }
+          ]
+        },
+        "apple iphone se (3rd generation) 256GB": {
+          "variant": "apple iphone se (3rd generation) 256GB",
+          "storage": "256GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE3256GMUNLB",
+              "title": "Apple iPhone SE (3rd Generation) 256GB Midnight, Unlocked B",
+              "price": 305,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE3256GMUNLB&categoryName=IPHONE-SE-(3RD-GENERATION)&superCatName=PHONES&title=&queryID=B131FA9BECDD08EA62FAD8A192B5B9DB&position=4",
+              "tradeVoucher": 173,
+              "tradeCash": 134
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE3256GRUNLB",
+              "title": "Apple iPhone SE (3rd Generation) 256GB Product RED, Unlocked B",
+              "price": 305,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE3256GRUNLB&categoryName=IPHONE-SE-(3RD-GENERATION)&superCatName=PHONES&title=&queryID=B131FA9BECDD08EA62FAD8A192B5B9DB&position=5",
+              "tradeVoucher": 173,
+              "tradeCash": 134
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE3256GSUNLB",
+              "title": "Apple iPhone SE (3rd Generation) 256GB Starlight, Unlocked B",
+              "price": 305,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE3256GSUNLB&categoryName=IPHONE-SE-(3RD-GENERATION)&superCatName=PHONES&title=&queryID=B131FA9BECDD08EA62FAD8A192B5B9DB&position=6",
+              "tradeVoucher": 173,
+              "tradeCash": 134
+            }
+          ]
+        }
+      }
+    }
+  }
+}

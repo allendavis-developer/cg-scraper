@@ -6,8 +6,13 @@
   "scripts": {
     "build": "tsc",
     "start": "npm run build && node dist/scrape.js",
-    "scrape": "npm run build && node dist/runAllScrapes.js"
-
+    "scrape": "npm run build && node dist/runAllScrapes.js",
+    "scrape:mobile": "npm run scrape -- mobile",
+    "send:mobile": "npm run scrape -- --send mobile",
+    "scrape:console": "npm run scrape -- console",
+    "send:console": "npm run scrape -- --send console",
+    "scrape:game": "npm run scrape -- game",
+    "send:game": "npm run scrape -- --send game"
   },
   "keywords": [],
   "author": "",
@@ -19,13 +24,16 @@
     "node-fetch": "^3.3.2",
     "pg": "^8.16.3",
     "pg-format": "^1.0.4",
-    "playwright": "^1.56.1"
+    "playwright": "^1.56.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   },
   "devDependencies": {
     "@types/luxon": "^3.7.1",
     "@types/node": "^24.10.0",
     "@types/pg": "^8.15.6",
     "@types/pg-format": "^1.0.5",
+    "puppeteer": "^24.29.1",
     "typescript": "^5.9.3"
   }
 }

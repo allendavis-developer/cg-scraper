@@ -24,11 +24,46 @@ export function extractConsoleAttributes(title: string): ConsoleAttributes {
   const modelMatch = lower.match(/^(.*?console)/i);
   let model = modelMatch ? modelMatch[1].replace(/console/i, "").trim() : title.trim();
 
-  // ✅ Normalize common console naming inconsistencies
-  if (/^switch lite\b/i.test(model)) model = "Nintendo Switch Lite";
+  // Normalize common console naming inconsistencies
+  if (/^switch 2\b/i.test(model)) model = "Nintendo Switch 2";
+  else if (/^switch lite\b/i.test(model)) model = "Nintendo Switch Lite";
   else if (/^(switch|nintendo switch)\b/i.test(model)) model = "Nintendo Switch";
-  else if (/^playstation\s*4\b/i.test(model)) model = "PlayStation 4";
+
+  //  3DS and 2DS Nintendo handhelds
+  else if (/^new 2ds xl\b/i.test(model)) model = "Nintendo NEW 2DS XL";
+  else if (/^2ds\b/i.test(model)) model = "Nintendo 2DS";
+  else if (/^new 3ds xl\b/i.test(model)) model = "Nintendo NEW 3DS XL";
+  else if (/^3ds xl\b/i.test(model)) model = "Nintendo 3DS XL";
+  else if (/^3ds\b/i.test(model)) model = "Nintendo 3DS";
+
+
+  // --- PlayStation 5 variants ---
+  else if (/^playstation\s*5\s*pro\b/i.test(model)) model = "PlayStation 5 Pro";
+  else if (/^playstation\s*5\s*slim\s*digital\b/i.test(model)) model = "PlayStation 5 Slim Digital";
+  else if (/^playstation\s*5\s*slim\b/i.test(model)) model = "PlayStation 5 Slim";
+  else if (/^playstation\s*5\s*digital\b/i.test(model)) model = "PlayStation 5 Digital";
   else if (/^playstation\s*5\b/i.test(model)) model = "PlayStation 5";
+
+  // --- PlayStation 4 variants ---
+  else if (/^playstation\s*4\s*pro\b/i.test(model)) model = "PlayStation 4 Pro";
+  else if (/^playstation\s*4\s*slim\b/i.test(model)) model = "PlayStation 4 Slim";
+  else if (/^playstation\s*4\b/i.test(model)) model = "PlayStation 4";
+
+    // --- PlayStation 3 variants ---
+  if (/^ps3\s*super\s*slim\b/i.test(model)) model = "PlayStation 3 Super Slim";
+  else if (/^ps3\s*slim\b/i.test(model)) model = "PlayStation 3 Slim";
+  else if (/^playstation\s*3\s*super\s*slim\b/i.test(model)) model = "PlayStation 3 Super Slim";
+  else if (/^playstation\s*3\s*slim\b/i.test(model)) model = "PlayStation 3 Slim";
+  else if (/^playstation\s*3\b/i.test(model) || /^ps3\b/i.test(model)) model = "PlayStation 3";
+
+  // --- PlayStation 2 variants ---
+  if (/^ps2\s*slimline\b/i.test(model) || /^playstation\s*2\s*slimline\b/i.test(model)) {
+    model = "PlayStation 2 Slimline";
+  } else if (/^ps2\b/i.test(model) || /^playstation\s*2\b/i.test(model)) {
+    model = "PlayStation 2";
+  }
+
+  // --- Xbox variants ---
   else if (/^xbox series x\b/i.test(model)) model = "Xbox Series X";
   else if (/^xbox series s\b/i.test(model)) model = "Xbox Series S";
   else if (/^xbox one x\b/i.test(model)) model = "Xbox One X";
@@ -38,7 +73,8 @@ export function extractConsoleAttributes(title: string): ConsoleAttributes {
 
   // Extract storage
   const storageMatch = lower.match(/(\d+(?:\.\d+)?)(tb|gb)/i);
-  const storage = storageMatch ? `${parseFloat(storageMatch[1])}${storageMatch[2].toUpperCase()}` : null;
+  const storage = storageMatch ? `${parseFloat(storageMatch[1])}${storageMatch[2].toUpperCase()}` : "N/A";
+
 
   // Extract condition (boxed, unboxed, discounted)
   const conditionMatch = lower.match(/\b(boxed|unboxed|discounted)\b/i);

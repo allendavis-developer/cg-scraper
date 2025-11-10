@@ -1,0 +1,702 @@
+{
+  "competitor": "CEX",
+  "models": {
+    "apple iphone 16": {
+      "model": "apple iphone 16",
+      "variants": {
+        "apple iphone 16 128GB": {
+          "variant": "apple iphone 16 128GB",
+          "storage": "128GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16128GBLUNLB",
+              "title": "Apple iPhone 16 128GB Black, Unlocked B",
+              "price": 580,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16128GBLUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=509926D7A306C53F92C6BF4B6AD2AE0C&position=1",
+              "tradeVoucher": 394,
+              "tradeCash": 365
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16128GPIUNLB",
+              "title": "Apple iPhone 16 128GB Pink, Unlocked B",
+              "price": 580,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16128GPIUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=509926D7A306C53F92C6BF4B6AD2AE0C&position=3",
+              "tradeVoucher": 394,
+              "tradeCash": 365
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16128GULUNLB",
+              "title": "Apple iPhone 16 128GB Ultramarine, Unlocked B",
+              "price": 580,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16128GULUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=509926D7A306C53F92C6BF4B6AD2AE0C&position=4",
+              "tradeVoucher": 394,
+              "tradeCash": 365
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16128GWHUNLB",
+              "title": "Apple iPhone 16 128GB White, Unlocked B",
+              "price": 580,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16128GWHUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=509926D7A306C53F92C6BF4B6AD2AE0C&position=5",
+              "tradeVoucher": 394,
+              "tradeCash": 365
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16128GTEUNLB",
+              "title": "Apple iPhone 16 128GB Teal, Unlocked B",
+              "price": 580,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16128GTEUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=509926D7A306C53F92C6BF4B6AD2AE0C&position=6",
+              "tradeVoucher": 394,
+              "tradeCash": 365
+            }
+          ]
+        },
+        "apple iphone 16 256GB": {
+          "variant": "apple iphone 16 256GB",
+          "storage": "256GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16256GTEUNLB",
+              "title": "Apple iPhone 16 256GB Teal, Unlocked B",
+              "price": 635,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16256GTEUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=6359A616A49AB855A957D7D6BBEE974B&position=18",
+              "tradeVoucher": 431,
+              "tradeCash": 400
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16256GULUNLB",
+              "title": "Apple iPhone 16 256GB Ultramarine, Unlocked B",
+              "price": 635,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16256GULUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=6359A616A49AB855A957D7D6BBEE974B&position=22",
+              "tradeVoucher": 431,
+              "tradeCash": 400
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16256GPIUNLB",
+              "title": "Apple iPhone 16 256GB Pink, Unlocked B",
+              "price": 635,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16256GPIUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=6359A616A49AB855A957D7D6BBEE974B&position=23",
+              "tradeVoucher": 431,
+              "tradeCash": 400
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16256GWHUNLB",
+              "title": "Apple iPhone 16 256GB White, Unlocked B",
+              "price": 635,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16256GWHUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=6359A616A49AB855A957D7D6BBEE974B&position=32",
+              "tradeVoucher": 431,
+              "tradeCash": 400
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16256GBLUNLB",
+              "title": "Apple iPhone 16 256GB Black, Unlocked B",
+              "price": 635,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16256GBLUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=82A04F7E3B3F2B92F78CE64449C2C613&position=11",
+              "tradeVoucher": 431,
+              "tradeCash": 400
+            }
+          ]
+        },
+        "apple iphone 16 512GB": {
+          "variant": "apple iphone 16 512GB",
+          "storage": "512GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16512GTEUNLB",
+              "title": "Apple iPhone 16 512GB Teal, Unlocked B",
+              "price": 750,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16512GTEUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=6359A616A49AB855A957D7D6BBEE974B&position=27",
+              "tradeVoucher": 510,
+              "tradeCash": 472
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16512GULUNLB",
+              "title": "Apple iPhone 16 512GB Ultramarine, Unlocked B",
+              "price": 750,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16512GULUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=6359A616A49AB855A957D7D6BBEE974B&position=30",
+              "tradeVoucher": 510,
+              "tradeCash": 472
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16512GWHUNLB",
+              "title": "Apple iPhone 16 512GB White, Unlocked B",
+              "price": 750,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16512GWHUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=EE5C364CA1EBB6771CB076E486E288B6&position=36",
+              "tradeVoucher": 510,
+              "tradeCash": 472
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16512GPIUNLB",
+              "title": "Apple iPhone 16 512GB Pink, Unlocked B",
+              "price": 750,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16512GPIUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=EE5C364CA1EBB6771CB076E486E288B6&position=50",
+              "tradeVoucher": 510,
+              "tradeCash": 472
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16512GBLUNLB",
+              "title": "Apple iPhone 16 512GB Black, Unlocked B",
+              "price": 750,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16512GBLUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=EE5C364CA1EBB6771CB076E486E288B6&position=51",
+              "tradeVoucher": 510,
+              "tradeCash": 472
+            }
+          ]
+        }
+      }
+    },
+    "apple iphone 16e": {
+      "model": "apple iphone 16e",
+      "variants": {
+        "apple iphone 16e 128GB": {
+          "variant": "apple iphone 16e 128GB",
+          "storage": "128GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16E128GBLUNLB",
+              "title": "Apple iPhone 16e 128GB Black, Unlocked B",
+              "price": 470,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16E128GBLUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=509926D7A306C53F92C6BF4B6AD2AE0C&position=2",
+              "tradeVoucher": 314,
+              "tradeCash": 253
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16E128GWHUNLB",
+              "title": "Apple iPhone 16e 128GB White, Unlocked B",
+              "price": 470,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16E128GWHUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=509926D7A306C53F92C6BF4B6AD2AE0C&position=7",
+              "tradeVoucher": 314,
+              "tradeCash": 253
+            }
+          ]
+        },
+        "apple iphone 16e 256GB": {
+          "variant": "apple iphone 16e 256GB",
+          "storage": "256GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16E256GBLUNLB",
+              "title": "Apple iPhone 16e 256GB Black, Unlocked B",
+              "price": 520,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16E256GBLUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=509926D7A306C53F92C6BF4B6AD2AE0C&position=8",
+              "tradeVoucher": 348,
+              "tradeCash": 280
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16E256GWHUNLB",
+              "title": "Apple iPhone 16e 256GB White, Unlocked B",
+              "price": 520,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16E256GWHUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=509926D7A306C53F92C6BF4B6AD2AE0C&position=9",
+              "tradeVoucher": 348,
+              "tradeCash": 280
+            }
+          ]
+        },
+        "apple iphone 16e 512GB": {
+          "variant": "apple iphone 16e 512GB",
+          "storage": "512GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16E512GWHUNLB",
+              "title": "Apple iPhone 16e 512GB White, Unlocked B",
+              "price": 660,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16E512GWHUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=EE5C364CA1EBB6771CB076E486E288B6&position=48",
+              "tradeVoucher": 442,
+              "tradeCash": 356
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16E512GBLUNLB",
+              "title": "Apple iPhone 16e 512GB Black, Unlocked B",
+              "price": 660,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16E512GBLUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=EE5C364CA1EBB6771CB076E486E288B6&position=49",
+              "tradeVoucher": 442,
+              "tradeCash": 356
+            }
+          ]
+        }
+      }
+    },
+    "apple iphone 16 plus": {
+      "model": "apple iphone 16 plus",
+      "variants": {
+        "apple iphone 16 plus 128GB": {
+          "variant": "apple iphone 16 plus 128GB",
+          "storage": "128GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PL128GWHUNLB",
+              "title": "Apple iPhone 16 Plus 128GB White, Unlocked B",
+              "price": 690,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PL128GWHUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=6359A616A49AB855A957D7D6BBEE974B&position=19",
+              "tradeVoucher": 393,
+              "tradeCash": 303
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PL128GULUNLB",
+              "title": "Apple iPhone 16 Plus 128GB Ultramarine, Unlocked B",
+              "price": 690,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PL128GULUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=6359A616A49AB855A957D7D6BBEE974B&position=20",
+              "tradeVoucher": 393,
+              "tradeCash": 303
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PL128GTEUNLB",
+              "title": "Apple iPhone 16 Plus 128GB Teal, Unlocked B",
+              "price": 690,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PL128GTEUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=6359A616A49AB855A957D7D6BBEE974B&position=21",
+              "tradeVoucher": 393,
+              "tradeCash": 303
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PL128GBLUNLB",
+              "title": "Apple iPhone 16 Plus 128GB Black, Unlocked B",
+              "price": 690,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PL128GBLUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=6359A616A49AB855A957D7D6BBEE974B&position=26",
+              "tradeVoucher": 393,
+              "tradeCash": 303
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PL128GPIUNLB",
+              "title": "Apple iPhone 16 Plus 128GB Pink, Unlocked B",
+              "price": 690,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PL128GPIUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=82A04F7E3B3F2B92F78CE64449C2C613&position=9",
+              "tradeVoucher": 393,
+              "tradeCash": 303
+            }
+          ]
+        },
+        "apple iphone 16 plus 256GB": {
+          "variant": "apple iphone 16 plus 256GB",
+          "storage": "256GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PL256GULUNLB",
+              "title": "Apple iPhone 16 Plus 256GB Ultramarine, Unlocked B",
+              "price": 740,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PL256GULUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=6359A616A49AB855A957D7D6BBEE974B&position=28",
+              "tradeVoucher": 421,
+              "tradeCash": 325
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PL256GTEUNLB",
+              "title": "Apple iPhone 16 Plus 256GB Teal, Unlocked B",
+              "price": 740,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PL256GTEUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=EE5C364CA1EBB6771CB076E486E288B6&position=35",
+              "tradeVoucher": 421,
+              "tradeCash": 325
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PL256GWHUNLB",
+              "title": "Apple iPhone 16 Plus 256GB White, Unlocked B",
+              "price": 740,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PL256GWHUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=EE5C364CA1EBB6771CB076E486E288B6&position=37",
+              "tradeVoucher": 421,
+              "tradeCash": 325
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PL256GPIUNLB",
+              "title": "Apple iPhone 16 Plus 256GB Pink, Unlocked B",
+              "price": 740,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PL256GPIUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=EE5C364CA1EBB6771CB076E486E288B6&position=46",
+              "tradeVoucher": 421,
+              "tradeCash": 325
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PL256GBLUNLB",
+              "title": "Apple iPhone 16 Plus 256GB Black, Unlocked B",
+              "price": 740,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PL256GBLUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=EE5C364CA1EBB6771CB076E486E288B6&position=47",
+              "tradeVoucher": 421,
+              "tradeCash": 325
+            }
+          ]
+        },
+        "apple iphone 16 plus 512GB": {
+          "variant": "apple iphone 16 plus 512GB",
+          "storage": "512GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PL512GWHUNLB",
+              "title": "Apple iPhone 16 Plus 512GB White, Unlocked B",
+              "price": 870,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PL512GWHUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=EE5C364CA1EBB6771CB076E486E288B6&position=41",
+              "tradeVoucher": 495,
+              "tradeCash": 382
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PL512GULUNLB",
+              "title": "Apple iPhone 16 Plus 512GB Ultramarine, Unlocked B",
+              "price": 870,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PL512GULUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=EE5C364CA1EBB6771CB076E486E288B6&position=42",
+              "tradeVoucher": 495,
+              "tradeCash": 382
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PL512GTEUNLB",
+              "title": "Apple iPhone 16 Plus 512GB Teal, Unlocked B",
+              "price": 870,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PL512GTEUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=EE5C364CA1EBB6771CB076E486E288B6&position=43",
+              "tradeVoucher": 495,
+              "tradeCash": 382
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PL512GPIUNLB",
+              "title": "Apple iPhone 16 Plus 512GB Pink, Unlocked B",
+              "price": 870,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PL512GPIUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=EE5C364CA1EBB6771CB076E486E288B6&position=44",
+              "tradeVoucher": 495,
+              "tradeCash": 382
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PL512GBLUNLB",
+              "title": "Apple iPhone 16 Plus 512GB Black, Unlocked B",
+              "price": 870,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PL512GBLUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=EE5C364CA1EBB6771CB076E486E288B6&position=45",
+              "tradeVoucher": 495,
+              "tradeCash": 382
+            }
+          ]
+        }
+      }
+    },
+    "apple iphone 16 pro": {
+      "model": "apple iphone 16 pro",
+      "variants": {
+        "apple iphone 16 pro 256GB": {
+          "variant": "apple iphone 16 pro 256GB",
+          "storage": "256GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PR256GDTUNLB",
+              "title": "Apple iPhone 16 Pro 256GB Desert Titanium, Unlocked B",
+              "price": 815,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PR256GDTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=6359A616A49AB855A957D7D6BBEE974B&position=24",
+              "tradeVoucher": 546,
+              "tradeCash": 440
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PR256GWTUNLB",
+              "title": "Apple iPhone 16 Pro 256GB White Titanium, Unlocked B",
+              "price": 815,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PR256GWTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=6359A616A49AB855A957D7D6BBEE974B&position=33",
+              "tradeVoucher": 546,
+              "tradeCash": 440
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PR256GBTUNLB",
+              "title": "Apple iPhone 16 Pro 256GB Black Titanium, Unlocked B",
+              "price": 815,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PR256GBTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=82A04F7E3B3F2B92F78CE64449C2C613&position=7",
+              "tradeVoucher": 546,
+              "tradeCash": 440
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PR256GNTUNLB",
+              "title": "Apple iPhone 16 Pro 256GB Natural Titanium, Unlocked B",
+              "price": 815,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PR256GNTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=82A04F7E3B3F2B92F78CE64449C2C613&position=16",
+              "tradeVoucher": 546,
+              "tradeCash": 440
+            }
+          ]
+        },
+        "apple iphone 16 pro 512GB": {
+          "variant": "apple iphone 16 pro 512GB",
+          "storage": "512GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PR512GNTUNLB",
+              "title": "Apple iPhone 16 Pro 512GB Natural Titanium, Unlocked B",
+              "price": 900,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PR512GNTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=6359A616A49AB855A957D7D6BBEE974B&position=29",
+              "tradeVoucher": 603,
+              "tradeCash": 486
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PR512GWTUNLB",
+              "title": "Apple iPhone 16 Pro 512GB White Titanium, Unlocked B",
+              "price": 900,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PR512GWTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=6359A616A49AB855A957D7D6BBEE974B&position=31",
+              "tradeVoucher": 603,
+              "tradeCash": 486
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PR512GDTUNLB",
+              "title": "Apple iPhone 16 Pro 512GB Desert Titanium, Unlocked B",
+              "price": 900,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PR512GDTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=82A04F7E3B3F2B92F78CE64449C2C613&position=14",
+              "tradeVoucher": 603,
+              "tradeCash": 486
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PR512GBTUNLB",
+              "title": "Apple iPhone 16 Pro 512GB Black Titanium, Unlocked B",
+              "price": 900,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PR512GBTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=82A04F7E3B3F2B92F78CE64449C2C613&position=15",
+              "tradeVoucher": 603,
+              "tradeCash": 486
+            }
+          ]
+        },
+        "apple iphone 16 pro 1TB": {
+          "variant": "apple iphone 16 pro 1TB",
+          "storage": "1TB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PR1TNTUNLB",
+              "title": "Apple iPhone 16 Pro 1TB Natural Titanium, Unlocked B",
+              "price": 1000,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PR1TNTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=6359A616A49AB855A957D7D6BBEE974B&position=34",
+              "tradeVoucher": 670,
+              "tradeCash": 540
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PR1TBTUNLB",
+              "title": "Apple iPhone 16 Pro 1TB Black Titanium, Unlocked B",
+              "price": 1000,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PR1TBTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=EE5C364CA1EBB6771CB076E486E288B6&position=38",
+              "tradeVoucher": 670,
+              "tradeCash": 540
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PR1TWTUNLB",
+              "title": "Apple iPhone 16 Pro 1TB White Titanium, Unlocked B",
+              "price": 1000,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PR1TWTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=EE5C364CA1EBB6771CB076E486E288B6&position=39",
+              "tradeVoucher": 670,
+              "tradeCash": 540
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PR1TDTUNLB",
+              "title": "Apple iPhone 16 Pro 1TB Desert Titanium, Unlocked B",
+              "price": 1000,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PR1TDTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=EE5C364CA1EBB6771CB076E486E288B6&position=40",
+              "tradeVoucher": 670,
+              "tradeCash": 540
+            }
+          ]
+        },
+        "apple iphone 16 pro 128GB": {
+          "variant": "apple iphone 16 pro 128GB",
+          "storage": "128GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PR128GBTUNLB",
+              "title": "Apple iPhone 16 Pro 128GB Black Titanium, Unlocked B",
+              "price": 735,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PR128GBTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=82A04F7E3B3F2B92F78CE64449C2C613&position=3",
+              "tradeVoucher": 492,
+              "tradeCash": 396
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PR128GDTUNLB",
+              "title": "Apple iPhone 16 Pro 128GB Desert Titanium, Unlocked B",
+              "price": 735,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PR128GDTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=82A04F7E3B3F2B92F78CE64449C2C613&position=5",
+              "tradeVoucher": 492,
+              "tradeCash": 396
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PR128GNTUNLB",
+              "title": "Apple iPhone 16 Pro 128GB Natural Titanium, Unlocked B",
+              "price": 735,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PR128GNTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=82A04F7E3B3F2B92F78CE64449C2C613&position=10",
+              "tradeVoucher": 492,
+              "tradeCash": 396
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PR128GWTUNLB",
+              "title": "Apple iPhone 16 Pro 128GB White Titanium, Unlocked B",
+              "price": 735,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PR128GWTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=82A04F7E3B3F2B92F78CE64449C2C613&position=12",
+              "tradeVoucher": 492,
+              "tradeCash": 396
+            }
+          ]
+        }
+      }
+    },
+    "apple iphone 16 pro max": {
+      "model": "apple iphone 16 pro max",
+      "variants": {
+        "apple iphone 16 pro max 512GB": {
+          "variant": "apple iphone 16 pro max 512GB",
+          "storage": "512GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PM512GWTUNLB",
+              "title": "Apple iPhone 16 Pro Max 512GB White Titanium, Unlocked B",
+              "price": 975,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PM512GWTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=6359A616A49AB855A957D7D6BBEE974B&position=25",
+              "tradeVoucher": 653,
+              "tradeCash": 526
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PM512GBTUNLB",
+              "title": "Apple iPhone 16 Pro Max 512GB Black Titanium, Unlocked B",
+              "price": 975,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PM512GBTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=82A04F7E3B3F2B92F78CE64449C2C613&position=8",
+              "tradeVoucher": 653,
+              "tradeCash": 526
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PM512GDTUNLB",
+              "title": "Apple iPhone 16 Pro Max 512GB Desert Titanium, Unlocked B",
+              "price": 975,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PM512GDTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=82A04F7E3B3F2B92F78CE64449C2C613&position=13",
+              "tradeVoucher": 653,
+              "tradeCash": 526
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PM512GNTUNLB",
+              "title": "Apple iPhone 16 Pro Max 512GB Natural Titanium, Unlocked B",
+              "price": 975,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PM512GNTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=82A04F7E3B3F2B92F78CE64449C2C613&position=17",
+              "tradeVoucher": 653,
+              "tradeCash": 526
+            }
+          ]
+        },
+        "apple iphone 16 pro max 256GB": {
+          "variant": "apple iphone 16 pro max 256GB",
+          "storage": "256GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PM256GBTUNLB",
+              "title": "Apple iPhone 16 Pro Max 256GB Black Titanium, Unlocked B",
+              "price": 850,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PM256GBTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=82A04F7E3B3F2B92F78CE64449C2C613&position=1",
+              "tradeVoucher": 569,
+              "tradeCash": 459
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PM256GDTUNLB",
+              "title": "Apple iPhone 16 Pro Max 256GB Desert Titanium, Unlocked B",
+              "price": 850,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PM256GDTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=82A04F7E3B3F2B92F78CE64449C2C613&position=2",
+              "tradeVoucher": 569,
+              "tradeCash": 459
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PM256GWTUNLB",
+              "title": "Apple iPhone 16 Pro Max 256GB White Titanium, Unlocked B",
+              "price": 850,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PM256GWTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=82A04F7E3B3F2B92F78CE64449C2C613&position=4",
+              "tradeVoucher": 569,
+              "tradeCash": 459
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PM256GNTUNLB",
+              "title": "Apple iPhone 16 Pro Max 256GB Natural Titanium, Unlocked B",
+              "price": 850,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PM256GNTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=82A04F7E3B3F2B92F78CE64449C2C613&position=6",
+              "tradeVoucher": 569,
+              "tradeCash": 459
+            }
+          ]
+        },
+        "apple iphone 16 pro max 1TB": {
+          "variant": "apple iphone 16 pro max 1TB",
+          "storage": "1TB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PM1TBTUNLB",
+              "title": "Apple iPhone 16 Pro Max 1TB Black Titanium, Unlocked B",
+              "price": 1100,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PM1TBTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=FA52E9F0763D0645609000C6927E4B87&position=1",
+              "tradeVoucher": 737,
+              "tradeCash": 594
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PM1TDTUNLB",
+              "title": "Apple iPhone 16 Pro Max 1TB Desert Titanium, Unlocked B",
+              "price": 1100,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PM1TDTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=FA52E9F0763D0645609000C6927E4B87&position=2",
+              "tradeVoucher": 737,
+              "tradeCash": 594
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PM1TNTUNLB",
+              "title": "Apple iPhone 16 Pro Max 1TB Natural Titanium, Unlocked B",
+              "price": 1100,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PM1TNTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=FA52E9F0763D0645609000C6927E4B87&position=3",
+              "tradeVoucher": 737,
+              "tradeCash": 594
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP16PM1TWTUNLB",
+              "title": "Apple iPhone 16 Pro Max 1TB White Titanium, Unlocked B",
+              "price": 1100,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP16PM1TWTUNLB&categoryName=IPHONE-16&superCatName=PHONES&title=&queryID=FA52E9F0763D0645609000C6927E4B87&position=4",
+              "tradeVoucher": 737,
+              "tradeCash": 594
+            }
+          ]
+        }
+      }
+    }
+  }
+}

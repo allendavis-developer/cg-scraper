@@ -1,0 +1,625 @@
+{
+  "competitor": "CEX",
+  "models": {
+    "apple iphone 15 plus": {
+      "model": "apple iphone 15 plus",
+      "variants": {
+        "apple iphone 15 plus 256GB": {
+          "variant": "apple iphone 15 plus 256GB",
+          "storage": "256GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PL256GPINUNLB",
+              "title": "Apple iPhone 15 Plus 256GB Pink, Unlocked B",
+              "price": 585,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PL256GPINUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6AFD58634497B48C44B883BCD8B04350&position=18",
+              "tradeVoucher": 333,
+              "tradeCash": 257
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PL256GYELUNLB",
+              "title": "Apple iPhone 15 Plus 256GB Yellow, Unlocked B",
+              "price": 585,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PL256GYELUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6AFD58634497B48C44B883BCD8B04350&position=21",
+              "tradeVoucher": 333,
+              "tradeCash": 257
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PL256GBLUUNLB",
+              "title": "Apple iPhone 15 Plus 256GB Blue, Unlocked B",
+              "price": 585,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PL256GBLUUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6AFD58634497B48C44B883BCD8B04350&position=22",
+              "tradeVoucher": 333,
+              "tradeCash": 257
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PL256GGREUNLB",
+              "title": "Apple iPhone 15 Plus 256GB Green, Unlocked B",
+              "price": 585,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PL256GGREUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6AFD58634497B48C44B883BCD8B04350&position=23",
+              "tradeVoucher": 333,
+              "tradeCash": 257
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PL256GBLAUNLB",
+              "title": "Apple iPhone 15 Plus 256GB Black, Unlocked B",
+              "price": 585,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PL256GBLAUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=22964B891C5A8A2499D3941B76F951D3&position=17",
+              "tradeVoucher": 333,
+              "tradeCash": 257
+            }
+          ]
+        },
+        "apple iphone 15 plus 128GB": {
+          "variant": "apple iphone 15 plus 128GB",
+          "storage": "128GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PL128GYELUNLB",
+              "title": "Apple iPhone 15 Plus 128GB Yellow, Unlocked B",
+              "price": 550,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PL128GYELUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6AFD58634497B48C44B883BCD8B04350&position=19",
+              "tradeVoucher": 313,
+              "tradeCash": 242
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PL128GBLAUNLB",
+              "title": "Apple iPhone 15 Plus 128GB Black, Unlocked B",
+              "price": 550,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PL128GBLAUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=22964B891C5A8A2499D3941B76F951D3&position=8",
+              "tradeVoucher": 313,
+              "tradeCash": 242
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PL128GPINUNLB",
+              "title": "Apple iPhone 15 Plus 128GB Pink, Unlocked B",
+              "price": 550,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PL128GPINUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=22964B891C5A8A2499D3941B76F951D3&position=9",
+              "tradeVoucher": 313,
+              "tradeCash": 242
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PL128GGREUNLB",
+              "title": "Apple iPhone 15 Plus 128GB Green, Unlocked B",
+              "price": 550,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PL128GGREUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=22964B891C5A8A2499D3941B76F951D3&position=12",
+              "tradeVoucher": 313,
+              "tradeCash": 242
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PL128GBLUUNLB",
+              "title": "Apple iPhone 15 Plus 128GB Blue, Unlocked B",
+              "price": 550,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PL128GBLUUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=22964B891C5A8A2499D3941B76F951D3&position=14",
+              "tradeVoucher": 313,
+              "tradeCash": 242
+            }
+          ]
+        },
+        "apple iphone 15 plus 512GB": {
+          "variant": "apple iphone 15 plus 512GB",
+          "storage": "512GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PL512GYELUNLB",
+              "title": "Apple iPhone 15 Plus 512GB Yellow, Unlocked B",
+              "price": 700,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PL512GYELUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6C451C53D73C96A499CAB0DA11DE6C6F&position=27",
+              "tradeVoucher": 399,
+              "tradeCash": 308
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PL512GPINUNLB",
+              "title": "Apple iPhone 15 Plus 512GB Pink, Unlocked B",
+              "price": 700,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PL512GPINUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6C451C53D73C96A499CAB0DA11DE6C6F&position=28",
+              "tradeVoucher": 399,
+              "tradeCash": 308
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PL512GGREUNLB",
+              "title": "Apple iPhone 15 Plus 512GB Green, Unlocked B",
+              "price": 700,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PL512GGREUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6C451C53D73C96A499CAB0DA11DE6C6F&position=29",
+              "tradeVoucher": 399,
+              "tradeCash": 308
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PL512GBLUUNLB",
+              "title": "Apple iPhone 15 Plus 512GB Blue, Unlocked B",
+              "price": 700,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PL512GBLUUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6C451C53D73C96A499CAB0DA11DE6C6F&position=30",
+              "tradeVoucher": 399,
+              "tradeCash": 308
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PL512GBLAUNLB",
+              "title": "Apple iPhone 15 Plus 512GB Black, Unlocked B",
+              "price": 700,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PL512GBLAUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6C451C53D73C96A499CAB0DA11DE6C6F&position=31",
+              "tradeVoucher": 399,
+              "tradeCash": 308
+            }
+          ]
+        }
+      }
+    },
+    "apple iphone 15": {
+      "model": "apple iphone 15",
+      "variants": {
+        "apple iphone 15 256GB": {
+          "variant": "apple iphone 15 256GB",
+          "storage": "256GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15256GGREUNLB",
+              "title": "Apple iPhone 15 256GB Green, Unlocked B",
+              "price": 550,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15256GGREUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6AFD58634497B48C44B883BCD8B04350&position=20",
+              "tradeVoucher": 368,
+              "tradeCash": 297
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15256GYELUNLB",
+              "title": "Apple iPhone 15 256GB Yellow, Unlocked B",
+              "price": 550,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15256GYELUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6AFD58634497B48C44B883BCD8B04350&position=24",
+              "tradeVoucher": 368,
+              "tradeCash": 297
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15256GBLAUNLB",
+              "title": "Apple iPhone 15 256GB Black, Unlocked B",
+              "price": 550,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15256GBLAUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=22964B891C5A8A2499D3941B76F951D3&position=10",
+              "tradeVoucher": 368,
+              "tradeCash": 297
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15256GPINUNLB",
+              "title": "Apple iPhone 15 256GB Pink, Unlocked B",
+              "price": 550,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15256GPINUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=22964B891C5A8A2499D3941B76F951D3&position=15",
+              "tradeVoucher": 368,
+              "tradeCash": 297
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15256GBLUUNLB",
+              "title": "Apple iPhone 15 256GB Blue, Unlocked B",
+              "price": 550,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15256GBLUUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=22964B891C5A8A2499D3941B76F951D3&position=16",
+              "tradeVoucher": 368,
+              "tradeCash": 297
+            }
+          ]
+        },
+        "apple iphone 15 128GB": {
+          "variant": "apple iphone 15 128GB",
+          "storage": "128GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15128GBLAUNLB",
+              "title": "Apple iPhone 15 128GB Black, Unlocked B",
+              "price": 465,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15128GBLAUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=22964B891C5A8A2499D3941B76F951D3&position=1",
+              "tradeVoucher": 311,
+              "tradeCash": 251
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15128GPINUNLB",
+              "title": "Apple iPhone 15 128GB Pink, Unlocked B",
+              "price": 465,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15128GPINUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=22964B891C5A8A2499D3941B76F951D3&position=2",
+              "tradeVoucher": 311,
+              "tradeCash": 251
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15128GBLUUNLB",
+              "title": "Apple iPhone 15 128GB Blue, Unlocked B",
+              "price": 465,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15128GBLUUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=22964B891C5A8A2499D3941B76F951D3&position=3",
+              "tradeVoucher": 311,
+              "tradeCash": 251
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15128GGREUNLB",
+              "title": "Apple iPhone 15 128GB Green, Unlocked B",
+              "price": 465,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15128GGREUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=22964B891C5A8A2499D3941B76F951D3&position=7",
+              "tradeVoucher": 311,
+              "tradeCash": 251
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15128GYELUNLB",
+              "title": "Apple iPhone 15 128GB Yellow, Unlocked B",
+              "price": 465,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15128GYELUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=22964B891C5A8A2499D3941B76F951D3&position=13",
+              "tradeVoucher": 311,
+              "tradeCash": 251
+            }
+          ]
+        },
+        "apple iphone 15 512GB": {
+          "variant": "apple iphone 15 512GB",
+          "storage": "512GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15512GBLAUNLB",
+              "title": "Apple iPhone 15 512GB Black, Unlocked B",
+              "price": 650,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15512GBLAUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6C451C53D73C96A499CAB0DA11DE6C6F&position=21",
+              "tradeVoucher": 435,
+              "tradeCash": 351
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15512GBLUUNLB",
+              "title": "Apple iPhone 15 512GB Blue, Unlocked B",
+              "price": 650,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15512GBLUUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6C451C53D73C96A499CAB0DA11DE6C6F&position=24",
+              "tradeVoucher": 435,
+              "tradeCash": 351
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15512GYELUNLB",
+              "title": "Apple iPhone 15 512GB Yellow, Unlocked B",
+              "price": 650,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15512GYELUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6C451C53D73C96A499CAB0DA11DE6C6F&position=32",
+              "tradeVoucher": 435,
+              "tradeCash": 351
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15512GPINUNLB",
+              "title": "Apple iPhone 15 512GB Pink, Unlocked B",
+              "price": 650,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15512GPINUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6C451C53D73C96A499CAB0DA11DE6C6F&position=33",
+              "tradeVoucher": 435,
+              "tradeCash": 351
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15512GGREUNLB",
+              "title": "Apple iPhone 15 512GB Green, Unlocked B",
+              "price": 650,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15512GGREUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6C451C53D73C96A499CAB0DA11DE6C6F&position=34",
+              "tradeVoucher": 435,
+              "tradeCash": 351
+            }
+          ]
+        }
+      }
+    },
+    "apple iphone 15 pro": {
+      "model": "apple iphone 15 pro",
+      "variants": {
+        "apple iphone 15 pro 128GB": {
+          "variant": "apple iphone 15 pro 128GB",
+          "storage": "128GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PR128GBLTUNLB",
+              "title": "Apple iPhone 15 Pro 128GB Blue Titanium, Unlocked B",
+              "price": 545,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PR128GBLTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=22964B891C5A8A2499D3941B76F951D3&position=4",
+              "tradeVoucher": 310,
+              "tradeCash": 239
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PR128GNATUNLB",
+              "title": "Apple iPhone 15 Pro 128GB Natural Titanium, Unlocked B",
+              "price": 545,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PR128GNATUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=22964B891C5A8A2499D3941B76F951D3&position=5",
+              "tradeVoucher": 310,
+              "tradeCash": 239
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PR128GBKTUNLB",
+              "title": "Apple iPhone 15 Pro 128GB Black Titanium, Unlocked B",
+              "price": 545,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PR128GBKTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=22964B891C5A8A2499D3941B76F951D3&position=6",
+              "tradeVoucher": 310,
+              "tradeCash": 239
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PR128GWHTUNLB",
+              "title": "Apple iPhone 15 Pro 128GB White Titanium, Unlocked B",
+              "price": 545,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PR128GWHTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=22964B891C5A8A2499D3941B76F951D3&position=11",
+              "tradeVoucher": 310,
+              "tradeCash": 239
+            }
+          ]
+        },
+        "apple iphone 15 pro 256GB": {
+          "variant": "apple iphone 15 pro 256GB",
+          "storage": "256GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PR256GBKTUNLB",
+              "title": "Apple iPhone 15 Pro 256GB Black Titanium, Unlocked B",
+              "price": 625,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PR256GBKTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=CB68D92DBED0120B892C5F60BFBF174A&position=5",
+              "tradeVoucher": 356,
+              "tradeCash": 275
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PR256GBLTUNLB",
+              "title": "Apple iPhone 15 Pro 256GB Blue Titanium, Unlocked B",
+              "price": 625,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PR256GBLTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=CB68D92DBED0120B892C5F60BFBF174A&position=6",
+              "tradeVoucher": 356,
+              "tradeCash": 275
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PR256GNATUNLB",
+              "title": "Apple iPhone 15 Pro 256GB Natural Titanium, Unlocked B",
+              "price": 625,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PR256GNATUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=CB68D92DBED0120B892C5F60BFBF174A&position=8",
+              "tradeVoucher": 356,
+              "tradeCash": 275
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PR256GWHTUNLB",
+              "title": "Apple iPhone 15 Pro 256GB White Titanium, Unlocked B",
+              "price": 625,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PR256GWHTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=CB68D92DBED0120B892C5F60BFBF174A&position=13",
+              "tradeVoucher": 356,
+              "tradeCash": 275
+            }
+          ]
+        },
+        "apple iphone 15 pro 512GB": {
+          "variant": "apple iphone 15 pro 512GB",
+          "storage": "512GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PR512GBLTUNLB",
+              "title": "Apple iPhone 15 Pro 512GB Blue Titanium, Unlocked B",
+              "price": 750,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PR512GBLTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=CB68D92DBED0120B892C5F60BFBF174A&position=12",
+              "tradeVoucher": 427,
+              "tradeCash": 330
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PR512GNATUNLB",
+              "title": "Apple iPhone 15 Pro 512GB Natural Titanium, Unlocked B",
+              "price": 750,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PR512GNATUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=CB68D92DBED0120B892C5F60BFBF174A&position=16",
+              "tradeVoucher": 427,
+              "tradeCash": 330
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PR512GBKTUNLB",
+              "title": "Apple iPhone 15 Pro 512GB Black Titanium, Unlocked B",
+              "price": 750,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PR512GBKTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6C451C53D73C96A499CAB0DA11DE6C6F&position=22",
+              "tradeVoucher": 427,
+              "tradeCash": 330
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PR512GWHTUNLB",
+              "title": "Apple iPhone 15 Pro 512GB White Titanium, Unlocked B",
+              "price": 750,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PR512GWHTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6C451C53D73C96A499CAB0DA11DE6C6F&position=25",
+              "tradeVoucher": 427,
+              "tradeCash": 330
+            }
+          ]
+        },
+        "apple iphone 15 pro 1TB": {
+          "variant": "apple iphone 15 pro 1TB",
+          "storage": "1TB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PR1TNATUNLB",
+              "title": "Apple iPhone 15 Pro 1TB Natural Titanium, Unlocked B",
+              "price": 745,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PR1TNATUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6C451C53D73C96A499CAB0DA11DE6C6F&position=18",
+              "tradeVoucher": 424,
+              "tradeCash": 327
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PR1TBLTUNLB",
+              "title": "Apple iPhone 15 Pro 1TB Blue Titanium, Unlocked B",
+              "price": 745,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PR1TBLTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6C451C53D73C96A499CAB0DA11DE6C6F&position=19",
+              "tradeVoucher": 424,
+              "tradeCash": 327
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PR1TBKTUNLB",
+              "title": "Apple iPhone 15 Pro 1TB Black Titanium, Unlocked B",
+              "price": 745,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PR1TBKTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6C451C53D73C96A499CAB0DA11DE6C6F&position=23",
+              "tradeVoucher": 424,
+              "tradeCash": 327
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PR1TWHTUNLB",
+              "title": "Apple iPhone 15 Pro 1TB White Titanium, Unlocked B",
+              "price": 745,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PR1TWHTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6C451C53D73C96A499CAB0DA11DE6C6F&position=26",
+              "tradeVoucher": 424,
+              "tradeCash": 327
+            }
+          ]
+        }
+      }
+    },
+    "apple iphone 15 pro max": {
+      "model": "apple iphone 15 pro max",
+      "variants": {
+        "apple iphone 15 pro max 256GB": {
+          "variant": "apple iphone 15 pro max 256GB",
+          "storage": "256GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PM256GBLTUNLB",
+              "title": "Apple iPhone 15 Pro Max 256GB Blue Titanium, Unlocked B",
+              "price": 675,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PM256GBLTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=CB68D92DBED0120B892C5F60BFBF174A&position=1",
+              "tradeVoucher": 384,
+              "tradeCash": 297
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PM256GNATUNLB",
+              "title": "Apple iPhone 15 Pro Max 256GB Natural Titanium, Unlocked B",
+              "price": 675,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PM256GNATUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=CB68D92DBED0120B892C5F60BFBF174A&position=2",
+              "tradeVoucher": 384,
+              "tradeCash": 297
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PM256GBKTUNLB",
+              "title": "Apple iPhone 15 Pro Max 256GB Black Titanium, Unlocked B",
+              "price": 675,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PM256GBKTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=CB68D92DBED0120B892C5F60BFBF174A&position=3",
+              "tradeVoucher": 384,
+              "tradeCash": 297
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PM256GWHTUNLB",
+              "title": "Apple iPhone 15 Pro Max 256GB White Titanium, Unlocked B",
+              "price": 675,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PM256GWHTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=CB68D92DBED0120B892C5F60BFBF174A&position=4",
+              "tradeVoucher": 384,
+              "tradeCash": 297
+            }
+          ]
+        },
+        "apple iphone 15 pro max 512GB": {
+          "variant": "apple iphone 15 pro max 512GB",
+          "storage": "512GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PM512GNATUNLB",
+              "title": "Apple iPhone 15 Pro Max 512GB Natural Titanium, Unlocked B",
+              "price": 700,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PM512GNATUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=CB68D92DBED0120B892C5F60BFBF174A&position=7",
+              "tradeVoucher": 399,
+              "tradeCash": 308
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PM512GBKTUNLB",
+              "title": "Apple iPhone 15 Pro Max 512GB Black Titanium, Unlocked B",
+              "price": 700,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PM512GBKTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=CB68D92DBED0120B892C5F60BFBF174A&position=9",
+              "tradeVoucher": 399,
+              "tradeCash": 308
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PM512GBLTUNLB",
+              "title": "Apple iPhone 15 Pro Max 512GB Blue Titanium, Unlocked B",
+              "price": 700,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PM512GBLTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=CB68D92DBED0120B892C5F60BFBF174A&position=10",
+              "tradeVoucher": 399,
+              "tradeCash": 308
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PM512GWHTUNLB",
+              "title": "Apple iPhone 15 Pro Max 512GB White Titanium, Unlocked B",
+              "price": 700,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PM512GWHTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=CB68D92DBED0120B892C5F60BFBF174A&position=15",
+              "tradeVoucher": 399,
+              "tradeCash": 308
+            }
+          ]
+        },
+        "apple iphone 15 pro max 1TB": {
+          "variant": "apple iphone 15 pro max 1TB",
+          "storage": "1TB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PM1TBLTUNLB",
+              "title": "Apple iPhone 15 Pro Max 1TB Blue Titanium, Unlocked B",
+              "price": 800,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PM1TBLTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=CB68D92DBED0120B892C5F60BFBF174A&position=11",
+              "tradeVoucher": 456,
+              "tradeCash": 352
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PM1TNATUNLB",
+              "title": "Apple iPhone 15 Pro Max 1TB Natural Titanium, Unlocked B",
+              "price": 800,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PM1TNATUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=CB68D92DBED0120B892C5F60BFBF174A&position=14",
+              "tradeVoucher": 456,
+              "tradeCash": 352
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PM1TWHTUNLB",
+              "title": "Apple iPhone 15 Pro Max 1TB White Titanium, Unlocked B",
+              "price": 800,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PM1TWHTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=CB68D92DBED0120B892C5F60BFBF174A&position=17",
+              "tradeVoucher": 456,
+              "tradeCash": 352
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI15PM1TBKTUNLB",
+              "title": "Apple iPhone 15 Pro Max 1TB Black Titanium, Unlocked B",
+              "price": 800,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI15PM1TBKTUNLB&categoryName=IPHONE-15&superCatName=PHONES&title=&queryID=6C451C53D73C96A499CAB0DA11DE6C6F&position=20",
+              "tradeVoucher": 456,
+              "tradeCash": 352
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "competitor": "CEX",
+  "models": {
+    "apple iphone se (2nd generation)": {
+      "model": "apple iphone se (2nd generation)",
+      "variants": {
+        "apple iphone se (2nd generation) 128GB": {
+          "variant": "apple iphone se (2nd generation) 128GB",
+          "storage": "128GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2128GPRVODB",
+              "title": "Apple iPhone SE (2nd Generation) 128GB Product RED, Vodafone B",
+              "price": 125,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2128GPRVODB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=08A5D48FFA6FB94B3337B0C1D4995DD7&position=35",
+              "tradeVoucher": 71,
+              "tradeCash": 55
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2128GPRO2B",
+              "title": "Apple iPhone SE (2nd Generation) 128GB Product RED, O2 B",
+              "price": 125,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2128GPRO2B&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=08A5D48FFA6FB94B3337B0C1D4995DD7&position=36",
+              "tradeVoucher": 71,
+              "tradeCash": 55
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2128GBVODB",
+              "title": "Apple iPhone SE (2nd Generation) 128GB Black, Vodafone B",
+              "price": 125,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2128GBVODB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=08A5D48FFA6FB94B3337B0C1D4995DD7&position=37",
+              "tradeVoucher": 71,
+              "tradeCash": 55
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2128GBO2B",
+              "title": "Apple iPhone SE (2nd Generation) 128GB Black, O2 B",
+              "price": 125,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2128GBO2B&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=08A5D48FFA6FB94B3337B0C1D4995DD7&position=38",
+              "tradeVoucher": 71,
+              "tradeCash": 55
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2128GBUNLB",
+              "title": "Apple iPhone SE (2nd Generation) 128GB Black, Unlocked B",
+              "price": 150,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2128GBUNLB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=72518F110FB19148929EBAADED248E04&position=4",
+              "tradeVoucher": 85,
+              "tradeCash": 66
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2128GPRUNLB",
+              "title": "Apple iPhone SE (2nd Generation) 128GB Product RED, Unlocked B",
+              "price": 150,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2128GPRUNLB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=72518F110FB19148929EBAADED248E04&position=5",
+              "tradeVoucher": 85,
+              "tradeCash": 66
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2128GWUNLB",
+              "title": "Apple iPhone SE (2nd Generation) 128GB White, Unlocked B",
+              "price": 150,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2128GWUNLB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=72518F110FB19148929EBAADED248E04&position=6",
+              "tradeVoucher": 85,
+              "tradeCash": 66
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2128GBEVEB",
+              "title": "Apple iPhone SE (2nd Generation) 128GB Black, EE B",
+              "price": 125,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2128GBEVEB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=72518F110FB19148929EBAADED248E04&position=11",
+              "tradeVoucher": 71,
+              "tradeCash": 55
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2128GPREVEB",
+              "title": "Apple iPhone SE (2nd Generation) 128GB Product RED, EE B",
+              "price": 125,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2128GPREVEB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=72518F110FB19148929EBAADED248E04&position=17",
+              "tradeVoucher": 71,
+              "tradeCash": 55
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2128GWEVEB",
+              "title": "Apple iPhone SE (2nd Generation) 128GB White, EE B",
+              "price": 125,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2128GWEVEB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=6F8FF5A9EB876516DF7D37AFC1CC2ABA&position=20",
+              "tradeVoucher": 71,
+              "tradeCash": 55
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2128GWVODB",
+              "title": "Apple iPhone SE (2nd Generation) 128GB White, Vodafone B",
+              "price": 125,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2128GWVODB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=6F8FF5A9EB876516DF7D37AFC1CC2ABA&position=33",
+              "tradeVoucher": 71,
+              "tradeCash": 55
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2128GWO2B",
+              "title": "Apple iPhone SE (2nd Generation) 128GB White, O2 B",
+              "price": 125,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2128GWO2B&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=6F8FF5A9EB876516DF7D37AFC1CC2ABA&position=34",
+              "tradeVoucher": 71,
+              "tradeCash": 55
+            }
+          ]
+        },
+        "apple iphone se (2nd generation) 64GB": {
+          "variant": "apple iphone se (2nd generation) 64GB",
+          "storage": "64GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE264GBUNLB",
+              "title": "Apple iPhone SE (2nd Generation) 64GB Black, Unlocked B",
+              "price": 140,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE264GBUNLB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=72518F110FB19148929EBAADED248E04&position=1",
+              "tradeVoucher": 79,
+              "tradeCash": 61
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE264GPRUNLB",
+              "title": "Apple iPhone SE (2nd Generation) 64GB Product RED, Unlocked B",
+              "price": 140,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE264GPRUNLB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=72518F110FB19148929EBAADED248E04&position=2",
+              "tradeVoucher": 79,
+              "tradeCash": 61
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE264GWUNLB",
+              "title": "Apple iPhone SE (2nd Generation) 64GB White, Unlocked B",
+              "price": 140,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE264GWUNLB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=72518F110FB19148929EBAADED248E04&position=3",
+              "tradeVoucher": 79,
+              "tradeCash": 61
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE264GPREVEB",
+              "title": "Apple iPhone SE (2nd Generation) 64GB Product RED, EE B",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE264GPREVEB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=72518F110FB19148929EBAADED248E04&position=8",
+              "tradeVoucher": 59,
+              "tradeCash": 46
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE264GPRO2B",
+              "title": "Apple iPhone SE (2nd Generation) 64GB Product RED, O2 B",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE264GPRO2B&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=72518F110FB19148929EBAADED248E04&position=9",
+              "tradeVoucher": 59,
+              "tradeCash": 46
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE264GBEVEB",
+              "title": "Apple iPhone SE (2nd Generation) 64GB Black, EE B",
+              "price": 115,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE264GBEVEB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=72518F110FB19148929EBAADED248E04&position=12",
+              "tradeVoucher": 65,
+              "tradeCash": 50
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE264GWVODB",
+              "title": "Apple iPhone SE (2nd Generation) 64GB White, Vodafone B",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE264GWVODB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=72518F110FB19148929EBAADED248E04&position=13",
+              "tradeVoucher": 59,
+              "tradeCash": 46
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE264GWEVEB",
+              "title": "Apple iPhone SE (2nd Generation) 64GB White, EE B",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE264GWEVEB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=72518F110FB19148929EBAADED248E04&position=14",
+              "tradeVoucher": 59,
+              "tradeCash": 46
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE264GBVODB",
+              "title": "Apple iPhone SE (2nd Generation) 64GB Black, Vodafone B",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE264GBVODB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=72518F110FB19148929EBAADED248E04&position=15",
+              "tradeVoucher": 59,
+              "tradeCash": 46
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE264GBO2B",
+              "title": "Apple iPhone SE (2nd Generation) 64GB Black, O2 B",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE264GBO2B&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=72518F110FB19148929EBAADED248E04&position=16",
+              "tradeVoucher": 59,
+              "tradeCash": 46
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE264GPRVODB",
+              "title": "Apple iPhone SE (2nd Generation) 64GB Product RED, Vodafone B",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE264GPRVODB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=6F8FF5A9EB876516DF7D37AFC1CC2ABA&position=19",
+              "tradeVoucher": 59,
+              "tradeCash": 46
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE264GWVIRB",
+              "title": "Apple iPhone SE (2nd Generation) 64GB White, Virgin B",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE264GWVIRB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=6F8FF5A9EB876516DF7D37AFC1CC2ABA&position=21",
+              "tradeVoucher": 59,
+              "tradeCash": 46
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE264GWO2B",
+              "title": "Apple iPhone SE (2nd Generation) 64GB White, O2 B",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE264GWO2B&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=6F8FF5A9EB876516DF7D37AFC1CC2ABA&position=22",
+              "tradeVoucher": 59,
+              "tradeCash": 46
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE264GPRVIRB",
+              "title": "Apple iPhone SE (2nd Generation) 64GB Product Red, Virgin B",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE264GPRVIRB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=6F8FF5A9EB876516DF7D37AFC1CC2ABA&position=23",
+              "tradeVoucher": 59,
+              "tradeCash": 46
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE264GPRTESB",
+              "title": "Apple iPhone SE (2nd Generation) 64GB Product RED, Tesco B",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE264GPRTESB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=6F8FF5A9EB876516DF7D37AFC1CC2ABA&position=24",
+              "tradeVoucher": 59,
+              "tradeCash": 46
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE264GBVIRB",
+              "title": "Apple iPhone SE (2nd Generation) 64GB Black, Virgin B",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE264GBVIRB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=6F8FF5A9EB876516DF7D37AFC1CC2ABA&position=25",
+              "tradeVoucher": 59,
+              "tradeCash": 46
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE264GBTESB",
+              "title": "Apple iPhone SE (2nd Generation) 64GB Black, Tesco B",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE264GBTESB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=6F8FF5A9EB876516DF7D37AFC1CC2ABA&position=26",
+              "tradeVoucher": 59,
+              "tradeCash": 46
+            }
+          ]
+        },
+        "apple iphone se (2nd generation) 256GB": {
+          "variant": "apple iphone se (2nd generation) 256GB",
+          "storage": "256GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2256GBUNLB",
+              "title": "Apple iPhone SE (2nd Generation) 256GB Black, Unlocked B",
+              "price": 170,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2256GBUNLB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=72518F110FB19148929EBAADED248E04&position=7",
+              "tradeVoucher": 96,
+              "tradeCash": 74
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2256GWUNLB",
+              "title": "Apple iPhone SE (2nd Generation) 256GB White, Unlocked B",
+              "price": 170,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2256GWUNLB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=72518F110FB19148929EBAADED248E04&position=10",
+              "tradeVoucher": 96,
+              "tradeCash": 74
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2256GPRUNLB",
+              "title": "Apple iPhone SE (2nd Generation) 256GB Product RED, Unlocked B",
+              "price": 170,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2256GPRUNLB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=6F8FF5A9EB876516DF7D37AFC1CC2ABA&position=18",
+              "tradeVoucher": 96,
+              "tradeCash": 74
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2256GWEVEB",
+              "title": "Apple iPhone SE (2nd Generation) 256GB White, EE B",
+              "price": 130,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2256GWEVEB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=6F8FF5A9EB876516DF7D37AFC1CC2ABA&position=27",
+              "tradeVoucher": 74,
+              "tradeCash": 57
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2256GPRVODB",
+              "title": "Apple iPhone SE (2nd Generation) 256GB Product RED, Vodafone B",
+              "price": 130,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2256GPRVODB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=6F8FF5A9EB876516DF7D37AFC1CC2ABA&position=28",
+              "tradeVoucher": 74,
+              "tradeCash": 57
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2256GPRO2B",
+              "title": "Apple iPhone SE (2nd Generation) 256GB Product RED, O2 B",
+              "price": 130,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2256GPRO2B&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=6F8FF5A9EB876516DF7D37AFC1CC2ABA&position=29",
+              "tradeVoucher": 74,
+              "tradeCash": 57
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2256GPREVEB",
+              "title": "Apple iPhone SE (2nd Generation) 256GB Product RED, EE B",
+              "price": 130,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2256GPREVEB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=6F8FF5A9EB876516DF7D37AFC1CC2ABA&position=30",
+              "tradeVoucher": 74,
+              "tradeCash": 57
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2256GBO2B",
+              "title": "Apple iPhone SE (2nd Generation) 256GB Black, O2 B",
+              "price": 130,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2256GBO2B&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=6F8FF5A9EB876516DF7D37AFC1CC2ABA&position=31",
+              "tradeVoucher": 74,
+              "tradeCash": 57
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPSE2256GBEVEB",
+              "title": "Apple iPhone SE (2nd Generation) 256GB Black, EE B",
+              "price": 130,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPSE2256GBEVEB&categoryName=IPHONE-SE-(2ND-GENERATION)&superCatName=PHONES&title=&queryID=6F8FF5A9EB876516DF7D37AFC1CC2ABA&position=32",
+              "tradeVoucher": 74,
+              "tradeCash": 57
+            }
+          ]
+        }
+      }
+    }
+  }
+}

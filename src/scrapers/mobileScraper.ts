@@ -37,22 +37,41 @@ export interface MobileScrapeResult {
 
 /* --------------------------- Helper: Mobile Variant --------------------------- */
 
-// 🧠 Extract model and storage, supporting GB + TB (e.g. “iPhone 15 Pro Max 1TB”)
 function extractMobileModelAndStorage(title: string) {
   const lower = title.toLowerCase();
 
-  // Match things like “iPhone 15 Pro Max 256GB” or “Galaxy S24 Ultra 1TB”
-  const match = lower.match(/(.+?)\s+(\d+(?:\.\d+)?)(tb|gb)\b/i);
+  // Find all GB/TB occurrences (e.g. 4GB, 64GB, 1TB)
+  const matches = [...lower.matchAll(/(\d+(?:\.\d+)?)(tb|gb)\b/gi)];
 
-  if (match) {
-    const model = match[1].trim();
-    const storage = `${parseFloat(match[2])}${match[3].toUpperCase()}`;
-    return { model, storage };
+  let storage: string | null = null;
+  let rawModel = lower;
+
+  if (matches.length > 0) {
+    const lastMatch = matches[matches.length - 1];
+    storage = `${parseFloat(lastMatch[1])}${lastMatch[2].toUpperCase()}`;
+    rawModel = lower.slice(0, lastMatch.index).trim();
   }
 
-  // Fallback if storage not found
-  return { model: title.trim(), storage: null };
+  // Clean model name
+  let cleanModel = rawModel
+    .replace(/\(.*?\)/g, '')                           // remove parentheses
+    .replace(/\b(dual sim|5g|4g|unlocked|android phones|sim free|phone|smartphone)\b/g, '')
+    .replace(/\b(black|blue|graphite|white|silver|gold|green|purple|red|pink|awesome|phantom|obsidian|prime|denim)\b/g, '')
+    .replace(/\b(a|b|c|good|excellent|grade|condition)\b/g, '')
+    .replace(/\s{2,}/g, ' ')                           // collapse spaces
+    .replace(/[,/]+$/g, '')                            // remove trailing commas/slashes
+    .trim();
+
+  // Capitalize nicely
+  cleanModel = cleanModel
+    .split(' ')
+    .filter(Boolean)
+    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ');
+
+  return { model: cleanModel, storage };
 }
+
 
 export function parseMobileVariantKey(title: string): string {
   const { model, storage } = extractMobileModelAndStorage(title);
@@ -70,7 +89,8 @@ export function transformScrapeResultToMobileScrapeResult(
 
   const genericModels = groupResultsByVariant(results as CompetitorListing[], (item) => {
     const { model, storage } = extractMobileModelAndStorage(item.title);
-    return { model, variant: storage ? `${model} ${storage}` : model, extra: { storage } };
+    const variantKey = storage ? `${model} ${storage}` : model;
+    return { model, variant: variantKey, extra: { storage } };
   });
 
   // ✅ Map generic structure → Mobile-specific structure
@@ -113,9 +133,9 @@ const defaultMobilePriceRanges: [number, number][] = [
 
 export async function getMobileResults(
   browser: Browser,
-  options: MobileSearchOptions
+  options: MobileSearchOptions,
 ): Promise<MobileScrapeResult> {
-  const { competitor, item, attributes, broad, subcategory, priceRanges } = options;
+  const { competitor, item, attributes, broad, subcategory, priceRanges = defaultMobilePriceRanges } = options;
 
   if (competitor !== "CEX") {
     throw new Error(`Unsupported competitor: ${competitor}`);

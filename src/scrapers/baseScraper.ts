@@ -105,10 +105,6 @@ export async function scrapeAllPagesParallel(
   const tempPage = await browser.newPage();
   await tempPage.goto(baseUrl, { waitUntil: "domcontentloaded" });
 
-  // After navigation, before waiting
-  const content = await tempPage.content();
-  console.log("Page HTML length:", content.length);
-  await tempPage.screenshot({ path: 'debug-headless.png' });
 
   // Wait for JS to render the stats element dynamically
   await tempPage.waitForFunction(() => {
@@ -152,7 +148,8 @@ export async function scrapeAllPagesParallel(
         await tab.goto(pagedUrl, { waitUntil: "domcontentloaded", timeout: 30000 });
         await tab.waitForSelector(container, { timeout: 10000 });
         const pageResults = await scrapeCEX(tab, container, title, price, url);
-        // console.log(`📄 Results for page ${pageNum}: ${pageResults.length}`);
+        console.log(`📄 Results for page ${pageNum}: ${pageResults.length}`);
+        console.log(pageResults);
 
         for (const result of pageResults) {
           const key = parseVariantKey ? parseVariantKey(result.title) : result.title.trim();
