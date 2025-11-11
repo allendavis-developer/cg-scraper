@@ -1,263 +1,230 @@
 {
   "competitor": "CEX",
   "models": {
-    "MacBook Air 10,1": {
-      "model": "MacBook Air 10,1",
+    "Apple Ipad 9th Gen 10.2\" A2602": {
+      "model": "Apple Ipad 9th Gen 10.2\" A2602",
       "variants": {
-        "MacBook Air 10,1 8GB 256GB": {
-          "variant": "MacBook Air 10,1 8GB 256GB",
-          "ram": "8GB",
-          "storage": "256GB",
+        "Apple Ipad 9th Gen 10.2\" A2602 64GB WIFI": {
+          "variant": "Apple Ipad 9th Gen 10.2\" A2602 64GB WIFI",
+          "storage": "64GB",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SAPPMBA10182567SGB",
-              "title": "MacBook Air 10,1/M1 (8-CPU 7-GPU)/8GB Ram/256GB SSD/13\"/SG/B",
-              "price": 475,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPMBA10182567SGB&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=1",
-              "tradeVoucher": 318,
-              "tradeCash": 261
+              "id": "SAPPA260264GSGRWIFIB",
+              "title": "Apple iPad 9th Gen (A2602) 10.2\" 64GB - Space Grey, WiFi B",
+              "price": 215,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPA260264GSGRWIFIB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=1",
+              "tradeVoucher": 148,
+              "tradeCash": 122
             },
             {
               "competitor": "CEX",
-              "id": "SAPPMBA10182567GB",
-              "title": "MacBook Air 10,1/M1 (8-CPU 7-GPU)/8GB Ram/256GB SSD/13\"/Gold/B",
-              "price": 435,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPMBA10182567GB&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=5",
-              "tradeVoucher": 291,
-              "tradeCash": 239
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPMBA10182567SB",
-              "title": "MacBook Air 10,1/M1 (8-CPU 7-GPU)/8GB Ram/256GB SSD/13\"/Silver/B",
-              "price": 445,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPMBA10182567SB&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=9",
-              "tradeVoucher": 298,
-              "tradeCash": 244
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPMBA10182567SGC",
-              "title": "MacBook Air 10,1/M1 (8-CPU 7-GPU)/8GB Ram/256GB SSD/13\"/SG/C",
-              "price": 390,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPMBA10182567SGC&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=10",
-              "tradeVoucher": 261,
-              "tradeCash": 214
-            }
-          ]
-        }
-      }
-    },
-    "MacBook Air 7,2": {
-      "model": "MacBook Air 7,2",
-      "variants": {
-        "MacBook Air 7,2 8GB 128GB": {
-          "variant": "MacBook Air 7,2 8GB 128GB",
-          "ram": "8GB",
-          "storage": "128GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SLAPAPPMBA7215B",
-              "title": "MacBook Air 7,2/i5-5350U/8GB Ram/128GB SSD/13\"/OSX/B",
-              "price": 185,
-              "url": "https://uk.webuy.com/product-detail?id=SLAPAPPMBA7215B&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=2",
-              "tradeVoucher": 116,
-              "tradeCash": 81
-            },
-            {
-              "competitor": "CEX",
-              "id": "SLAPAPPMBA7202B",
-              "title": "MacBook Air 7,2/i5-5250U/8GB Ram/128GB SSD/13\"/OSX/B",
-              "price": 170,
-              "url": "https://uk.webuy.com/product-detail?id=SLAPAPPMBA7202B&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=14",
-              "tradeVoucher": 107,
-              "tradeCash": 74
+              "id": "SAPPA260264GSVWIFIB",
+              "title": "Apple iPad 9th Gen (A2602) 10.2\" 64GB, Silver WiFi B",
+              "price": 215,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPA260264GSVWIFIB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=15",
+              "tradeVoucher": 148,
+              "tradeCash": 122
             }
           ]
         },
-        "MacBook Air 7,2 4GB 128GB": {
-          "variant": "MacBook Air 7,2 4GB 128GB",
-          "ram": "4GB",
+        "Apple Ipad 9th Gen 10.2\" A2602 64GB UNLOCKED": {
+          "variant": "Apple Ipad 9th Gen 10.2\" A2602 64GB UNLOCKED",
+          "storage": "64GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPA260464GSGRUNLB",
+              "title": "Apple iPad 9th Gen (A2604) 10.2\" 64GB - Space Grey, Unlocked B",
+              "price": 225,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPA260464GSGRUNLB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=13",
+              "tradeVoucher": 155,
+              "tradeCash": 128
+            }
+          ]
+        }
+      }
+    },
+    "Apple Ipad 8th Gen 10.2\" A2270": {
+      "model": "Apple Ipad 8th Gen 10.2\" A2270",
+      "variants": {
+        "Apple Ipad 8th Gen 10.2\" A2270 32GB WIFI": {
+          "variant": "Apple Ipad 8th Gen 10.2\" A2270 32GB WIFI",
+          "storage": "32GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPA227032GSGWIFB",
+              "title": "Apple iPad 8th Gen (A2270) 10.2\" 32GB - Space Grey, WiFi B",
+              "price": 175,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPA227032GSGWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=3",
+              "tradeVoucher": 120,
+              "tradeCash": 99
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPA227032GGWIFB",
+              "title": "Apple iPad 8th Gen (A2270) 10.2\" 32GB - Gold, WiFi B",
+              "price": 175,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPA227032GGWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=14",
+              "tradeVoucher": 120,
+              "tradeCash": 99
+            }
+          ]
+        }
+      }
+    },
+    "Apple Ipad 6th Gen 9.7\" A1893": {
+      "model": "Apple Ipad 6th Gen 9.7\" A1893",
+      "variants": {
+        "Apple Ipad 6th Gen 9.7\" A1893 32GB WIFI": {
+          "variant": "Apple Ipad 6th Gen 9.7\" A1893 32GB WIFI",
+          "storage": "32GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPA1832GSGWIFB",
+              "title": "Apple iPad 6th Gen (A1893) 9.7\" 32GB - Space Grey, WiFi B",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPA1832GSGWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=4",
+              "tradeVoucher": 66,
+              "tradeCash": 46
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIPA1832GGWIFB",
+              "title": "Apple iPad 6th Gen (A1893) 9.7\" 32GB - Gold, WiFi B",
+              "price": 105,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPA1832GGWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=17",
+              "tradeVoucher": 66,
+              "tradeCash": 46
+            }
+          ]
+        }
+      }
+    },
+    "Apple Ipad 7th Gen 10.2\" A2197": {
+      "model": "Apple Ipad 7th Gen 10.2\" A2197",
+      "variants": {
+        "Apple Ipad 7th Gen 10.2\" A2197 32GB WIFI": {
+          "variant": "Apple Ipad 7th Gen 10.2\" A2197 32GB WIFI",
+          "storage": "32GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPA223232GSGWIFB",
+              "title": "Apple iPad 7th Gen (A2197) 10.2\" 32GB - Space Grey, WiFi B",
+              "price": 150,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPA223232GSGWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=5",
+              "tradeVoucher": 100,
+              "tradeCash": 82
+            }
+          ]
+        }
+      }
+    },
+    "Apple Ipad A16 11\" A3354": {
+      "model": "Apple Ipad A16 11\" A3354",
+      "variants": {
+        "Apple Ipad A16 11\" A3354 128GB WIFI": {
+          "variant": "Apple Ipad A16 11\" A3354 128GB WIFI",
           "storage": "128GB",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SLAPAPPMBA7201B",
-              "title": "MacBook Air 7,2/i5-5250U/4GB Ram/128GB SSD/13\"/OSX/B",
-              "price": 145,
-              "url": "https://uk.webuy.com/product-detail?id=SLAPAPPMBA7201B&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=15",
-              "tradeVoucher": 91,
-              "tradeCash": 63
+              "id": "SAPPA3354128GSIWIFB",
+              "title": "Apple iPad A16 (A3354) 11\" 128GB Silver, WiFi B",
+              "price": 300,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPA3354128GSIWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=6",
+              "tradeVoucher": 222,
+              "tradeCash": 192
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPA3354128GBLWIFB",
+              "title": "Apple iPad A16 (A3354) 11\" 128GB Blue, WiFi B",
+              "price": 300,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPA3354128GBLWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=8",
+              "tradeVoucher": 222,
+              "tradeCash": 192
             }
           ]
         }
       }
     },
-    "MacBook Air 14,2": {
-      "model": "MacBook Air 14,2",
+    "Apple Ipad 10th Gen 10.9\" A2696": {
+      "model": "Apple Ipad 10th Gen 10.9\" A2696",
       "variants": {
-        "MacBook Air 14,2 8GB 256GB": {
-          "variant": "MacBook Air 14,2 8GB 256GB",
-          "ram": "8GB",
-          "storage": "256GB",
+        "Apple Ipad 10th Gen 10.9\" A2696 64GB WIFI": {
+          "variant": "Apple Ipad 10th Gen 10.9\" A2696 64GB WIFI",
+          "storage": "64GB",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SMBA142888256MB",
-              "title": "MacBook Air 14,2/M2 (8-CPU 8-GPU)/8GB Ram/256GB SSD/13\"/Midnight/B",
-              "price": 600,
-              "url": "https://uk.webuy.com/product-detail?id=SMBA142888256MB&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=3",
-              "tradeVoucher": 402,
-              "tradeCash": 330
+              "id": "SAPPA269664GBLUWIFB",
+              "title": "Apple iPad 10th Gen (A2696) 10.9\" 64GB - Blue, Wifi B",
+              "price": 290,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPA269664GBLUWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=7",
+              "tradeVoucher": 214,
+              "tradeCash": 185
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPA269664GSILWIFB",
+              "title": "Apple iPad 10th Gen (A2696) 10.9\" 64GB - Silver, Wifi B",
+              "price": 290,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPA269664GSILWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=9",
+              "tradeVoucher": 214,
+              "tradeCash": 185
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPA269664GPINWIFB",
+              "title": "Apple iPad 10th Gen (A2696) 10.9\" 64GB - Pink, Wifi B",
+              "price": 290,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPA269664GPINWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=12",
+              "tradeVoucher": 214,
+              "tradeCash": 185
             }
           ]
         }
       }
     },
-    "MacBook Air 16,12": {
-      "model": "MacBook Air 16,12",
+    "Apple Ipad Air 1st Gen 9.7\" A1474": {
+      "model": "Apple Ipad Air 1st Gen 9.7\" A1474",
       "variants": {
-        "MacBook Air 16,12 16GB 256GB": {
-          "variant": "MacBook Air 16,12 16GB 256GB",
-          "ram": "16GB",
-          "storage": "256GB",
+        "Apple Ipad Air 1st Gen 9.7\" A1474 16GB WIFI": {
+          "variant": "Apple Ipad Air 1st Gen 9.7\" A1474 16GB WIFI",
+          "storage": "16GB",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SMBA161210816G256GMB",
-              "title": "MacBook Air 16,12/M4 (10-CPU 8-GPU)/16GB/256GB SSD/13\"/Midnight/B",
-              "price": 785,
-              "url": "https://uk.webuy.com/product-detail?id=SMBA161210816G256GMB&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=4",
-              "tradeVoucher": 525,
-              "tradeCash": 431
+              "id": "SAPPIPAAW16GSGB",
+              "title": "Apple iPad Air 1st Gen (A1474) 9.7\" 16GB - Space Grey, WiFi B",
+              "price": 25,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAAW16GSGB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=11",
+              "tradeVoucher": 9,
+              "tradeCash": 5
             }
           ]
         }
       }
     },
-    "MacBook Pro 16,1": {
-      "model": "MacBook Pro 16,1",
+    "Apple Ipad 5th Gen 9.7\" A1822": {
+      "model": "Apple Ipad 5th Gen 9.7\" A1822",
       "variants": {
-        "MacBook Pro 16,1 16GB 4GB": {
-          "variant": "MacBook Pro 16,1 16GB 4GB",
-          "ram": "16GB",
-          "storage": "4GB",
+        "Apple Ipad 5th Gen 9.7\" A1822 32GB WIFI": {
+          "variant": "Apple Ipad 5th Gen 9.7\" A1822 32GB WIFI",
+          "storage": "32GB",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SLAPAPPMP16101SGB",
-              "title": "MacBook Pro 16,1/i7-9750H/16GB/512GB SSD/5300M 4GB/16\"/SG/B",
-              "price": 540,
-              "url": "https://uk.webuy.com/product-detail?id=SLAPAPPMP16101SGB&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=6",
-              "tradeVoucher": 361,
-              "tradeCash": 297
-            }
-          ]
-        }
-      }
-    },
-    "MacBook Pro 15,4": {
-      "model": "MacBook Pro 15,4",
-      "variants": {
-        "MacBook Pro 15,4 8GB 128GB": {
-          "variant": "MacBook Pro 15,4 8GB 128GB",
-          "ram": "8GB",
-          "storage": "128GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SLAPAPPMBP154128B",
-              "title": "MacBook Pro 15,4/i5-8257U/8GB Ram/128GB SSD/TB/13\"/SG/B",
-              "price": 380,
-              "url": "https://uk.webuy.com/product-detail?id=SLAPAPPMBP154128B&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=7",
-              "tradeVoucher": 254,
-              "tradeCash": 209
-            }
-          ]
-        }
-      }
-    },
-    "MacBook Pro 17,1": {
-      "model": "MacBook Pro 17,1",
-      "variants": {
-        "MacBook Pro 17,1 8GB 256GB": {
-          "variant": "MacBook Pro 17,1 8GB 256GB",
-          "ram": "8GB",
-          "storage": "256GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPMBP17182568SGB",
-              "title": "MacBook Pro 17,1/M1 (8-CPU 8-GPU)/8GB Ram/256GB SSD/13\"/SG/B",
-              "price": 540,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPMBP17182568SGB&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=8",
-              "tradeVoucher": 361,
-              "tradeCash": 297
-            }
-          ]
-        }
-      }
-    },
-    "MacBook Air 8,1": {
-      "model": "MacBook Air 8,1",
-      "variants": {
-        "MacBook Air 8,1 8GB 128GB": {
-          "variant": "MacBook Air 8,1 8GB 128GB",
-          "ram": "8GB",
-          "storage": "128GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPMBA818G128SSPB",
-              "title": "MacBook Air 8,1/i5-8210Y/8GB Ram/128GB SSD/13\"/SG/B",
-              "price": 285,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPMBA818G128SSPB&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=11",
-              "tradeVoucher": 179,
-              "tradeCash": 125
-            }
-          ]
-        }
-      }
-    },
-    "MacBook Air 9,1": {
-      "model": "MacBook Air 9,1",
-      "variants": {
-        "MacBook Air 9,1 8GB 256GB": {
-          "variant": "MacBook Air 9,1 8GB 256GB",
-          "ram": "8GB",
-          "storage": "256GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SLAPAPPMA9100825SGB",
-              "title": "MacBook Air 9,1/i3-1000NG4/8GB Ram/256GB SSD/13\"/SG/B",
-              "price": 345,
-              "url": "https://uk.webuy.com/product-detail?id=SLAPAPPMA9100825SGB&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=16",
-              "tradeVoucher": 217,
-              "tradeCash": 151
-            }
-          ]
-        }
-      }
-    },
-    "MacBook Pro 14,1": {
-      "model": "MacBook Pro 14,1",
-      "variants": {
-        "MacBook Pro 14,1 8GB 128GB": {
-          "variant": "MacBook Pro 14,1 8GB 128GB",
-          "ram": "8GB",
-          "storage": "128GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SLAPAPPMBPSG14101B",
-              "title": "MacBook Pro 14,1/i5-7360U/8GB Ram/128GB SSD/13\"/SG/B",
-              "price": 310,
-              "url": "https://uk.webuy.com/product-detail?id=SLAPAPPMBPSG14101B&categoryName=LAPTOPS-APPLE-MAC&superCatName=COMPUTING&title=&queryID=AF7476A54C6C684754FFC83744E22F1B&position=17",
-              "tradeVoucher": 207,
-              "tradeCash": 170
+              "id": "SAPPIPA1732GGOWIFB",
+              "title": "Apple iPad 5th Gen (A1822) 9.7\" 32GB - Gold, WiFi B",
+              "price": 80,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPA1732GGOWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=16",
+              "tradeVoucher": 45,
+              "tradeCash": 35
             }
           ]
         }

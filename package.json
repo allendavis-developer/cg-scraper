@@ -12,7 +12,11 @@
     "scrape:console": "npm run scrape -- console",
     "send:console": "npm run scrape -- --send console",
     "scrape:game": "npm run scrape -- game",
-    "send:game": "npm run scrape -- --send game"
+    "send:game": "npm run scrape -- --send game",
+    "scrape:laptop": "npm run scrape -- laptop",
+    "send:laptop": "npm run scrape -- --send laptop",
+    "scrape:tablet": "npm run scrape -- tablet",
+    "send:tablet": "npm run scrape -- --send tablet"
   },
   "keywords": [],
   "author": "",

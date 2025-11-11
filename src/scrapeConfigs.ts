@@ -1,6 +1,8 @@
 import type { MobileSearchOptions } from "./scrapers/mobileScraper.js";
 import type { GameSearchOptions } from "./scrapers/gameScraper.js";
 import type { ConsoleSearchOptions } from "./scrapers/consoleScraper.js";
+import type { LaptopSearchOptions } from "./scrapers/laptopScraper.js";
+import type { TabletSearchOptions } from "./scrapers/tabletScraper.js";
 
 interface DjangoUploadMeta {
   categoryName: string;
@@ -15,22 +17,124 @@ interface BaseScrapeConfig {
 export type ScrapeConfig =
   | (GameSearchOptions & BaseScrapeConfig & { type: "game" })
   | (MobileSearchOptions & BaseScrapeConfig & { type: "mobile" })
-  | (ConsoleSearchOptions & BaseScrapeConfig & { type: "console" });
+  | (ConsoleSearchOptions & BaseScrapeConfig & { type: "console" })
+  
+  | (LaptopSearchOptions & BaseScrapeConfig & { type: "laptop" })
+  | (TabletSearchOptions & BaseScrapeConfig & { type: "tablet" });
+
+
 
 export const scrapeConfigs: ScrapeConfig[] = [
-  // {
-  //   name: "CEX Switch Games",
-  //   type: "game",
-  //   competitor: "CEX",
-  //   item: "",
-  //   category: "games (discs/cartridges)",
-  //   subcategory: "Switch Games",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Games (Discs/Cartridges)",
-  //     subcategoryName: "Switch Games",
-  //   },
-  // },
+
+  // ------------------------------------- LAPTOPS -------------------------------------- 
+  {
+    name: "CEX Macbooks",
+    type: "laptop",
+    competitor: "CEX",
+    item: "",
+    category: "laptops",
+    subcategory: "Laptops - Apple Mac",
+    broad: true,
+    django: {
+      categoryName: "Laptops",
+      subcategoryName: "Macbooks",
+    },
+  }, 
+  {
+    name: "CEX Windows Laptops",
+    type: "laptop",
+    competitor: "CEX",
+    item: "",
+    category: "laptops",
+    subcategory: "Laptops - Windows",
+    broad: true,
+    django: {
+      categoryName: "Laptops",
+      subcategoryName: "Windows Laptops",
+    },
+  }, 
+  {
+    name: "CEX Laptops Other OS",
+    type: "laptop",
+    competitor: "CEX",
+    item: "",
+    category: "laptops",
+    subcategory: "Laptops - Other OS",
+    broad: true,
+    django: {
+      categoryName: "Laptops",
+      subcategoryName: "Other OS",
+    },
+  }, 
+  {
+    name: "CEX Chromebooks",
+    type: "laptop",
+    competitor: "CEX",
+    item: "",
+    category: "laptops",
+    subcategory: "Laptops - Chrome OS",
+    broad: true,
+    django: {
+      categoryName: "Laptops",
+      subcategoryName: "Chromebooks",
+    },
+  }, 
+
+  // ------------------------------------- TABLETS ---------------------------------------
+  {
+    name: "CEX iPads",
+    type: "tablet",
+    competitor: "CEX",
+    item: "",
+    category: "tablets",
+    subcategory: "Apple iPad",
+    broad: true,
+    django: {
+      categoryName: "Laptops",
+      subcategoryName: "Apple iPad",
+    },
+  }, 
+  {
+    name: "CEX Windows Tablets",
+    type: "tablet",
+    competitor: "CEX",
+    item: "",
+    category: "tablets",
+    subcategory: "Tablets - Windows",
+    broad: true,
+    django: {
+      categoryName: "Laptops",
+      subcategoryName: "Windows Tablets",
+    },
+  }, 
+  {
+    name: "CEX Android Tablets",
+    type: "tablet",
+    competitor: "CEX",
+    item: "",
+    category: "tablets",
+    subcategory: "Tablets - Android",
+    broad: true,
+    django: {
+      categoryName: "Laptops",
+      subcategoryName: "Android Tablets",
+    },
+  }, 
+
+  // -------------------------------------- GAMES ------------------------------------------
+  {
+    name: "CEX Switch Games",
+    type: "game",
+    competitor: "CEX",
+    item: "",
+    category: "games (discs/cartridges)",
+    subcategory: "Switch Games",
+    broad: true,
+    django: {
+      categoryName: "Games (Discs/Cartridges)",
+      subcategoryName: "Switch Games",
+    },
+  },
   {
     name: "CEX PS4 Games",
     type: "game",
@@ -97,6 +201,8 @@ export const scrapeConfigs: ScrapeConfig[] = [
       subcategoryName: "Xbox Series Games",
     },
   },
+
+  // ------ PHONES ---------
 
   {
     name: "CEX Android Phones",
@@ -177,263 +283,265 @@ export const scrapeConfigs: ScrapeConfig[] = [
       subcategoryName: "Android Phones",
     },
   },
-  // {
-  //   name: "CEX iPhone 11",
-  //   type: "mobile",
-  //   competitor: "CEX",
-  //   item: "",
-  //   category: "smartphones and mobile",
-  //   subcategory: "iPhone 11",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Smartphones and Mobile",
-  //     subcategoryName: "iPhone",
-  //   },
-  // },
+  {
+    name: "CEX iPhone 11",
+    type: "mobile",
+    competitor: "CEX",
+    item: "",
+    category: "smartphones and mobile",
+    subcategory: "iPhone 11",
+    broad: true,
+    django: {
+      categoryName: "Smartphones and Mobile",
+      subcategoryName: "iPhone",
+    },
+  },
 
-  //   {
-  //   name: "CEX iPhone 12",
-  //   type: "mobile",
-  //   competitor: "CEX",
-  //   item: "",
-  //   category: "smartphones and mobile",
-  //   subcategory: "iPhone 12",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Smartphones and Mobile",
-  //     subcategoryName: "iPhone",
-  //   },
-  // },
+    {
+    name: "CEX iPhone 12",
+    type: "mobile",
+    competitor: "CEX",
+    item: "",
+    category: "smartphones and mobile",
+    subcategory: "iPhone 12",
+    broad: true,
+    django: {
+      categoryName: "Smartphones and Mobile",
+      subcategoryName: "iPhone",
+    },
+  },
 
-  //   {
-  //   name: "CEX iPhone 13",
-  //   type: "mobile",
-  //   competitor: "CEX",
-  //   item: "",
-  //   category: "smartphones and mobile",
-  //   subcategory: "iPhone 13",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Smartphones and Mobile",
-  //     subcategoryName: "iPhone",
-  //   },
-  // },
+    {
+    name: "CEX iPhone 13",
+    type: "mobile",
+    competitor: "CEX",
+    item: "",
+    category: "smartphones and mobile",
+    subcategory: "iPhone 13",
+    broad: true,
+    django: {
+      categoryName: "Smartphones and Mobile",
+      subcategoryName: "iPhone",
+    },
+  },
 
-  // {
-  //   name: "CEX iPhone 14",
-  //   type: "mobile",
-  //   competitor: "CEX",
-  //   item: "",
-  //   category: "smartphones and mobile",
-  //   subcategory: "iPhone 14",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Smartphones and Mobile",
-  //     subcategoryName: "iPhone",
-  //   },
-  // },
+  {
+    name: "CEX iPhone 14",
+    type: "mobile",
+    competitor: "CEX",
+    item: "",
+    category: "smartphones and mobile",
+    subcategory: "iPhone 14",
+    broad: true,
+    django: {
+      categoryName: "Smartphones and Mobile",
+      subcategoryName: "iPhone",
+    },
+  },
 
-  // {
-  //   name: "CEX iPhone 15",
-  //   type: "mobile",
-  //   competitor: "CEX",
-  //   item: "",
-  //   category: "smartphones and mobile",
-  //   subcategory: "iPhone 15",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Smartphones and Mobile",
-  //     subcategoryName: "iPhone",
-  //   },
-  // },
+  {
+    name: "CEX iPhone 15",
+    type: "mobile",
+    competitor: "CEX",
+    item: "",
+    category: "smartphones and mobile",
+    subcategory: "iPhone 15",
+    broad: true,
+    django: {
+      categoryName: "Smartphones and Mobile",
+      subcategoryName: "iPhone",
+    },
+  },
 
-  // {
-  //   name: "CEX iPhone 16",
-  //   type: "mobile",
-  //   competitor: "CEX",
-  //   item: "",
-  //   category: "smartphones and mobile",
-  //   subcategory: "iPhone 16",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Smartphones and Mobile",
-  //     subcategoryName: "iPhone",
-  //   },
-  // },
+  {
+    name: "CEX iPhone 16",
+    type: "mobile",
+    competitor: "CEX",
+    item: "",
+    category: "smartphones and mobile",
+    subcategory: "iPhone 16",
+    broad: true,
+    django: {
+      categoryName: "Smartphones and Mobile",
+      subcategoryName: "iPhone",
+    },
+  },
 
-  // {
-  //   name: "CEX iPhone 17",
-  //   type: "mobile",
-  //   competitor: "CEX",
-  //   item: "",
-  //   category: "smartphones and mobile",
-  //   subcategory: "iPhone 17",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Smartphones and Mobile",
-  //     subcategoryName: "iPhone",
-  //   },
-  // },
+  {
+    name: "CEX iPhone 17",
+    type: "mobile",
+    competitor: "CEX",
+    item: "",
+    category: "smartphones and mobile",
+    subcategory: "iPhone 17",
+    broad: true,
+    django: {
+      categoryName: "Smartphones and Mobile",
+      subcategoryName: "iPhone",
+    },
+  },
 
-  // {
-  //   name: "CEX iPhone Air",
-  //   type: "mobile",
-  //   competitor: "CEX",
-  //   item: "",
-  //   category: "smartphones and mobile",
-  //   subcategory: "iPhone Air",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Smartphones and Mobile",
-  //     subcategoryName: "iPhone",
-  //   },
-  // },
+  {
+    name: "CEX iPhone Air",
+    type: "mobile",
+    competitor: "CEX",
+    item: "",
+    category: "smartphones and mobile",
+    subcategory: "iPhone Air",
+    broad: true,
+    django: {
+      categoryName: "Smartphones and Mobile",
+      subcategoryName: "iPhone",
+    },
+  },
 
-  // {
-  //   name: "CEX iPhone SE",
-  //   type: "mobile",
-  //   competitor: "CEX",
-  //   item: "iPhone SE",
-  //   category: "smartphones and mobile",
-  //   subcategory: "Legacy iPhones",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Smartphones and Mobile",
-  //     subcategoryName: "iPhone",
-  //   },
-  // },
+  {
+    name: "CEX iPhone SE",
+    type: "mobile",
+    competitor: "CEX",
+    item: "iPhone SE",
+    category: "smartphones and mobile",
+    subcategory: "Legacy iPhones",
+    broad: true,
+    django: {
+      categoryName: "Smartphones and Mobile",
+      subcategoryName: "iPhone",
+    },
+  },
 
-  // {
-  //   name: "CEX iPhone SE (2nd Generation)",
-  //   type: "mobile",
-  //   competitor: "CEX",
-  //   item: "",
-  //   category: "smartphones and mobile",
-  //   subcategory: "iPhone SE (2nd Generation)",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Smartphones and Mobile",
-  //     subcategoryName: "iPhone",
-  //   },
-  // },
+  {
+    name: "CEX iPhone SE (2nd Generation)",
+    type: "mobile",
+    competitor: "CEX",
+    item: "",
+    category: "smartphones and mobile",
+    subcategory: "iPhone SE (2nd Generation)",
+    broad: true,
+    django: {
+      categoryName: "Smartphones and Mobile",
+      subcategoryName: "iPhone",
+    },
+  },
 
-  // {
-  //   name: "CEX iPhone SE (3rd Generation)",
-  //   type: "mobile",
-  //   competitor: "CEX",
-  //   item: "",
-  //   category: "smartphones and mobile",
-  //   subcategory: "iPhone SE (3rd Generation)",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Smartphones and Mobile",
-  //     subcategoryName: "iPhone",
-  //   },
-  // },
-  // {
-  //   name: "CEX Xbox Series Consoles",
-  //   type: "console",
-  //   competitor: "CEX",
-  //   item: "Xbox Series",
-  //   category: "consoles",
-  //   subcategory: "Xbox Series Consoles",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Gaming Consoles",
-  //     subcategoryName: "Xbox Series Consoles",
-  //   },
-  // },
-  // {
-  //   name: "CEX Xbox One Consoles",
-  //   type: "console",
-  //   competitor: "CEX",
-  //   item: "Xbox One",
-  //   category: "consoles",
-  //   subcategory: "Xbox One Consoles",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Gaming Consoles",
-  //     subcategoryName: "Xbox One Consoles",
-  //   },
-  // },
-  // {
-  //   name: "CEX Xbox Consoles",
-  //   type: "console",
-  //   competitor: "CEX",
-  //   item: "Xbox",
-  //   category: "consoles",
-  //   subcategory: "Xbox Consoles",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Gaming Consoles",
-  //     subcategoryName: "Xbox Consoles",
-  //   },
-  // },
-  // {
-  //   name: "CEX Xbox 360 Consoles",
-  //   type: "console",
-  //   competitor: "CEX",
-  //   item: "Xbox 360",
-  //   category: "consoles",
-  //   subcategory: "Xbox 360 Consoles",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Gaming Consoles",
-  //     subcategoryName: "Xbox 360 Consoles",
-  //   },
-  // },
-  // {
-  //   name: "CEX Playstation 2 Consoles",
-  //   type: "console",
-  //   competitor: "CEX",
-  //   item: "",
-  //   category: "consoles",
-  //   subcategory: "Playstation2 Consoles",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Gaming Consoles",
-  //     subcategoryName: "Playstation2 Consoles",
-  //   },
-  // },
-  //   {
-  //   name: "CEX Playstation 3 Consoles",
-  //   type: "console",
-  //   competitor: "CEX",
-  //   item: "",
-  //   category: "consoles",
-  //   subcategory: "Playstation3 Consoles",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Gaming Consoles",
-  //     subcategoryName: "Playstation3 Consoles",
-  //   },
-  // },
-  // {
-  //   name: "CEX Playstation 4 Consoles",
-  //   type: "console",
-  //   competitor: "CEX",
-  //   item: "Playstation 4",
-  //   category: "consoles",
-  //   subcategory: "Playstation4 Consoles",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Gaming Consoles",
-  //     subcategoryName: "Playstation4 Consoles",
-  //   },
-  // },
-  // {
-  //   name: "CEX Playstation 5 Consoles",
-  //   type: "console",
-  //   competitor: "CEX",
-  //   item: "Playstation 5",
-  //   category: "consoles",
-  //   subcategory: "Playstation5 Consoles",
-  //   broad: true,
-  //   django: {
-  //     categoryName: "Gaming Consoles",
-  //     subcategoryName: "Playstation5 Consoles",
-  //   },
-  // },
+  {
+    name: "CEX iPhone SE (3rd Generation)",
+    type: "mobile",
+    competitor: "CEX",
+    item: "",
+    category: "smartphones and mobile",
+    subcategory: "iPhone SE (3rd Generation)",
+    broad: true,
+    django: {
+      categoryName: "Smartphones and Mobile",
+      subcategoryName: "iPhone",
+    },
+  },
+
+  // -------------------- CONSOLES -------------
+  {
+    name: "CEX Xbox Series Consoles",
+    type: "console",
+    competitor: "CEX",
+    item: "Xbox Series",
+    category: "consoles",
+    subcategory: "Xbox Series Consoles",
+    broad: true,
+    django: {
+      categoryName: "Gaming Consoles",
+      subcategoryName: "Xbox Series Consoles",
+    },
+  },
+  {
+    name: "CEX Xbox One Consoles",
+    type: "console",
+    competitor: "CEX",
+    item: "Xbox One",
+    category: "consoles",
+    subcategory: "Xbox One Consoles",
+    broad: true,
+    django: {
+      categoryName: "Gaming Consoles",
+      subcategoryName: "Xbox One Consoles",
+    },
+  },
+  {
+    name: "CEX Xbox Consoles",
+    type: "console",
+    competitor: "CEX",
+    item: "Xbox",
+    category: "consoles",
+    subcategory: "Xbox Consoles",
+    broad: true,
+    django: {
+      categoryName: "Gaming Consoles",
+      subcategoryName: "Xbox Consoles",
+    },
+  },
+  {
+    name: "CEX Xbox 360 Consoles",
+    type: "console",
+    competitor: "CEX",
+    item: "Xbox 360",
+    category: "consoles",
+    subcategory: "Xbox 360 Consoles",
+    broad: true,
+    django: {
+      categoryName: "Gaming Consoles",
+      subcategoryName: "Xbox 360 Consoles",
+    },
+  },
+  {
+    name: "CEX Playstation 2 Consoles",
+    type: "console",
+    competitor: "CEX",
+    item: "",
+    category: "consoles",
+    subcategory: "Playstation2 Consoles",
+    broad: true,
+    django: {
+      categoryName: "Gaming Consoles",
+      subcategoryName: "Playstation2 Consoles",
+    },
+  },
+    {
+    name: "CEX Playstation 3 Consoles",
+    type: "console",
+    competitor: "CEX",
+    item: "",
+    category: "consoles",
+    subcategory: "Playstation3 Consoles",
+    broad: true,
+    django: {
+      categoryName: "Gaming Consoles",
+      subcategoryName: "Playstation3 Consoles",
+    },
+  },
+  {
+    name: "CEX Playstation 4 Consoles",
+    type: "console",
+    competitor: "CEX",
+    item: "Playstation 4",
+    category: "consoles",
+    subcategory: "Playstation4 Consoles",
+    broad: true,
+    django: {
+      categoryName: "Gaming Consoles",
+      subcategoryName: "Playstation4 Consoles",
+    },
+  },
+  {
+    name: "CEX Playstation 5 Consoles",
+    type: "console",
+    competitor: "CEX",
+    item: "Playstation 5",
+    category: "consoles",
+    subcategory: "Playstation5 Consoles",
+    broad: true,
+    django: {
+      categoryName: "Gaming Consoles",
+      subcategoryName: "Playstation5 Consoles",
+    },
+  },
   {
     name: "CEX Switch Consoles",
     type: "console",

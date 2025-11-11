@@ -21,56 +21,53 @@ export interface LaptopAttributes {
  * - "Lenovo ThinkPad X1 Gen 10/i7-1260P/16GB Ram/512GB SSD/14\"/W11/B"
  * - "MacBook Air 14,2/M2 (8-CPU 8-GPU)/8GB Ram/256GB SSD/13\"/Midnight/B"
  */
-export function extractLaptopAttributes(title: string): LaptopAttributes {
-  const lower = title.toLowerCase();
+export function extractLaptopAttributes(title: string) {
+  // Split by '/'
+  const parts = title.split('/').map(p => p.trim());
 
-  // Brand
-  const brandMatch = title.match(/^(hp|lenovo|dell|asus|msi|macbook|apple|acer|samsung|toshiba|razer|fujitsu)/i);
-  let brand = brandMatch ? brandMatch[1] : "Unknown";
-  if (/macbook|apple/i.test(brand)) brand = "Apple";
+  // Part 0: Brand + Model
+  const brandModelPart = parts[0] || "";
+  const brandModelWords = brandModelPart.split(' ');
+  const brand = brandModelWords[0];
+  const model = brandModelWords.slice(1).join(' ');
 
-  // Model — capture chunk after brand up to first slash
-  const modelMatch = title.match(/(?:macbook|apple)\s*([^\/*]+)/i);
-  let model = modelMatch ? modelMatch[1].trim() : "Unknown";
+  // Part 1: CPU
+  const cpu = parts[1] || null;
 
-  // ✅ Ensure “MacBook” prefix if Apple
-  if (brand === "Apple" && !/^macbook/i.test(model)) {
-    model = `MacBook ${model}`;
-  }
-
-  // CPU
-  const cpuMatch = title.match(/(i[3579]-\d{3,5}h?|ryzen\s?\d\s?\d{3,4}h?|m\d\s?\([^)]+\)|m\d\b)/i);
-  const cpu = cpuMatch ? cpuMatch[1].toUpperCase() : null;
-
-  // RAM
-  const ramMatch = title.match(/(\d+)\s?gb(?:\s?ram)?/i);
+  // Part 2: RAM
+  const ramMatch = parts[2]?.match(/(\d+)\s*GB/i);
   const ram = ramMatch ? `${ramMatch[1]}GB` : null;
 
-  // Storage (only the numeric + unit, ignore SSD/HDD)
-  const storageMatches = [...title.matchAll(/(\d+(?:\.\d+)?)(TB|GB)/gi)];
-  const storage = storageMatches.length > 0
-    ? `${parseFloat(storageMatches[storageMatches.length - 1][1])}${storageMatches[storageMatches.length - 1][2].toUpperCase()}`
-    : null;
+  // Part 3: Storage
+  const storageMatch = parts[3]?.match(/(\d+(?:\.\d+)?)\s*(GB|TB)/i);
+  const storage = storageMatch ? `${parseFloat(storageMatch[1])}${storageMatch[2].toUpperCase()}` : null;
 
-  // Screen
-  const screenMatch = title.match(/(\d{2}(\.\d+)?)["”]/);
+  // Part 4: Screen
+  const screenMatch = parts[4]?.match(/(\d{2}(\.\d+)?)["”]/);
   const screenSize = screenMatch ? `${screenMatch[1]}"` : null;
 
-  // OS
-  const osMatch = title.match(/\b(W11|W10|Windows 11|Windows 10|Linux|MacOS|OSX|ChromeOS)\b/i);
-  const os = osMatch ? osMatch[1].replace(/^W11$/, "Windows 11").replace(/^W10$/, "Windows 10") : null;
+  // Part 5: OS
+  const os = parts[5] || null;
 
-  // Condition
-  const conditionMatch = title.match(/\/([ABC])$/i);
-  const condition = conditionMatch ? conditionMatch[1].toUpperCase() as LaptopAttributes["condition"] : null;
+  // Part 6: Condition
+  const conditionMatch = parts[6]?.match(/([ABC])/i);
+  const condition = conditionMatch ? conditionMatch[1].toUpperCase() : null;
 
-  return { brand, model, cpu, ram, storage, screenSize, os, condition };
+  return {
+    brand,
+    model,
+    cpu,
+    ram,
+    storage,
+    screenSize,
+    os,
+    condition
+  };
 }
 
-
-export function parseLaptopVariantKey(title: string): string {
-  const { model, ram, storage } = extractLaptopAttributes(title);
-  return [model, ram, storage].filter(Boolean).join(" ");
+export function parseLaptopVariantKey(title: string) {
+  const { brand, model, ram, storage } = extractLaptopAttributes(title);
+  return [brand, model, ram, storage].filter(Boolean).join(' ');
 }
 
 
@@ -120,7 +117,7 @@ export function transformScrapeResultToLaptopScrapeResult(
   const groupedByVariant = groupResultsByVariant(results as CompetitorListing[], (item) => {
     const attrs = extractLaptopAttributes(item.title);
     return {
-      model: attrs.model,
+      model: `${attrs.brand} ${attrs.model}`, // include brand here
       variant: parseLaptopVariantKey(item.title),
       extra: { ram: attrs.ram, storage: attrs.storage }
     };
@@ -128,16 +125,17 @@ export function transformScrapeResultToLaptopScrapeResult(
 
   const models: Record<string, LaptopModelGroup> = {};
 
-  Object.values(groupedByVariant).forEach(group => {
-    // Ensure model exists
-    if (!models[group.model]) {
-      models[group.model] = { model: group.model, variants: {} };
+    Object.values(groupedByVariant).forEach(group => {
+    // Use brand + model as the key
+    const modelKey = group.model; // already includes brand
+    if (!models[modelKey]) {
+      models[modelKey] = { model: modelKey, variants: {} };
     }
 
     Object.values(group.variants).forEach(v => {
       const variantKey = v.variant ?? "unknown";
 
-      models[group.model].variants[variantKey] = {
+      models[modelKey].variants[variantKey] = {
         variant: variantKey,
         ram: v.extra?.ram ?? null,
         storage: v.extra?.storage ?? null,
@@ -145,6 +143,7 @@ export function transformScrapeResultToLaptopScrapeResult(
       };
     });
   });
+
 
   return { competitor, models };
 }

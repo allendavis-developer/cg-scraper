@@ -1,5 +1,17 @@
-// competitors/cex.ts
 import { CompetitorConfig, SearchParams } from './config';
+
+const laptopCategoryMap = {
+  "apple mac": "863",
+  "chrome os": "1182",
+  "other os": "1066",
+  "windows": "1065",
+} as const;
+
+const tabletCategoryMap = {
+  "ipad": "967",
+  "android": "1027",
+  "windows": "1026",
+} as const;
 
 export const cex: CompetitorConfig = {
   baseUrl: "https://uk.webuy.com",
@@ -7,7 +19,30 @@ export const cex: CompetitorConfig = {
     let url = `https://uk.webuy.com/search?stext=${encodeURIComponent(item)}`;
 
     if (subcategory) {
-      url += `&categoryFriendlyName=${encodeURIComponent(subcategory)}`;
+      const sub = subcategory.toLowerCase();
+
+      // Handle laptops
+      if (sub.includes("laptop")) {
+        type LaptopKey = keyof typeof laptopCategoryMap;
+        const matchedKey = (Object.keys(laptopCategoryMap) as LaptopKey[]).find(
+          (k) => sub.includes(k)
+        );
+        const catId = matchedKey ? laptopCategoryMap[matchedKey] : "";
+        url += `&categoryName=${encodeURIComponent(subcategory)}&categoryIds=${catId}`;
+      }
+      // Handle tablets
+      else if (sub.includes("tablet")) {
+        type TabletKey = keyof typeof tabletCategoryMap;
+        const matchedKey = (Object.keys(tabletCategoryMap) as TabletKey[]).find(
+          (k) => sub.includes(k)
+        );
+        const catId = matchedKey ? tabletCategoryMap[matchedKey] : "";
+        url += `&categoryName=${encodeURIComponent(subcategory)}&categoryIds=${catId}`;
+      }
+      // Everything else
+      else {
+        url += `&categoryFriendlyName=${encodeURIComponent(subcategory)}`;
+      }
     }
 
     if (category) {
@@ -23,6 +58,11 @@ export const cex: CompetitorConfig = {
           url += "&superCatName=Gaming";
           break;
 
+        case "laptops":
+          url += "&Grade=B";
+          break;
+        case "tablets":
+          url += "&Grade=B";
       }
     }
 

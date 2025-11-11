@@ -2,6 +2,10 @@ import { setupPlaywright } from "./utils/playwright.js";
 import { getMobileResults } from "./scrapers/mobileScraper.js";
 import { getGameResults } from "./scrapers/gameScraper.js";
 import { getConsoleResults } from "./scrapers/consoleScraper.js";
+import { getLaptopResults } from "./scrapers/laptopScraper.js";
+import { getTabletResults } from "./scrapers/tabletScraper.js";
+
+
 import { uploadScrapeResultToDjango } from "./uploadToDjango.js";
 import { scrapeConfigs, ScrapeConfig } from "./scrapeConfigs.js";
 import util from "util";
@@ -45,6 +49,8 @@ selectedConfigs.forEach((c) => console.log(`  • ${c.name}`));
           if (config.type === "game") result = await getGameResults(browser, config);
           else if (config.type === "mobile") result = await getMobileResults(browser, config);
           else if (config.type === "console") result = await getConsoleResults(browser, config);
+          else if (config.type === "laptop") result = await getLaptopResults(browser, config);
+          else if (config.type === "tablet") result = await getTabletResults(browser, config);
           else {
             console.warn(`⚠️ Unknown scrape type: ${(config as ScrapeConfig).type}`);
             continue;
