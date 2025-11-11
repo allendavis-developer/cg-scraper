@@ -63,6 +63,10 @@ export const cex: CompetitorConfig = {
           break;
         case "tablets":
           url += "&Grade=B";
+          break;
+        case "tv":
+          url += "&Grade=B";
+          break;
       }
     }
 

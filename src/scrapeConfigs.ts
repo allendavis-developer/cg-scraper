@@ -3,6 +3,8 @@ import type { GameSearchOptions } from "./scrapers/gameScraper.js";
 import type { ConsoleSearchOptions } from "./scrapers/consoleScraper.js";
 import type { LaptopSearchOptions } from "./scrapers/laptopScraper.js";
 import type { TabletSearchOptions } from "./scrapers/tabletScraper.js";
+import type { TVSearchOptions } from "./scrapers/tvScraper.js";
+
 
 interface DjangoUploadMeta {
   categoryName: string;
@@ -20,13 +22,14 @@ export type ScrapeConfig =
   | (ConsoleSearchOptions & BaseScrapeConfig & { type: "console" })
   
   | (LaptopSearchOptions & BaseScrapeConfig & { type: "laptop" })
-  | (TabletSearchOptions & BaseScrapeConfig & { type: "tablet" });
+  | (TabletSearchOptions & BaseScrapeConfig & { type: "tablet" })
+  | (TVSearchOptions & BaseScrapeConfig & { type: "tv" });
 
 
 
 export const scrapeConfigs: ScrapeConfig[] = [
 
-  // ------------------------------------- LAPTOPS -------------------------------------- 
+  // // ------------------------------------- LAPTOPS -------------------------------------- 
   {
     name: "CEX Macbooks",
     type: "laptop",
@@ -48,6 +51,62 @@ export const scrapeConfigs: ScrapeConfig[] = [
     category: "laptops",
     subcategory: "Laptops - Windows",
     broad: true,
+    priceRanges : [
+      [0, 54],
+      [55, 59],
+      [60, 64],
+      [65, 69],
+      [70, 74],
+      [75, 79],
+      [80, 84],
+      [85, 89],
+      [90, 94],
+      [95, 99],
+      [100, 104],
+      [105, 109],
+      [110, 114],
+      [115, 119],
+      [120, 124],
+      [125, 129],
+      [130, 134],
+      [135, 139],
+      [140, 144],
+      [145, 149],
+      [150, 154],
+      [155, 159],
+      [160, 164],
+      [165, 169],
+      [170, 174],
+      [175, 179],
+      [180, 184],
+      [185, 189],
+      [190, 194],
+      [195, 199],
+      [200, 209],
+      [210, 219],
+      [220, 229],
+      [230, 239],
+      [240, 249],
+      [250, 259],
+      [260, 269],
+      [270, 279],
+      [280, 289],
+      [290, 299],
+      [300, 319],
+      [320, 339],
+      [340, 359],
+      [360, 379],
+      [380, 399],
+      [400, 449],
+      [450, 499],
+      [500, 599],
+      [600, 699],
+      [700, 799],
+      [800, 899],
+      [900, 999],
+      [1000, 1200],
+      [1200, 5000],
+    ],
     django: {
       categoryName: "Laptops",
       subcategoryName: "Windows Laptops",
@@ -90,7 +149,7 @@ export const scrapeConfigs: ScrapeConfig[] = [
     subcategory: "Apple iPad",
     broad: true,
     django: {
-      categoryName: "Laptops",
+      categoryName: "Tablets",
       subcategoryName: "Apple iPad",
     },
   }, 
@@ -103,7 +162,7 @@ export const scrapeConfigs: ScrapeConfig[] = [
     subcategory: "Tablets - Windows",
     broad: true,
     django: {
-      categoryName: "Laptops",
+      categoryName: "Tablets",
       subcategoryName: "Windows Tablets",
     },
   }, 
@@ -116,10 +175,42 @@ export const scrapeConfigs: ScrapeConfig[] = [
     subcategory: "Tablets - Android",
     broad: true,
     django: {
-      categoryName: "Laptops",
+      categoryName: "Tablets",
       subcategoryName: "Android Tablets",
     },
   }, 
+
+  // -------------------------------------- TV's ------------------------------------------
+  {
+    name: "CEX LCD TV's",
+    type: "tv",
+    competitor: "CEX",
+    item: "",
+    category: "tv",
+    subcategory: "LCD Televisions",
+    broad: true,
+    django: {
+      categoryName: "Televisions",
+      subcategoryName: "LCD Television",
+    },
+  }, 
+
+  {
+    name: "CEX LED TV's",
+    type: "tv",
+    competitor: "CEX",
+    item: "",
+    category: "tv",
+    subcategory: "LED Televisions",
+    broad: true,
+    django: {
+      categoryName: "Televisions",
+      subcategoryName: "LED Television",
+    },
+  }, 
+
+  // ------------------------------------ CAMERAS ----------------------------------------
+  
 
   // -------------------------------------- GAMES ------------------------------------------
   {

@@ -1,230 +1,236 @@
 {
   "competitor": "CEX",
   "models": {
-    "Apple Ipad 9th Gen 10.2\" A2602": {
-      "model": "Apple Ipad 9th Gen 10.2\" A2602",
+    "Generic ": {
+      "model": "Generic ",
       "variants": {
-        "Apple Ipad 9th Gen 10.2\" A2602 64GB WIFI": {
-          "variant": "Apple Ipad 9th Gen 10.2\" A2602 64GB WIFI",
-          "storage": "64GB",
+        "Generic 32\"": {
+          "variant": "Generic 32\"",
+          "size": "32\"",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SAPPA260264GSGRWIFIB",
-              "title": "Apple iPad 9th Gen (A2602) 10.2\" 64GB - Space Grey, WiFi B",
-              "price": 215,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPA260264GSGRWIFIB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=1",
-              "tradeVoucher": 148,
-              "tradeCash": 122
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPA260264GSVWIFIB",
-              "title": "Apple iPad 9th Gen (A2602) 10.2\" 64GB, Silver WiFi B",
-              "price": 215,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPA260264GSVWIFIB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=15",
-              "tradeVoucher": 148,
-              "tradeCash": 122
+              "id": "SLCDGEN25B",
+              "title": "Generic 32\" LCD TV, B",
+              "price": 35,
+              "url": "https://uk.webuy.com/product-detail?id=SLCDGEN25B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=1",
+              "tradeVoucher": 22,
+              "tradeCash": 15
             }
           ]
         },
-        "Apple Ipad 9th Gen 10.2\" A2602 64GB UNLOCKED": {
-          "variant": "Apple Ipad 9th Gen 10.2\" A2602 64GB UNLOCKED",
-          "storage": "64GB",
+        "Generic 24\"": {
+          "variant": "Generic 24\"",
+          "size": "24\"",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SAPPA260464GSGRUNLB",
-              "title": "Apple iPad 9th Gen (A2604) 10.2\" 64GB - Space Grey, Unlocked B",
-              "price": 225,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPA260464GSGRUNLB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=13",
-              "tradeVoucher": 155,
-              "tradeCash": 128
-            }
-          ]
-        }
-      }
-    },
-    "Apple Ipad 8th Gen 10.2\" A2270": {
-      "model": "Apple Ipad 8th Gen 10.2\" A2270",
-      "variants": {
-        "Apple Ipad 8th Gen 10.2\" A2270 32GB WIFI": {
-          "variant": "Apple Ipad 8th Gen 10.2\" A2270 32GB WIFI",
-          "storage": "32GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPA227032GSGWIFB",
-              "title": "Apple iPad 8th Gen (A2270) 10.2\" 32GB - Space Grey, WiFi B",
-              "price": 175,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPA227032GSGWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=3",
-              "tradeVoucher": 120,
-              "tradeCash": 99
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPA227032GGWIFB",
-              "title": "Apple iPad 8th Gen (A2270) 10.2\" 32GB - Gold, WiFi B",
-              "price": 175,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPA227032GGWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=14",
-              "tradeVoucher": 120,
-              "tradeCash": 99
-            }
-          ]
-        }
-      }
-    },
-    "Apple Ipad 6th Gen 9.7\" A1893": {
-      "model": "Apple Ipad 6th Gen 9.7\" A1893",
-      "variants": {
-        "Apple Ipad 6th Gen 9.7\" A1893 32GB WIFI": {
-          "variant": "Apple Ipad 6th Gen 9.7\" A1893 32GB WIFI",
-          "storage": "32GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPIPA1832GSGWIFB",
-              "title": "Apple iPad 6th Gen (A1893) 9.7\" 32GB - Space Grey, WiFi B",
-              "price": 105,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIPA1832GSGWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=4",
-              "tradeVoucher": 66,
-              "tradeCash": 46
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPIPA1832GGWIFB",
-              "title": "Apple iPad 6th Gen (A1893) 9.7\" 32GB - Gold, WiFi B",
-              "price": 105,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIPA1832GGWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=17",
-              "tradeVoucher": 66,
-              "tradeCash": 46
-            }
-          ]
-        }
-      }
-    },
-    "Apple Ipad 7th Gen 10.2\" A2197": {
-      "model": "Apple Ipad 7th Gen 10.2\" A2197",
-      "variants": {
-        "Apple Ipad 7th Gen 10.2\" A2197 32GB WIFI": {
-          "variant": "Apple Ipad 7th Gen 10.2\" A2197 32GB WIFI",
-          "storage": "32GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPA223232GSGWIFB",
-              "title": "Apple iPad 7th Gen (A2197) 10.2\" 32GB - Space Grey, WiFi B",
-              "price": 150,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPA223232GSGWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=5",
-              "tradeVoucher": 100,
-              "tradeCash": 82
-            }
-          ]
-        }
-      }
-    },
-    "Apple Ipad A16 11\" A3354": {
-      "model": "Apple Ipad A16 11\" A3354",
-      "variants": {
-        "Apple Ipad A16 11\" A3354 128GB WIFI": {
-          "variant": "Apple Ipad A16 11\" A3354 128GB WIFI",
-          "storage": "128GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPA3354128GSIWIFB",
-              "title": "Apple iPad A16 (A3354) 11\" 128GB Silver, WiFi B",
-              "price": 300,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPA3354128GSIWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=6",
-              "tradeVoucher": 222,
-              "tradeCash": 192
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPA3354128GBLWIFB",
-              "title": "Apple iPad A16 (A3354) 11\" 128GB Blue, WiFi B",
-              "price": 300,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPA3354128GBLWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=8",
-              "tradeVoucher": 222,
-              "tradeCash": 192
-            }
-          ]
-        }
-      }
-    },
-    "Apple Ipad 10th Gen 10.9\" A2696": {
-      "model": "Apple Ipad 10th Gen 10.9\" A2696",
-      "variants": {
-        "Apple Ipad 10th Gen 10.9\" A2696 64GB WIFI": {
-          "variant": "Apple Ipad 10th Gen 10.9\" A2696 64GB WIFI",
-          "storage": "64GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPA269664GBLUWIFB",
-              "title": "Apple iPad 10th Gen (A2696) 10.9\" 64GB - Blue, Wifi B",
-              "price": 290,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPA269664GBLUWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=7",
-              "tradeVoucher": 214,
-              "tradeCash": 185
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPA269664GSILWIFB",
-              "title": "Apple iPad 10th Gen (A2696) 10.9\" 64GB - Silver, Wifi B",
-              "price": 290,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPA269664GSILWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=9",
-              "tradeVoucher": 214,
-              "tradeCash": 185
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPA269664GPINWIFB",
-              "title": "Apple iPad 10th Gen (A2696) 10.9\" 64GB - Pink, Wifi B",
-              "price": 290,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPA269664GPINWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=12",
-              "tradeVoucher": 214,
-              "tradeCash": 185
-            }
-          ]
-        }
-      }
-    },
-    "Apple Ipad Air 1st Gen 9.7\" A1474": {
-      "model": "Apple Ipad Air 1st Gen 9.7\" A1474",
-      "variants": {
-        "Apple Ipad Air 1st Gen 9.7\" A1474 16GB WIFI": {
-          "variant": "Apple Ipad Air 1st Gen 9.7\" A1474 16GB WIFI",
-          "storage": "16GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPIPAAW16GSGB",
-              "title": "Apple iPad Air 1st Gen (A1474) 9.7\" 16GB - Space Grey, WiFi B",
+              "id": "SLCDGEN24B",
+              "title": "Generic 24\" LCD TV, B",
               "price": 25,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAAW16GSGB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=11",
-              "tradeVoucher": 9,
-              "tradeCash": 5
+              "url": "https://uk.webuy.com/product-detail?id=SLCDGEN24B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=2",
+              "tradeVoucher": 15,
+              "tradeCash": 11
+            }
+          ]
+        },
+        "Generic 47\"": {
+          "variant": "Generic 47\"",
+          "size": "47\"",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SLCDGEN47B",
+              "title": "Generic 47\" LCD TV, B",
+              "price": 70,
+              "url": "https://uk.webuy.com/product-detail?id=SLCDGEN47B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=5",
+              "tradeVoucher": 44,
+              "tradeCash": 30
+            }
+          ]
+        },
+        "Generic 26\"": {
+          "variant": "Generic 26\"",
+          "size": "26\"",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SLCDGEN29B",
+              "title": "Generic 26\" LCD TV & DVD Combo, B",
+              "price": 18,
+              "url": "https://uk.webuy.com/product-detail?id=SLCDGEN29B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=6",
+              "tradeVoucher": 6,
+              "tradeCash": 4
+            }
+          ]
+        },
+        "Generic 40\"": {
+          "variant": "Generic 40\"",
+          "size": "40\"",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SLCDGEN40B",
+              "title": "Generic 40\" LCD TV, B",
+              "price": 40,
+              "url": "https://uk.webuy.com/product-detail?id=SLCDGEN40B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=7",
+              "tradeVoucher": 25,
+              "tradeCash": 17
+            }
+          ]
+        },
+        "Generic 19\"": {
+          "variant": "Generic 19\"",
+          "size": "19\"",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SMONLC75I9B",
+              "title": "Generic 19\" LCD TV, B",
+              "price": 3,
+              "url": "https://uk.webuy.com/product-detail?id=SMONLC75I9B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=10",
+              "tradeVoucher": 0.9,
+              "tradeCash": 0.3
             }
           ]
         }
       }
     },
-    "Apple Ipad 5th Gen 9.7\" A1822": {
-      "model": "Apple Ipad 5th Gen 9.7\" A1822",
+    "LG 42LK450U": {
+      "model": "LG 42LK450U",
       "variants": {
-        "Apple Ipad 5th Gen 9.7\" A1822 32GB WIFI": {
-          "variant": "Apple Ipad 5th Gen 9.7\" A1822 32GB WIFI",
-          "storage": "32GB",
+        "LG 42LK450U 42\"": {
+          "variant": "LG 42LK450U 42\"",
+          "size": "42\"",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SAPPIPA1732GGOWIFB",
-              "title": "Apple iPad 5th Gen (A1822) 9.7\" 32GB - Gold, WiFi B",
-              "price": 80,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIPA1732GGOWIFB&categoryName=APPLE-IPAD&superCatName=COMPUTING&title=&queryID=0E170C2DE5788BE869BC67C57C09555E&position=16",
+              "id": "SLCDLG42LK450UB",
+              "title": "LG 42LK450U 42\" LCD TV, B",
+              "price": 72,
+              "url": "https://uk.webuy.com/product-detail?id=SLCDLG42LK450UB&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=3",
               "tradeVoucher": 45,
-              "tradeCash": 35
+              "tradeCash": 31
+            }
+          ]
+        }
+      }
+    },
+    "LG 32LH5000": {
+      "model": "LG 32LH5000",
+      "variants": {
+        "LG 32LH5000 32\"": {
+          "variant": "LG 32LH5000 32\"",
+          "size": "32\"",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SLCDLG32LH5000B",
+              "title": "LG 32LH5000 32\" LCD TV, B",
+              "price": 40,
+              "url": "https://uk.webuy.com/product-detail?id=SLCDLG32LH5000B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=4",
+              "tradeVoucher": 14,
+              "tradeCash": 9
+            }
+          ]
+        }
+      }
+    },
+    "Sony KDL-40EX403": {
+      "model": "Sony KDL-40EX403",
+      "variants": {
+        "Sony KDL-40EX403 40\"": {
+          "variant": "Sony KDL-40EX403 40\"",
+          "size": "40\"",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SLCDSONKDL40EX403B",
+              "title": "Sony KDL-40EX403 40\" LCD TV,B",
+              "price": 70,
+              "url": "https://uk.webuy.com/product-detail?id=SLCDSONKDL40EX403B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=9",
+              "tradeVoucher": 25,
+              "tradeCash": 16
+            }
+          ]
+        }
+      }
+    },
+    "Samsung LE32B450": {
+      "model": "Samsung LE32B450",
+      "variants": {
+        "Samsung LE32B450 32\"": {
+          "variant": "Samsung LE32B450 32\"",
+          "size": "32\"",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SLCDSAMLE32B4501B",
+              "title": "Samsung LE32B450 32\" LCD TV, B",
+              "price": 50,
+              "url": "https://uk.webuy.com/product-detail?id=SLCDSAMLE32B4501B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=12",
+              "tradeVoucher": 18,
+              "tradeCash": 11
+            }
+          ]
+        }
+      }
+    },
+    "Samsung LE19R86BD": {
+      "model": "Samsung LE19R86BD",
+      "variants": {
+        "Samsung LE19R86BD 19\"": {
+          "variant": "Samsung LE19R86BD 19\"",
+          "size": "19\"",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SLCDSAMLE19R86BD1B",
+              "title": "Samsung LE19R86BD 19\" LCD TV, B",
+              "price": 18,
+              "url": "https://uk.webuy.com/product-detail?id=SLCDSAMLE19R86BD1B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=13",
+              "tradeVoucher": 6,
+              "tradeCash": 4
+            }
+          ]
+        }
+      }
+    },
+    "Samsung LE32B530P7W": {
+      "model": "Samsung LE32B530P7W",
+      "variants": {
+        "Samsung LE32B530P7W 32\"": {
+          "variant": "Samsung LE32B530P7W 32\"",
+          "size": "32\"",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SLCDSAM32B530B",
+              "title": "Samsung LE32B530P7W 32\" LCD TV, B",
+              "price": 50,
+              "url": "https://uk.webuy.com/product-detail?id=SLCDSAM32B530B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=14",
+              "tradeVoucher": 31,
+              "tradeCash": 22
+            }
+          ]
+        }
+      }
+    },
+    "Hitachi L42VC04U": {
+      "model": "Hitachi L42VC04U",
+      "variants": {
+        "Hitachi L42VC04U 42\"": {
+          "variant": "Hitachi L42VC04U 42\"",
+          "size": "42\"",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SLCDHITL42VC04UAC",
+              "title": "Hitachi L42VC04U 42\" 1080p, C",
+              "price": 68,
+              "url": "https://uk.webuy.com/product-detail?id=SLCDHITL42VC04UAC&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=17",
+              "tradeVoucher": 42,
+              "tradeCash": 29
             }
           ]
         }

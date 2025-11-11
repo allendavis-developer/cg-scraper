@@ -4,6 +4,8 @@ import { getGameResults } from "./scrapers/gameScraper";
 import { getConsoleResults } from "./scrapers/consoleScraper";
 import { getLaptopResults } from "./scrapers/laptopScraper";
 import { getTabletResults } from "./scrapers/tabletScraper";
+import { getTVResults } from "./scrapers/tvScraper";
+
 
 import { uploadScrapeResultToDjango } from "./uploadToDjango";
 import util from 'util';
@@ -15,11 +17,19 @@ import fs from "fs/promises";
 
   try {
 
-    const result = await getTabletResults(browser, {
+    // const result = await getTabletResults(browser, {
+    //   competitor: "CEX",
+    //   item: "",
+    //   category: "tablets",
+    //   subcategory: "Tablets - Android", // ✅ specify subcategory exactly as on CEX
+    //   broad: false, // narrow scrape (single search page)
+    // });
+
+    const result = await getTVResults(browser, {
       competitor: "CEX",
       item: "",
-      category: "tablets",
-      subcategory: "Tablets - Android", // ✅ specify subcategory exactly as on CEX
+      category: "tv",
+      subcategory: "LCD Televisions", // ✅ specify subcategory exactly as on CEX
       broad: false, // narrow scrape (single search page)
     });
 
