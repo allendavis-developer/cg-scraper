@@ -1,236 +1,324 @@
 {
   "competitor": "CEX",
   "models": {
-    "Generic ": {
-      "model": "Generic ",
+    "Nikon 1 J5 20.8MP + 10-30mm, B": {
+      "model": "Nikon 1 J5 20.8MP + 10-30mm, B",
       "variants": {
-        "Generic 32\"": {
-          "variant": "Generic 32\"",
-          "size": "32\"",
+        "Nikon 1 J5 20.8MP + 10-30mm, B": {
+          "variant": "Nikon 1 J5 20.8MP + 10-30mm, B",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SLCDGEN25B",
-              "title": "Generic 32\" LCD TV, B",
-              "price": 35,
-              "url": "https://uk.webuy.com/product-detail?id=SLCDGEN25B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=1",
-              "tradeVoucher": 22,
-              "tradeCash": 15
-            }
-          ]
-        },
-        "Generic 24\"": {
-          "variant": "Generic 24\"",
-          "size": "24\"",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SLCDGEN24B",
-              "title": "Generic 24\" LCD TV, B",
-              "price": 25,
-              "url": "https://uk.webuy.com/product-detail?id=SLCDGEN24B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=2",
-              "tradeVoucher": 15,
-              "tradeCash": 11
-            }
-          ]
-        },
-        "Generic 47\"": {
-          "variant": "Generic 47\"",
-          "size": "47\"",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SLCDGEN47B",
-              "title": "Generic 47\" LCD TV, B",
-              "price": 70,
-              "url": "https://uk.webuy.com/product-detail?id=SLCDGEN47B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=5",
-              "tradeVoucher": 44,
-              "tradeCash": 30
-            }
-          ]
-        },
-        "Generic 26\"": {
-          "variant": "Generic 26\"",
-          "size": "26\"",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SLCDGEN29B",
-              "title": "Generic 26\" LCD TV & DVD Combo, B",
-              "price": 18,
-              "url": "https://uk.webuy.com/product-detail?id=SLCDGEN29B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=6",
-              "tradeVoucher": 6,
-              "tradeCash": 4
-            }
-          ]
-        },
-        "Generic 40\"": {
-          "variant": "Generic 40\"",
-          "size": "40\"",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SLCDGEN40B",
-              "title": "Generic 40\" LCD TV, B",
-              "price": 40,
-              "url": "https://uk.webuy.com/product-detail?id=SLCDGEN40B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=7",
-              "tradeVoucher": 25,
-              "tradeCash": 17
-            }
-          ]
-        },
-        "Generic 19\"": {
-          "variant": "Generic 19\"",
-          "size": "19\"",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SMONLC75I9B",
-              "title": "Generic 19\" LCD TV, B",
-              "price": 3,
-              "url": "https://uk.webuy.com/product-detail?id=SMONLC75I9B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=10",
-              "tradeVoucher": 0.9,
-              "tradeCash": 0.3
+              "id": "SDIGNIK1J51030B",
+              "title": "Nikon 1 J5 20.8MP + 10-30mm, B",
+              "price": 240,
+              "url": "https://uk.webuy.com/product-detail?id=SDIGNIK1J51030B&categoryName=CAMERAS-COMPACT-SYSTEM&superCatName=ELECTRONICS&title=&queryID=62A1A2B79BF13DECEE51447CA2CA8992&position=1",
+              "tradeVoucher": 172,
+              "tradeCash": 148
             }
           ]
         }
       }
     },
-    "LG 42LK450U": {
-      "model": "LG 42LK450U",
+    "Sony ZV-E10 4K Vlog Camera 24.2MP + 16-50mm F/3.5-5.6 SELP1650 OSS, B": {
+      "model": "Sony ZV-E10 4K Vlog Camera 24.2MP + 16-50mm F/3.5-5.6 SELP1650 OSS, B",
       "variants": {
-        "LG 42LK450U 42\"": {
-          "variant": "LG 42LK450U 42\"",
-          "size": "42\"",
+        "Sony ZV-E10 4K Vlog Camera 24.2MP + 16-50mm F/3.5-5.6 SELP1650 OSS, B": {
+          "variant": "Sony ZV-E10 4K Vlog Camera 24.2MP + 16-50mm F/3.5-5.6 SELP1650 OSS, B",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SLCDLG42LK450UB",
-              "title": "LG 42LK450U 42\" LCD TV, B",
-              "price": 72,
-              "url": "https://uk.webuy.com/product-detail?id=SLCDLG42LK450UB&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=3",
-              "tradeVoucher": 45,
-              "tradeCash": 31
+              "id": "SDIGSONZVE10SELP165B",
+              "title": "Sony ZV-E10 4K Vlog Camera 24.2MP + 16-50mm F/3.5-5.6 SELP1650 OSS, B",
+              "price": 550,
+              "url": "https://uk.webuy.com/product-detail?id=SDIGSONZVE10SELP165B&categoryName=CAMERAS-COMPACT-SYSTEM&superCatName=ELECTRONICS&title=&queryID=62A1A2B79BF13DECEE51447CA2CA8992&position=2",
+              "tradeVoucher": 396,
+              "tradeCash": 341
             }
           ]
         }
       }
     },
-    "LG 32LH5000": {
-      "model": "LG 32LH5000",
+    "Canon EOS M50 24.1MP + 15-45mm IS STM, B": {
+      "model": "Canon EOS M50 24.1MP + 15-45mm IS STM, B",
       "variants": {
-        "LG 32LH5000 32\"": {
-          "variant": "LG 32LH5000 32\"",
-          "size": "32\"",
+        "Canon EOS M50 24.1MP + 15-45mm IS STM, B": {
+          "variant": "Canon EOS M50 24.1MP + 15-45mm IS STM, B",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SLCDLG32LH5000B",
-              "title": "LG 32LH5000 32\" LCD TV, B",
-              "price": 40,
-              "url": "https://uk.webuy.com/product-detail?id=SLCDLG32LH5000B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=4",
-              "tradeVoucher": 14,
-              "tradeCash": 9
+              "id": "SDIGCANM501545MMB",
+              "title": "Canon EOS M50 24.1MP + 15-45mm IS STM, B",
+              "price": 375,
+              "url": "https://uk.webuy.com/product-detail?id=SDIGCANM501545MMB&categoryName=CAMERAS-COMPACT-SYSTEM&superCatName=ELECTRONICS&title=&queryID=62A1A2B79BF13DECEE51447CA2CA8992&position=3",
+              "tradeVoucher": 251,
+              "tradeCash": 206
             }
           ]
         }
       }
     },
-    "Sony KDL-40EX403": {
-      "model": "Sony KDL-40EX403",
+    "Sony Alpha 7R ILCE-7R 36M (Body Only), B": {
+      "model": "Sony Alpha 7R ILCE-7R 36M (Body Only), B",
       "variants": {
-        "Sony KDL-40EX403 40\"": {
-          "variant": "Sony KDL-40EX403 40\"",
-          "size": "40\"",
+        "Sony Alpha 7R ILCE-7R 36M (Body Only), B": {
+          "variant": "Sony Alpha 7R ILCE-7R 36M (Body Only), B",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SLCDSONKDL40EX403B",
-              "title": "Sony KDL-40EX403 40\" LCD TV,B",
-              "price": 70,
-              "url": "https://uk.webuy.com/product-detail?id=SLCDSONKDL40EX403B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=9",
-              "tradeVoucher": 25,
-              "tradeCash": 16
+              "id": "SSLRSONALP7RBOB",
+              "title": "Sony Alpha 7R ILCE-7R 36M (Body Only), B",
+              "price": 395,
+              "url": "https://uk.webuy.com/product-detail?id=SSLRSONALP7RBOB&categoryName=CAMERAS-COMPACT-SYSTEM&superCatName=ELECTRONICS&title=&queryID=62A1A2B79BF13DECEE51447CA2CA8992&position=4",
+              "tradeVoucher": 264,
+              "tradeCash": 217
             }
           ]
         }
       }
     },
-    "Samsung LE32B450": {
-      "model": "Samsung LE32B450",
+    "Olympus OM-D E-M10 Mark II 16MP + 14-42mm, B": {
+      "model": "Olympus OM-D E-M10 Mark II 16MP + 14-42mm, B",
       "variants": {
-        "Samsung LE32B450 32\"": {
-          "variant": "Samsung LE32B450 32\"",
-          "size": "32\"",
+        "Olympus OM-D E-M10 Mark II 16MP + 14-42mm, B": {
+          "variant": "Olympus OM-D E-M10 Mark II 16MP + 14-42mm, B",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SLCDSAMLE32B4501B",
-              "title": "Samsung LE32B450 32\" LCD TV, B",
-              "price": 50,
-              "url": "https://uk.webuy.com/product-detail?id=SLCDSAMLE32B4501B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=12",
-              "tradeVoucher": 18,
-              "tradeCash": 11
+              "id": "SDIGOLYEM10M21442B",
+              "title": "Olympus OM-D E-M10 Mark II 16MP + 14-42mm, B",
+              "price": 340,
+              "url": "https://uk.webuy.com/product-detail?id=SDIGOLYEM10M21442B&categoryName=CAMERAS-COMPACT-SYSTEM&superCatName=ELECTRONICS&title=&queryID=62A1A2B79BF13DECEE51447CA2CA8992&position=5",
+              "tradeVoucher": 214,
+              "tradeCash": 149
             }
           ]
         }
       }
     },
-    "Samsung LE19R86BD": {
-      "model": "Samsung LE19R86BD",
+    "Canon EOS M100 24MP + 15-45mm, B": {
+      "model": "Canon EOS M100 24MP + 15-45mm, B",
       "variants": {
-        "Samsung LE19R86BD 19\"": {
-          "variant": "Samsung LE19R86BD 19\"",
-          "size": "19\"",
+        "Canon EOS M100 24MP + 15-45mm, B": {
+          "variant": "Canon EOS M100 24MP + 15-45mm, B",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SLCDSAMLE19R86BD1B",
-              "title": "Samsung LE19R86BD 19\" LCD TV, B",
-              "price": 18,
-              "url": "https://uk.webuy.com/product-detail?id=SLCDSAMLE19R86BD1B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=13",
-              "tradeVoucher": 6,
-              "tradeCash": 4
+              "id": "SCAMCANM1001545B",
+              "title": "Canon EOS M100 24MP + 15-45mm, B",
+              "price": 335,
+              "url": "https://uk.webuy.com/product-detail?id=SCAMCANM1001545B&categoryName=CAMERAS-COMPACT-SYSTEM&superCatName=ELECTRONICS&title=&queryID=62A1A2B79BF13DECEE51447CA2CA8992&position=6",
+              "tradeVoucher": 241,
+              "tradeCash": 207
             }
           ]
         }
       }
     },
-    "Samsung LE32B530P7W": {
-      "model": "Samsung LE32B530P7W",
+    "Sony Alpha 6000 ILCE-6000(Black) + 16-50mm, B": {
+      "model": "Sony Alpha 6000 ILCE-6000(Black) + 16-50mm, B",
       "variants": {
-        "Samsung LE32B530P7W 32\"": {
-          "variant": "Samsung LE32B530P7W 32\"",
-          "size": "32\"",
+        "Sony Alpha 6000 ILCE-6000(Black) + 16-50mm, B": {
+          "variant": "Sony Alpha 6000 ILCE-6000(Black) + 16-50mm, B",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SLCDSAM32B530B",
-              "title": "Samsung LE32B530P7W 32\" LCD TV, B",
-              "price": 50,
-              "url": "https://uk.webuy.com/product-detail?id=SLCDSAM32B530B&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=14",
-              "tradeVoucher": 31,
-              "tradeCash": 22
+              "id": "SSONA60001650B",
+              "title": "Sony Alpha 6000 ILCE-6000(Black) + 16-50mm, B",
+              "price": 390,
+              "url": "https://uk.webuy.com/product-detail?id=SSONA60001650B&categoryName=CAMERAS-COMPACT-SYSTEM&superCatName=ELECTRONICS&title=&queryID=62A1A2B79BF13DECEE51447CA2CA8992&position=7",
+              "tradeVoucher": 261,
+              "tradeCash": 214
             }
           ]
         }
       }
     },
-    "Hitachi L42VC04U": {
-      "model": "Hitachi L42VC04U",
+    "Sony Alpha 5000 ILCE-5000 20.1M + 16-50mm, B": {
+      "model": "Sony Alpha 5000 ILCE-5000 20.1M + 16-50mm, B",
       "variants": {
-        "Hitachi L42VC04U 42\"": {
-          "variant": "Hitachi L42VC04U 42\"",
-          "size": "42\"",
+        "Sony Alpha 5000 ILCE-5000 20.1M + 16-50mm, B": {
+          "variant": "Sony Alpha 5000 ILCE-5000 20.1M + 16-50mm, B",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SLCDHITL42VC04UAC",
-              "title": "Hitachi L42VC04U 42\" 1080p, C",
-              "price": 68,
-              "url": "https://uk.webuy.com/product-detail?id=SLCDHITL42VC04UAC&categoryName=LCD-TELEVISIONS&superCatName=ELECTRONICS&title=&queryID=B52409F877F28E56EF53CDFF454ADAEC&position=17",
-              "tradeVoucher": 42,
-              "tradeCash": 29
+              "id": "SSLRSONA50001650B",
+              "title": "Sony Alpha 5000 ILCE-5000 20.1M + 16-50mm, B",
+              "price": 285,
+              "url": "https://uk.webuy.com/product-detail?id=SSLRSONA50001650B&categoryName=CAMERAS-COMPACT-SYSTEM&superCatName=ELECTRONICS&title=&queryID=62A1A2B79BF13DECEE51447CA2CA8992&position=8",
+              "tradeVoucher": 190,
+              "tradeCash": 156
+            }
+          ]
+        }
+      }
+    },
+    "Canon EOS R50 24.2 MP + RF-S 18-45 mm F/4.5-6.3 IS STM, B": {
+      "model": "Canon EOS R50 24.2 MP + RF-S 18-45 mm F/4.5-6.3 IS STM, B",
+      "variants": {
+        "Canon EOS R50 24.2 MP + RF-S 18-45 mm F/4.5-6.3 IS STM, B": {
+          "variant": "Canon EOS R50 24.2 MP + RF-S 18-45 mm F/4.5-6.3 IS STM, B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SDIGCANR5018454563B",
+              "title": "Canon EOS R50 24.2 MP + RF-S 18-45 mm F/4.5-6.3 IS STM, B",
+              "price": 580,
+              "url": "https://uk.webuy.com/product-detail?id=SDIGCANR5018454563B&categoryName=CAMERAS-COMPACT-SYSTEM&superCatName=ELECTRONICS&title=&queryID=62A1A2B79BF13DECEE51447CA2CA8992&position=9",
+              "tradeVoucher": 388,
+              "tradeCash": 319
+            }
+          ]
+        }
+      }
+    },
+    "Canon EOS M200 24MP + 15-45mm, B": {
+      "model": "Canon EOS M200 24MP + 15-45mm, B",
+      "variants": {
+        "Canon EOS M200 24MP + 15-45mm, B": {
+          "variant": "Canon EOS M200 24MP + 15-45mm, B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SCAMCANM2001545B",
+              "title": "Canon EOS M200 24MP + 15-45mm, B",
+              "price": 360,
+              "url": "https://uk.webuy.com/product-detail?id=SCAMCANM2001545B&categoryName=CAMERAS-COMPACT-SYSTEM&superCatName=ELECTRONICS&title=&queryID=62A1A2B79BF13DECEE51447CA2CA8992&position=10",
+              "tradeVoucher": 259,
+              "tradeCash": 223
+            }
+          ]
+        }
+      }
+    },
+    "Sony Alpha 6400 ILCE-6400 24.2MP + 16-50mm, B": {
+      "model": "Sony Alpha 6400 ILCE-6400 24.2MP + 16-50mm, B",
+      "variants": {
+        "Sony Alpha 6400 ILCE-6400 24.2MP + 16-50mm, B": {
+          "variant": "Sony Alpha 6400 ILCE-6400 24.2MP + 16-50mm, B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SDIGSONA6400L1650B",
+              "title": "Sony Alpha 6400 ILCE-6400 24.2MP + 16-50mm, B",
+              "price": 675,
+              "url": "https://uk.webuy.com/product-detail?id=SDIGSONA6400L1650B&categoryName=CAMERAS-COMPACT-SYSTEM&superCatName=ELECTRONICS&title=&queryID=62A1A2B79BF13DECEE51447CA2CA8992&position=11",
+              "tradeVoucher": 452,
+              "tradeCash": 371
+            }
+          ]
+        }
+      }
+    },
+    "Sony Alpha 6000 ILCE-6000 (Body Only) - Black, B": {
+      "model": "Sony Alpha 6000 ILCE-6000 (Body Only) - Black, B",
+      "variants": {
+        "Sony Alpha 6000 ILCE-6000 (Body Only) - Black, B": {
+          "variant": "Sony Alpha 6000 ILCE-6000 (Body Only) - Black, B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SDIGSONA6000BB",
+              "title": "Sony Alpha 6000 ILCE-6000 (Body Only) - Black, B",
+              "price": 280,
+              "url": "https://uk.webuy.com/product-detail?id=SDIGSONA6000BB&categoryName=CAMERAS-COMPACT-SYSTEM&superCatName=ELECTRONICS&title=&queryID=62A1A2B79BF13DECEE51447CA2CA8992&position=12",
+              "tradeVoucher": 187,
+              "tradeCash": 154
+            }
+          ]
+        }
+      }
+    },
+    "Sony Alpha 7 III ILCE-7M3 24.2MP + 28-70mm, B": {
+      "model": "Sony Alpha 7 III ILCE-7M3 24.2MP + 28-70mm, B",
+      "variants": {
+        "Sony Alpha 7 III ILCE-7M3 24.2MP + 28-70mm, B": {
+          "variant": "Sony Alpha 7 III ILCE-7M3 24.2MP + 28-70mm, B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SDIGSONALPAA7MK3287B",
+              "title": "Sony Alpha 7 III ILCE-7M3 24.2MP + 28-70mm, B",
+              "price": 975,
+              "url": "https://uk.webuy.com/product-detail?id=SDIGSONALPAA7MK3287B&categoryName=CAMERAS-COMPACT-SYSTEM&superCatName=ELECTRONICS&title=&queryID=62A1A2B79BF13DECEE51447CA2CA8992&position=13",
+              "tradeVoucher": 653,
+              "tradeCash": 536
+            }
+          ]
+        }
+      }
+    },
+    "Canon EOS R6 Mark II 24.2MP (Body Only), B": {
+      "model": "Canon EOS R6 Mark II 24.2MP (Body Only), B",
+      "variants": {
+        "Canon EOS R6 Mark II 24.2MP (Body Only), B": {
+          "variant": "Canon EOS R6 Mark II 24.2MP (Body Only), B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SDIGCANR6MKIIBODB",
+              "title": "Canon EOS R6 Mark II 24.2MP (Body Only), B",
+              "price": 1450,
+              "url": "https://uk.webuy.com/product-detail?id=SDIGCANR6MKIIBODB&categoryName=CAMERAS-COMPACT-SYSTEM&superCatName=ELECTRONICS&title=&queryID=62A1A2B79BF13DECEE51447CA2CA8992&position=14",
+              "tradeVoucher": 913,
+              "tradeCash": 638
+            }
+          ]
+        }
+      }
+    },
+    "Canon EOS R100 25MP + RF-S 18-45mm F4.5-6.3 IS STM Lens, B": {
+      "model": "Canon EOS R100 25MP + RF-S 18-45mm F4.5-6.3 IS STM Lens, B",
+      "variants": {
+        "Canon EOS R100 25MP + RF-S 18-45mm F4.5-6.3 IS STM Lens, B": {
+          "variant": "Canon EOS R100 25MP + RF-S 18-45mm F4.5-6.3 IS STM Lens, B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SDIGCANR1001845B",
+              "title": "Canon EOS R100 25MP + RF-S 18-45mm F4.5-6.3 IS STM Lens, B",
+              "price": 360,
+              "url": "https://uk.webuy.com/product-detail?id=SDIGCANR1001845B&categoryName=CAMERAS-COMPACT-SYSTEM&superCatName=ELECTRONICS&title=&queryID=62A1A2B79BF13DECEE51447CA2CA8992&position=15",
+              "tradeVoucher": 259,
+              "tradeCash": 223
+            }
+          ]
+        }
+      }
+    },
+    "Canon EOS R7 32.5MP (Body Only), B": {
+      "model": "Canon EOS R7 32.5MP (Body Only), B",
+      "variants": {
+        "Canon EOS R7 32.5MP (Body Only), B": {
+          "variant": "Canon EOS R7 32.5MP (Body Only), B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SCAMCANEOSR7BODB",
+              "title": "Canon EOS R7 32.5MP (Body Only), B",
+              "price": 900,
+              "url": "https://uk.webuy.com/product-detail?id=SCAMCANEOSR7BODB&categoryName=CAMERAS-COMPACT-SYSTEM&superCatName=ELECTRONICS&title=&queryID=62A1A2B79BF13DECEE51447CA2CA8992&position=16",
+              "tradeVoucher": 648,
+              "tradeCash": 558
+            }
+          ]
+        }
+      }
+    },
+    "Panasonic Lumix DMC-G3 16MP 14-42mm, B": {
+      "model": "Panasonic Lumix DMC-G3 16MP 14-42mm, B",
+      "variants": {
+        "Panasonic Lumix DMC-G3 16MP 14-42mm, B": {
+          "variant": "Panasonic Lumix DMC-G3 16MP 14-42mm, B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SDSLPANLUMDMCG3KB",
+              "title": "Panasonic Lumix DMC-G3 16MP 14-42mm, B",
+              "price": 115,
+              "url": "https://uk.webuy.com/product-detail?id=SDSLPANLUMDMCG3KB&categoryName=CAMERAS-COMPACT-SYSTEM&superCatName=ELECTRONICS&title=&queryID=62A1A2B79BF13DECEE51447CA2CA8992&position=17",
+              "tradeVoucher": 77,
+              "tradeCash": 63
             }
           ]
         }

@@ -38,62 +38,45 @@ export interface TabletScrapeResult {
 
 /* --------------------------- Helper Extraction --------------------------- */
 
-function extractTabletModelDetails(title: string) {
+function extractModelAndStorage(title: string) {
   const lower = title.toLowerCase();
 
-  // Extract model number (A2602, SM-X210, TB-X103F, T580, P615, etc.)
-  const modelMatch = lower.match(/\b(a\d{4}|sm-[a-z0-9]+|tb-[a-z0-9]+|t[0-9]{3,}|p[0-9]{3,}|x[0-9]{3,})\b/i);
-  const modelNumber = modelMatch ? modelMatch[0].toUpperCase() : null;
-  // Extract storage (take the largest GB/TB value)
+  // Grab largest storage
   const storageMatches = [...lower.matchAll(/(\d+(?:\.\d+)?)(tb|gb)\b/gi)];
   let storage: string | null = null;
-
   if (storageMatches.length) {
-    let maxBytes = 0;
+    let maxGB = 0;
     for (const match of storageMatches) {
       const value = parseFloat(match[1]);
       const unit = match[2].toLowerCase();
-      // convert everything to GB for comparison
       const valueInGB = unit === "tb" ? value * 1024 : value;
-      if (valueInGB > maxBytes) {
-        maxBytes = valueInGB;
+      if (valueInGB > maxGB) {
+        maxGB = valueInGB;
         storage = `${value}${unit.toUpperCase()}`;
       }
     }
   }
 
-
-  // Extract network (WiFi / 5G / 4G / LTE / Unlocked)
-  const networkMatch = lower.match(/\b(wifi|5g|4g|lte|unlocked)\b/i);
-  const network = networkMatch ? networkMatch[1].toUpperCase() : null;
-
-  // Clean marketing model name - keep generation, size, but remove storage, colors and conditions
-  let cleanModel = lower
-    .replace(/\(.*?\)/g, "") // Remove parentheses content
-    .replace(/\b\d+(?:\.\d+)?(tb|gb)\b/gi, "") // Remove storage (e.g., 64GB, 128GB, 1TB)
-    .replace(/\b(tab|tablet|android|wi[- ]?fi|unlocked|lte|5g|4g|sim free)\b/g, "")
-    .replace(/\b(black|blue|grey|gray|silver|gold|green|purple|red|pink|white|graphite|navy|space|oxford|denim|luna)\b/g, "")
-    .replace(/\b(good|excellent|grade|condition|b|a|c)\b/g, "")
-    .replace(/,\s*$/g, "") // Remove trailing commas
-    .replace(/[-,]\s*$/g, "") // Remove trailing dashes and commas
-    .replace(/\s{2,}/g, " ")
+  // Remove everything we don't want in the model name
+  let cleanTitle = title
+    .replace(/\(.*?\)/g, "")           // remove anything in parentheses
+    .replace(/\b\d+(?:\.\d+)?(tb|gb)\b/gi, "")  // remove storage
+    .replace(/\b(wifi|4g|5g|lte|unlocked|sim free|no pen)\b/gi, "")  // network/connectivity
+    .replace(/\b(black|blue|grey|gray|silver|gold|green|purple|red|pink|white|graphite|navy|space|oxford|denim|luna)\b/gi, "")  // colors
+    .replace(/\b(good|excellent|grade|condition)\b/gi, "")  // condition words
+    .replace(/\b[abc]\b/gi, "")  // standalone condition grades
+    .replace(/\b(2016|2017|2018|2019|2020|2021|2022|2023|2024)\b/gi, "")  // years
+    .replace(/[-,]\s*$/g, "")  // trailing dashes/commas
+    .replace(/\s{2,}/g, " ")  // multiple spaces
     .trim();
 
-  // Capitalize each word
-  cleanModel = cleanModel
-    .split(" ")
-    .filter(Boolean)
-    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(" ");
-
-  return { model: cleanModel, modelNumber, storage, network };
+  return { model: cleanTitle, storage };
 }
-
 export function parseTabletVariantKey(title: string): string {
-  const { model, modelNumber, storage, network } = extractTabletModelDetails(title);
-  const parts = [model, modelNumber, storage, network].filter(Boolean);
-  return parts.join(" ");
+  const { model, storage } = extractModelAndStorage(title);
+  return [model, storage].filter(Boolean).join(" ");
 }
+
 
 /* --------------------------- Transformer --------------------------- */
 
@@ -103,41 +86,21 @@ export function transformScrapeResultToTabletScrapeResult(
   const { competitor, results } = scrapeResult;
 
   const grouped = groupResultsByVariant(results as CompetitorListing[], (item) => {
-    const { model, modelNumber, storage, network } = extractTabletModelDetails(item.title);
-    
-    const modelKey = model; // model without number
-    const variantKey = [storage, network].filter(Boolean).join(" ");
-    
-    return { 
-      model: modelKey, 
-      variant: variantKey, 
-      extra: { modelNumber, storage, network } 
-    };
+    const { model, storage } = extractModelAndStorage(item.title);
+    return { model, variant: storage || "", extra: { storage } };
   });
 
   const models: Record<string, TabletModelGroup> = Object.fromEntries(
     Object.entries(grouped).map(([modelKey, grouped]) => {
-      const firstVariant = Object.values(grouped.variants)[0];
-      const modelNumber = firstVariant?.extra?.modelNumber ?? null;
-
-      // Model key with number
-      const modelKeyWithNumber = modelNumber 
-        ? `${modelKey} ${modelNumber}` 
-        : modelKey;
-
       return [
-        modelKeyWithNumber,
+        modelKey, // model already includes model number
         {
-          // Include model number in the `model` field as well
-          model: modelKeyWithNumber,
+          model: modelKey,
           variants: Object.fromEntries(
             Object.entries(grouped.variants).map(([variantKey, v]) => {
               const storage = v.extra?.storage ?? null;
-              const network = v.extra?.network ?? null;
-
-              const fullVariant = [modelKey, modelNumber, storage, network]
-                .filter(Boolean)
-                .join(" ");
+              // ONLY append storage, do NOT append model number again
+              const fullVariant = storage ? `${modelKey} ${storage}` : modelKey;
 
               return [
                 fullVariant,
@@ -156,6 +119,7 @@ export function transformScrapeResultToTabletScrapeResult(
 
   return { competitor, models };
 }
+
 
 /* --------------------------- Default Price Ranges --------------------------- */
 

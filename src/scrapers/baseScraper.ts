@@ -86,6 +86,114 @@ export function groupResultsByVariant<T>(
   return models;
 }
 
+async function navigateSafely(page: Page, url: string) {
+  try {
+    await page.goto(url, {
+      waitUntil: "domcontentloaded",
+      timeout: 30000,
+    });
+  } catch (err) {
+    console.warn(`⚠️ goto() failed, retrying with reload: ${err}`);
+    try {
+      await page.reload({ waitUntil: "domcontentloaded", timeout: 30000 });
+    } catch (reloadErr) {
+      console.error(`❌ reload() failed: ${reloadErr}`);
+      throw reloadErr;
+    }
+  }
+}
+
+
+async function determinePriceRanges(
+  browser: Browser,
+  baseUrl: string,
+  maxResultsPerRange: number,
+  initialRanges: [number, number][] = [
+    [0, 200],
+    [200, 600],
+    [600, 1400],
+    [1400, 3000],
+    [3000, 6200],
+    [6200, 10000],
+
+  ]
+): Promise<[number, number][]> {
+  const finalRanges: [number, number][] = [];
+
+  async function checkResults(minPrice: number, maxPrice: number): Promise<number> {
+    const urlWithRange = `${baseUrl}&sellPrice=${minPrice}:${maxPrice}`;
+    const tempPage = await browser.newPage();
+
+    try {
+      await tempPage.goto(urlWithRange, { waitUntil: "domcontentloaded", timeout: 30000 });
+
+      // Wait for either the no-results div to be visible OR stats element to have numbers
+      await tempPage.waitForFunction(() => {
+        const noResultsDiv = document.querySelector('div.cx-no-results') as HTMLElement;
+        if (noResultsDiv && noResultsDiv.style.display !== 'none') return true;
+        
+        const statsEl = document.querySelector('div.ais-Stats.stats-text p.text-base.font-normal');
+        return statsEl && /\d/.test(statsEl.textContent || '');
+      }, { timeout: 20000 });
+
+      // Small delay to ensure DOM finishes rendering
+      await tempPage.waitForTimeout(500);
+
+      // Check if no-results div is visible
+      const noResultsDiv = await tempPage.locator('div.cx-no-results').first();
+      const isVisible = await noResultsDiv.evaluate((el: HTMLElement) => el.style.display !== 'none');
+      
+      if (isVisible) {
+        console.log(`🔹 Price range £${minPrice} - £${maxPrice}: 0 results (no listings)`);
+        return 0;
+      }
+
+      // Get total results from stats element
+      const resultsElements = await tempPage.locator('div.ais-Stats.stats-text p.text-base.font-normal');
+      const totalResultsText = await resultsElements.first().textContent();
+      
+      if (!totalResultsText) {
+        console.log(`⚠️ Price range £${minPrice} - £${maxPrice}: Could not read results count`);
+        return 0;
+      }
+
+      const totalResults = parseInt(totalResultsText.replace(/,/g, '').replace(/\D/g, ''));
+      console.log(`🔹 Price range £${minPrice} - £${maxPrice}: ${totalResults} results`);
+
+      return totalResults;
+
+    } finally {
+      await tempPage.close();
+    }
+  }
+
+  async function splitIfNeeded(minPrice: number, maxPrice: number) {
+    const totalResults = await checkResults(minPrice, maxPrice);
+
+    if (totalResults === 0) return;
+
+    if (totalResults <= maxResultsPerRange) {
+      console.log(`✅ Accepting range £${minPrice} - £${maxPrice}`);
+      finalRanges.push([minPrice, maxPrice]);
+    } else {
+      const midPrice = Math.floor((minPrice + maxPrice) / 2);
+      if (midPrice === minPrice || midPrice === maxPrice) {
+        console.log(`⚠️ Cannot split further, accepting £${minPrice} - £${maxPrice}`);
+        finalRanges.push([minPrice, maxPrice]);
+      } else {
+        console.log(`🔁 Splitting range £${minPrice} - £${maxPrice} at £${midPrice}`);
+        await splitIfNeeded(minPrice, midPrice);
+        await splitIfNeeded(midPrice + 1, maxPrice);
+      }
+    }
+  }
+
+  for (const [minPrice, maxPrice] of initialRanges) {
+    await splitIfNeeded(minPrice, maxPrice);
+  }
+
+  return finalRanges;
+}
 
 
 /* ----------------------------- Generic Scraper ----------------------------- */
@@ -104,7 +212,6 @@ export async function scrapeAllPagesParallel(
   // 1️⃣ Open a temp page to get total results
   const tempPage = await browser.newPage();
   await tempPage.goto(baseUrl, { waitUntil: "domcontentloaded" });
-
 
   // Wait for JS to render the stats element dynamically
   await tempPage.waitForFunction(() => {
@@ -133,9 +240,9 @@ export async function scrapeAllPagesParallel(
   // 2️⃣ Prepare a queue of page numbers
   const pageQueue = Array.from({ length: totalPages }, (_, i) => i + 1);
 
-  // 3️⃣ Worker function for each tab
   async function worker() {
     const tab = await browser.newPage();
+    // (do NOT close inside the worker)
 
     while (pageQueue.length > 0) {
       const pageNum = pageQueue.shift();
@@ -144,45 +251,45 @@ export async function scrapeAllPagesParallel(
       const pagedUrl = `${baseUrl}&page=${pageNum}`;
       console.log(`🔍 Scraping page ${pageNum}: ${pagedUrl}`);
 
-      try {
-        await tab.goto(pagedUrl, { waitUntil: "domcontentloaded", timeout: 30000 });
-        await tab.waitForSelector(container, { timeout: 10000 });
-        const pageResults = await scrapeCEX(tab, container, title, price, url);
-        console.log(`📄 Results for page ${pageNum}: ${pageResults.length}`);
-        console.log(pageResults);
+      let success = false;
+      let attempts = 0;
 
-        for (const result of pageResults) {
-          const key = parseVariantKey ? parseVariantKey(result.title) : result.title.trim();
-          if (!variantsMap[key]) variantsMap[key] = { key, rawTitles: [] };
-          variantsMap[key].rawTitles.push(result.title);
-          allResults.push(result);
-        }
-
-        console.log(`✅ Page ${pageNum} done`);
-      } catch (err) {
-        console.error(`❌ Failed to scrape page ${pageNum}: ${err}`);
-        console.log(`🔁 Retrying page ${pageNum}...`);
+      while (!success && attempts < 2) {
+        attempts++;
 
         try {
-          await tab.waitForTimeout(3000); // small delay before retry
-          await tab.goto(pagedUrl, { waitUntil: "domcontentloaded", timeout: 20000 });
-          await tab.waitForSelector(container, { timeout: 10000 });
-          const retryResults = await scrapeCEX(tab, container, title, price, url);
-          console.log(`✅ Retry succeeded for page ${pageNum}`);
+          // 🔹 Use a helper to ensure full navigation/reload safety
+          await navigateSafely(tab, pagedUrl);
 
-          for (const result of retryResults) {
+          // Wait until content container exists
+          await tab.waitForSelector(container, { timeout: 15000 });
+
+          const pageResults = await scrapeCEX(tab, container, title, price, url);
+          console.log(`📄 Results for page ${pageNum}: ${pageResults.length}`);
+
+          for (const result of pageResults) {
             const key = parseVariantKey ? parseVariantKey(result.title) : result.title.trim();
             if (!variantsMap[key]) variantsMap[key] = { key, rawTitles: [] };
             variantsMap[key].rawTitles.push(result.title);
             allResults.push(result);
           }
-        } catch (retryErr) {
-          console.error(`❌ Retry failed for page ${pageNum}: ${retryErr}`);
+
+          console.log(`✅ Page ${pageNum} done`);
+          success = true;
+
+        } catch (err) {
+          console.error(`❌ Attempt ${attempts} failed for page ${pageNum}: ${err}`);
+          if (attempts < 2) {
+            console.log(`🔁 Retrying page ${pageNum}...`);
+            await tab.waitForTimeout(3000);
+          } else {
+            console.log(`⚠️ Skipping page ${pageNum} after ${attempts} failed attempts`);
+          }
         }
       }
     }
-    await tab.close();
   }
+
 
   // 4️⃣ Start worker tabs (limited concurrency)
   await Promise.all(Array.from({ length: concurrency }, () => worker()));
@@ -195,13 +302,18 @@ export async function scrapeAllPagesParallel(
 
 export async function scrapeAllPriceRangesCEX(
   browser: Browser,
-  baseUrl: string, // e.g., "https://uk.webuy.com/search?sortBy=prod_cex_uk_price_desc&categoryFriendlyName=switch+games"
-  priceRanges: [number, number][], // now passed in
+  baseUrl: string,
+  spriceRanges: [number, number][], // now passed in
   parseVariantKey?: (title: string) => string,
   concurrency: number = 3
 ): Promise<{ results: any[]; variants: VariantGroup[] }> {
   const allResults: any[] = [];
   const variantsMap: Record<string, VariantGroup> = {};
+  const maxResultsPerRange = 59 * 17;
+
+  console.log(`\n🔹 Determining optimal price ranges dynamically...`);
+  const priceRanges = await determinePriceRanges(browser, baseUrl, maxResultsPerRange);
+  console.log(`✅ Generated ${priceRanges.length} price ranges:`, priceRanges);
 
   for (const [minPrice, maxPrice] of priceRanges) {
     const urlWithRange = `${baseUrl}&sellPrice=${minPrice}:${maxPrice}`;
@@ -214,9 +326,7 @@ export async function scrapeAllPriceRangesCEX(
       concurrency
     );
 
-    // Merge and deduplicate results
     for (const result of results) {
-      // Normalize key for grouping (case-insensitive), but preserve original case in data
       const rawKey = parseVariantKey ? parseVariantKey(result.title) : result.title.trim();
       const normalizedKey = rawKey.toLowerCase();
 
@@ -225,7 +335,6 @@ export async function scrapeAllPriceRangesCEX(
       }
       variantsMap[normalizedKey].rawTitles.push(result.title);
       allResults.push(result);
-
     }
   }
 
@@ -234,3 +343,5 @@ export async function scrapeAllPriceRangesCEX(
 
   return { results: allResults, variants };
 }
+
+

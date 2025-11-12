@@ -4,6 +4,8 @@ import { getGameResults } from "./scrapers/gameScraper.js";
 import { getConsoleResults } from "./scrapers/consoleScraper.js";
 import { getLaptopResults } from "./scrapers/laptopScraper.js";
 import { getTabletResults } from "./scrapers/tabletScraper.js";
+import { getTVResults } from "./scrapers/tvScraper.js";
+import { getWatchResults } from "./scrapers/watchScraper.js";
 
 
 import { uploadScrapeResultToDjango } from "./uploadToDjango.js";
@@ -11,6 +13,7 @@ import { scrapeConfigs, ScrapeConfig } from "./scrapeConfigs.js";
 import util from "util";
 import fs from "fs/promises";
 import path from "path";
+import { getGenericItemResults } from "./scrapers/genericItemScraper.js";
 
 const SCRAPE_OUTPUT_DIR = "./scrapeResults";
 
@@ -51,6 +54,11 @@ selectedConfigs.forEach((c) => console.log(`  • ${c.name}`));
           else if (config.type === "console") result = await getConsoleResults(browser, config);
           else if (config.type === "laptop") result = await getLaptopResults(browser, config);
           else if (config.type === "tablet") result = await getTabletResults(browser, config);
+          else if (config.type === "tv") result = await getTVResults(browser, config);
+          else if (config.type === "watch") result = await getWatchResults(browser, config);
+          else if (config.type === "generic") result = await getGenericItemResults(browser, config);
+
+
           else {
             console.warn(`⚠️ Unknown scrape type: ${(config as ScrapeConfig).type}`);
             continue;

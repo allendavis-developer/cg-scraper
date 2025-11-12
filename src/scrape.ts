@@ -5,6 +5,10 @@ import { getConsoleResults } from "./scrapers/consoleScraper";
 import { getLaptopResults } from "./scrapers/laptopScraper";
 import { getTabletResults } from "./scrapers/tabletScraper";
 import { getTVResults } from "./scrapers/tvScraper";
+import { getWatchResults } from "./scrapers/watchScraper";
+import { getGenericItemResults } from "./scrapers/genericItemScraper";
+
+
 
 
 import { uploadScrapeResultToDjango } from "./uploadToDjango";
@@ -17,21 +21,38 @@ import fs from "fs/promises";
 
   try {
 
-    // const result = await getTabletResults(browser, {
+    // const result = await getWatchResults(browser, {
     //   competitor: "CEX",
     //   item: "",
-    //   category: "tablets",
-    //   subcategory: "Tablets - Android", // ✅ specify subcategory exactly as on CEX
+    //   category: "watches",
+    //   subcategory: "Smartwatches", // ✅ specify subcategory exactly as on CEX
     //   broad: false, // narrow scrape (single search page)
     // });
 
-    const result = await getTVResults(browser, {
+    const result = await getGenericItemResults(browser, {
       competitor: "CEX",
       item: "",
-      category: "tv",
-      subcategory: "LCD Televisions", // ✅ specify subcategory exactly as on CEX
+      category: "cameras",
+      subcategory: "Cameras - Compact System", // ✅ specify subcategory exactly as on CEX
       broad: false, // narrow scrape (single search page)
     });
+
+    // const result = await getConsoleResults(browser, {
+    //   competitor: "CEX",
+    //   item: "",
+    //   category: "consoles",
+    //   subcategory: "Wii Consoles", // ✅ specify subcategory exactly as on CEX
+    //   broad: false, // narrow scrape (single search page)
+    // });
+
+    // const result = await getConsoleResults(browser, {
+    //   competitor: "CEX",
+    //   item: "",
+    //   category: "consoles",
+    //   subcategory: "Wii U Consoles", // ✅ specify subcategory exactly as on CEX
+    //   broad: false, // narrow scrape (single search page)
+    // });
+
 
     console.log(util.inspect(result, { depth: null, colors: true }));
     // --- Save to JSON file ---

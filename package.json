@@ -16,7 +16,13 @@
     "scrape:laptop": "npm run scrape -- laptop",
     "send:laptop": "npm run scrape -- --send laptop",
     "scrape:tablet": "npm run scrape -- tablet",
-    "send:tablet": "npm run scrape -- --send tablet"
+    "send:tablet": "npm run scrape -- --send tablet",
+    "scrape:tv": "npm run scrape -- tv",
+    "send:tv": "npm run scrape -- --send tv",
+    "scrape:watch": "npm run scrape -- watch",
+    "send:watch": "npm run scrape -- --send watch",
+    "scrape:generic": "npm run scrape -- generic",
+    "send:generic": "npm run scrape -- --send generic"
   },
   "keywords": [],
   "author": "",

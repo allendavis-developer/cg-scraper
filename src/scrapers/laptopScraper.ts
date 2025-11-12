@@ -114,7 +114,13 @@ export function transformScrapeResultToLaptopScrapeResult(
 ): LaptopScrapeResult {
   const { competitor, results } = scrapeResult;
 
-  const groupedByVariant = groupResultsByVariant(results as CompetitorListing[], (item) => {
+  // ✅ Only keep listings with condition = "B"
+  const filteredResults = (results as CompetitorListing[]).filter(item => {
+    const attrs = extractLaptopAttributes(item.title);
+    return attrs.condition === "B";
+  });
+
+  const groupedByVariant = groupResultsByVariant(filteredResults, (item) => {
     const attrs = extractLaptopAttributes(item.title);
     return {
       model: `${attrs.brand} ${attrs.model}`, // include brand here
@@ -125,16 +131,14 @@ export function transformScrapeResultToLaptopScrapeResult(
 
   const models: Record<string, LaptopModelGroup> = {};
 
-    Object.values(groupedByVariant).forEach(group => {
-    // Use brand + model as the key
-    const modelKey = group.model; // already includes brand
+  Object.values(groupedByVariant).forEach(group => {
+    const modelKey = group.model;
     if (!models[modelKey]) {
       models[modelKey] = { model: modelKey, variants: {} };
     }
 
     Object.values(group.variants).forEach(v => {
       const variantKey = v.variant ?? "unknown";
-
       models[modelKey].variants[variantKey] = {
         variant: variantKey,
         ram: v.extra?.ram ?? null,
@@ -144,9 +148,9 @@ export function transformScrapeResultToLaptopScrapeResult(
     });
   });
 
-
   return { competitor, models };
 }
+
 
 
 

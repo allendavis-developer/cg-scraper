@@ -4,6 +4,9 @@ import type { ConsoleSearchOptions } from "./scrapers/consoleScraper.js";
 import type { LaptopSearchOptions } from "./scrapers/laptopScraper.js";
 import type { TabletSearchOptions } from "./scrapers/tabletScraper.js";
 import type { TVSearchOptions } from "./scrapers/tvScraper.js";
+import type { WatchSearchOptions } from "./scrapers/watchScraper.js";
+import { getGenericItemResults, type GenericItemSearchOptions } from "./scrapers/genericItemScraper.js";
+
 
 
 interface DjangoUploadMeta {
@@ -23,13 +26,16 @@ export type ScrapeConfig =
   
   | (LaptopSearchOptions & BaseScrapeConfig & { type: "laptop" })
   | (TabletSearchOptions & BaseScrapeConfig & { type: "tablet" })
-  | (TVSearchOptions & BaseScrapeConfig & { type: "tv" });
+  | (TVSearchOptions & BaseScrapeConfig & { type: "tv" })
+  | (WatchSearchOptions & BaseScrapeConfig & { type: "watch" })
+  | (GenericItemSearchOptions & BaseScrapeConfig & { type: "generic" });
+
 
 
 
 export const scrapeConfigs: ScrapeConfig[] = [
 
-  // // ------------------------------------- LAPTOPS -------------------------------------- 
+  //------------------------------------- LAPTOPS -------------------------------------- 
   {
     name: "CEX Macbooks",
     type: "laptop",
@@ -42,6 +48,23 @@ export const scrapeConfigs: ScrapeConfig[] = [
       categoryName: "Laptops",
       subcategoryName: "Macbooks",
     },
+    priceRanges : [
+      [0, 200],
+      [201, 300],
+      [301, 400],
+      [401, 500],
+      [501, 600],
+      [601, 700],
+      [701, 800],
+      [801, 800],
+      [901, 800],
+      [1001, 1300],
+      [1301, 800],
+      [1601, 800],
+      [1901, 800],
+      [2201, 3000],
+      [3001, 9000],
+    ]
   }, 
   {
     name: "CEX Windows Laptops",
@@ -52,16 +75,7 @@ export const scrapeConfigs: ScrapeConfig[] = [
     subcategory: "Laptops - Windows",
     broad: true,
     priceRanges : [
-      [0, 54],
-      [55, 59],
-      [60, 64],
-      [65, 69],
-      [70, 74],
-      [75, 79],
-      [80, 84],
-      [85, 89],
-      [90, 94],
-      [95, 99],
+      [0, 99],
       [100, 104],
       [105, 109],
       [110, 114],
@@ -133,6 +147,19 @@ export const scrapeConfigs: ScrapeConfig[] = [
     category: "laptops",
     subcategory: "Laptops - Chrome OS",
     broad: true,
+    priceRanges : [
+    [0, 50],
+  [51, 100],
+  [101, 150],
+  [151, 200],
+  [201, 250],
+  [251, 300],
+  [301, 350],
+  [351, 400],
+  [401, 450],
+  [450, 2000],
+
+    ],
     django: {
       categoryName: "Laptops",
       subcategoryName: "Chromebooks",
@@ -174,6 +201,72 @@ export const scrapeConfigs: ScrapeConfig[] = [
     category: "tablets",
     subcategory: "Tablets - Android",
     broad: true,
+    priceRanges: [
+      [0, 4],
+      [5, 9],
+      [10, 14],
+      [15, 19],
+      [20, 24],
+      [25, 29],
+      [30, 34],
+      [35, 39],
+      [40, 44],
+      [45, 49],
+      [50, 54],
+      [55, 59],
+      [60, 64],
+      [65, 69],
+      [70, 74],
+      [75, 79],
+      [80, 84],
+      [85, 89],
+      [90, 94],
+      [95, 99],
+      [100, 104],
+      [105, 109],
+      [110, 114],
+      [115, 119],
+      [120, 124],
+      [125, 129],
+      [130, 134],
+      [135, 139],
+      [140, 144],
+      [145, 149],
+      [150, 154],
+      [155, 159],
+      [160, 164],
+      [165, 169],
+      [170, 174],
+      [175, 179],
+      [180, 184],
+      [185, 189],
+      [190, 194],
+      [195, 199],
+      [200, 209],
+      [210, 219],
+      [220, 229],
+      [230, 239],
+      [240, 249],
+      [250, 259],
+      [260, 269],
+      [270, 279],
+      [280, 289],
+      [290, 299],
+      [300, 319],
+      [320, 339],
+      [340, 359],
+      [360, 379],
+      [380, 399],
+      [400, 449],
+      [450, 499],
+      [500, 599],
+      [600, 699],
+      [700, 799],
+      [800, 899],
+      [900, 999],
+      [1000, 1200],
+      [1200, 4000],
+    ], // custom price ranges
     django: {
       categoryName: "Tablets",
       subcategoryName: "Android Tablets",
@@ -210,7 +303,77 @@ export const scrapeConfigs: ScrapeConfig[] = [
   }, 
 
   // ------------------------------------ CAMERAS ----------------------------------------
-  
+  {
+    name: "CEX Cameras Compact System",
+    type: "generic",
+    competitor: "CEX",
+    item: "",
+    category: "cameras",
+    subcategory: "Cameras - Compact System",
+    broad: true,
+    django: {
+      categoryName: "Cameras",
+      subcategoryName: "Cameras - Compact System",
+    },
+  }, 
+
+  {
+    name: "CEX Cameras Compact Cameras",
+    type: "generic",
+    competitor: "CEX",
+    item: "",
+    category: "cameras",
+    subcategory: "Cameras - Compact Cameras",
+    broad: true,
+    django: {
+      categoryName: "Cameras",
+      subcategoryName: "Cameras - Compact Cameras",
+    },
+  }, 
+
+  {
+    name: "CEX Cameras Digital SLR Cameras",
+    type: "generic",
+    competitor: "CEX",
+    item: "",
+    category: "cameras",
+    subcategory: "Cameras - Digital SLR Cameras",
+    broad: true,
+    django: {
+      categoryName: "Cameras",
+      subcategoryName: "Cameras - Digital SLR Cameras",
+    },
+  }, 
+
+  // ------------------------------------ WATCHES ----------------------------------------
+  {
+    name: "CEX Smartwatches",
+    type: "watch",
+    competitor: "CEX",
+    item: "",
+    category: "watches",
+    subcategory: "Smartwatches",
+    broad: true,
+    django: {
+      categoryName: "Smartwatches",
+      subcategoryName: "Smartwatches",
+    },
+  }, 
+
+  {
+    name: "CEX Apple Watches",
+    type: "watch",
+    competitor: "CEX",
+    item: "",
+    category: "watches",
+    subcategory: "Apple Watch",
+    broad: true,
+    django: {
+      categoryName: "Smartwatches",
+      subcategoryName: "Apple Watch",
+    },
+  }, 
+
 
   // -------------------------------------- GAMES ------------------------------------------
   {
@@ -670,6 +833,32 @@ export const scrapeConfigs: ScrapeConfig[] = [
     django: {
       categoryName: "Gaming Consoles",
       subcategoryName: "DS Consoles",
+    },
+  },
+    {
+    name: "CEX Wii Consoles",
+    type: "console",
+    competitor: "CEX",
+    item: "",
+    category: "consoles",
+    subcategory: "Wii Consoles", // in cex the 2ds and 3ds are both stored under 3ds consoles
+    broad: false,
+    django: {
+      categoryName: "Gaming Consoles",
+      subcategoryName: "Wii Consoles",
+    },
+  },
+  {
+    name: "CEX Wii U Consoles",
+    type: "console",
+    competitor: "CEX",
+    item: "",
+    category: "consoles",
+    subcategory: "Wii U Consoles", // in cex the 2ds and 3ds are both stored under 3ds consoles
+    broad: false,
+    django: {
+      categoryName: "Gaming Consoles",
+      subcategoryName: "Wii U Consoles",
     },
   },
   
