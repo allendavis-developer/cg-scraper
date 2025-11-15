@@ -7,8 +7,8 @@ import { getTabletResults } from "./scrapers/tabletScraper";
 import { getTVResults } from "./scrapers/tvScraper";
 import { getWatchResults } from "./scrapers/watchScraper";
 import { getGenericItemResults } from "./scrapers/genericItemScraper";
-
-
+import { getHeadphoneResults } from "./scrapers/earpodsHeadphonesScraper";
+import { getSpeakerResults } from "./scrapers/bluetoothSpeakerScraper";
 
 
 import { uploadScrapeResultToDjango } from "./uploadToDjango";
@@ -29,13 +29,29 @@ import fs from "fs/promises";
     //   broad: false, // narrow scrape (single search page)
     // });
 
-    const result = await getGenericItemResults(browser, {
+    // const result = await getSpeakerResults(browser, {
+    //   competitor: "CEX",
+    //   item: "bluetooth speaker",
+    //   category: "bluetooth speaker",
+    //   subcategory: "Media Player Accessories", // ✅ specify subcategory exactly as on CEX
+    //   broad: false, // narrow scrape (single search page)
+    // });
+
+    const result = await getConsoleResults(browser, {
       competitor: "CEX",
-      item: "",
-      category: "cameras",
-      subcategory: "Cameras - Compact System", // ✅ specify subcategory exactly as on CEX
+      item: "playstation portal remote player",
+      category: "consoles",
+      subcategory: "", // ✅ specify subcategory exactly as on CEX
       broad: false, // narrow scrape (single search page)
     });
+
+    // const result = await getHeadphoneResults(browser, {
+    //   competitor: "CEX",
+    //   item: "",
+    //   category: "headphones",
+    //   subcategory: "Headphones - Apple", // ✅ specify subcategory exactly as on CEX
+    //   broad: false, // narrow scrape (single search page)
+    // });
 
     // const result = await getConsoleResults(browser, {
     //   competitor: "CEX",

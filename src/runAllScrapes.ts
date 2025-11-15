@@ -6,6 +6,8 @@ import { getLaptopResults } from "./scrapers/laptopScraper.js";
 import { getTabletResults } from "./scrapers/tabletScraper.js";
 import { getTVResults } from "./scrapers/tvScraper.js";
 import { getWatchResults } from "./scrapers/watchScraper.js";
+import { getHeadphoneResults } from "./scrapers/earpodsHeadphonesScraper.js";
+import { getSpeakerResults } from "./scrapers/bluetoothSpeakerScraper";
 
 
 import { uploadScrapeResultToDjango } from "./uploadToDjango.js";
@@ -57,6 +59,8 @@ selectedConfigs.forEach((c) => console.log(`  • ${c.name}`));
           else if (config.type === "tv") result = await getTVResults(browser, config);
           else if (config.type === "watch") result = await getWatchResults(browser, config);
           else if (config.type === "generic") result = await getGenericItemResults(browser, config);
+          else if (config.type === "headphone") result = await getHeadphoneResults(browser, config);
+          else if (config.type === "speaker") result = await getSpeakerResults(browser, config);
 
 
           else {
@@ -64,7 +68,7 @@ selectedConfigs.forEach((c) => console.log(`  • ${c.name}`));
             continue;
           }
 
-          console.log(util.inspect(result, { depth: null, colors: true }));
+          // console.log(util.inspect(result, { depth: null, colors: true }));
 
           // Save results only
           const filePath = path.join(SCRAPE_OUTPUT_DIR, `${config.name.replace(/\s+/g, "_")}.json`);

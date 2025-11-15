@@ -7,6 +7,7 @@ import {
   CompetitorListing,
   groupResultsByVariant,
 } from "./baseScraper";
+import { CEXProduct } from "../scrapers/cex"; // adjust import as needed
 
 /* ----------------------------- Type Definitions ----------------------------- */
 
@@ -22,7 +23,7 @@ export interface GenericItemSearchOptions {
 
 export interface GenericVariantGroup {
   variant: string; // full title (variant = model)
-  listings: CompetitorListing[];
+  listings: CEXProduct[];
 }
 
 export interface GenericModelGroup {
@@ -43,7 +44,7 @@ export function transformScrapeResultToGenericScrapeResult(
   const { competitor, results } = scrapeResult;
 
   // Every item is its own "model" and "variant"
-  const grouped = groupResultsByVariant(results as CompetitorListing[], (item) => {
+  const grouped = groupResultsByVariant(results as CEXProduct[], (item) => {
     const model = item.title.trim();
     const variant = item.title.trim();
     return { model, variant };
@@ -132,22 +133,51 @@ export async function getGenericItemResults(
 
   let scrapeResult: ScrapeResult;
 
+  const conditionRegex = /,\s*([ABC])$/i;
+
   if (!broad) {
     const page = await browser.newPage();
     await page.goto(baseUrl, { waitUntil: "domcontentloaded" });
     const { container, title, price, url } = cex.selectors;
-    const results = await scrapeCEX(page, container, title, price, url);
+    let results = await scrapeCEX(page, container, title, price, url);
     await page.close();
-    scrapeResult = { competitor, results };
+
+    // 🔍 Filter and cast to CEXProduct[]
+    const filteredResults: CEXProduct[] = results
+      .map((r) => {
+        const match = r.title.trim().match(conditionRegex);
+        if (match) {
+          const condition = match[1].toUpperCase();
+          if (condition !== "B") return null; // skip non-B
+          return { ...r, title: r.title.replace(conditionRegex, "").trim(), competitor: "CEX" } as const;
+        }
+        return { ...r, title: r.title.trim(), competitor: "CEX" } as const;
+      })
+      .filter(Boolean) as CEXProduct[];
+
+    scrapeResult = { competitor, results: filteredResults };
   } else {
     const { results, variants } = await scrapeAllPriceRangesCEX(
       browser,
       baseUrl,
       priceRanges,
-      (title) => title.trim(), // variant key = full title
+      (title) => title.trim(),
       3
     );
-    scrapeResult = { competitor, results, variants };
+
+    const filteredResults: CEXProduct[] = results
+      .map((r) => {
+        const match = r.title.trim().match(conditionRegex);
+        if (match) {
+          const condition = match[1].toUpperCase();
+          if (condition !== "B") return null;
+          return { ...r, title: r.title.replace(conditionRegex, "").trim(), competitor: "CEX" } as const;
+        }
+        return { ...r, title: r.title.trim(), competitor: "CEX" } as const;
+      })
+      .filter(Boolean) as CEXProduct[];
+
+    scrapeResult = { competitor, results: filteredResults, variants };
   }
 
   return transformScrapeResultToGenericScrapeResult(scrapeResult);

@@ -5,6 +5,10 @@ import type { LaptopSearchOptions } from "./scrapers/laptopScraper.js";
 import type { TabletSearchOptions } from "./scrapers/tabletScraper.js";
 import type { TVSearchOptions } from "./scrapers/tvScraper.js";
 import type { WatchSearchOptions } from "./scrapers/watchScraper.js";
+import type { HeadphoneSearchOptions } from "./scrapers/earpodsHeadphonesScraper.js";
+import type { SpeakerSearchOptions } from "./scrapers/bluetoothSpeakerScraper.js";
+
+
 import { getGenericItemResults, type GenericItemSearchOptions } from "./scrapers/genericItemScraper.js";
 
 
@@ -28,6 +32,8 @@ export type ScrapeConfig =
   | (TabletSearchOptions & BaseScrapeConfig & { type: "tablet" })
   | (TVSearchOptions & BaseScrapeConfig & { type: "tv" })
   | (WatchSearchOptions & BaseScrapeConfig & { type: "watch" })
+  | (HeadphoneSearchOptions & BaseScrapeConfig & { type: "headphone" })
+  | (SpeakerSearchOptions & BaseScrapeConfig & { type: "speaker" })
   | (GenericItemSearchOptions & BaseScrapeConfig & { type: "generic" });
 
 
@@ -165,6 +171,53 @@ export const scrapeConfigs: ScrapeConfig[] = [
       subcategoryName: "Chromebooks",
     },
   }, 
+
+
+  // ----------------------------------- HEADPHONES -------------------------------------
+  {
+    name: "CEX Headphones",
+    type: "headphone",
+    competitor: "CEX",
+    item: "",
+    category: "headphones",
+    subcategory: "Headphones",
+    broad: true,
+    django: {
+      categoryName: "Headphones",
+      subcategoryName: "Normal Headphones",
+    },
+  }, 
+
+  {
+    name: "CEX Apple Headphones",
+    type: "headphone",
+    competitor: "CEX",
+    item: "",
+    category: "headphones",
+    subcategory: "Headphones - Apple",
+    broad: true,
+    django: {
+      categoryName: "Headphones",
+      subcategoryName: "Apple Headphones",
+    },
+  }, 
+
+  
+  // ----------------------------------- MEDIA PLAYERS -------------------------------------
+  {
+    name: "CEX Speakers",
+    type: "speaker",
+    competitor: "CEX",
+    item: "bluetooth speaker",
+    category: "bluetooth speaker",
+    subcategory: "Media Player Accessories",
+    broad: true,
+    django: {
+      categoryName: "Media Players",
+      subcategoryName: "Bluetooth Speakers",
+    },
+  }, 
+
 
   // ------------------------------------- TABLETS ---------------------------------------
   {
@@ -345,6 +398,25 @@ export const scrapeConfigs: ScrapeConfig[] = [
     },
   }, 
 
+  // ---------------------------------- MUSIC TECH ---------------------------------------
+    {
+    name: "CEX DJ Decks and Mixers",
+    type: "generic",
+    competitor: "CEX",
+    item: "",
+    category: "cameras",
+    subcategory: "DJ Decks and Mixers",
+    broad: true,
+    django: {
+      categoryName: "Music Tech",
+      subcategoryName: "DJ Decks and Mixers",
+    },
+  }, 
+
+  // ---------------------------------- VR HEADSETS -----------------------------------------
+  
+
+
   // ------------------------------------ WATCHES ----------------------------------------
   {
     name: "CEX Smartwatches",
@@ -378,7 +450,7 @@ export const scrapeConfigs: ScrapeConfig[] = [
   // -------------------------------------- GAMES ------------------------------------------
   {
     name: "CEX Switch Games",
-    type: "game",
+    type: "game", 
     competitor: "CEX",
     item: "",
     category: "games (discs/cartridges)",
@@ -456,87 +528,122 @@ export const scrapeConfigs: ScrapeConfig[] = [
     },
   },
 
-  // ------ PHONES ---------
-
   {
-    name: "CEX Android Phones",
-    type: "mobile",
+    name: "CEX Xbox 360 Games",
+    type: "game",
     competitor: "CEX",
     item: "",
-    category: "smartphones and mobile",
-    subcategory: "Android Phones",
+    category: "games (discs/cartridges)",
+    subcategory: "Xbox 360 Games",
     broad: true,
-    priceRanges: [
-      [0, 4],
-      [5, 9],
-      [10, 14],
-      [15, 19],
-      [20, 24],
-      [25, 29],
-      [30, 34],
-      [35, 39],
-      [40, 44],
-      [45, 49],
-      [50, 54],
-      [55, 59],
-      [60, 64],
-      [65, 69],
-      [70, 74],
-      [75, 79],
-      [80, 84],
-      [85, 89],
-      [90, 94],
-      [95, 99],
-      [100, 104],
-      [105, 109],
-      [110, 114],
-      [115, 119],
-      [120, 124],
-      [125, 129],
-      [130, 134],
-      [135, 139],
-      [140, 144],
-      [145, 149],
-      [150, 154],
-      [155, 159],
-      [160, 164],
-      [165, 169],
-      [170, 174],
-      [175, 179],
-      [180, 184],
-      [185, 189],
-      [190, 194],
-      [195, 199],
-      [200, 209],
-      [210, 219],
-      [220, 229],
-      [230, 239],
-      [240, 249],
-      [250, 259],
-      [260, 269],
-      [270, 279],
-      [280, 289],
-      [290, 299],
-      [300, 319],
-      [320, 339],
-      [340, 359],
-      [360, 379],
-      [380, 399],
-      [400, 449],
-      [450, 499],
-      [500, 599],
-      [600, 699],
-      [700, 799],
-      [800, 899],
-      [900, 999],
-      [1000, 1200],
-      [1200, 4000],
-    ], // custom price ranges
-      django: {
-      categoryName: "Smartphones and Mobile",
-      subcategoryName: "Android Phones",
+    django: {
+      categoryName: "Games (Discs/Cartridges)",
+      subcategoryName: "Xbox 360 Games",
     },
   },
+
+  {
+    name: "CEX Xbox 360 Rarities",
+    type: "game",
+    competitor: "CEX",
+    item: "",
+    category: "games (discs/cartridges)",
+    subcategory: "Xbox 360 Rarities",
+    broad: true,
+    django: {
+      categoryName: "Games (Discs/Cartridges)",
+      subcategoryName: "Xbox 360 Games",
+    },
+  },
+
+  {
+    name: "CEX PS Vita Games",
+    type: "game",
+    competitor: "CEX",
+    item: "",
+    category: "games (discs/cartridges)",
+    subcategory: "PS Vita Games",
+    broad: true,
+    django: {
+      categoryName: "Games (Discs/Cartridges)",
+      subcategoryName: "PS Vita Games",
+    },
+  },
+
+
+  {
+    name: "CEX PSP Games",
+    type: "game",
+    competitor: "CEX",
+    item: "",
+    category: "games (discs/cartridges)",
+    subcategory: "PSP Games",
+    broad: true,
+    django: {
+      categoryName: "Games (Discs/Cartridges)",
+      subcategoryName: "PSP Games",
+    },
+  },
+
+  {
+    name: "CEX Wii Games",
+    type: "game",
+    competitor: "CEX",
+    item: "",
+    category: "games (discs/cartridges)",
+    subcategory: "Wii Games",
+    broad: true,
+    django: {
+      categoryName: "Games (Discs/Cartridges)",
+      subcategoryName: "Wii Games",
+    },
+  },
+
+  {
+    name: "CEX Wii U Games",
+    type: "game",
+    competitor: "CEX",
+    item: "",
+    category: "games (discs/cartridges)",
+    subcategory: "Wii U Games",
+    broad: true,
+    django: {
+      categoryName: "Games (Discs/Cartridges)",
+      subcategoryName: "Wii U Games",
+    },
+  },
+
+  {
+    name: "CEX Switch 2 Games",
+    type: "game",
+    competitor: "CEX",
+    item: "",
+    category: "games (discs/cartridges)",
+    subcategory: "Switch 2 Games",
+    broad: true,
+    django: {
+      categoryName: "Games (Discs/Cartridges)",
+      subcategoryName: "Switch 2 Games",
+    },
+  },
+
+
+
+  // ------ PHONES ---------
+
+  // {
+  //   name: "CEX Android Phones",
+  //   type: "mobile",
+  //   competitor: "CEX",
+  //   item: "",
+  //   category: "smartphones and mobile",
+  //   subcategory: "Android Phones",
+  //   broad: true,
+  //     django: {
+  //     categoryName: "Smartphones and Mobile",
+  //     subcategoryName: "Android Phones",
+  //   },
+  // },
   {
     name: "CEX iPhone 11",
     type: "mobile",
@@ -691,6 +798,20 @@ export const scrapeConfigs: ScrapeConfig[] = [
     },
   },
 
+  // ------------- CONSOLE ACCESSORIES ----------------
+  {
+    name: "CEX Playstation Portal",
+    type: "console",
+    competitor: "CEX",
+    item: "Playstation Portal Remote Player",
+    category: "consoles",
+    subcategory: "",
+    broad: false,
+    django: {
+      categoryName: "Console Accessories",
+      subcategoryName: "Playstation Portal",
+    },
+  },
   // -------------------- CONSOLES -------------
   {
     name: "CEX Xbox Series Consoles",

@@ -24,6 +24,24 @@ export function extractConsoleAttributes(title: string): ConsoleAttributes {
   const modelMatch = lower.match(/^(.*?console)/i);
   let model = modelMatch ? modelMatch[1].replace(/console/i, "").trim() : title.trim();
 
+  // EXCEPTION FOR PS PORTAL
+  // --- Detect PlayStation Portal ---
+  if (/^playstation\s*portal\b/i.test(lower) || /\bportal remote player\b/i.test(lower)) {
+    const colorMatch = lower.match(/\b(black|white|grey|gray|silver)\b/i);
+    const color = colorMatch ? colorMatch[1] : null;
+
+    const conditionMatch = lower.match(/\b(boxed|unboxed|discounted)\b/i);
+    const condition = conditionMatch ? conditionMatch[1].toLowerCase() as ConsoleAttributes["condition"] : null;
+
+    return {
+      model: "PlayStation Portal Remote Player",
+      storage: "N/A",
+      condition,
+      color,
+    };
+  }
+
+
   // Normalize common console naming inconsistencies
   if (/^switch 2\b/i.test(model)) model = "Nintendo Switch 2";
   else if (/^switch lite\b/i.test(model)) model = "Nintendo Switch Lite";

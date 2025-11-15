@@ -178,10 +178,11 @@ export async function scrapeCEX(page: Page, containerSelector: string, titleSele
         if (match) id = decodeURIComponent(match[1]);
       }
 
-      // Only include products with grade B or missing grade
-      if (!grade || grade == "B") {
+      // Only include products with grade B or missing grade OR title ending with 'B' This way I should only get results
+      if ((!grade || grade === "B") || /\bB\b$/i.test(title.trim())) {
         results.push({ competitor: "CEX", id, title, price, url, tradeVoucher, tradeCash });
       }
+
     } catch (err) {
       console.error("Error parsing CEX card:", err);
     }

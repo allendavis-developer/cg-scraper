@@ -22,7 +22,12 @@
     "scrape:watch": "npm run scrape -- watch",
     "send:watch": "npm run scrape -- --send watch",
     "scrape:generic": "npm run scrape -- generic",
-    "send:generic": "npm run scrape -- --send generic"
+    "send:generic": "npm run scrape -- --send generic",
+    "scrape:headphone": "npm run scrape -- headphone",
+    "send:headphone": "npm run scrape -- --send headphone",
+    "scrape:speaker": "npm run scrape -- speaker",
+    "send:speaker": "npm run scrape -- --send speaker"
+
   },
   "keywords": [],
   "author": "",
