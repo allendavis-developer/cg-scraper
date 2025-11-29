@@ -26,8 +26,7 @@ export function extractSpeakerAttributes(title: string): SpeakerAttributes {
   const brand = words[0];
 
   // Find keyword: either "Portable Bluetooth Speaker" or "Bluetooth Speaker"
-  const keywordMatch = cleanTitle.match(/(Portable Bluetooth Speaker|Bluetooth Speaker)/i);
-  let model = "";
+  const keywordMatch = cleanTitle.match(/bluetooth/i);  let model = "";
   let variant: string | null = null;
 
   if (keywordMatch) {

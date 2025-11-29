@@ -1,132 +1,132 @@
 {
   "competitor": "CEX",
   "models": {
-    "apple iphone air (a3517)": {
-      "model": "apple iphone air (a3517)",
+    "Apple Iphone Air": {
+      "model": "Apple Iphone Air",
       "variants": {
-        "apple iphone air (a3517) 256GB": {
-          "variant": "apple iphone air (a3517) 256GB",
+        "Apple Iphone Air 256GB": {
+          "variant": "Apple Iphone Air 256GB",
           "storage": "256GB",
           "listings": [
             {
               "competitor": "CEX",
               "id": "SAPPIPAI256GBLUNLB",
               "title": "Apple iPhone Air (A3517) 256GB Space Black, Unlocked B",
-              "price": 850,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI256GBLUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=A3BA8ABE68874B445DDCCB47F41DEE6E&position=1",
-              "tradeVoucher": 569,
-              "tradeCash": 459
+              "price": 800,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI256GBLUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=D768A779EA4653B219671F267AE1221A&position=1",
+              "tradeVoucher": 536,
+              "tradeCash": 432
             },
             {
               "competitor": "CEX",
               "id": "SAPPIPAI256GSBUNLB",
               "title": "Apple iPhone Air (A3517) 256GB Sky Blue, Unlocked B",
-              "price": 850,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI256GSBUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=A3BA8ABE68874B445DDCCB47F41DEE6E&position=2",
-              "tradeVoucher": 569,
-              "tradeCash": 459
+              "price": 800,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI256GSBUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=D768A779EA4653B219671F267AE1221A&position=2",
+              "tradeVoucher": 536,
+              "tradeCash": 432
             },
             {
               "competitor": "CEX",
               "id": "SAPPIPAI256GCWUNLB",
               "title": "Apple iPhone Air (A3517) 256GB Cloud White, Unlocked B",
-              "price": 850,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI256GCWUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=A3BA8ABE68874B445DDCCB47F41DEE6E&position=4",
-              "tradeVoucher": 569,
-              "tradeCash": 459
+              "price": 800,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI256GCWUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=D768A779EA4653B219671F267AE1221A&position=3",
+              "tradeVoucher": 536,
+              "tradeCash": 432
             },
             {
               "competitor": "CEX",
               "id": "SAPPIPAI256GLGUNLB",
               "title": "Apple iPhone Air (A3517) 256GB Light Gold, Unlocked B",
-              "price": 850,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI256GLGUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=A3BA8ABE68874B445DDCCB47F41DEE6E&position=8",
-              "tradeVoucher": 569,
-              "tradeCash": 459
+              "price": 800,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI256GLGUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=D768A779EA4653B219671F267AE1221A&position=8",
+              "tradeVoucher": 536,
+              "tradeCash": 432
             }
           ]
         },
-        "apple iphone air (a3517) 512GB": {
-          "variant": "apple iphone air (a3517) 512GB",
+        "Apple Iphone Air 512GB": {
+          "variant": "Apple Iphone Air 512GB",
           "storage": "512GB",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SAPPIPAI512GCWUNLB",
-              "title": "Apple iPhone Air (A3517) 512GB Cloud White, Unlocked B",
-              "price": 950,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI512GCWUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=A3BA8ABE68874B445DDCCB47F41DEE6E&position=3",
-              "tradeVoucher": 636,
-              "tradeCash": 513
+              "id": "SAPPIPAI512GBLUNLB",
+              "title": "Apple iPhone Air (A3517) 512GB Space Black, Unlocked B",
+              "price": 900,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI512GBLUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=D768A779EA4653B219671F267AE1221A&position=4",
+              "tradeVoucher": 603,
+              "tradeCash": 486
             },
             {
               "competitor": "CEX",
               "id": "SAPPIPAI512GSBUNLB",
               "title": "Apple iPhone Air (A3517) 512GB Sky Blue, Unlocked B",
-              "price": 950,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI512GSBUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=A3BA8ABE68874B445DDCCB47F41DEE6E&position=5",
-              "tradeVoucher": 636,
-              "tradeCash": 513
+              "price": 900,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI512GSBUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=D768A779EA4653B219671F267AE1221A&position=5",
+              "tradeVoucher": 603,
+              "tradeCash": 486
             },
             {
               "competitor": "CEX",
               "id": "SAPPIPAI512GLGUNLB",
               "title": "Apple iPhone Air (A3517) 512GB Light Gold, Unlocked B",
-              "price": 950,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI512GLGUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=A3BA8ABE68874B445DDCCB47F41DEE6E&position=6",
-              "tradeVoucher": 636,
-              "tradeCash": 513
+              "price": 900,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI512GLGUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=D768A779EA4653B219671F267AE1221A&position=6",
+              "tradeVoucher": 603,
+              "tradeCash": 486
             },
             {
               "competitor": "CEX",
-              "id": "SAPPIPAI512GBLUNLB",
-              "title": "Apple iPhone Air (A3517) 512GB Space Black, Unlocked B",
-              "price": 950,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI512GBLUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=A3BA8ABE68874B445DDCCB47F41DEE6E&position=7",
-              "tradeVoucher": 636,
-              "tradeCash": 513
+              "id": "SAPPIPAI512GCWUNLB",
+              "title": "Apple iPhone Air (A3517) 512GB Cloud White, Unlocked B",
+              "price": 900,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI512GCWUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=D768A779EA4653B219671F267AE1221A&position=7",
+              "tradeVoucher": 603,
+              "tradeCash": 486
             }
           ]
         },
-        "apple iphone air (a3517) 1TB": {
-          "variant": "apple iphone air (a3517) 1TB",
+        "Apple Iphone Air 1TB": {
+          "variant": "Apple Iphone Air 1TB",
           "storage": "1TB",
           "listings": [
             {
               "competitor": "CEX",
               "id": "SAPPIPAI1TSBUNLB",
               "title": "Apple iPhone Air (A3517) 1TB Sky Blue, Unlocked B",
-              "price": 1150,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI1TSBUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=A52621DC958C456954061B4C81E175A9&position=1",
-              "tradeVoucher": 770,
-              "tradeCash": 621
+              "price": 1100,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI1TSBUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=D768A779EA4653B219671F267AE1221A&position=9",
+              "tradeVoucher": 737,
+              "tradeCash": 594
             },
             {
               "competitor": "CEX",
               "id": "SAPPIPAI1TLGUNLB",
               "title": "Apple iPhone Air (A3517) 1TB Light Gold, Unlocked B",
-              "price": 1150,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI1TLGUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=A52621DC958C456954061B4C81E175A9&position=2",
-              "tradeVoucher": 770,
-              "tradeCash": 621
+              "price": 1100,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI1TLGUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=D768A779EA4653B219671F267AE1221A&position=10",
+              "tradeVoucher": 737,
+              "tradeCash": 594
             },
             {
               "competitor": "CEX",
               "id": "SAPPIPAI1TCWUNLB",
               "title": "Apple iPhone Air (A3517) 1TB Cloud White, Unlocked B",
-              "price": 1150,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI1TCWUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=A52621DC958C456954061B4C81E175A9&position=3",
-              "tradeVoucher": 770,
-              "tradeCash": 621
+              "price": 1100,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI1TCWUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=D768A779EA4653B219671F267AE1221A&position=11",
+              "tradeVoucher": 737,
+              "tradeCash": 594
             },
             {
               "competitor": "CEX",
               "id": "SAPPIPAI1TBLUNLB",
               "title": "Apple iPhone Air (A3517) 1TB Space Black, Unlocked B",
-              "price": 1150,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI1TBLUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=A52621DC958C456954061B4C81E175A9&position=4",
-              "tradeVoucher": 770,
-              "tradeCash": 621
+              "price": 1100,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIPAI1TBLUNLB&categoryName=IPHONE-AIR&superCatName=PHONES&title=&queryID=D768A779EA4653B219671F267AE1221A&position=12",
+              "tradeVoucher": 737,
+              "tradeCash": 594
             }
           ]
         }

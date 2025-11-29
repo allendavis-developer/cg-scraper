@@ -7,14 +7,18 @@
     "build": "tsc",
     "start": "npm run build && node dist/scrape.js",
     "scrape": "npm run build && node dist/runAllScrapes.js",
+    "scrape:laptop": "npm run scrape -- laptop", 
+    "send:laptop": "npm run scrape -- --send laptop",
+    "scrape:headphone": "npm run scrape -- headphone",
+    "send:headphone": "npm run scrape -- --send headphone",
+    "scrape:speaker": "npm run scrape -- speaker",
+    "send:speaker": "npm run scrape -- --send speaker",
     "scrape:mobile": "npm run scrape -- mobile",
     "send:mobile": "npm run scrape -- --send mobile",
     "scrape:console": "npm run scrape -- console",
     "send:console": "npm run scrape -- --send console",
     "scrape:game": "npm run scrape -- game",
     "send:game": "npm run scrape -- --send game",
-    "scrape:laptop": "npm run scrape -- laptop",
-    "send:laptop": "npm run scrape -- --send laptop",
     "scrape:tablet": "npm run scrape -- tablet",
     "send:tablet": "npm run scrape -- --send tablet",
     "scrape:tv": "npm run scrape -- tv",
@@ -22,11 +26,9 @@
     "scrape:watch": "npm run scrape -- watch",
     "send:watch": "npm run scrape -- --send watch",
     "scrape:generic": "npm run scrape -- generic",
-    "send:generic": "npm run scrape -- --send generic",
-    "scrape:headphone": "npm run scrape -- headphone",
-    "send:headphone": "npm run scrape -- --send headphone",
-    "scrape:speaker": "npm run scrape -- speaker",
-    "send:speaker": "npm run scrape -- --send speaker"
+
+    "send:generic": "npm run scrape -- --send generic"
+    
 
   },
   "keywords": [],

@@ -1,270 +1,9 @@
 {
   "competitor": "CEX",
   "models": {
-    "Xbox One": {
-      "model": "Xbox One",
-      "variants": {
-        "Xbox One 500GB discounted": {
-          "variant": "Xbox One 500GB discounted",
-          "storage": "500GB",
-          "condition": "discounted",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXB1500GB003",
-              "title": "Xbox One Console, 500GB, Black (No Kinect), Discounted",
-              "price": 80,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1500GB003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=88600AF936449C5B2AEE50D46F225560&position=1",
-              "tradeVoucher": 52,
-              "tradeCash": 36
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB1500GW003",
-              "title": "Xbox One Console, 500GB, White (No Kinect), Discounted",
-              "price": 90,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1500GW003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=88600AF936449C5B2AEE50D46F225560&position=3",
-              "tradeVoucher": 58,
-              "tradeCash": 41
-            }
-          ]
-        },
-        "Xbox One 500GB unboxed": {
-          "variant": "Xbox One 500GB unboxed",
-          "storage": "500GB",
-          "condition": "unboxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXB1500GB002",
-              "title": "Xbox One Console, 500GB, Black (No Kinect), Unboxed",
-              "price": 90,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1500GB002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=88600AF936449C5B2AEE50D46F225560&position=2",
-              "tradeVoucher": 58,
-              "tradeCash": 41
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB1500GW002",
-              "title": "Xbox One Console, 500GB, White (No Kinect), Unboxed",
-              "price": 100,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1500GW002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=88600AF936449C5B2AEE50D46F225560&position=5",
-              "tradeVoucher": 65,
-              "tradeCash": 46
-            }
-          ]
-        },
-        "Xbox One 1TB discounted": {
-          "variant": "Xbox One 1TB discounted",
-          "storage": "1TB",
-          "condition": "discounted",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXB11TBCD003",
-              "title": "Xbox One Console, 1TB, Call Of Duty A.W Ed. (No Game), Discounted",
-              "price": 100,
-              "url": "https://uk.webuy.com/product-detail?id=SXB11TBCD003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=88600AF936449C5B2AEE50D46F225560&position=4",
-              "tradeVoucher": 65,
-              "tradeCash": 46
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB11TBFM003",
-              "title": "Xbox One Console, 1TB, Forza Blue Ltd. Ed. (No Game), Discounted",
-              "price": 110,
-              "url": "https://uk.webuy.com/product-detail?id=SXB11TBFM003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=AF8BC437D73463347595B5C653DA8677&position=9",
-              "tradeVoucher": 71,
-              "tradeCash": 50
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB11TBHG003",
-              "title": "Xbox One Console, 1TB, Halo 5 Silver/Black Ltd. Ed. (No Game), Discounted",
-              "price": 110,
-              "url": "https://uk.webuy.com/product-detail?id=SXB11TBHG003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=AF8BC437D73463347595B5C653DA8677&position=16",
-              "tradeVoucher": 71,
-              "tradeCash": 50
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB11TBB003",
-              "title": "Xbox One Console, 1TB, Black (No Kinect), Discounted",
-              "price": 110,
-              "url": "https://uk.webuy.com/product-detail?id=SXB11TBB003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=67D44607632BF7430B4F68A90462B92B&position=25",
-              "tradeVoucher": 71,
-              "tradeCash": 50
-            }
-          ]
-        },
-        "Xbox One 1TB unboxed": {
-          "variant": "Xbox One 1TB unboxed",
-          "storage": "1TB",
-          "condition": "unboxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXB11TBB002",
-              "title": "Xbox One Console, 1TB, Black (No Kinect), Unboxed",
-              "price": 120,
-              "url": "https://uk.webuy.com/product-detail?id=SXB11TBB002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=AF8BC437D73463347595B5C653DA8677&position=4",
-              "tradeVoucher": 78,
-              "tradeCash": 55
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB11TBCD002",
-              "title": "Xbox One Console, 1TB, Call Of Duty A.W Ed. (No Game), Unboxed",
-              "price": 120,
-              "url": "https://uk.webuy.com/product-detail?id=SXB11TBCD002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=AF8BC437D73463347595B5C653DA8677&position=7",
-              "tradeVoucher": 78,
-              "tradeCash": 55
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB11TBEL002",
-              "title": "Xbox One Elite Console, 1TB Hybrid + Elite Controller, Unboxed",
-              "price": 140,
-              "url": "https://uk.webuy.com/product-detail?id=SXB11TBEL002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=101FA6B90009E9110CA7B5764ED428CA&position=39",
-              "tradeVoucher": 91,
-              "tradeCash": 64
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB11TBFM002",
-              "title": "Xbox One Console, 1TB, Forza Blue Ltd. Ed. (No Game), Unboxed",
-              "price": 125,
-              "url": "https://uk.webuy.com/product-detail?id=SXB11TBFM002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=67D44607632BF7430B4F68A90462B92B&position=31",
-              "tradeVoucher": 81,
-              "tradeCash": 57
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB11TBHG002",
-              "title": "Xbox One Console, 1TB, Halo 5 Silver/Black Ltd. Ed. (No Game), Unboxed",
-              "price": 120,
-              "url": "https://uk.webuy.com/product-detail?id=SXB11TBHG002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=67D44607632BF7430B4F68A90462B92B&position=34",
-              "tradeVoucher": 78,
-              "tradeCash": 55
-            }
-          ]
-        },
-        "Xbox One 500GB boxed": {
-          "variant": "Xbox One 500GB boxed",
-          "storage": "500GB",
-          "condition": "boxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXB1500GB001",
-              "title": "Xbox One Console, 500GB, Black (No Kinect), Boxed",
-              "price": 110,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1500GB001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=AF8BC437D73463347595B5C653DA8677&position=8",
-              "tradeVoucher": 71,
-              "tradeCash": 50
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB1500GW001",
-              "title": "Xbox One Console, 500GB, White (No Kinect), Boxed",
-              "price": 130,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1500GW001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=101FA6B90009E9110CA7B5764ED428CA&position=35",
-              "tradeVoucher": 84,
-              "tradeCash": 59
-            }
-          ]
-        },
-        "Xbox One 1TB boxed": {
-          "variant": "Xbox One 1TB boxed",
-          "storage": "1TB",
-          "condition": "boxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXB11TBEL001",
-              "title": "Xbox One Elite Console, 1TB Hybrid + Elite Controller, Boxed",
-              "price": 175,
-              "url": "https://uk.webuy.com/product-detail?id=SXB11TBEL001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=101FA6B90009E9110CA7B5764ED428CA&position=42",
-              "tradeVoucher": 113,
-              "tradeCash": 80
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB11TBCD001",
-              "title": "Xbox One Console, 1TB, Call Of Duty A.W Ed. (No Game), Boxed",
-              "price": 165,
-              "url": "https://uk.webuy.com/product-detail?id=SXB11TBCD001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=101FA6B90009E9110CA7B5764ED428CA&position=51",
-              "tradeVoucher": 107,
-              "tradeCash": 75
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB11TBFM001",
-              "title": "Xbox One Console, 1TB, Forza Blue Ltd. Ed. (No Game), Boxed",
-              "price": 160,
-              "url": "https://uk.webuy.com/product-detail?id=SXB11TBFM001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=67D44607632BF7430B4F68A90462B92B&position=22",
-              "tradeVoucher": 104,
-              "tradeCash": 73
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB11TBB001",
-              "title": "Xbox One Console, 1TB, Black (No Kinect), Boxed",
-              "price": 140,
-              "url": "https://uk.webuy.com/product-detail?id=SXB11TBB001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=67D44607632BF7430B4F68A90462B92B&position=32",
-              "tradeVoucher": 96,
-              "tradeCash": 79
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB11TBHG001",
-              "title": "Xbox One Console, 1TB, Halo 5 Silver/Black Ltd. Ed. (No Game), Boxed",
-              "price": 170,
-              "url": "https://uk.webuy.com/product-detail?id=SXB11TBHG001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=7ACD64006D6F70617AFAE4970789B116&position=55",
-              "tradeVoucher": 110,
-              "tradeCash": 78
-            }
-          ]
-        }
-      }
-    },
     "Xbox One S": {
       "model": "Xbox One S",
       "variants": {
-        "Xbox One S 500GB unboxed": {
-          "variant": "Xbox One S 500GB unboxed",
-          "storage": "500GB",
-          "condition": "unboxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXB1S500GW002",
-              "title": "Xbox One S Console, 500GB, White, Unboxed",
-              "price": 130,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S500GW002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=AF8BC437D73463347595B5C653DA8677&position=1",
-              "tradeVoucher": 84,
-              "tradeCash": 59
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB1S500GBDB002",
-              "title": "Xbox One S Console, 500GB, Deep Blue (No Game), Unboxed",
-              "price": 165,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S500GBDB002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=101FA6B90009E9110CA7B5764ED428CA&position=46",
-              "tradeVoucher": 107,
-              "tradeCash": 75
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB1S500GBSG002",
-              "title": "Xbox One S Console, 500GB, Storm Grey (No Game), Unboxed",
-              "price": 135,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S500GBSG002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=67D44607632BF7430B4F68A90462B92B&position=29",
-              "tradeVoucher": 87,
-              "tradeCash": 62
-            }
-          ]
-        },
         "Xbox One S 1TB discounted": {
           "variant": "Xbox One S 1TB discounted",
           "storage": "1TB",
@@ -272,100 +11,48 @@
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SXB1S1TBW003",
-              "title": "Xbox One S Console, 1TB, White, Discounted",
-              "price": 135,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBW003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=AF8BC437D73463347595B5C653DA8677&position=2",
-              "tradeVoucher": 87,
-              "tradeCash": 62
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB1S1TBGP003",
-              "title": "Xbox One S Console, 1TB, Gradient Purple (No DLC), Discounted",
-              "price": 150,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBGP003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=AF8BC437D73463347595B5C653DA8677&position=10",
-              "tradeVoucher": 97,
-              "tradeCash": 69
-            },
-            {
-              "competitor": "CEX",
               "id": "SXB1S1TBMC003",
               "title": "Xbox One S Console, 1TB, Minecraft Green Edition (No Game), Discounted",
               "price": 175,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBMC003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=AF8BC437D73463347595B5C653DA8677&position=13",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBMC003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C67E0E19F8285B6794DA585E6DEC5EBB&position=18",
               "tradeVoucher": 113,
               "tradeCash": 80
             },
             {
               "competitor": "CEX",
-              "id": "SXB1S1TBMG003",
-              "title": "Xbox One S Console, 1TB, Military Green (No Game), Discounted",
-              "price": 160,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBMG003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=101FA6B90009E9110CA7B5764ED428CA&position=48",
-              "tradeVoucher": 104,
-              "tradeCash": 73
+              "id": "SXB1S1TBW003",
+              "title": "Xbox One S Console, 1TB, White, Discounted",
+              "price": 135,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBW003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=48F74D73EF612541ADE17F7AE9E8933D&position=3",
+              "tradeVoucher": 87,
+              "tradeCash": 62
             },
             {
               "competitor": "CEX",
               "id": "SXB1SAD1TBW003",
               "title": "Xbox One S All-Digital Edition 1TB Console, Discounted (No DLC)",
               "price": 115,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1SAD1TBW003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=67D44607632BF7430B4F68A90462B92B&position=18",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1SAD1TBW003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=48F74D73EF612541ADE17F7AE9E8933D&position=12",
               "tradeVoucher": 52,
               "tradeCash": 37
-            }
-          ]
-        },
-        "Xbox One S 1TB boxed": {
-          "variant": "Xbox One S 1TB boxed",
-          "storage": "1TB",
-          "condition": "boxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXB1S1TBW001",
-              "title": "Xbox One S Console, 1TB, White, Boxed",
-              "price": 170,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBW001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=AF8BC437D73463347595B5C653DA8677&position=3",
-              "tradeVoucher": 110,
-              "tradeCash": 78
             },
             {
               "competitor": "CEX",
-              "id": "SXB1SAD1TBW001",
-              "title": "Xbox One S All-Digital Edition 1TB Console, Boxed (No DLC)",
+              "id": "SXB1S1TBGP003",
+              "title": "Xbox One S Console, 1TB, Gradient Purple (No DLC), Discounted",
+              "price": 150,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBGP003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=48F74D73EF612541ADE17F7AE9E8933D&position=16",
+              "tradeVoucher": 97,
+              "tradeCash": 69
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1S1TBMG003",
+              "title": "Xbox One S Console, 1TB, Military Green (No Game), Discounted",
               "price": 160,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1SAD1TBW001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=101FA6B90009E9110CA7B5764ED428CA&position=38",
-              "tradeVoucher": 73,
-              "tradeCash": 52
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB1S1TBMG001",
-              "title": "Xbox One S Console, 1TB, Military Green (No Game), Boxed",
-              "price": 230,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBMG001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C60EE00FB78C5AD9E08F5F89EF16E671&position=5",
-              "tradeVoucher": 149,
-              "tradeCash": 105
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB1S1TBMC001",
-              "title": "Xbox One S Console, 1TB, Minecraft Green Edition (No Game), Boxed",
-              "price": 320,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBMC001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C60EE00FB78C5AD9E08F5F89EF16E671&position=7",
-              "tradeVoucher": 208,
-              "tradeCash": 147
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB1S1TBGP001",
-              "title": "Xbox One S Console, 1TB, Gradient Purple (No DLC), Boxed",
-              "price": 270,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBGP001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C60EE00FB78C5AD9E08F5F89EF16E671&position=8",
-              "tradeVoucher": 175,
-              "tradeCash": 124
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBMG003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=F32717EFD2B40FBE163203FD37EF2E09&position=59",
+              "tradeVoucher": 104,
+              "tradeCash": 73
             }
           ]
         },
@@ -376,19 +63,10 @@
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SXB1S500GW003",
-              "title": "Xbox One S Console, 500GB, White, Discounted",
-              "price": 110,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S500GW003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=AF8BC437D73463347595B5C653DA8677&position=5",
-              "tradeVoucher": 71,
-              "tradeCash": 50
-            },
-            {
-              "competitor": "CEX",
               "id": "SXB1S500GBDB003",
               "title": "Xbox One S Console, 500GB, Deep Blue (No Game), Discounted",
               "price": 130,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S500GBDB003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=AF8BC437D73463347595B5C653DA8677&position=6",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S500GBDB003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C67E0E19F8285B6794DA585E6DEC5EBB&position=19",
               "tradeVoucher": 84,
               "tradeCash": 59
             },
@@ -397,61 +75,43 @@
               "id": "SXB1S500GBSG003",
               "title": "Xbox One S Console, 500GB, Storm Grey (No Game), Discounted",
               "price": 125,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S500GBSG003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=67D44607632BF7430B4F68A90462B92B&position=20",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S500GBSG003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C67E0E19F8285B6794DA585E6DEC5EBB&position=28",
               "tradeVoucher": 81,
               "tradeCash": 57
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1S500GW003",
+              "title": "Xbox One S Console, 500GB, White, Discounted",
+              "price": 110,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S500GW003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=48F74D73EF612541ADE17F7AE9E8933D&position=6",
+              "tradeVoucher": 71,
+              "tradeCash": 50
             }
           ]
         },
-        "Xbox One S 1TB unboxed": {
-          "variant": "Xbox One S 1TB unboxed",
-          "storage": "1TB",
-          "condition": "unboxed",
+        "Xbox One S 2TB discounted": {
+          "variant": "Xbox One S 2TB discounted",
+          "storage": "2TB",
+          "condition": "discounted",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SXB1SAD1TBW002",
-              "title": "Xbox One S All-Digital Edition 1TB Console, Unboxed (No DLC)",
-              "price": 130,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1SAD1TBW002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=AF8BC437D73463347595B5C653DA8677&position=12",
-              "tradeVoucher": 59,
-              "tradeCash": 42
+              "id": "SXB1S2TBGR003",
+              "title": "Xbox One S Console, 2TB, Gears Of War Red (No Game), Discounted",
+              "price": 165,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S2TBGR003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C67E0E19F8285B6794DA585E6DEC5EBB&position=26",
+              "tradeVoucher": 107,
+              "tradeCash": 75
             },
             {
               "competitor": "CEX",
-              "id": "SXB1S1TBGP002",
-              "title": "Xbox One S Console, 1TB, Gradient Purple (No DLC), Unboxed",
-              "price": 190,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBGP002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=101FA6B90009E9110CA7B5764ED428CA&position=47",
-              "tradeVoucher": 123,
-              "tradeCash": 87
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB1S1TBW002",
-              "title": "Xbox One S Console, 1TB, White, Unboxed",
-              "price": 145,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBW002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=67D44607632BF7430B4F68A90462B92B&position=23",
-              "tradeVoucher": 94,
-              "tradeCash": 66
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB1S1TBMG002",
-              "title": "Xbox One S Console, 1TB, Military Green (No Game), Unboxed",
-              "price": 190,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBMG002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=7ACD64006D6F70617AFAE4970789B116&position=53",
-              "tradeVoucher": 123,
-              "tradeCash": 87
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB1S1TBMC002",
-              "title": "Xbox One S Console, 1TB, Minecraft Green Edition (No Game), Unboxed",
-              "price": 230,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBMC002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C60EE00FB78C5AD9E08F5F89EF16E671&position=1",
-              "tradeVoucher": 149,
-              "tradeCash": 105
+              "id": "SXB1S2TBW003",
+              "title": "Xbox One S Console, 2TB, White, Discounted",
+              "price": 170,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S2TBW003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=58AA8A258F32C152DF500181E7627174&position=40",
+              "tradeVoucher": 110,
+              "tradeCash": 78
             }
           ]
         },
@@ -465,7 +125,7 @@
               "id": "SXB1S500GW001",
               "title": "Xbox One S Console, 500GB, White, Boxed",
               "price": 155,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S500GW001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=AF8BC437D73463347595B5C653DA8677&position=17",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S500GW001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C67E0E19F8285B6794DA585E6DEC5EBB&position=27",
               "tradeVoucher": 100,
               "tradeCash": 71
             },
@@ -474,7 +134,7 @@
               "id": "SXB1S500GBSG001",
               "title": "Xbox One S Console, 500GB, Storm Grey (No Game), Boxed",
               "price": 165,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S500GBSG001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=67D44607632BF7430B4F68A90462B92B&position=33",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S500GBSG001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=58AA8A258F32C152DF500181E7627174&position=43",
               "tradeVoucher": 107,
               "tradeCash": 75
             },
@@ -483,34 +143,147 @@
               "id": "SXB1S500GBDB001",
               "title": "Xbox One S Console, 500GB, Deep Blue (No Game), Boxed",
               "price": 220,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S500GBDB001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C60EE00FB78C5AD9E08F5F89EF16E671&position=4",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S500GBDB001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=D187C995B1DCC1135EAE345B300DB7F9&position=8",
               "tradeVoucher": 143,
               "tradeCash": 101
             }
           ]
         },
-        "Xbox One S 2TB discounted": {
-          "variant": "Xbox One S 2TB discounted",
-          "storage": "2TB",
-          "condition": "discounted",
+        "Xbox One S 500GB unboxed": {
+          "variant": "Xbox One S 500GB unboxed",
+          "storage": "500GB",
+          "condition": "unboxed",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SXB1S2TBW003",
-              "title": "Xbox One S Console, 2TB, White, Discounted",
+              "id": "SXB1S500GW002",
+              "title": "Xbox One S Console, 500GB, White, Unboxed",
+              "price": 130,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S500GW002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=48F74D73EF612541ADE17F7AE9E8933D&position=1",
+              "tradeVoucher": 84,
+              "tradeCash": 59
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1S500GBSG002",
+              "title": "Xbox One S Console, 500GB, Storm Grey (No Game), Unboxed",
+              "price": 135,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S500GBSG002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=58AA8A258F32C152DF500181E7627174&position=42",
+              "tradeVoucher": 87,
+              "tradeCash": 62
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1S500GBDB002",
+              "title": "Xbox One S Console, 500GB, Deep Blue (No Game), Unboxed",
+              "price": 165,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S500GBDB002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=F32717EFD2B40FBE163203FD37EF2E09&position=58",
+              "tradeVoucher": 107,
+              "tradeCash": 75
+            }
+          ]
+        },
+        "Xbox One S 1TB boxed": {
+          "variant": "Xbox One S 1TB boxed",
+          "storage": "1TB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXB1S1TBW001",
+              "title": "Xbox One S Console, 1TB, White, Boxed",
               "price": 170,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S2TBW003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=101FA6B90009E9110CA7B5764ED428CA&position=40",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBW001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=48F74D73EF612541ADE17F7AE9E8933D&position=5",
               "tradeVoucher": 110,
               "tradeCash": 78
             },
             {
               "competitor": "CEX",
-              "id": "SXB1S2TBGR003",
-              "title": "Xbox One S Console, 2TB, Gears Of War Red (No Game), Discounted",
-              "price": 165,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S2TBGR003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=67D44607632BF7430B4F68A90462B92B&position=21",
-              "tradeVoucher": 107,
-              "tradeCash": 75
+              "id": "SXB1SAD1TBW001",
+              "title": "Xbox One S All-Digital Edition 1TB Console, Boxed (No DLC)",
+              "price": 160,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1SAD1TBW001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=58AA8A258F32C152DF500181E7627174&position=39",
+              "tradeVoucher": 73,
+              "tradeCash": 52
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1S1TBMG001",
+              "title": "Xbox One S Console, 1TB, Military Green (No Game), Boxed",
+              "price": 230,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBMG001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=D187C995B1DCC1135EAE345B300DB7F9&position=7",
+              "tradeVoucher": 149,
+              "tradeCash": 105
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1S1TBMC001",
+              "title": "Xbox One S Console, 1TB, Minecraft Green Edition (No Game), Boxed",
+              "price": 320,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBMC001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=D187C995B1DCC1135EAE345B300DB7F9&position=11",
+              "tradeVoucher": 208,
+              "tradeCash": 147
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1S1TBGP001",
+              "title": "Xbox One S Console, 1TB, Gradient Purple (No DLC), Boxed",
+              "price": 270,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBGP001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=D187C995B1DCC1135EAE345B300DB7F9&position=13",
+              "tradeVoucher": 175,
+              "tradeCash": 124
+            }
+          ]
+        },
+        "Xbox One S 1TB unboxed": {
+          "variant": "Xbox One S 1TB unboxed",
+          "storage": "1TB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXB1S1TBW002",
+              "title": "Xbox One S Console, 1TB, White, Unboxed",
+              "price": 145,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBW002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=48F74D73EF612541ADE17F7AE9E8933D&position=11",
+              "tradeVoucher": 94,
+              "tradeCash": 66
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1SAD1TBW002",
+              "title": "Xbox One S All-Digital Edition 1TB Console, Unboxed (No DLC)",
+              "price": 130,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1SAD1TBW002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=48F74D73EF612541ADE17F7AE9E8933D&position=15",
+              "tradeVoucher": 59,
+              "tradeCash": 42
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1S1TBGP002",
+              "title": "Xbox One S Console, 1TB, Gradient Purple (No DLC), Unboxed",
+              "price": 190,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBGP002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=F32717EFD2B40FBE163203FD37EF2E09&position=52",
+              "tradeVoucher": 123,
+              "tradeCash": 87
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1S1TBMG002",
+              "title": "Xbox One S Console, 1TB, Military Green (No Game), Unboxed",
+              "price": 190,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBMG002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=F32717EFD2B40FBE163203FD37EF2E09&position=57",
+              "tradeVoucher": 123,
+              "tradeCash": 87
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1S1TBMC002",
+              "title": "Xbox One S Console, 1TB, Minecraft Green Edition (No Game), Unboxed",
+              "price": 230,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S1TBMC002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=D187C995B1DCC1135EAE345B300DB7F9&position=3",
+              "tradeVoucher": 149,
+              "tradeCash": 105
             }
           ]
         },
@@ -521,21 +294,30 @@
           "listings": [
             {
               "competitor": "CEX",
+              "id": "SXB1S2TBGR002",
+              "title": "Xbox One S Console, 2TB, Gears Of War Red (No Game), Unboxed",
+              "price": 190,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S2TBGR002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=58AA8A258F32C152DF500181E7627174&position=46",
+              "tradeVoucher": 123,
+              "tradeCash": 87
+            },
+            {
+              "competitor": "CEX",
               "id": "SXB1S2TBW002",
               "title": "Xbox One S Console, 2TB, White, Unboxed",
               "price": 200,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S2TBW002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=101FA6B90009E9110CA7B5764ED428CA&position=44",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S2TBW002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=F32717EFD2B40FBE163203FD37EF2E09&position=53",
               "tradeVoucher": 130,
               "tradeCash": 92
             },
             {
               "competitor": "CEX",
-              "id": "SXB1S2TBGR002",
-              "title": "Xbox One S Console, 2TB, Gears Of War Red (No Game), Unboxed",
-              "price": 190,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S2TBGR002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=67D44607632BF7430B4F68A90462B92B&position=30",
-              "tradeVoucher": 123,
-              "tradeCash": 87
+              "id": "SXB1S2TBW002",
+              "title": "Xbox One S Console, 2TB, White, Unboxed",
+              "price": 200,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S2TBW002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=D187C995B1DCC1135EAE345B300DB7F9&position=9",
+              "tradeVoucher": 130,
+              "tradeCash": 92
             }
           ]
         },
@@ -549,7 +331,7 @@
               "id": "SXB1S2TBGR001",
               "title": "Xbox One S Console, 2TB, Gears Of War Red (No Game), Boxed",
               "price": 210,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S2TBGR001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C60EE00FB78C5AD9E08F5F89EF16E671&position=2",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S2TBGR001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=D187C995B1DCC1135EAE345B300DB7F9&position=4",
               "tradeVoucher": 136,
               "tradeCash": 96
             },
@@ -558,9 +340,236 @@
               "id": "SXB1S2TBW001",
               "title": "Xbox One S Console, 2TB, White, Boxed",
               "price": 250,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1S2TBW001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C60EE00FB78C5AD9E08F5F89EF16E671&position=6",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1S2TBW001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=D187C995B1DCC1135EAE345B300DB7F9&position=10",
               "tradeVoucher": 162,
               "tradeCash": 115
+            }
+          ]
+        }
+      }
+    },
+    "Xbox One": {
+      "model": "Xbox One",
+      "variants": {
+        "Xbox One 1TB boxed": {
+          "variant": "Xbox One 1TB boxed",
+          "storage": "1TB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXB11TBFM001",
+              "title": "Xbox One Console, 1TB, Forza Blue Ltd. Ed. (No Game), Boxed",
+              "price": 160,
+              "url": "https://uk.webuy.com/product-detail?id=SXB11TBFM001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C67E0E19F8285B6794DA585E6DEC5EBB&position=20",
+              "tradeVoucher": 104,
+              "tradeCash": 73
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB11TBB001",
+              "title": "Xbox One Console, 1TB, Black (No Kinect), Boxed",
+              "price": 140,
+              "url": "https://uk.webuy.com/product-detail?id=SXB11TBB001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=48F74D73EF612541ADE17F7AE9E8933D&position=17",
+              "tradeVoucher": 96,
+              "tradeCash": 79
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB11TBCD001",
+              "title": "Xbox One Console, 1TB, Call Of Duty A.W Ed. (No Game), Boxed",
+              "price": 165,
+              "url": "https://uk.webuy.com/product-detail?id=SXB11TBCD001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=58AA8A258F32C152DF500181E7627174&position=49",
+              "tradeVoucher": 107,
+              "tradeCash": 75
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB11TBEL001",
+              "title": "Xbox One Elite Console, 1TB Hybrid + Elite Controller, Boxed",
+              "price": 175,
+              "url": "https://uk.webuy.com/product-detail?id=SXB11TBEL001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=F32717EFD2B40FBE163203FD37EF2E09&position=54",
+              "tradeVoucher": 113,
+              "tradeCash": 80
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB11TBHG001",
+              "title": "Xbox One Console, 1TB, Halo 5 Silver/Black Ltd. Ed. (No Game), Boxed",
+              "price": 170,
+              "url": "https://uk.webuy.com/product-detail?id=SXB11TBHG001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=F32717EFD2B40FBE163203FD37EF2E09&position=60",
+              "tradeVoucher": 110,
+              "tradeCash": 78
+            }
+          ]
+        },
+        "Xbox One 500GB discounted": {
+          "variant": "Xbox One 500GB discounted",
+          "storage": "500GB",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXB1500GW003",
+              "title": "Xbox One Console, 500GB, White (No Kinect), Discounted",
+              "price": 90,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1500GW003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C67E0E19F8285B6794DA585E6DEC5EBB&position=23",
+              "tradeVoucher": 58,
+              "tradeCash": 41
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1500GB003",
+              "title": "Xbox One Console, 500GB, Black (No Kinect), Discounted",
+              "price": 80,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1500GB003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=48F74D73EF612541ADE17F7AE9E8933D&position=2",
+              "tradeVoucher": 52,
+              "tradeCash": 36
+            }
+          ]
+        },
+        "Xbox One 1TB discounted": {
+          "variant": "Xbox One 1TB discounted",
+          "storage": "1TB",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXB11TBHG003",
+              "title": "Xbox One Console, 1TB, Halo 5 Silver/Black Ltd. Ed. (No Game), Discounted",
+              "price": 110,
+              "url": "https://uk.webuy.com/product-detail?id=SXB11TBHG003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C67E0E19F8285B6794DA585E6DEC5EBB&position=24",
+              "tradeVoucher": 71,
+              "tradeCash": 50
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB11TBB003",
+              "title": "Xbox One Console, 1TB, Black (No Kinect), Discounted",
+              "price": 110,
+              "url": "https://uk.webuy.com/product-detail?id=SXB11TBB003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C67E0E19F8285B6794DA585E6DEC5EBB&position=30",
+              "tradeVoucher": 71,
+              "tradeCash": 50
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB11TBCD003",
+              "title": "Xbox One Console, 1TB, Call Of Duty A.W Ed. (No Game), Discounted",
+              "price": 100,
+              "url": "https://uk.webuy.com/product-detail?id=SXB11TBCD003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=48F74D73EF612541ADE17F7AE9E8933D&position=8",
+              "tradeVoucher": 65,
+              "tradeCash": 46
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB11TBFM003",
+              "title": "Xbox One Console, 1TB, Forza Blue Ltd. Ed. (No Game), Discounted",
+              "price": 110,
+              "url": "https://uk.webuy.com/product-detail?id=SXB11TBFM003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=48F74D73EF612541ADE17F7AE9E8933D&position=9",
+              "tradeVoucher": 71,
+              "tradeCash": 50
+            }
+          ]
+        },
+        "Xbox One 500GB unboxed": {
+          "variant": "Xbox One 500GB unboxed",
+          "storage": "500GB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXB1500GW002",
+              "title": "Xbox One Console, 500GB, White (No Kinect), Unboxed",
+              "price": 100,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1500GW002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C67E0E19F8285B6794DA585E6DEC5EBB&position=32",
+              "tradeVoucher": 65,
+              "tradeCash": 46
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1500GB002",
+              "title": "Xbox One Console, 500GB, Black (No Kinect), Unboxed",
+              "price": 90,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1500GB002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=48F74D73EF612541ADE17F7AE9E8933D&position=4",
+              "tradeVoucher": 58,
+              "tradeCash": 41
+            }
+          ]
+        },
+        "Xbox One 500GB boxed": {
+          "variant": "Xbox One 500GB boxed",
+          "storage": "500GB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXB1500GB001",
+              "title": "Xbox One Console, 500GB, Black (No Kinect), Boxed",
+              "price": 110,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1500GB001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=48F74D73EF612541ADE17F7AE9E8933D&position=7",
+              "tradeVoucher": 71,
+              "tradeCash": 50
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1500GW001",
+              "title": "Xbox One Console, 500GB, White (No Kinect), Boxed",
+              "price": 130,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1500GW001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=48F74D73EF612541ADE17F7AE9E8933D&position=14",
+              "tradeVoucher": 84,
+              "tradeCash": 59
+            }
+          ]
+        },
+        "Xbox One 1TB unboxed": {
+          "variant": "Xbox One 1TB unboxed",
+          "storage": "1TB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXB11TBB002",
+              "title": "Xbox One Console, 1TB, Black (No Kinect), Unboxed",
+              "price": 120,
+              "url": "https://uk.webuy.com/product-detail?id=SXB11TBB002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=48F74D73EF612541ADE17F7AE9E8933D&position=10",
+              "tradeVoucher": 78,
+              "tradeCash": 55
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB11TBFM002",
+              "title": "Xbox One Console, 1TB, Forza Blue Ltd. Ed. (No Game), Unboxed",
+              "price": 125,
+              "url": "https://uk.webuy.com/product-detail?id=SXB11TBFM002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=58AA8A258F32C152DF500181E7627174&position=36",
+              "tradeVoucher": 81,
+              "tradeCash": 57
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB11TBHG002",
+              "title": "Xbox One Console, 1TB, Halo 5 Silver/Black Ltd. Ed. (No Game), Unboxed",
+              "price": 120,
+              "url": "https://uk.webuy.com/product-detail?id=SXB11TBHG002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=58AA8A258F32C152DF500181E7627174&position=41",
+              "tradeVoucher": 78,
+              "tradeCash": 55
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB11TBCD002",
+              "title": "Xbox One Console, 1TB, Call Of Duty A.W Ed. (No Game), Unboxed",
+              "price": 120,
+              "url": "https://uk.webuy.com/product-detail?id=SXB11TBCD002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=58AA8A258F32C152DF500181E7627174&position=47",
+              "tradeVoucher": 78,
+              "tradeCash": 55
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB11TBEL002",
+              "title": "Xbox One Elite Console, 1TB Hybrid + Elite Controller, Unboxed",
+              "price": 140,
+              "url": "https://uk.webuy.com/product-detail?id=SXB11TBEL002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=58AA8A258F32C152DF500181E7627174&position=51",
+              "tradeVoucher": 91,
+              "tradeCash": 64
             }
           ]
         }
@@ -569,69 +578,44 @@
     "Xbox One X": {
       "model": "Xbox One X",
       "variants": {
-        "Xbox One X N/A discounted": {
-          "variant": "Xbox One X N/A discounted",
-          "storage": "N/A",
+        "Xbox One X 1TB discounted": {
+          "variant": "Xbox One X 1TB discounted",
+          "storage": "1TB",
           "condition": "discounted",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SXB1X1TBGR003",
-              "title": "Xbox One X Console, Gold Rush Ed. Gold/Grey (No Game), Discounted",
-              "price": 135,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBGR003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=AF8BC437D73463347595B5C653DA8677&position=11",
-              "tradeVoucher": 87,
-              "tradeCash": 62
+              "id": "SXB1X1TBB003",
+              "title": "Xbox One X Console, 1TB, Black, Discounted",
+              "price": 150,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBB003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C67E0E19F8285B6794DA585E6DEC5EBB&position=21",
+              "tradeVoucher": 97,
+              "tradeCash": 69
             },
             {
               "competitor": "CEX",
-              "id": "SXB1X1TBHY003",
-              "title": "Xbox One X Console, Hyperspace Ed. White/Dots, Discounted",
+              "id": "SXB1X1TBW003",
+              "title": "Xbox One X Console, 1TB, Robot White, Discounted",
+              "price": 155,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBW003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C67E0E19F8285B6794DA585E6DEC5EBB&position=31",
+              "tradeVoucher": 100,
+              "tradeCash": 71
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1X1TBGG003",
+              "title": "Xbox One X Console, 1TB, Gears 5 Ed. White/Grey (No Game), Discounted",
               "price": 160,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBHY003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=7ACD64006D6F70617AFAE4970789B116&position=54",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBGG003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=58AA8A258F32C152DF500181E7627174&position=35",
               "tradeVoucher": 104,
               "tradeCash": 73
-            }
-          ]
-        },
-        "Xbox One X 1TB unboxed": {
-          "variant": "Xbox One X 1TB unboxed",
-          "storage": "1TB",
-          "condition": "unboxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXB1X1TBGG002",
-              "title": "Xbox One X Console, 1TB, Gears 5 Ed. White/Grey (No Game), Unboxed",
-              "price": 180,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBGG002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=AF8BC437D73463347595B5C653DA8677&position=14",
-              "tradeVoucher": 117,
-              "tradeCash": 82
             },
             {
               "competitor": "CEX",
-              "id": "SXB1X1TBW002",
-              "title": "Xbox One X Console, 1TB, Robot White, Unboxed",
-              "price": 165,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBW002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=101FA6B90009E9110CA7B5764ED428CA&position=41",
-              "tradeVoucher": 107,
-              "tradeCash": 75
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB1X1TBCP002",
-              "title": "Xbox One X Console, 1TB, Cyberpunk 2077 Ed. (No Game), Unboxed",
-              "price": 200,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBCP002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=101FA6B90009E9110CA7B5764ED428CA&position=43",
-              "tradeVoucher": 130,
-              "tradeCash": 92
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB1X1TBB002",
-              "title": "Xbox One X Console, 1TB, Black, Unboxed",
+              "id": "SXB1X1TBCP003",
+              "title": "Xbox One X Console, 1TB, Cyberpunk 2077 Ed. (No Game), Discounted",
               "price": 170,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBB002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=67D44607632BF7430B4F68A90462B92B&position=24",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBCP003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=F32717EFD2B40FBE163203FD37EF2E09&position=55",
               "tradeVoucher": 110,
               "tradeCash": 78
             }
@@ -647,25 +631,25 @@
               "id": "SXB1X1TBB001",
               "title": "Xbox One X Console, 1TB, Black, Boxed",
               "price": 190,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBB001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=AF8BC437D73463347595B5C653DA8677&position=15",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBB001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C67E0E19F8285B6794DA585E6DEC5EBB&position=22",
               "tradeVoucher": 123,
               "tradeCash": 87
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXB1X1TBW001",
-              "title": "Xbox One X Console, 1TB, Robot White, Boxed",
-              "price": 200,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBW001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=101FA6B90009E9110CA7B5764ED428CA&position=37",
-              "tradeVoucher": 130,
-              "tradeCash": 92
             },
             {
               "competitor": "CEX",
               "id": "SXB1X1TBGG001",
               "title": "Xbox One X Console, 1TB, Gears 5 Ed. White/Grey (No Game), Boxed",
               "price": 200,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBGG001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=101FA6B90009E9110CA7B5764ED428CA&position=45",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBGG001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=58AA8A258F32C152DF500181E7627174&position=38",
+              "tradeVoucher": 130,
+              "tradeCash": 92
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1X1TBW001",
+              "title": "Xbox One X Console, 1TB, Robot White, Boxed",
+              "price": 200,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBW001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=F32717EFD2B40FBE163203FD37EF2E09&position=56",
               "tradeVoucher": 130,
               "tradeCash": 92
             },
@@ -674,77 +658,79 @@
               "id": "SXB1X1TBCP001",
               "title": "Xbox One X Console, 1TB, Cyberpunk 2077 Ed. (No Game), Boxed",
               "price": 220,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBCP001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C60EE00FB78C5AD9E08F5F89EF16E671&position=3",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBCP001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=D187C995B1DCC1135EAE345B300DB7F9&position=1",
               "tradeVoucher": 143,
               "tradeCash": 101
-            }
-          ]
-        },
-        "Xbox One X N/A boxed": {
-          "variant": "Xbox One X N/A boxed",
-          "storage": "N/A",
-          "condition": "boxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXB1X1TBGR001",
-              "title": "Xbox One X Console, Gold Rush Ed. Gold/Grey (No Game), Boxed",
-              "price": 195,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBGR001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=101FA6B90009E9110CA7B5764ED428CA&position=36",
-              "tradeVoucher": 126,
-              "tradeCash": 89
             },
             {
               "competitor": "CEX",
-              "id": "SXB1X1TBHY001",
-              "title": "Xbox One X Console, Hyperspace Ed. White/Dots, Boxed",
+              "id": "SXB1X1TBGG001",
+              "title": "Xbox One X Console, 1TB, Gears 5 Ed. White/Grey (No Game), Boxed",
               "price": 200,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBHY001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=101FA6B90009E9110CA7B5764ED428CA&position=49",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBGG001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=D187C995B1DCC1135EAE345B300DB7F9&position=2",
+              "tradeVoucher": 130,
+              "tradeCash": 92
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1X1TBW001",
+              "title": "Xbox One X Console, 1TB, Robot White, Boxed",
+              "price": 200,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBW001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=D187C995B1DCC1135EAE345B300DB7F9&position=12",
               "tradeVoucher": 130,
               "tradeCash": 92
             }
           ]
         },
-        "Xbox One X 1TB discounted": {
-          "variant": "Xbox One X 1TB discounted",
+        "Xbox One X 1TB unboxed": {
+          "variant": "Xbox One X 1TB unboxed",
           "storage": "1TB",
-          "condition": "discounted",
+          "condition": "unboxed",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SXB1X1TBCP003",
-              "title": "Xbox One X Console, 1TB, Cyberpunk 2077 Ed. (No Game), Discounted",
+              "id": "SXB1X1TBGG002",
+              "title": "Xbox One X Console, 1TB, Gears 5 Ed. White/Grey (No Game), Unboxed",
+              "price": 180,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBGG002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C67E0E19F8285B6794DA585E6DEC5EBB&position=25",
+              "tradeVoucher": 117,
+              "tradeCash": 82
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1X1TBB002",
+              "title": "Xbox One X Console, 1TB, Black, Unboxed",
               "price": 170,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBCP003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=101FA6B90009E9110CA7B5764ED428CA&position=50",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBB002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C67E0E19F8285B6794DA585E6DEC5EBB&position=29",
               "tradeVoucher": 110,
               "tradeCash": 78
             },
             {
               "competitor": "CEX",
-              "id": "SXB1X1TBB003",
-              "title": "Xbox One X Console, 1TB, Black, Discounted",
-              "price": 150,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBB003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=67D44607632BF7430B4F68A90462B92B&position=19",
-              "tradeVoucher": 97,
-              "tradeCash": 69
+              "id": "SXB1X1TBW002",
+              "title": "Xbox One X Console, 1TB, Robot White, Unboxed",
+              "price": 165,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBW002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C67E0E19F8285B6794DA585E6DEC5EBB&position=33",
+              "tradeVoucher": 107,
+              "tradeCash": 75
             },
             {
               "competitor": "CEX",
-              "id": "SXB1X1TBW003",
-              "title": "Xbox One X Console, 1TB, Robot White, Discounted",
-              "price": 155,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBW003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=67D44607632BF7430B4F68A90462B92B&position=26",
-              "tradeVoucher": 100,
-              "tradeCash": 71
+              "id": "SXB1X1TBCP002",
+              "title": "Xbox One X Console, 1TB, Cyberpunk 2077 Ed. (No Game), Unboxed",
+              "price": 200,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBCP002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=58AA8A258F32C152DF500181E7627174&position=45",
+              "tradeVoucher": 130,
+              "tradeCash": 92
             },
             {
               "competitor": "CEX",
-              "id": "SXB1X1TBGG003",
-              "title": "Xbox One X Console, 1TB, Gears 5 Ed. White/Grey (No Game), Discounted",
-              "price": 160,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBGG003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=67D44607632BF7430B4F68A90462B92B&position=28",
-              "tradeVoucher": 104,
-              "tradeCash": 73
+              "id": "SXB1X1TBCP002",
+              "title": "Xbox One X Console, 1TB, Cyberpunk 2077 Ed. (No Game), Unboxed",
+              "price": 200,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBCP002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=D187C995B1DCC1135EAE345B300DB7F9&position=6",
+              "tradeVoucher": 130,
+              "tradeCash": 92
             }
           ]
         },
@@ -758,7 +744,7 @@
               "id": "SXB1X1TBGR002",
               "title": "Xbox One X Console, Gold Rush Ed. Gold/Grey (No Game), Unboxed",
               "price": 165,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBGR002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=67D44607632BF7430B4F68A90462B92B&position=27",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBGR002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=C67E0E19F8285B6794DA585E6DEC5EBB&position=34",
               "tradeVoucher": 107,
               "tradeCash": 75
             },
@@ -767,9 +753,68 @@
               "id": "SXB1X1TBHY002",
               "title": "Xbox One X Console, Hyperspace Ed. White/Dots, Unboxed",
               "price": 180,
-              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBHY002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=7ACD64006D6F70617AFAE4970789B116&position=52",
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBHY002&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=58AA8A258F32C152DF500181E7627174&position=50",
               "tradeVoucher": 117,
               "tradeCash": 82
+            }
+          ]
+        },
+        "Xbox One X N/A discounted": {
+          "variant": "Xbox One X N/A discounted",
+          "storage": "N/A",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXB1X1TBGR003",
+              "title": "Xbox One X Console, Gold Rush Ed. Gold/Grey (No Game), Discounted",
+              "price": 135,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBGR003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=48F74D73EF612541ADE17F7AE9E8933D&position=13",
+              "tradeVoucher": 87,
+              "tradeCash": 62
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1X1TBHY003",
+              "title": "Xbox One X Console, Hyperspace Ed. White/Dots, Discounted",
+              "price": 160,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBHY003&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=58AA8A258F32C152DF500181E7627174&position=37",
+              "tradeVoucher": 104,
+              "tradeCash": 73
+            }
+          ]
+        },
+        "Xbox One X N/A boxed": {
+          "variant": "Xbox One X N/A boxed",
+          "storage": "N/A",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXB1X1TBHY001",
+              "title": "Xbox One X Console, Hyperspace Ed. White/Dots, Boxed",
+              "price": 200,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBHY001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=58AA8A258F32C152DF500181E7627174&position=44",
+              "tradeVoucher": 130,
+              "tradeCash": 92
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1X1TBGR001",
+              "title": "Xbox One X Console, Gold Rush Ed. Gold/Grey (No Game), Boxed",
+              "price": 195,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBGR001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=58AA8A258F32C152DF500181E7627174&position=48",
+              "tradeVoucher": 126,
+              "tradeCash": 89
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXB1X1TBHY001",
+              "title": "Xbox One X Console, Hyperspace Ed. White/Dots, Boxed",
+              "price": 200,
+              "url": "https://uk.webuy.com/product-detail?id=SXB1X1TBHY001&categoryName=XBOX-ONE-CONSOLES&superCatName=GAMING&title=&queryID=D187C995B1DCC1135EAE345B300DB7F9&position=5",
+              "tradeVoucher": 130,
+              "tradeCash": 92
             }
           ]
         }

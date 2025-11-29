@@ -1,123 +1,19 @@
 {
   "competitor": "CEX",
   "models": {
-    "apple iphone 17 pro (a3523)": {
-      "model": "apple iphone 17 pro (a3523)",
+    "Apple Iphone 17": {
+      "model": "Apple Iphone 17",
       "variants": {
-        "apple iphone 17 pro (a3523) 256GB": {
-          "variant": "apple iphone 17 pro (a3523) 256GB",
+        "Apple Iphone 17 256GB": {
+          "variant": "Apple Iphone 17 256GB",
           "storage": "256GB",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SAPPIP17P256GDBUNLB",
-              "title": "Apple iPhone 17 Pro (A3523) 256GB Deep Blue, Unlocked B",
-              "price": 1000,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17P256GDBUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=4688FE2BEA877A5F3C6FD1DFAC90EE6B&position=1",
-              "tradeVoucher": 680,
-              "tradeCash": 630
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPIP17P256GCOUNLB",
-              "title": "Apple iPhone 17 Pro (A3523) 256GB Cosmic Orange, Unlocked B",
-              "price": 1000,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17P256GCOUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=4688FE2BEA877A5F3C6FD1DFAC90EE6B&position=2",
-              "tradeVoucher": 680,
-              "tradeCash": 630
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPIP17P256GSIUNLB",
-              "title": "Apple iPhone 17 Pro (A3523) 256GB Silver, Unlocked B",
-              "price": 1000,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17P256GSIUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=4688FE2BEA877A5F3C6FD1DFAC90EE6B&position=4",
-              "tradeVoucher": 680,
-              "tradeCash": 630
-            }
-          ]
-        },
-        "apple iphone 17 pro (a3523) 1TB": {
-          "variant": "apple iphone 17 pro (a3523) 1TB",
-          "storage": "1TB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPIP17P1TCOUNLB",
-              "title": "Apple iPhone 17 Pro (A3523) 1TB Cosmic Orange, Unlocked B",
-              "price": 1350,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17P1TCOUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=EBCB53A638FF3129DFEB1026E2FD728F&position=18",
-              "tradeVoucher": 918,
-              "tradeCash": 850
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPIP17P1TDBUNLB",
-              "title": "Apple iPhone 17 Pro (A3523) 1TB Deep Blue, Unlocked B",
-              "price": 1350,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17P1TDBUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=C8D3F994A826D8A1F13F9AAAF105662E&position=12",
-              "tradeVoucher": 918,
-              "tradeCash": 850
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPIP17P1TSIUNLB",
-              "title": "Apple iPhone 17 Pro (A3523) 1TB Silver, Unlocked B",
-              "price": 1350,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17P1TSIUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=C8D3F994A826D8A1F13F9AAAF105662E&position=17",
-              "tradeVoucher": 918,
-              "tradeCash": 850
-            }
-          ]
-        },
-        "apple iphone 17 pro (a3523) 512GB": {
-          "variant": "apple iphone 17 pro (a3523) 512GB",
-          "storage": "512GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPIP17P512GSIUNLB",
-              "title": "Apple iPhone 17 Pro (A3523) 512GB Silver, Unlocked B",
-              "price": 1200,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17P512GSIUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=C8D3F994A826D8A1F13F9AAAF105662E&position=9",
-              "tradeVoucher": 816,
-              "tradeCash": 756
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPIP17P512GDBUNLB",
-              "title": "Apple iPhone 17 Pro (A3523) 512GB Deep Blue, Unlocked B",
-              "price": 1200,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17P512GDBUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=C8D3F994A826D8A1F13F9AAAF105662E&position=10",
-              "tradeVoucher": 816,
-              "tradeCash": 756
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPIP17P512GCOUNLB",
-              "title": "Apple iPhone 17 Pro (A3523) 512GB Cosmic Orange, Unlocked B",
-              "price": 1200,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17P512GCOUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=C8D3F994A826D8A1F13F9AAAF105662E&position=11",
-              "tradeVoucher": 816,
-              "tradeCash": 756
-            }
-          ]
-        }
-      }
-    },
-    "apple iphone 17 (a3520)": {
-      "model": "apple iphone 17 (a3520)",
-      "variants": {
-        "apple iphone 17 (a3520) 256GB": {
-          "variant": "apple iphone 17 (a3520) 256GB",
-          "storage": "256GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPIP17256GLAUNLB",
-              "title": "Apple iPhone 17 (A3520) 256GB Lavender, Unlocked B",
+              "id": "SAPPIP17256GWHUNLB",
+              "title": "Apple iPhone 17 (A3520) 256GB White, Unlocked B",
               "price": 710,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17256GLAUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=4688FE2BEA877A5F3C6FD1DFAC90EE6B&position=3",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17256GWHUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=15A924228EF60C0A617BB3C9CEF2151C&position=18",
               "tradeVoucher": 482,
               "tradeCash": 447
             },
@@ -126,25 +22,16 @@
               "id": "SAPPIP17256GMBUNLB",
               "title": "Apple iPhone 17 (A3520) 256GB Mist Blue, Unlocked B",
               "price": 710,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17256GMBUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=4688FE2BEA877A5F3C6FD1DFAC90EE6B&position=5",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17256GMBUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=470B48006CD22FB4394FE6D8419FFF33&position=4",
               "tradeVoucher": 482,
               "tradeCash": 447
             },
             {
               "competitor": "CEX",
-              "id": "SAPPIP17256GBLUNLB",
-              "title": "Apple iPhone 17 (A3520) 256GB Black, Unlocked B",
+              "id": "SAPPIP17256GLAUNLB",
+              "title": "Apple iPhone 17 (A3520) 256GB Lavender, Unlocked B",
               "price": 710,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17256GBLUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=4688FE2BEA877A5F3C6FD1DFAC90EE6B&position=6",
-              "tradeVoucher": 482,
-              "tradeCash": 447
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPIP17256GWHUNLB",
-              "title": "Apple iPhone 17 (A3520) 256GB White, Unlocked B",
-              "price": 710,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17256GWHUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=4688FE2BEA877A5F3C6FD1DFAC90EE6B&position=12",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17256GLAUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=470B48006CD22FB4394FE6D8419FFF33&position=8",
               "tradeVoucher": 482,
               "tradeCash": 447
             },
@@ -153,14 +40,23 @@
               "id": "SAPPIP17256GSAUNLB",
               "title": "Apple iPhone 17 (A3520) 256GB Sage, Unlocked B",
               "price": 710,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17256GSAUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=4688FE2BEA877A5F3C6FD1DFAC90EE6B&position=13",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17256GSAUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=470B48006CD22FB4394FE6D8419FFF33&position=11",
+              "tradeVoucher": 482,
+              "tradeCash": 447
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP17256GBLUNLB",
+              "title": "Apple iPhone 17 (A3520) 256GB Black, Unlocked B",
+              "price": 710,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17256GBLUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=470B48006CD22FB4394FE6D8419FFF33&position=12",
               "tradeVoucher": 482,
               "tradeCash": 447
             }
           ]
         },
-        "apple iphone 17 (a3520) 512GB": {
-          "variant": "apple iphone 17 (a3520) 512GB",
+        "Apple Iphone 17 512GB": {
+          "variant": "Apple Iphone 17 512GB",
           "storage": "512GB",
           "listings": [
             {
@@ -168,7 +64,7 @@
               "id": "SAPPIP17512GWHUNLB",
               "title": "Apple iPhone 17 (A3520) 512GB White, Unlocked B",
               "price": 900,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17512GWHUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=4688FE2BEA877A5F3C6FD1DFAC90EE6B&position=7",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17512GWHUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=15A924228EF60C0A617BB3C9CEF2151C&position=21",
               "tradeVoucher": 612,
               "tradeCash": 567
             },
@@ -177,7 +73,7 @@
               "id": "SAPPIP17512GSAUNLB",
               "title": "Apple iPhone 17 (A3520) 512GB Sage, Unlocked B",
               "price": 900,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17512GSAUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=4688FE2BEA877A5F3C6FD1DFAC90EE6B&position=8",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17512GSAUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=15A924228EF60C0A617BB3C9CEF2151C&position=22",
               "tradeVoucher": 612,
               "tradeCash": 567
             },
@@ -186,7 +82,7 @@
               "id": "SAPPIP17512GMBUNLB",
               "title": "Apple iPhone 17 (A3520) 512GB Mist Blue, Unlocked B",
               "price": 900,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17512GMBUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=4688FE2BEA877A5F3C6FD1DFAC90EE6B&position=9",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17512GMBUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=15A924228EF60C0A617BB3C9CEF2151C&position=23",
               "tradeVoucher": 612,
               "tradeCash": 567
             },
@@ -195,7 +91,7 @@
               "id": "SAPPIP17512GLAUNLB",
               "title": "Apple iPhone 17 (A3520) 512GB Lavender, Unlocked B",
               "price": 900,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17512GLAUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=4688FE2BEA877A5F3C6FD1DFAC90EE6B&position=10",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17512GLAUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=15A924228EF60C0A617BB3C9CEF2151C&position=24",
               "tradeVoucher": 612,
               "tradeCash": 567
             },
@@ -204,7 +100,7 @@
               "id": "SAPPIP17512GBLUNLB",
               "title": "Apple iPhone 17 (A3520) 512GB Black, Unlocked B",
               "price": 900,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17512GBLUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=4688FE2BEA877A5F3C6FD1DFAC90EE6B&position=11",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17512GBLUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=15A924228EF60C0A617BB3C9CEF2151C&position=25",
               "tradeVoucher": 612,
               "tradeCash": 567
             }
@@ -212,19 +108,132 @@
         }
       }
     },
-    "apple iphone 17 pro max (a3526)": {
-      "model": "apple iphone 17 pro max (a3526)",
+    "Apple Iphone 17 Pro": {
+      "model": "Apple Iphone 17 Pro",
       "variants": {
-        "apple iphone 17 pro max (a3526) 256GB": {
-          "variant": "apple iphone 17 pro max (a3526) 256GB",
+        "Apple Iphone 17 Pro 1TB": {
+          "variant": "Apple Iphone 17 Pro 1TB",
+          "storage": "1TB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP17P1TDBUNLB",
+              "title": "Apple iPhone 17 Pro (A3523) 1TB Deep Blue, Unlocked B",
+              "price": 1350,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17P1TDBUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=15A924228EF60C0A617BB3C9CEF2151C&position=19",
+              "tradeVoucher": 918,
+              "tradeCash": 850
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP17P1TCOUNLB",
+              "title": "Apple iPhone 17 Pro (A3523) 1TB Cosmic Orange, Unlocked B",
+              "price": 1350,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17P1TCOUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=15A924228EF60C0A617BB3C9CEF2151C&position=20",
+              "tradeVoucher": 918,
+              "tradeCash": 850
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP17P1TSIUNLB",
+              "title": "Apple iPhone 17 Pro (A3523) 1TB Silver, Unlocked B",
+              "price": 1350,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17P1TSIUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=470B48006CD22FB4394FE6D8419FFF33&position=17",
+              "tradeVoucher": 918,
+              "tradeCash": 850
+            }
+          ]
+        },
+        "Apple Iphone 17 Pro 256GB": {
+          "variant": "Apple Iphone 17 Pro 256GB",
           "storage": "256GB",
           "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP17P256GDBUNLB",
+              "title": "Apple iPhone 17 Pro (A3523) 256GB Deep Blue, Unlocked B",
+              "price": 1000,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17P256GDBUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=470B48006CD22FB4394FE6D8419FFF33&position=1",
+              "tradeVoucher": 680,
+              "tradeCash": 630
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP17P256GSIUNLB",
+              "title": "Apple iPhone 17 Pro (A3523) 256GB Silver, Unlocked B",
+              "price": 1000,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17P256GSIUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=470B48006CD22FB4394FE6D8419FFF33&position=5",
+              "tradeVoucher": 680,
+              "tradeCash": 630
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP17P256GCOUNLB",
+              "title": "Apple iPhone 17 Pro (A3523) 256GB Cosmic Orange, Unlocked B",
+              "price": 1000,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17P256GCOUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=470B48006CD22FB4394FE6D8419FFF33&position=7",
+              "tradeVoucher": 680,
+              "tradeCash": 630
+            }
+          ]
+        },
+        "Apple Iphone 17 Pro 512GB": {
+          "variant": "Apple Iphone 17 Pro 512GB",
+          "storage": "512GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP17P512GCOUNLB",
+              "title": "Apple iPhone 17 Pro (A3523) 512GB Cosmic Orange, Unlocked B",
+              "price": 1200,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17P512GCOUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=470B48006CD22FB4394FE6D8419FFF33&position=14",
+              "tradeVoucher": 816,
+              "tradeCash": 756
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP17P512GSIUNLB",
+              "title": "Apple iPhone 17 Pro (A3523) 512GB Silver, Unlocked B",
+              "price": 1200,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17P512GSIUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=470B48006CD22FB4394FE6D8419FFF33&position=15",
+              "tradeVoucher": 816,
+              "tradeCash": 756
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP17P512GDBUNLB",
+              "title": "Apple iPhone 17 Pro (A3523) 512GB Deep Blue, Unlocked B",
+              "price": 1200,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17P512GDBUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=470B48006CD22FB4394FE6D8419FFF33&position=16",
+              "tradeVoucher": 816,
+              "tradeCash": 756
+            }
+          ]
+        }
+      }
+    },
+    "Apple Iphone 17 Pro Max": {
+      "model": "Apple Iphone 17 Pro Max",
+      "variants": {
+        "Apple Iphone 17 Pro Max 256GB": {
+          "variant": "Apple Iphone 17 Pro Max 256GB",
+          "storage": "256GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP17PM256GSIUNLB",
+              "title": "Apple iPhone 17 Pro Max (A3526) 256GB Silver, Unlocked B",
+              "price": 1100,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM256GSIUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=470B48006CD22FB4394FE6D8419FFF33&position=2",
+              "tradeVoucher": 814,
+              "tradeCash": 759
+            },
             {
               "competitor": "CEX",
               "id": "SAPPIP17PM256GCOUNLB",
               "title": "Apple iPhone 17 Pro Max (A3526) 256GB Cosmic Orange, Unlocked B",
               "price": 1100,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM256GCOUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=C8D3F994A826D8A1F13F9AAAF105662E&position=1",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM256GCOUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=470B48006CD22FB4394FE6D8419FFF33&position=3",
               "tradeVoucher": 814,
               "tradeCash": 759
             },
@@ -233,31 +242,31 @@
               "id": "SAPPIP17PM256GDBUNLB",
               "title": "Apple iPhone 17 Pro Max (A3526) 256GB Deep Blue, Unlocked B",
               "price": 1100,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM256GDBUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=C8D3F994A826D8A1F13F9AAAF105662E&position=2",
-              "tradeVoucher": 814,
-              "tradeCash": 759
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPIP17PM256GSIUNLB",
-              "title": "Apple iPhone 17 Pro Max (A3526) 256GB Silver, Unlocked B",
-              "price": 1100,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM256GSIUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=C8D3F994A826D8A1F13F9AAAF105662E&position=4",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM256GDBUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=470B48006CD22FB4394FE6D8419FFF33&position=6",
               "tradeVoucher": 814,
               "tradeCash": 759
             }
           ]
         },
-        "apple iphone 17 pro max (a3526) 512GB": {
-          "variant": "apple iphone 17 pro max (a3526) 512GB",
+        "Apple Iphone 17 Pro Max 512GB": {
+          "variant": "Apple Iphone 17 Pro Max 512GB",
           "storage": "512GB",
           "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP17PM512GCOUNLB",
+              "title": "Apple iPhone 17 Pro Max (A3526) 512GB Cosmic Orange, Unlocked B",
+              "price": 1300,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM512GCOUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=470B48006CD22FB4394FE6D8419FFF33&position=9",
+              "tradeVoucher": 962,
+              "tradeCash": 897
+            },
             {
               "competitor": "CEX",
               "id": "SAPPIP17PM512GDBUNLB",
               "title": "Apple iPhone 17 Pro Max (A3526) 512GB Deep Blue, Unlocked B",
               "price": 1300,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM512GDBUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=C8D3F994A826D8A1F13F9AAAF105662E&position=3",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM512GDBUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=470B48006CD22FB4394FE6D8419FFF33&position=10",
               "tradeVoucher": 962,
               "tradeCash": 897
             },
@@ -266,73 +275,31 @@
               "id": "SAPPIP17PM512GSIUNLB",
               "title": "Apple iPhone 17 Pro Max (A3526) 512GB Silver, Unlocked B",
               "price": 1300,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM512GSIUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=C8D3F994A826D8A1F13F9AAAF105662E&position=6",
-              "tradeVoucher": 962,
-              "tradeCash": 897
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPIP17PM512GCOUNLB",
-              "title": "Apple iPhone 17 Pro Max (A3526) 512GB Cosmic Orange, Unlocked B",
-              "price": 1300,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM512GCOUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=C8D3F994A826D8A1F13F9AAAF105662E&position=7",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM512GSIUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=470B48006CD22FB4394FE6D8419FFF33&position=13",
               "tradeVoucher": 962,
               "tradeCash": 897
             }
           ]
         },
-        "apple iphone 17 pro max (a3526) 1TB": {
-          "variant": "apple iphone 17 pro max (a3526) 1TB",
-          "storage": "1TB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPIP17PM1TSIUNLB",
-              "title": "Apple iPhone 17 Pro Max (A3526) 1TB Silver, Unlocked B",
-              "price": 1470,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM1TSIUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=C8D3F994A826D8A1F13F9AAAF105662E&position=5",
-              "tradeVoucher": 1087,
-              "tradeCash": 1014
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPIP17PM1TDBUNLB",
-              "title": "Apple iPhone 17 Pro Max (A3526) 1TB Deep Blue, Unlocked B",
-              "price": 1470,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM1TDBUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=C8D3F994A826D8A1F13F9AAAF105662E&position=8",
-              "tradeVoucher": 1087,
-              "tradeCash": 1014
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPIP17PM1TCOUNLB",
-              "title": "Apple iPhone 17 Pro Max (A3526) 1TB Cosmic Orange, Unlocked B",
-              "price": 1470,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM1TCOUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=C8D3F994A826D8A1F13F9AAAF105662E&position=16",
-              "tradeVoucher": 1087,
-              "tradeCash": 1014
-            }
-          ]
-        },
-        "apple iphone 17 pro max (a3526) 2TB": {
-          "variant": "apple iphone 17 pro max (a3526) 2TB",
+        "Apple Iphone 17 Pro Max 2TB": {
+          "variant": "Apple Iphone 17 Pro Max 2TB",
           "storage": "2TB",
           "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPIP17PM2TSIUNLB",
-              "title": "Apple iPhone 17 Pro Max (A3526) 2TB Silver, Unlocked B",
-              "price": 1850,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM2TSIUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=C8D3F994A826D8A1F13F9AAAF105662E&position=13",
-              "tradeVoucher": 1258,
-              "tradeCash": 1165
-            },
             {
               "competitor": "CEX",
               "id": "SAPPIP17PM2TDBUNLB",
               "title": "Apple iPhone 17 Pro Max (A3526) 2TB Deep Blue, Unlocked B",
               "price": 1850,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM2TDBUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=C8D3F994A826D8A1F13F9AAAF105662E&position=14",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM2TDBUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=D406DC262DB8BC0ECBBD72CBBFB07BEF&position=1",
+              "tradeVoucher": 1258,
+              "tradeCash": 1165
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP17PM2TSIUNLB",
+              "title": "Apple iPhone 17 Pro Max (A3526) 2TB Silver, Unlocked B",
+              "price": 1850,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM2TSIUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=D406DC262DB8BC0ECBBD72CBBFB07BEF&position=3",
               "tradeVoucher": 1258,
               "tradeCash": 1165
             },
@@ -341,9 +308,42 @@
               "id": "SAPPIP17PM2TCOUNLB",
               "title": "Apple iPhone 17 Pro Max (A3526) 2TB Cosmic Orange, Unlocked B",
               "price": 1850,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM2TCOUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=C8D3F994A826D8A1F13F9AAAF105662E&position=15",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM2TCOUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=D406DC262DB8BC0ECBBD72CBBFB07BEF&position=4",
               "tradeVoucher": 1258,
               "tradeCash": 1165
+            }
+          ]
+        },
+        "Apple Iphone 17 Pro Max 1TB": {
+          "variant": "Apple Iphone 17 Pro Max 1TB",
+          "storage": "1TB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP17PM1TSIUNLB",
+              "title": "Apple iPhone 17 Pro Max (A3526) 1TB Silver, Unlocked B",
+              "price": 1470,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM1TSIUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=D406DC262DB8BC0ECBBD72CBBFB07BEF&position=2",
+              "tradeVoucher": 1087,
+              "tradeCash": 1014
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP17PM1TDBUNLB",
+              "title": "Apple iPhone 17 Pro Max (A3526) 1TB Deep Blue, Unlocked B",
+              "price": 1470,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM1TDBUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=D406DC262DB8BC0ECBBD72CBBFB07BEF&position=5",
+              "tradeVoucher": 1087,
+              "tradeCash": 1014
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPIP17PM1TCOUNLB",
+              "title": "Apple iPhone 17 Pro Max (A3526) 1TB Cosmic Orange, Unlocked B",
+              "price": 1470,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPIP17PM1TCOUNLB&categoryName=IPHONE-17&superCatName=PHONES&title=&queryID=D406DC262DB8BC0ECBBD72CBBFB07BEF&position=6",
+              "tradeVoucher": 1087,
+              "tradeCash": 1014
             }
           ]
         }

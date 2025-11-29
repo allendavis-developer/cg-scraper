@@ -13,16 +13,7 @@
               "id": "SAPPI14128GMIUNLB",
               "title": "Apple iPhone 14 128GB Midnight, Unlocked B",
               "price": 375,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14128GMIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=D5F7735916E15F542C3E95D1A7445792&position=1",
-              "tradeVoucher": 213,
-              "tradeCash": 165
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14128GBLUNLB",
-              "title": "Apple iPhone 14 128GB Blue, Unlocked B",
-              "price": 375,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14128GBLUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=D5F7735916E15F542C3E95D1A7445792&position=2",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14128GMIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9BE2F9D322B5763838390C6F1EFA9CB6&position=1",
               "tradeVoucher": 213,
               "tradeCash": 165
             },
@@ -31,7 +22,16 @@
               "id": "SAPPI14128GPUUNLB",
               "title": "Apple iPhone 14 128GB Purple, Unlocked B",
               "price": 375,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14128GPUUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=D5F7735916E15F542C3E95D1A7445792&position=3",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14128GPUUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9BE2F9D322B5763838390C6F1EFA9CB6&position=4",
+              "tradeVoucher": 213,
+              "tradeCash": 165
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14128GBLUNLB",
+              "title": "Apple iPhone 14 128GB Blue, Unlocked B",
+              "price": 375,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14128GBLUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9BE2F9D322B5763838390C6F1EFA9CB6&position=5",
               "tradeVoucher": 213,
               "tradeCash": 165
             },
@@ -40,7 +40,7 @@
               "id": "SAPPI14128GSTUNLB",
               "title": "Apple iPhone 14 128GB Starlight, Unlocked B",
               "price": 375,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14128GSTUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=D5F7735916E15F542C3E95D1A7445792&position=4",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14128GSTUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9BE2F9D322B5763838390C6F1EFA9CB6&position=8",
               "tradeVoucher": 213,
               "tradeCash": 165
             },
@@ -49,7 +49,7 @@
               "id": "SAPPI14128GPRUNLB",
               "title": "Apple iPhone 14 128GB (PRODUCT)RED, Unlocked B",
               "price": 375,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14128GPRUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=D5F7735916E15F542C3E95D1A7445792&position=6",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14128GPRUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9BE2F9D322B5763838390C6F1EFA9CB6&position=10",
               "tradeVoucher": 213,
               "tradeCash": 165
             },
@@ -58,69 +58,9 @@
               "id": "SAPPI14128GYEUNLB",
               "title": "Apple iPhone 14 128GB Yellow, Unlocked B",
               "price": 375,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14128GYEUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=D5F7735916E15F542C3E95D1A7445792&position=8",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14128GYEUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9BE2F9D322B5763838390C6F1EFA9CB6&position=15",
               "tradeVoucher": 213,
               "tradeCash": 165
-            }
-          ]
-        },
-        "Apple Iphone 14 512GB": {
-          "variant": "Apple Iphone 14 512GB",
-          "storage": "512GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14512GYEUNLB",
-              "title": "Apple iPhone 14 512GB Yellow, Unlocked B",
-              "price": 475,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14512GYEUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=4A4186EDE6A9B580039172D8E1030D0C&position=40",
-              "tradeVoucher": 270,
-              "tradeCash": 209
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14512GSTUNLB",
-              "title": "Apple iPhone 14 512GB Starlight, Unlocked B",
-              "price": 475,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14512GSTUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=4A4186EDE6A9B580039172D8E1030D0C&position=41",
-              "tradeVoucher": 270,
-              "tradeCash": 209
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14512GPUUNLB",
-              "title": "Apple iPhone 14 512GB Purple, Unlocked B",
-              "price": 475,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14512GPUUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=4A4186EDE6A9B580039172D8E1030D0C&position=42",
-              "tradeVoucher": 270,
-              "tradeCash": 209
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14512GPRUNLB",
-              "title": "Apple iPhone 14 512GB (PRODUCT)RED, Unlocked B",
-              "price": 475,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14512GPRUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=4A4186EDE6A9B580039172D8E1030D0C&position=43",
-              "tradeVoucher": 270,
-              "tradeCash": 209
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14512GMIUNLB",
-              "title": "Apple iPhone 14 512GB Midnight, Unlocked B",
-              "price": 475,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14512GMIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=4A4186EDE6A9B580039172D8E1030D0C&position=44",
-              "tradeVoucher": 270,
-              "tradeCash": 209
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14512GBLUNLB",
-              "title": "Apple iPhone 14 512GB Blue, Unlocked B",
-              "price": 475,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14512GBLUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9DD0ADAE35A4D6E1F71991CD585D336D&position=31",
-              "tradeVoucher": 270,
-              "tradeCash": 209
             }
           ]
         },
@@ -130,46 +70,19 @@
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SAPPI14256GPRUNLB",
-              "title": "Apple iPhone 14 256GB (PRODUCT)RED, Unlocked B",
-              "price": 425,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14256GPRUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9DD0ADAE35A4D6E1F71991CD585D336D&position=18",
-              "tradeVoucher": 242,
-              "tradeCash": 187
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14256GSTUNLB",
-              "title": "Apple iPhone 14 256GB Starlight, Unlocked B",
-              "price": 425,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14256GSTUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9DD0ADAE35A4D6E1F71991CD585D336D&position=21",
-              "tradeVoucher": 242,
-              "tradeCash": 187
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14256GYEUNLB",
-              "title": "Apple iPhone 14 256GB Yellow, Unlocked B",
-              "price": 425,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14256GYEUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9DD0ADAE35A4D6E1F71991CD585D336D&position=28",
-              "tradeVoucher": 242,
-              "tradeCash": 187
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14256GPUUNLB",
-              "title": "Apple iPhone 14 256GB Purple, Unlocked B",
-              "price": 425,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14256GPUUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9DD0ADAE35A4D6E1F71991CD585D336D&position=29",
-              "tradeVoucher": 242,
-              "tradeCash": 187
-            },
-            {
-              "competitor": "CEX",
               "id": "SAPPI14256GMIUNLB",
               "title": "Apple iPhone 14 256GB Midnight, Unlocked B",
               "price": 425,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14256GMIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=913EDB3D7C6845A8B825EC6F9E02FDE3&position=14",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14256GMIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=F0F04482D07645081A94B5493A751A8B&position=21",
+              "tradeVoucher": 242,
+              "tradeCash": 187
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14256GPRUNLB",
+              "title": "Apple iPhone 14 256GB (PRODUCT)RED, Unlocked B",
+              "price": 425,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14256GPRUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=F0F04482D07645081A94B5493A751A8B&position=27",
               "tradeVoucher": 242,
               "tradeCash": 187
             },
@@ -178,9 +91,469 @@
               "id": "SAPPI14256GBLUNLB",
               "title": "Apple iPhone 14 256GB Blue, Unlocked B",
               "price": 425,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14256GBLUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=913EDB3D7C6845A8B825EC6F9E02FDE3&position=16",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14256GBLUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=F0F04482D07645081A94B5493A751A8B&position=29",
               "tradeVoucher": 242,
               "tradeCash": 187
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14256GSTUNLB",
+              "title": "Apple iPhone 14 256GB Starlight, Unlocked B",
+              "price": 425,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14256GSTUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=F0F04482D07645081A94B5493A751A8B&position=30",
+              "tradeVoucher": 242,
+              "tradeCash": 187
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14256GPUUNLB",
+              "title": "Apple iPhone 14 256GB Purple, Unlocked B",
+              "price": 425,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14256GPUUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=F0F04482D07645081A94B5493A751A8B&position=33",
+              "tradeVoucher": 242,
+              "tradeCash": 187
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14256GYEUNLB",
+              "title": "Apple iPhone 14 256GB Yellow, Unlocked B",
+              "price": 425,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14256GYEUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=541B49ED5C7A68C14EAC55226E0096CB&position=44",
+              "tradeVoucher": 242,
+              "tradeCash": 187
+            }
+          ]
+        },
+        "Apple Iphone 14 512GB": {
+          "variant": "Apple Iphone 14 512GB",
+          "storage": "512GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14512GMIUNLB",
+              "title": "Apple iPhone 14 512GB Midnight, Unlocked B",
+              "price": 475,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14512GMIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=541B49ED5C7A68C14EAC55226E0096CB&position=40",
+              "tradeVoucher": 270,
+              "tradeCash": 209
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14512GBLUNLB",
+              "title": "Apple iPhone 14 512GB Blue, Unlocked B",
+              "price": 475,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14512GBLUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=541B49ED5C7A68C14EAC55226E0096CB&position=47",
+              "tradeVoucher": 270,
+              "tradeCash": 209
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14512GYEUNLB",
+              "title": "Apple iPhone 14 512GB Yellow, Unlocked B",
+              "price": 475,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14512GYEUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=826D1488D92AB194B999C626110DB6AF&position=60",
+              "tradeVoucher": 270,
+              "tradeCash": 209
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14512GSTUNLB",
+              "title": "Apple iPhone 14 512GB Starlight, Unlocked B",
+              "price": 475,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14512GSTUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=826D1488D92AB194B999C626110DB6AF&position=61",
+              "tradeVoucher": 270,
+              "tradeCash": 209
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14512GPUUNLB",
+              "title": "Apple iPhone 14 512GB Purple, Unlocked B",
+              "price": 475,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14512GPUUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=826D1488D92AB194B999C626110DB6AF&position=62",
+              "tradeVoucher": 270,
+              "tradeCash": 209
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14512GPRUNLB",
+              "title": "Apple iPhone 14 512GB (PRODUCT)RED, Unlocked B",
+              "price": 475,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14512GPRUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=826D1488D92AB194B999C626110DB6AF&position=63",
+              "tradeVoucher": 270,
+              "tradeCash": 209
+            }
+          ]
+        }
+      }
+    },
+    "Apple Iphone 14 Pro Max": {
+      "model": "Apple Iphone 14 Pro Max",
+      "variants": {
+        "Apple Iphone 14 Pro Max 128GB": {
+          "variant": "Apple Iphone 14 Pro Max 128GB",
+          "storage": "128GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PM128GSBUNLB",
+              "title": "Apple iPhone 14 Pro Max 128GB Space Black, Unlocked B",
+              "price": 485,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM128GSBUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9BE2F9D322B5763838390C6F1EFA9CB6&position=2",
+              "tradeVoucher": 276,
+              "tradeCash": 213
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PM128GDPUNLB",
+              "title": "Apple iPhone 14 Pro Max 128GB Deep Purple, Unlocked B",
+              "price": 485,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM128GDPUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9BE2F9D322B5763838390C6F1EFA9CB6&position=3",
+              "tradeVoucher": 276,
+              "tradeCash": 213
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PM128GGOUNLB",
+              "title": "Apple iPhone 14 Pro Max 128GB Gold, Unlocked B",
+              "price": 485,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM128GGOUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9BE2F9D322B5763838390C6F1EFA9CB6&position=9",
+              "tradeVoucher": 276,
+              "tradeCash": 213
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PM128GSIUNLB",
+              "title": "Apple iPhone 14 Pro Max 128GB Silver, Unlocked B",
+              "price": 485,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM128GSIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9BE2F9D322B5763838390C6F1EFA9CB6&position=14",
+              "tradeVoucher": 276,
+              "tradeCash": 213
+            }
+          ]
+        },
+        "Apple Iphone 14 Pro Max 256GB": {
+          "variant": "Apple Iphone 14 Pro Max 256GB",
+          "storage": "256GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PM256GSBUNLB",
+              "title": "Apple iPhone 14 Pro Max 256GB Space Black, Unlocked B",
+              "price": 545,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM256GSBUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9BE2F9D322B5763838390C6F1EFA9CB6&position=12",
+              "tradeVoucher": 310,
+              "tradeCash": 239
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PM256GDPUNLB",
+              "title": "Apple iPhone 14 Pro Max 256GB Deep Purple, Unlocked B",
+              "price": 545,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM256GDPUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9BE2F9D322B5763838390C6F1EFA9CB6&position=13",
+              "tradeVoucher": 310,
+              "tradeCash": 239
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PM256GSIUNLB",
+              "title": "Apple iPhone 14 Pro Max 256GB Silver, Unlocked B",
+              "price": 545,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM256GSIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=F0F04482D07645081A94B5493A751A8B&position=23",
+              "tradeVoucher": 310,
+              "tradeCash": 239
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PM256GGOUNLB",
+              "title": "Apple iPhone 14 Pro Max 256GB Gold, Unlocked B",
+              "price": 545,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM256GGOUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=F0F04482D07645081A94B5493A751A8B&position=24",
+              "tradeVoucher": 310,
+              "tradeCash": 239
+            }
+          ]
+        },
+        "Apple Iphone 14 Pro Max 512GB": {
+          "variant": "Apple Iphone 14 Pro Max 512GB",
+          "storage": "512GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PM512GDPUNLB",
+              "title": "Apple iPhone 14 Pro Max 512GB Deep Purple, Unlocked B",
+              "price": 595,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM512GDPUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=F0F04482D07645081A94B5493A751A8B&position=34",
+              "tradeVoucher": 339,
+              "tradeCash": 261
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PM512GSBUNLB",
+              "title": "Apple iPhone 14 Pro Max 512GB Space Black, Unlocked B",
+              "price": 595,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM512GSBUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=541B49ED5C7A68C14EAC55226E0096CB&position=38",
+              "tradeVoucher": 339,
+              "tradeCash": 261
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PM512GGOUNLB",
+              "title": "Apple iPhone 14 Pro Max 512GB Gold, Unlocked B",
+              "price": 595,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM512GGOUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=541B49ED5C7A68C14EAC55226E0096CB&position=39",
+              "tradeVoucher": 339,
+              "tradeCash": 261
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PM512GSIUNLB",
+              "title": "Apple iPhone 14 Pro Max 512GB Silver, Unlocked B",
+              "price": 595,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM512GSIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=541B49ED5C7A68C14EAC55226E0096CB&position=42",
+              "tradeVoucher": 339,
+              "tradeCash": 261
+            }
+          ]
+        },
+        "Apple Iphone 14 Pro Max 1TB": {
+          "variant": "Apple Iphone 14 Pro Max 1TB",
+          "storage": "1TB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PM1TDPUNLB",
+              "title": "Apple iPhone 14 Pro Max 1TB Deep Purple, Unlocked B",
+              "price": 635,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM1TDPUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=01F9B82BA4B636A6943F5F5D2A06E52E&position=1",
+              "tradeVoucher": 361,
+              "tradeCash": 279
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PM1TSIUNLB",
+              "title": "Apple iPhone 14 Pro Max 1TB Silver, Unlocked B",
+              "price": 635,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM1TSIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=01F9B82BA4B636A6943F5F5D2A06E52E&position=2",
+              "tradeVoucher": 361,
+              "tradeCash": 279
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PM1TSBUNLB",
+              "title": "Apple iPhone 14 Pro Max 1TB Space Black, Unlocked B",
+              "price": 635,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM1TSBUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=01F9B82BA4B636A6943F5F5D2A06E52E&position=3",
+              "tradeVoucher": 361,
+              "tradeCash": 279
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PM1TGOUNLB",
+              "title": "Apple iPhone 14 Pro Max 1TB Gold, Unlocked B",
+              "price": 635,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM1TGOUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=01F9B82BA4B636A6943F5F5D2A06E52E&position=4",
+              "tradeVoucher": 361,
+              "tradeCash": 279
+            }
+          ]
+        }
+      }
+    },
+    "Apple Iphone 14 Pro": {
+      "model": "Apple Iphone 14 Pro",
+      "variants": {
+        "Apple Iphone 14 Pro 128GB": {
+          "variant": "Apple Iphone 14 Pro 128GB",
+          "storage": "128GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR128GSBUNLB",
+              "title": "Apple iPhone 14 Pro 128GB Space Black, Unlocked B",
+              "price": 430,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR128GSBUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9BE2F9D322B5763838390C6F1EFA9CB6&position=6",
+              "tradeVoucher": 245,
+              "tradeCash": 189
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR128GDPUNLB",
+              "title": "Apple iPhone 14 Pro 128GB Deep Purple, Unlocked B",
+              "price": 430,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR128GDPUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9BE2F9D322B5763838390C6F1EFA9CB6&position=7",
+              "tradeVoucher": 245,
+              "tradeCash": 189
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR128GSIUNLB",
+              "title": "Apple iPhone 14 Pro 128GB Silver, Unlocked B",
+              "price": 430,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR128GSIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=F0F04482D07645081A94B5493A751A8B&position=20",
+              "tradeVoucher": 245,
+              "tradeCash": 189
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR128GGOUNLB",
+              "title": "Apple iPhone 14 Pro 128GB Gold, Unlocked B",
+              "price": 430,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR128GGOUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=F0F04482D07645081A94B5493A751A8B&position=26",
+              "tradeVoucher": 245,
+              "tradeCash": 189
+            }
+          ]
+        },
+        "Apple Iphone 14 Pro 256GB": {
+          "variant": "Apple Iphone 14 Pro 256GB",
+          "storage": "256GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR256GDPUNLB",
+              "title": "Apple iPhone 14 Pro 256GB Deep Purple, Unlocked B",
+              "price": 485,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR256GDPUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9BE2F9D322B5763838390C6F1EFA9CB6&position=16",
+              "tradeVoucher": 276,
+              "tradeCash": 213
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR256GSBUNLB",
+              "title": "Apple iPhone 14 Pro 256GB Space Black, Unlocked B",
+              "price": 485,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR256GSBUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=F0F04482D07645081A94B5493A751A8B&position=19",
+              "tradeVoucher": 276,
+              "tradeCash": 213
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR256GGOUNLB",
+              "title": "Apple iPhone 14 Pro 256GB Gold, Unlocked B",
+              "price": 485,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR256GGOUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=F0F04482D07645081A94B5493A751A8B&position=22",
+              "tradeVoucher": 276,
+              "tradeCash": 213
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR256GSIUNLB",
+              "title": "Apple iPhone 14 Pro 256GB Silver, Unlocked B",
+              "price": 485,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR256GSIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=541B49ED5C7A68C14EAC55226E0096CB&position=43",
+              "tradeVoucher": 276,
+              "tradeCash": 213
+            }
+          ]
+        },
+        "Apple Iphone 14 Pro 512GB": {
+          "variant": "Apple Iphone 14 Pro 512GB",
+          "storage": "512GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR512GSBUNLB",
+              "title": "Apple iPhone 14 Pro 512GB Space Black, Unlocked B",
+              "price": 545,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR512GSBUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=541B49ED5C7A68C14EAC55226E0096CB&position=36",
+              "tradeVoucher": 310,
+              "tradeCash": 239
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR512GSIUNLB",
+              "title": "Apple iPhone 14 Pro 512GB Silver, Unlocked B",
+              "price": 545,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR512GSIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=541B49ED5C7A68C14EAC55226E0096CB&position=48",
+              "tradeVoucher": 310,
+              "tradeCash": 239
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR512GGOUNLB",
+              "title": "Apple iPhone 14 Pro 512GB Gold, Unlocked B",
+              "price": 545,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR512GGOUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=541B49ED5C7A68C14EAC55226E0096CB&position=49",
+              "tradeVoucher": 310,
+              "tradeCash": 239
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR512GDPUNLB",
+              "title": "Apple iPhone 14 Pro 512GB Deep Purple, Unlocked B",
+              "price": 545,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR512GDPUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=541B49ED5C7A68C14EAC55226E0096CB&position=50",
+              "tradeVoucher": 310,
+              "tradeCash": 239
+            }
+          ]
+        },
+        "Apple Iphone 14 Pro 1TB": {
+          "variant": "Apple Iphone 14 Pro 1TB",
+          "storage": "1TB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR1TSBUNLB",
+              "title": "Apple iPhone 14 Pro 1TB Space Black, Unlocked B",
+              "price": 600,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR1TSBUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=541B49ED5C7A68C14EAC55226E0096CB&position=45",
+              "tradeVoucher": 342,
+              "tradeCash": 264
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR1TGOUNLB",
+              "title": "Apple iPhone 14 Pro 1TB Gold, Unlocked B",
+              "price": 600,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR1TGOUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=541B49ED5C7A68C14EAC55226E0096CB&position=51",
+              "tradeVoucher": 342,
+              "tradeCash": 264
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR1TDPUNLB",
+              "title": "Apple iPhone 14 Pro 1TB Deep Purple, Unlocked B",
+              "price": 600,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR1TDPUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=826D1488D92AB194B999C626110DB6AF&position=52",
+              "tradeVoucher": 342,
+              "tradeCash": 264
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR1TSBUNLB",
+              "title": "Apple iPhone 14 Pro 1TB Space Black, Unlocked B",
+              "price": 600,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR1TSBUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=01F9B82BA4B636A6943F5F5D2A06E52E&position=5",
+              "tradeVoucher": 342,
+              "tradeCash": 264
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR1TSIUNLB",
+              "title": "Apple iPhone 14 Pro 1TB Silver, Unlocked B",
+              "price": 640,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR1TSIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=01F9B82BA4B636A6943F5F5D2A06E52E&position=6",
+              "tradeVoucher": 364,
+              "tradeCash": 281
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR1TGOUNLB",
+              "title": "Apple iPhone 14 Pro 1TB Gold, Unlocked B",
+              "price": 600,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR1TGOUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=01F9B82BA4B636A6943F5F5D2A06E52E&position=7",
+              "tradeVoucher": 342,
+              "tradeCash": 264
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PR1TDPUNLB",
+              "title": "Apple iPhone 14 Pro 1TB Deep Purple, Unlocked B",
+              "price": 600,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR1TDPUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=01F9B82BA4B636A6943F5F5D2A06E52E&position=8",
+              "tradeVoucher": 342,
+              "tradeCash": 264
             }
           ]
         }
@@ -198,16 +571,7 @@
               "id": "SAPPI14PL128GMIUNLB",
               "title": "Apple iPhone 14 Plus 128GB Midnight, Unlocked B",
               "price": 375,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL128GMIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=D5F7735916E15F542C3E95D1A7445792&position=5",
-              "tradeVoucher": 213,
-              "tradeCash": 165
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PL128GPUUNLB",
-              "title": "Apple iPhone 14 Plus 128GB Purple, Unlocked B",
-              "price": 375,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL128GPUUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=D5F7735916E15F542C3E95D1A7445792&position=7",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL128GMIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9BE2F9D322B5763838390C6F1EFA9CB6&position=11",
               "tradeVoucher": 213,
               "tradeCash": 165
             },
@@ -216,7 +580,16 @@
               "id": "SAPPI14PL128GBLUNLB",
               "title": "Apple iPhone 14 Plus 128GB Blue, Unlocked B",
               "price": 375,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL128GBLUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=D5F7735916E15F542C3E95D1A7445792&position=9",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL128GBLUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9BE2F9D322B5763838390C6F1EFA9CB6&position=17",
+              "tradeVoucher": 213,
+              "tradeCash": 165
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PL128GPUUNLB",
+              "title": "Apple iPhone 14 Plus 128GB Purple, Unlocked B",
+              "price": 375,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL128GPUUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=F0F04482D07645081A94B5493A751A8B&position=18",
               "tradeVoucher": 213,
               "tradeCash": 165
             },
@@ -225,16 +598,7 @@
               "id": "SAPPI14PL128GSTUNLB",
               "title": "Apple iPhone 14 Plus 128GB Starlight, Unlocked B",
               "price": 375,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL128GSTUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=D5F7735916E15F542C3E95D1A7445792&position=10",
-              "tradeVoucher": 213,
-              "tradeCash": 165
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PL128GPRUNLB",
-              "title": "Apple iPhone 14 Plus 128GB (PRODUCT)RED, Unlocked B",
-              "price": 375,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL128GPRUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=D5F7735916E15F542C3E95D1A7445792&position=11",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL128GSTUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=F0F04482D07645081A94B5493A751A8B&position=25",
               "tradeVoucher": 213,
               "tradeCash": 165
             },
@@ -243,9 +607,78 @@
               "id": "SAPPI14P128GYEUNLB",
               "title": "Apple iPhone 14 Plus 128GB Yellow, Unlocked B",
               "price": 375,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14P128GYEUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=D5F7735916E15F542C3E95D1A7445792&position=12",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14P128GYEUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=F0F04482D07645081A94B5493A751A8B&position=28",
               "tradeVoucher": 213,
               "tradeCash": 165
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PL128GPRUNLB",
+              "title": "Apple iPhone 14 Plus 128GB (PRODUCT)RED, Unlocked B",
+              "price": 375,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL128GPRUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=541B49ED5C7A68C14EAC55226E0096CB&position=35",
+              "tradeVoucher": 213,
+              "tradeCash": 165
+            }
+          ]
+        },
+        "Apple Iphone 14 Plus 256GB": {
+          "variant": "Apple Iphone 14 Plus 256GB",
+          "storage": "256GB",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PL256GMIUNLB",
+              "title": "Apple iPhone 14 Plus 256GB Midnight, Unlocked B",
+              "price": 450,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL256GMIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=F0F04482D07645081A94B5493A751A8B&position=31",
+              "tradeVoucher": 256,
+              "tradeCash": 198
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PL256GPUUNLB",
+              "title": "Apple iPhone 14 Plus 256GB Purple, Unlocked B",
+              "price": 450,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL256GPUUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=F0F04482D07645081A94B5493A751A8B&position=32",
+              "tradeVoucher": 256,
+              "tradeCash": 198
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PL256GBLUNLB",
+              "title": "Apple iPhone 14 Plus 256GB Blue, Unlocked B",
+              "price": 450,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL256GBLUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=541B49ED5C7A68C14EAC55226E0096CB&position=37",
+              "tradeVoucher": 256,
+              "tradeCash": 198
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PL256GSTUNLB",
+              "title": "Apple iPhone 14 Plus 256GB Starlight, Unlocked B",
+              "price": 450,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL256GSTUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=541B49ED5C7A68C14EAC55226E0096CB&position=41",
+              "tradeVoucher": 256,
+              "tradeCash": 198
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14PL256GPRUNLB",
+              "title": "Apple iPhone 14 Plus 256GB (PRODUCT)RED, Unlocked B",
+              "price": 450,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL256GPRUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=541B49ED5C7A68C14EAC55226E0096CB&position=46",
+              "tradeVoucher": 256,
+              "tradeCash": 198
+            },
+            {
+              "competitor": "CEX",
+              "id": "SAPPI14P256GYEUNLB",
+              "title": "Apple iPhone 14 Plus 256GB Yellow, Unlocked B",
+              "price": 450,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14P256GYEUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=826D1488D92AB194B999C626110DB6AF&position=59",
+              "tradeVoucher": 256,
+              "tradeCash": 198
             }
           ]
         },
@@ -258,7 +691,7 @@
               "id": "SAPPI14PL512GSTUNLB",
               "title": "Apple iPhone 14 Plus 512GB Starlight, Unlocked B",
               "price": 500,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL512GSTUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=4A4186EDE6A9B580039172D8E1030D0C&position=35",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL512GSTUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=826D1488D92AB194B999C626110DB6AF&position=53",
               "tradeVoucher": 285,
               "tradeCash": 220
             },
@@ -267,7 +700,7 @@
               "id": "SAPPI14PL512GPUUNLB",
               "title": "Apple iPhone 14 Plus 512GB Purple, Unlocked B",
               "price": 500,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL512GPUUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=4A4186EDE6A9B580039172D8E1030D0C&position=36",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL512GPUUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=826D1488D92AB194B999C626110DB6AF&position=54",
               "tradeVoucher": 285,
               "tradeCash": 220
             },
@@ -276,7 +709,7 @@
               "id": "SAPPI14PL512GPRUNLB",
               "title": "Apple iPhone 14 Plus 512GB (PRODUCT)RED, Unlocked B",
               "price": 500,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL512GPRUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=4A4186EDE6A9B580039172D8E1030D0C&position=37",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL512GPRUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=826D1488D92AB194B999C626110DB6AF&position=55",
               "tradeVoucher": 285,
               "tradeCash": 220
             },
@@ -285,16 +718,7 @@
               "id": "SAPPI14PL512GMIUNLB",
               "title": "Apple iPhone 14 Plus 512GB Midnight, Unlocked B",
               "price": 500,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL512GMIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=4A4186EDE6A9B580039172D8E1030D0C&position=38",
-              "tradeVoucher": 285,
-              "tradeCash": 220
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14P512GYEUNLB",
-              "title": "Apple iPhone 14 Plus 512GB Yellow, Unlocked B",
-              "price": 500,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14P512GYEUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=4A4186EDE6A9B580039172D8E1030D0C&position=39",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL512GMIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=826D1488D92AB194B999C626110DB6AF&position=56",
               "tradeVoucher": 285,
               "tradeCash": 220
             },
@@ -303,415 +727,18 @@
               "id": "SAPPI14PL512GBLUNLB",
               "title": "Apple iPhone 14 Plus 512GB Blue, Unlocked B",
               "price": 500,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL512GBLUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9DD0ADAE35A4D6E1F71991CD585D336D&position=25",
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL512GBLUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=826D1488D92AB194B999C626110DB6AF&position=57",
               "tradeVoucher": 285,
               "tradeCash": 220
-            }
-          ]
-        },
-        "Apple Iphone 14 Plus 256GB": {
-          "variant": "Apple Iphone 14 Plus 256GB",
-          "storage": "256GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PL256GBLUNLB",
-              "title": "Apple iPhone 14 Plus 256GB Blue, Unlocked B",
-              "price": 450,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL256GBLUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9DD0ADAE35A4D6E1F71991CD585D336D&position=20",
-              "tradeVoucher": 256,
-              "tradeCash": 198
             },
             {
               "competitor": "CEX",
-              "id": "SAPPI14PL256GPRUNLB",
-              "title": "Apple iPhone 14 Plus 256GB (PRODUCT)RED, Unlocked B",
-              "price": 450,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL256GPRUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9DD0ADAE35A4D6E1F71991CD585D336D&position=23",
-              "tradeVoucher": 256,
-              "tradeCash": 198
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PL256GMIUNLB",
-              "title": "Apple iPhone 14 Plus 256GB Midnight, Unlocked B",
-              "price": 450,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL256GMIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9DD0ADAE35A4D6E1F71991CD585D336D&position=24",
-              "tradeVoucher": 256,
-              "tradeCash": 198
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PL256GPUUNLB",
-              "title": "Apple iPhone 14 Plus 256GB Purple, Unlocked B",
-              "price": 450,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL256GPUUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9DD0ADAE35A4D6E1F71991CD585D336D&position=26",
-              "tradeVoucher": 256,
-              "tradeCash": 198
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14P256GYEUNLB",
-              "title": "Apple iPhone 14 Plus 256GB Yellow, Unlocked B",
-              "price": 450,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14P256GYEUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9DD0ADAE35A4D6E1F71991CD585D336D&position=27",
-              "tradeVoucher": 256,
-              "tradeCash": 198
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PL256GSTUNLB",
-              "title": "Apple iPhone 14 Plus 256GB Starlight, Unlocked B",
-              "price": 450,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PL256GSTUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9DD0ADAE35A4D6E1F71991CD585D336D&position=30",
-              "tradeVoucher": 256,
-              "tradeCash": 198
-            }
-          ]
-        }
-      }
-    },
-    "Apple Iphone 14 Pro": {
-      "model": "Apple Iphone 14 Pro",
-      "variants": {
-        "Apple Iphone 14 Pro 512GB": {
-          "variant": "Apple Iphone 14 Pro 512GB",
-          "storage": "512GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PR512GSBUNLB",
-              "title": "Apple iPhone 14 Pro 512GB Space Black, Unlocked B",
-              "price": 585,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR512GSBUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9DD0ADAE35A4D6E1F71991CD585D336D&position=19",
-              "tradeVoucher": 333,
-              "tradeCash": 257
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PR512GDPUNLB",
-              "title": "Apple iPhone 14 Pro 512GB Deep Purple, Unlocked B",
-              "price": 585,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR512GDPUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9DD0ADAE35A4D6E1F71991CD585D336D&position=22",
-              "tradeVoucher": 333,
-              "tradeCash": 257
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PR512GSIUNLB",
-              "title": "Apple iPhone 14 Pro 512GB Silver, Unlocked B",
-              "price": 585,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR512GSIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9DD0ADAE35A4D6E1F71991CD585D336D&position=32",
-              "tradeVoucher": 333,
-              "tradeCash": 257
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PR512GGOUNLB",
-              "title": "Apple iPhone 14 Pro 512GB Gold, Unlocked B",
-              "price": 585,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR512GGOUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9DD0ADAE35A4D6E1F71991CD585D336D&position=33",
-              "tradeVoucher": 333,
-              "tradeCash": 257
-            }
-          ]
-        },
-        "Apple Iphone 14 Pro 256GB": {
-          "variant": "Apple Iphone 14 Pro 256GB",
-          "storage": "256GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PR256GSIUNLB",
-              "title": "Apple iPhone 14 Pro 256GB Silver, Unlocked B",
-              "price": 525,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR256GSIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=9DD0ADAE35A4D6E1F71991CD585D336D&position=34",
-              "tradeVoucher": 299,
-              "tradeCash": 231
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PR256GSBUNLB",
-              "title": "Apple iPhone 14 Pro 256GB Space Black, Unlocked B",
-              "price": 525,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR256GSBUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=913EDB3D7C6845A8B825EC6F9E02FDE3&position=9",
-              "tradeVoucher": 299,
-              "tradeCash": 231
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PR256GDPUNLB",
-              "title": "Apple iPhone 14 Pro 256GB Deep Purple, Unlocked B",
-              "price": 525,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR256GDPUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=913EDB3D7C6845A8B825EC6F9E02FDE3&position=10",
-              "tradeVoucher": 299,
-              "tradeCash": 231
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PR256GGOUNLB",
-              "title": "Apple iPhone 14 Pro 256GB Gold, Unlocked B",
-              "price": 525,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR256GGOUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=913EDB3D7C6845A8B825EC6F9E02FDE3&position=17",
-              "tradeVoucher": 299,
-              "tradeCash": 231
-            }
-          ]
-        },
-        "Apple Iphone 14 Pro 128GB": {
-          "variant": "Apple Iphone 14 Pro 128GB",
-          "storage": "128GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PR128GSBUNLB",
-              "title": "Apple iPhone 14 Pro 128GB Space Black, Unlocked B",
-              "price": 470,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR128GSBUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=913EDB3D7C6845A8B825EC6F9E02FDE3&position=3",
-              "tradeVoucher": 267,
-              "tradeCash": 206
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PR128GDPUNLB",
-              "title": "Apple iPhone 14 Pro 128GB Deep Purple, Unlocked B",
-              "price": 470,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR128GDPUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=913EDB3D7C6845A8B825EC6F9E02FDE3&position=4",
-              "tradeVoucher": 267,
-              "tradeCash": 206
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PR128GGOUNLB",
-              "title": "Apple iPhone 14 Pro 128GB Gold, Unlocked B",
-              "price": 470,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR128GGOUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=913EDB3D7C6845A8B825EC6F9E02FDE3&position=11",
-              "tradeVoucher": 267,
-              "tradeCash": 206
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PR128GSIUNLB",
-              "title": "Apple iPhone 14 Pro 128GB Silver, Unlocked B",
-              "price": 470,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR128GSIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=913EDB3D7C6845A8B825EC6F9E02FDE3&position=12",
-              "tradeVoucher": 267,
-              "tradeCash": 206
-            }
-          ]
-        },
-        "Apple Iphone 14 Pro 1TB": {
-          "variant": "Apple Iphone 14 Pro 1TB",
-          "storage": "1TB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PR1TSBUNLB",
-              "title": "Apple iPhone 14 Pro 1TB Space Black, Unlocked B",
-              "price": 640,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR1TSBUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=905D5C242F96EA5841F5D87CC7087DEC&position=6",
-              "tradeVoucher": 364,
-              "tradeCash": 281
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PR1TGOUNLB",
-              "title": "Apple iPhone 14 Pro 1TB Gold, Unlocked B",
-              "price": 640,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR1TGOUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=905D5C242F96EA5841F5D87CC7087DEC&position=8",
-              "tradeVoucher": 364,
-              "tradeCash": 281
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PR1TSIUNLB",
-              "title": "Apple iPhone 14 Pro 1TB Silver, Unlocked B",
-              "price": 680,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR1TSIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=905D5C242F96EA5841F5D87CC7087DEC&position=10",
-              "tradeVoucher": 387,
-              "tradeCash": 299
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PR1TDPUNLB",
-              "title": "Apple iPhone 14 Pro 1TB Deep Purple, Unlocked B",
-              "price": 640,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PR1TDPUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=905D5C242F96EA5841F5D87CC7087DEC&position=11",
-              "tradeVoucher": 364,
-              "tradeCash": 281
-            }
-          ]
-        }
-      }
-    },
-    "Apple Iphone 14 Pro Max": {
-      "model": "Apple Iphone 14 Pro Max",
-      "variants": {
-        "Apple Iphone 14 Pro Max 128GB": {
-          "variant": "Apple Iphone 14 Pro Max 128GB",
-          "storage": "128GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PM128GSBUNLB",
-              "title": "Apple iPhone 14 Pro Max 128GB Space Black, Unlocked B",
-              "price": 540,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM128GSBUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=913EDB3D7C6845A8B825EC6F9E02FDE3&position=1",
-              "tradeVoucher": 361,
-              "tradeCash": 291
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PM128GDPUNLB",
-              "title": "Apple iPhone 14 Pro Max 128GB Deep Purple, Unlocked B",
-              "price": 540,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM128GDPUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=913EDB3D7C6845A8B825EC6F9E02FDE3&position=2",
-              "tradeVoucher": 361,
-              "tradeCash": 291
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PM128GGOUNLB",
-              "title": "Apple iPhone 14 Pro Max 128GB Gold, Unlocked B",
-              "price": 540,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM128GGOUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=913EDB3D7C6845A8B825EC6F9E02FDE3&position=6",
-              "tradeVoucher": 361,
-              "tradeCash": 291
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PM128GSIUNLB",
-              "title": "Apple iPhone 14 Pro Max 128GB Silver, Unlocked B",
-              "price": 540,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM128GSIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=913EDB3D7C6845A8B825EC6F9E02FDE3&position=7",
-              "tradeVoucher": 361,
-              "tradeCash": 291
-            }
-          ]
-        },
-        "Apple Iphone 14 Pro Max 256GB": {
-          "variant": "Apple Iphone 14 Pro Max 256GB",
-          "storage": "256GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PM256GDPUNLB",
-              "title": "Apple iPhone 14 Pro Max 256GB Deep Purple, Unlocked B",
-              "price": 600,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM256GDPUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=913EDB3D7C6845A8B825EC6F9E02FDE3&position=5",
-              "tradeVoucher": 402,
-              "tradeCash": 324
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PM256GSBUNLB",
-              "title": "Apple iPhone 14 Pro Max 256GB Space Black, Unlocked B",
-              "price": 600,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM256GSBUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=913EDB3D7C6845A8B825EC6F9E02FDE3&position=8",
-              "tradeVoucher": 402,
-              "tradeCash": 324
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PM256GSIUNLB",
-              "title": "Apple iPhone 14 Pro Max 256GB Silver, Unlocked B",
-              "price": 600,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM256GSIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=913EDB3D7C6845A8B825EC6F9E02FDE3&position=13",
-              "tradeVoucher": 402,
-              "tradeCash": 324
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PM256GGOUNLB",
-              "title": "Apple iPhone 14 Pro Max 256GB Gold, Unlocked B",
-              "price": 600,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM256GGOUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=913EDB3D7C6845A8B825EC6F9E02FDE3&position=15",
-              "tradeVoucher": 402,
-              "tradeCash": 324
-            }
-          ]
-        },
-        "Apple Iphone 14 Pro Max 1TB": {
-          "variant": "Apple Iphone 14 Pro Max 1TB",
-          "storage": "1TB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PM1TDPUNLB",
-              "title": "Apple iPhone 14 Pro Max 1TB Deep Purple, Unlocked B",
-              "price": 690,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM1TDPUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=905D5C242F96EA5841F5D87CC7087DEC&position=1",
-              "tradeVoucher": 462,
-              "tradeCash": 372
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PM1TSBUNLB",
-              "title": "Apple iPhone 14 Pro Max 1TB Space Black, Unlocked B",
-              "price": 690,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM1TSBUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=905D5C242F96EA5841F5D87CC7087DEC&position=2",
-              "tradeVoucher": 462,
-              "tradeCash": 372
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PM1TGOUNLB",
-              "title": "Apple iPhone 14 Pro Max 1TB Gold, Unlocked B",
-              "price": 690,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM1TGOUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=905D5C242F96EA5841F5D87CC7087DEC&position=7",
-              "tradeVoucher": 462,
-              "tradeCash": 372
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PM1TSIUNLB",
-              "title": "Apple iPhone 14 Pro Max 1TB Silver, Unlocked B",
-              "price": 690,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM1TSIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=905D5C242F96EA5841F5D87CC7087DEC&position=12",
-              "tradeVoucher": 462,
-              "tradeCash": 372
-            }
-          ]
-        },
-        "Apple Iphone 14 Pro Max 512GB": {
-          "variant": "Apple Iphone 14 Pro Max 512GB",
-          "storage": "512GB",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PM512GDPUNLB",
-              "title": "Apple iPhone 14 Pro Max 512GB Deep Purple, Unlocked B",
-              "price": 650,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM512GDPUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=905D5C242F96EA5841F5D87CC7087DEC&position=3",
-              "tradeVoucher": 435,
-              "tradeCash": 351
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PM512GSBUNLB",
-              "title": "Apple iPhone 14 Pro Max 512GB Space Black, Unlocked B",
-              "price": 650,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM512GSBUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=905D5C242F96EA5841F5D87CC7087DEC&position=4",
-              "tradeVoucher": 435,
-              "tradeCash": 351
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PM512GGOUNLB",
-              "title": "Apple iPhone 14 Pro Max 512GB Gold, Unlocked B",
-              "price": 650,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM512GGOUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=905D5C242F96EA5841F5D87CC7087DEC&position=5",
-              "tradeVoucher": 435,
-              "tradeCash": 351
-            },
-            {
-              "competitor": "CEX",
-              "id": "SAPPI14PM512GSIUNLB",
-              "title": "Apple iPhone 14 Pro Max 512GB Silver, Unlocked B",
-              "price": 650,
-              "url": "https://uk.webuy.com/product-detail?id=SAPPI14PM512GSIUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=905D5C242F96EA5841F5D87CC7087DEC&position=9",
-              "tradeVoucher": 435,
-              "tradeCash": 351
+              "id": "SAPPI14P512GYEUNLB",
+              "title": "Apple iPhone 14 Plus 512GB Yellow, Unlocked B",
+              "price": 500,
+              "url": "https://uk.webuy.com/product-detail?id=SAPPI14P512GYEUNLB&categoryName=IPHONE-14&superCatName=PHONES&title=&queryID=826D1488D92AB194B999C626110DB6AF&position=58",
+              "tradeVoucher": 285,
+              "tradeCash": 220
             }
           ]
         }

@@ -1,134 +1,6 @@
 {
   "competitor": "CEX",
   "models": {
-    "Xbox Series S": {
-      "model": "Xbox Series S",
-      "variants": {
-        "Xbox Series S 512GB unboxed": {
-          "variant": "Xbox Series S 512GB unboxed",
-          "storage": "512GB",
-          "condition": "unboxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXSS512GBW002",
-              "title": "Xbox Series S Console, 512GB, White, Unboxed",
-              "price": 240,
-              "url": "https://uk.webuy.com/product-detail?id=SXSS512GBW002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=F47F59A7B2653609143BB5AB46591FBE&position=1",
-              "tradeVoucher": 156,
-              "tradeCash": 110
-            }
-          ]
-        },
-        "Xbox Series S 512GB boxed": {
-          "variant": "Xbox Series S 512GB boxed",
-          "storage": "512GB",
-          "condition": "boxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXSS512GBW001",
-              "title": "Xbox Series S Console, 512GB, White, Boxed",
-              "price": 250,
-              "url": "https://uk.webuy.com/product-detail?id=SXSS512GBW001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=F47F59A7B2653609143BB5AB46591FBE&position=2",
-              "tradeVoucher": 162,
-              "tradeCash": 115
-            }
-          ]
-        },
-        "Xbox Series S 512GB discounted": {
-          "variant": "Xbox Series S 512GB discounted",
-          "storage": "512GB",
-          "condition": "discounted",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXSS512GBW003",
-              "title": "Xbox Series S Console, 512GB, White, Discounted",
-              "price": 225,
-              "url": "https://uk.webuy.com/product-detail?id=SXSS512GBW003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=F47F59A7B2653609143BB5AB46591FBE&position=3",
-              "tradeVoucher": 146,
-              "tradeCash": 103
-            }
-          ]
-        },
-        "Xbox Series S 1TB boxed": {
-          "variant": "Xbox Series S 1TB boxed",
-          "storage": "1TB",
-          "condition": "boxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXSS1TBRW001",
-              "title": "Xbox Series S Console, 1TB, Robot White, Boxed",
-              "price": 310,
-              "url": "https://uk.webuy.com/product-detail?id=SXSS1TBRW001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=F47F59A7B2653609143BB5AB46591FBE&position=4",
-              "tradeVoucher": 201,
-              "tradeCash": 142
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXSS1TBB001",
-              "title": "Xbox Series S Console, 1TB, Carbon Black, Boxed",
-              "price": 320,
-              "url": "https://uk.webuy.com/product-detail?id=SXSS1TBB001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=F47F59A7B2653609143BB5AB46591FBE&position=9",
-              "tradeVoucher": 208,
-              "tradeCash": 147
-            }
-          ]
-        },
-        "Xbox Series S 1TB unboxed": {
-          "variant": "Xbox Series S 1TB unboxed",
-          "storage": "1TB",
-          "condition": "unboxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXSS1TBRW002",
-              "title": "Xbox Series S Console, 1TB, Robot White, Unboxed",
-              "price": 300,
-              "url": "https://uk.webuy.com/product-detail?id=SXSS1TBRW002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=F47F59A7B2653609143BB5AB46591FBE&position=6",
-              "tradeVoucher": 195,
-              "tradeCash": 138
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXSS1TBB002",
-              "title": "Xbox Series S Console, 1TB, Carbon Black, Unboxed",
-              "price": 310,
-              "url": "https://uk.webuy.com/product-detail?id=SXSS1TBB002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=F47F59A7B2653609143BB5AB46591FBE&position=7",
-              "tradeVoucher": 201,
-              "tradeCash": 142
-            }
-          ]
-        },
-        "Xbox Series S 1TB discounted": {
-          "variant": "Xbox Series S 1TB discounted",
-          "storage": "1TB",
-          "condition": "discounted",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXSS1TBB003",
-              "title": "Xbox Series S Console, 1TB, Carbon Black, Discounted",
-              "price": 300,
-              "url": "https://uk.webuy.com/product-detail?id=SXSS1TBB003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=F47F59A7B2653609143BB5AB46591FBE&position=8",
-              "tradeVoucher": 195,
-              "tradeCash": 138
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXSS1TBRW003",
-              "title": "Xbox Series S Console, 1TB, Robot White, Discounted",
-              "price": 290,
-              "url": "https://uk.webuy.com/product-detail?id=SXSS1TBRW003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=F47F59A7B2653609143BB5AB46591FBE&position=10",
-              "tradeVoucher": 188,
-              "tradeCash": 133
-            }
-          ]
-        }
-      }
-    },
     "Xbox Series X": {
       "model": "Xbox Series X",
       "variants": {
@@ -139,10 +11,19 @@
           "listings": [
             {
               "competitor": "CEX",
+              "id": "SXSX1TBHB002",
+              "title": "Xbox Series X Console, 1TB, Halo Infinite Black, (No Game), Unboxed",
+              "price": 490,
+              "url": "https://uk.webuy.com/product-detail?id=SXSX1TBHB002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=49E596EF085377BA8823A7D6EBA77EE3&position=18",
+              "tradeVoucher": 362,
+              "tradeCash": 313
+            },
+            {
+              "competitor": "CEX",
               "id": "SXSX1TBB002",
               "title": "Xbox Series X Console, 1TB, Black, Unboxed",
               "price": 400,
-              "url": "https://uk.webuy.com/product-detail?id=SXSX1TBB002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=F47F59A7B2653609143BB5AB46591FBE&position=5",
+              "url": "https://uk.webuy.com/product-detail?id=SXSX1TBB002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=1CF59963309BA9AFABDEDF76AB9CC1B8&position=5",
               "tradeVoucher": 276,
               "tradeCash": 228
             },
@@ -151,52 +32,9 @@
               "id": "SXSXAD1TBRW002",
               "title": "Xbox Series X All-Digital Console, 1TB, Robot White, Unboxed",
               "price": 400,
-              "url": "https://uk.webuy.com/product-detail?id=SXSXAD1TBRW002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=F47F59A7B2653609143BB5AB46591FBE&position=12",
+              "url": "https://uk.webuy.com/product-detail?id=SXSXAD1TBRW002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=1CF59963309BA9AFABDEDF76AB9CC1B8&position=15",
               "tradeVoucher": 260,
               "tradeCash": 184
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXSX1TBHB002",
-              "title": "Xbox Series X Console, 1TB, Halo Infinite Black, (No Game), Unboxed",
-              "price": 490,
-              "url": "https://uk.webuy.com/product-detail?id=SXSX1TBHB002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=42BB52032B8EDE56F12CEEC1A1252135&position=5",
-              "tradeVoucher": 362,
-              "tradeCash": 313
-            }
-          ]
-        },
-        "Xbox Series X 1TB discounted": {
-          "variant": "Xbox Series X 1TB discounted",
-          "storage": "1TB",
-          "condition": "discounted",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SXSX1TBB003",
-              "title": "Xbox Series X Console, 1TB, Black, Discounted",
-              "price": 385,
-              "url": "https://uk.webuy.com/product-detail?id=SXSX1TBB003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=F47F59A7B2653609143BB5AB46591FBE&position=11",
-              "tradeVoucher": 265,
-              "tradeCash": 219
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXSXAD1TBRW003",
-              "title": "Xbox Series X All-Digital Console, 1TB, Robot White, Discounted",
-              "price": 390,
-              "url": "https://uk.webuy.com/product-detail?id=SXSXAD1TBRW003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=F47F59A7B2653609143BB5AB46591FBE&position=13",
-              "tradeVoucher": 253,
-              "tradeCash": 179
-            },
-            {
-              "competitor": "CEX",
-              "id": "SXSX1TBHB003",
-              "title": "Xbox Series X Console, 1TB, Halo Infinite Black, (No Game), Discounted",
-              "price": 440,
-              "url": "https://uk.webuy.com/product-detail?id=SXSX1TBHB003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=42BB52032B8EDE56F12CEEC1A1252135&position=4",
-              "tradeVoucher": 303,
-              "tradeCash": 250
             }
           ]
         },
@@ -210,7 +48,7 @@
               "id": "SXSX1TBB001",
               "title": "Xbox Series X Console, 1TB, Black, Boxed",
               "price": 410,
-              "url": "https://uk.webuy.com/product-detail?id=SXSX1TBB001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=42BB52032B8EDE56F12CEEC1A1252135&position=1",
+              "url": "https://uk.webuy.com/product-detail?id=SXSX1TBB001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=1CF59963309BA9AFABDEDF76AB9CC1B8&position=11",
               "tradeVoucher": 282,
               "tradeCash": 233
             },
@@ -219,7 +57,7 @@
               "id": "SXSXAD1TBRW001",
               "title": "Xbox Series X All-Digital Console, 1TB, Robot White, Boxed",
               "price": 410,
-              "url": "https://uk.webuy.com/product-detail?id=SXSXAD1TBRW001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=42BB52032B8EDE56F12CEEC1A1252135&position=2",
+              "url": "https://uk.webuy.com/product-detail?id=SXSXAD1TBRW001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=1CF59963309BA9AFABDEDF76AB9CC1B8&position=13",
               "tradeVoucher": 266,
               "tradeCash": 188
             },
@@ -228,9 +66,43 @@
               "id": "SXSX1TBHB001",
               "title": "Xbox Series X Console, 1TB, Halo Infinite Black, (No Game), Boxed",
               "price": 520,
-              "url": "https://uk.webuy.com/product-detail?id=SXSX1TBHB001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=42BB52032B8EDE56F12CEEC1A1252135&position=3",
+              "url": "https://uk.webuy.com/product-detail?id=SXSX1TBHB001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=1CF59963309BA9AFABDEDF76AB9CC1B8&position=14",
               "tradeVoucher": 384,
               "tradeCash": 332
+            }
+          ]
+        },
+        "Xbox Series X 1TB discounted": {
+          "variant": "Xbox Series X 1TB discounted",
+          "storage": "1TB",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXSX1TBB003",
+              "title": "Xbox Series X Console, 1TB, Black, Discounted",
+              "price": 385,
+              "url": "https://uk.webuy.com/product-detail?id=SXSX1TBB003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=1CF59963309BA9AFABDEDF76AB9CC1B8&position=12",
+              "tradeVoucher": 265,
+              "tradeCash": 219
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXSX1TBHB003",
+              "title": "Xbox Series X Console, 1TB, Halo Infinite Black, (No Game), Discounted",
+              "price": 440,
+              "url": "https://uk.webuy.com/product-detail?id=SXSX1TBHB003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=1CF59963309BA9AFABDEDF76AB9CC1B8&position=16",
+              "tradeVoucher": 303,
+              "tradeCash": 250
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXSXAD1TBRW003",
+              "title": "Xbox Series X All-Digital Console, 1TB, Robot White, Discounted",
+              "price": 390,
+              "url": "https://uk.webuy.com/product-detail?id=SXSXAD1TBRW003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=1CF59963309BA9AFABDEDF76AB9CC1B8&position=17",
+              "tradeVoucher": 253,
+              "tradeCash": 179
             }
           ]
         },
@@ -244,7 +116,7 @@
               "id": "SXSX2TBGB001",
               "title": "Xbox Series X Console, 2TB, Galaxy Black, Boxed",
               "price": 690,
-              "url": "https://uk.webuy.com/product-detail?id=SXSX2TBGB001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=AB395EDE94A0CBD0F51B36B1037EC3C8&position=1",
+              "url": "https://uk.webuy.com/product-detail?id=SXSX2TBGB001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=747AB04A2726F1F2C6D09055EDC70D36&position=1",
               "tradeVoucher": 476,
               "tradeCash": 393
             }
@@ -260,7 +132,7 @@
               "id": "SXSX2TBGB002",
               "title": "Xbox Series X Console, 2TB, Galaxy Black, Unboxed",
               "price": 650,
-              "url": "https://uk.webuy.com/product-detail?id=SXSX2TBGB002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=AB395EDE94A0CBD0F51B36B1037EC3C8&position=2",
+              "url": "https://uk.webuy.com/product-detail?id=SXSX2TBGB002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=747AB04A2726F1F2C6D09055EDC70D36&position=2",
               "tradeVoucher": 448,
               "tradeCash": 370
             }
@@ -276,9 +148,137 @@
               "id": "SXSX2TBGB003",
               "title": "Xbox Series X Console, 2TB, Galaxy Black, Discounted",
               "price": 620,
-              "url": "https://uk.webuy.com/product-detail?id=SXSX2TBGB003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=AB395EDE94A0CBD0F51B36B1037EC3C8&position=3",
+              "url": "https://uk.webuy.com/product-detail?id=SXSX2TBGB003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=747AB04A2726F1F2C6D09055EDC70D36&position=3",
               "tradeVoucher": 427,
               "tradeCash": 353
+            }
+          ]
+        }
+      }
+    },
+    "Xbox Series S": {
+      "model": "Xbox Series S",
+      "variants": {
+        "Xbox Series S 512GB unboxed": {
+          "variant": "Xbox Series S 512GB unboxed",
+          "storage": "512GB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXSS512GBW002",
+              "title": "Xbox Series S Console, 512GB, White, Unboxed",
+              "price": 240,
+              "url": "https://uk.webuy.com/product-detail?id=SXSS512GBW002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=1CF59963309BA9AFABDEDF76AB9CC1B8&position=1",
+              "tradeVoucher": 156,
+              "tradeCash": 110
+            }
+          ]
+        },
+        "Xbox Series S 512GB boxed": {
+          "variant": "Xbox Series S 512GB boxed",
+          "storage": "512GB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXSS512GBW001",
+              "title": "Xbox Series S Console, 512GB, White, Boxed",
+              "price": 250,
+              "url": "https://uk.webuy.com/product-detail?id=SXSS512GBW001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=1CF59963309BA9AFABDEDF76AB9CC1B8&position=2",
+              "tradeVoucher": 162,
+              "tradeCash": 115
+            }
+          ]
+        },
+        "Xbox Series S 512GB discounted": {
+          "variant": "Xbox Series S 512GB discounted",
+          "storage": "512GB",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXSS512GBW003",
+              "title": "Xbox Series S Console, 512GB, White, Discounted",
+              "price": 225,
+              "url": "https://uk.webuy.com/product-detail?id=SXSS512GBW003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=1CF59963309BA9AFABDEDF76AB9CC1B8&position=3",
+              "tradeVoucher": 146,
+              "tradeCash": 103
+            }
+          ]
+        },
+        "Xbox Series S 1TB unboxed": {
+          "variant": "Xbox Series S 1TB unboxed",
+          "storage": "1TB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXSS1TBRW002",
+              "title": "Xbox Series S Console, 1TB, Robot White, Unboxed",
+              "price": 300,
+              "url": "https://uk.webuy.com/product-detail?id=SXSS1TBRW002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=1CF59963309BA9AFABDEDF76AB9CC1B8&position=4",
+              "tradeVoucher": 195,
+              "tradeCash": 138
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXSS1TBB002",
+              "title": "Xbox Series S Console, 1TB, Carbon Black, Unboxed",
+              "price": 310,
+              "url": "https://uk.webuy.com/product-detail?id=SXSS1TBB002&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=1CF59963309BA9AFABDEDF76AB9CC1B8&position=6",
+              "tradeVoucher": 201,
+              "tradeCash": 142
+            }
+          ]
+        },
+        "Xbox Series S 1TB boxed": {
+          "variant": "Xbox Series S 1TB boxed",
+          "storage": "1TB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXSS1TBB001",
+              "title": "Xbox Series S Console, 1TB, Carbon Black, Boxed",
+              "price": 320,
+              "url": "https://uk.webuy.com/product-detail?id=SXSS1TBB001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=1CF59963309BA9AFABDEDF76AB9CC1B8&position=7",
+              "tradeVoucher": 208,
+              "tradeCash": 147
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXSS1TBRW001",
+              "title": "Xbox Series S Console, 1TB, Robot White, Boxed",
+              "price": 310,
+              "url": "https://uk.webuy.com/product-detail?id=SXSS1TBRW001&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=1CF59963309BA9AFABDEDF76AB9CC1B8&position=8",
+              "tradeVoucher": 201,
+              "tradeCash": 142
+            }
+          ]
+        },
+        "Xbox Series S 1TB discounted": {
+          "variant": "Xbox Series S 1TB discounted",
+          "storage": "1TB",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SXSS1TBB003",
+              "title": "Xbox Series S Console, 1TB, Carbon Black, Discounted",
+              "price": 300,
+              "url": "https://uk.webuy.com/product-detail?id=SXSS1TBB003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=1CF59963309BA9AFABDEDF76AB9CC1B8&position=9",
+              "tradeVoucher": 195,
+              "tradeCash": 138
+            },
+            {
+              "competitor": "CEX",
+              "id": "SXSS1TBRW003",
+              "title": "Xbox Series S Console, 1TB, Robot White, Discounted",
+              "price": 290,
+              "url": "https://uk.webuy.com/product-detail?id=SXSS1TBRW003&categoryName=XBOX-SERIES-CONSOLES&superCatName=GAMING&title=&queryID=1CF59963309BA9AFABDEDF76AB9CC1B8&position=10",
+              "tradeVoucher": 188,
+              "tradeCash": 133
             }
           ]
         }

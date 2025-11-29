@@ -1,313 +1,50 @@
 {
   "competitor": "CEX",
   "models": {
-    "PlayStation 5": {
-      "model": "PlayStation 5",
-      "variants": {
-        "PlayStation 5 825GB discounted": {
-          "variant": "PlayStation 5 825GB discounted",
-          "storage": "825GB",
-          "condition": "discounted",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SPS5825GBSS003",
-              "title": "Playstation 5 Console, 825GB, Sterling Silver, Discounted",
-              "price": 385,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBSS003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=C1864867CF6EE8571831B3D01BB9C887&position=35",
-              "tradeVoucher": 284,
-              "tradeCash": 246
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5825GBW003",
-              "title": "Playstation 5 Console, 825GB, White, Discounted",
-              "price": 385,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBW003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=7695D2141DD79B80C5685E614A8984EF&position=3",
-              "tradeVoucher": 284,
-              "tradeCash": 246
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5825GBSM2003",
-              "title": "Playstation 5 Console, 825GB, Spider-Man, Discounted",
-              "price": 385,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBSM2003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=7695D2141DD79B80C5685E614A8984EF&position=7",
-              "tradeVoucher": 284,
-              "tradeCash": 246
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5825GBMB003",
-              "title": "Playstation 5 Console, 825GB, Midnight Black, Discounted",
-              "price": 385,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBMB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=7695D2141DD79B80C5685E614A8984EF&position=12",
-              "tradeVoucher": 284,
-              "tradeCash": 246
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5825GBCB003",
-              "title": "Playstation 5 Console, 825GB, Cobalt Blue, Discounted",
-              "price": 385,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBCB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=7695D2141DD79B80C5685E614A8984EF&position=14",
-              "tradeVoucher": 284,
-              "tradeCash": 246
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5825GBCR003",
-              "title": "Playstation 5 Console, 825GB, Cosmic Red, Discounted",
-              "price": 385,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBCR003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=7695D2141DD79B80C5685E614A8984EF&position=15",
-              "tradeVoucher": 284,
-              "tradeCash": 246
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5825GBNP003",
-              "title": "Playstation 5 Console, 825GB, Nova Pink, Discounted",
-              "price": 385,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBNP003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=7695D2141DD79B80C5685E614A8984EF&position=17",
-              "tradeVoucher": 284,
-              "tradeCash": 246
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5825GBVR003",
-              "title": "Playstation 5 Console, 825GB, Volcanic Red, Discounted",
-              "price": 385,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBVR003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9B0663A67B9D63D039B322095F31AC94&position=19",
-              "tradeVoucher": 284,
-              "tradeCash": 246
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5825GBSB003",
-              "title": "Playstation 5 Console, 825GB, Starlight Blue, Discounted",
-              "price": 385,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBSB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9B0663A67B9D63D039B322095F31AC94&position=20",
-              "tradeVoucher": 284,
-              "tradeCash": 246
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5825GBGP003",
-              "title": "Playstation 5 Console, 825GB, Galactic Purple, Discounted",
-              "price": 385,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBGP003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9B0663A67B9D63D039B322095F31AC94&position=21",
-              "tradeVoucher": 284,
-              "tradeCash": 246
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5825GBGC003",
-              "title": "Playstation 5 Console, 825GB, Grey Camouflage, Discounted",
-              "price": 385,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBGC003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9B0663A67B9D63D039B322095F31AC94&position=22",
-              "tradeVoucher": 284,
-              "tradeCash": 246
-            }
-          ]
-        },
-        "PlayStation 5 825GB unboxed": {
-          "variant": "PlayStation 5 825GB unboxed",
-          "storage": "825GB",
-          "condition": "unboxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SPS5825GBW002",
-              "title": "Playstation 5 Console, 825GB, White, Unboxed",
-              "price": 400,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBW002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=7695D2141DD79B80C5685E614A8984EF&position=1",
-              "tradeVoucher": 296,
-              "tradeCash": 256
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5825GBSM2002",
-              "title": "Playstation 5 Console, 825GB, Spider-Man w/Spider-Man Controller, Unboxed",
-              "price": 460,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBSM2002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5FE325D3A64C46FF64736AA4123CB054&position=4",
-              "tradeVoucher": 340,
-              "tradeCash": 294
-            }
-          ]
-        },
-        "PlayStation 5 825GB boxed": {
-          "variant": "PlayStation 5 825GB boxed",
-          "storage": "825GB",
-          "condition": "boxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SPS5825GBW001",
-              "title": "Playstation 5 Console, 825GB, White, Boxed",
-              "price": 410,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBW001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5FE325D3A64C46FF64736AA4123CB054&position=1",
-              "tradeVoucher": 303,
-              "tradeCash": 262
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5825GBSM2001",
-              "title": "Playstation 5 Console, 825GB, Spider-Man w/Spider-Man Controller, Boxed",
-              "price": 520,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBSM2001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5FE325D3A64C46FF64736AA4123CB054&position=9",
-              "tradeVoucher": 384,
-              "tradeCash": 332
-            }
-          ]
-        }
-      }
-    },
-    "PlayStation 5 Digital": {
-      "model": "PlayStation 5 Digital",
-      "variants": {
-        "PlayStation 5 Digital 825GB discounted": {
-          "variant": "PlayStation 5 Digital 825GB discounted",
-          "storage": "825GB",
-          "condition": "discounted",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SPS5D825GBW003",
-              "title": "Playstation 5 Digital Edition Console, 825GB, White, Discounted",
-              "price": 360,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBW003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=7695D2141DD79B80C5685E614A8984EF&position=2",
-              "tradeVoucher": 234,
-              "tradeCash": 165
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5D825GBSB003",
-              "title": "Playstation 5 Digital Edition Console, 825GB, Starlight Blue, Discounted",
-              "price": 360,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBSB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=7695D2141DD79B80C5685E614A8984EF&position=16",
-              "tradeVoucher": 234,
-              "tradeCash": 165
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5D825GBMB003",
-              "title": "Playstation 5 Digital Edition Console, 825GB, Midnight Black, Discounted",
-              "price": 360,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBMB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9B0663A67B9D63D039B322095F31AC94&position=18",
-              "tradeVoucher": 234,
-              "tradeCash": 165
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5D825GBCR003",
-              "title": "Playstation 5 Digital Edition Console, 825GB, Cosmic Red, Discounted",
-              "price": 360,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBCR003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9B0663A67B9D63D039B322095F31AC94&position=23",
-              "tradeVoucher": 234,
-              "tradeCash": 165
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5D825GBVR003",
-              "title": "Playstation 5 Digital Edition Console, 825GB, Volcanic Red, Discounted",
-              "price": 360,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBVR003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9B0663A67B9D63D039B322095F31AC94&position=28",
-              "tradeVoucher": 234,
-              "tradeCash": 165
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5D825GBSS003",
-              "title": "Playstation 5 Digital Edition Console, 825GB, Sterling Silver, Discounted",
-              "price": 360,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBSS003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9B0663A67B9D63D039B322095F31AC94&position=29",
-              "tradeVoucher": 234,
-              "tradeCash": 165
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5D825GBSM2003",
-              "title": "Playstation 5 Digital Edition Console, 825GB, Spider-Man, Discounted",
-              "price": 360,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBSM2003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9B0663A67B9D63D039B322095F31AC94&position=30",
-              "tradeVoucher": 234,
-              "tradeCash": 165
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5D825GBNP003",
-              "title": "Playstation 5 Digital Edition Console, 825GB, Nova Pink, Discounted",
-              "price": 360,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBNP003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9B0663A67B9D63D039B322095F31AC94&position=31",
-              "tradeVoucher": 234,
-              "tradeCash": 165
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5D825GBGP003",
-              "title": "Playstation 5 Digital Edition Console, 825GB, Galactic Purple, Discounted",
-              "price": 360,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBGP003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9B0663A67B9D63D039B322095F31AC94&position=32",
-              "tradeVoucher": 234,
-              "tradeCash": 165
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5D825GBGC003",
-              "title": "Playstation 5 Digital Edition Console, 825GB, Grey Camouflage, Discounted",
-              "price": 360,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBGC003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9B0663A67B9D63D039B322095F31AC94&position=33",
-              "tradeVoucher": 234,
-              "tradeCash": 165
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5D825GBCB003",
-              "title": "Playstation 5 Digital Edition Console, 825GB, Cobalt Blue, Discounted",
-              "price": 360,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBCB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9B0663A67B9D63D039B322095F31AC94&position=34",
-              "tradeVoucher": 234,
-              "tradeCash": 165
-            }
-          ]
-        },
-        "PlayStation 5 Digital 825GB boxed": {
-          "variant": "PlayStation 5 Digital 825GB boxed",
-          "storage": "825GB",
-          "condition": "boxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SPS5D825GBW001",
-              "title": "Playstation 5 Digital Edition Console, 825GB, White, Boxed",
-              "price": 380,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBW001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=7695D2141DD79B80C5685E614A8984EF&position=5",
-              "tradeVoucher": 247,
-              "tradeCash": 174
-            }
-          ]
-        },
-        "PlayStation 5 Digital 825GB unboxed": {
-          "variant": "PlayStation 5 Digital 825GB unboxed",
-          "storage": "825GB",
-          "condition": "unboxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SPS5D825GBW002",
-              "title": "Playstation 5 Digital Edition Console, 825GB, White, Unboxed",
-              "price": 370,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBW002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=7695D2141DD79B80C5685E614A8984EF&position=8",
-              "tradeVoucher": 240,
-              "tradeCash": 170
-            }
-          ]
-        }
-      }
-    },
     "PlayStation 5 Slim Digital": {
       "model": "PlayStation 5 Slim Digital",
       "variants": {
+        "PlayStation 5 Slim Digital 825GB boxed": {
+          "variant": "PlayStation 5 Slim Digital 825GB boxed",
+          "storage": "825GB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SPS5SD825GBW001",
+              "title": "Playstation 5 Slim Digital Edition Console, 825GB, White, Boxed",
+              "price": 390,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5SD825GBW001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9A093CAC0535909C1942C1A1435390FE&position=18",
+              "tradeVoucher": 253,
+              "tradeCash": 179
+            }
+          ]
+        },
+        "PlayStation 5 Slim Digital 1TB unboxed": {
+          "variant": "PlayStation 5 Slim Digital 1TB unboxed",
+          "storage": "1TB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SPS5SD1TB30G002",
+              "title": "Playstation 5 Slim Digital Ed. Console, 1TB, 30th Ann. Grey, Unboxed",
+              "price": 490,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TB30G002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9A093CAC0535909C1942C1A1435390FE&position=29",
+              "tradeVoucher": 362,
+              "tradeCash": 313
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5SD1TBW002",
+              "title": "Playstation 5 Slim Digital Edition Console, 1TB, White, Unboxed",
+              "price": 385,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TBW002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5B30E20ACAE12D2CC67A8BA735124FC7&position=8",
+              "tradeVoucher": 250,
+              "tradeCash": 177
+            }
+          ]
+        },
         "PlayStation 5 Slim Digital 1TB discounted": {
           "variant": "PlayStation 5 Slim Digital 1TB discounted",
           "storage": "1TB",
@@ -318,7 +55,7 @@
               "id": "SPS5SD1TBW003",
               "title": "Playstation 5 Slim Digital Edition Console, 1TB, White, Discounted",
               "price": 375,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TBW003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=7695D2141DD79B80C5685E614A8984EF&position=4",
+              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TBW003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5B30E20ACAE12D2CC67A8BA735124FC7&position=5",
               "tradeVoucher": 243,
               "tradeCash": 172
             },
@@ -327,7 +64,7 @@
               "id": "SPS5SD1TBVR003",
               "title": "Playstation 5 Slim Digital Ed. Console, 1TB, Volcanic Red, Discounted",
               "price": 375,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TBVR003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9B0663A67B9D63D039B322095F31AC94&position=24",
+              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TBVR003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=21A4BEB3DEF364756EFB6B5D329806D8&position=35",
               "tradeVoucher": 243,
               "tradeCash": 172
             },
@@ -336,7 +73,7 @@
               "id": "SPS5SD1TBSS003",
               "title": "Playstation 5 Slim Digital Ed. Console, 1TB, Sterling Silver, Discounted",
               "price": 375,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TBSS003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9B0663A67B9D63D039B322095F31AC94&position=25",
+              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TBSS003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=21A4BEB3DEF364756EFB6B5D329806D8&position=36",
               "tradeVoucher": 243,
               "tradeCash": 172
             },
@@ -345,7 +82,7 @@
               "id": "SPS5SD1TBMB003",
               "title": "Playstation 5 Slim Digital Ed. Console, 1TB, Midnight Black, Discounted",
               "price": 375,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TBMB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9B0663A67B9D63D039B322095F31AC94&position=26",
+              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TBMB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=21A4BEB3DEF364756EFB6B5D329806D8&position=37",
               "tradeVoucher": 243,
               "tradeCash": 172
             },
@@ -354,7 +91,7 @@
               "id": "SPS5SD1TBCB003",
               "title": "Playstation 5 Slim Digital Ed. Console, 1TB, Cobalt Blue, Discounted",
               "price": 375,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TBCB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9B0663A67B9D63D039B322095F31AC94&position=27",
+              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TBCB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=21A4BEB3DEF364756EFB6B5D329806D8&position=38",
               "tradeVoucher": 243,
               "tradeCash": 172
             },
@@ -363,9 +100,34 @@
               "id": "SPS5SD1TB30G003",
               "title": "Playstation 5 Slim Digital Ed. Console, 1TB, 30th Ann. Grey, Discounted",
               "price": 480,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TB30G003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5FE325D3A64C46FF64736AA4123CB054&position=12",
+              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TB30G003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=21A4BEB3DEF364756EFB6B5D329806D8&position=39",
               "tradeVoucher": 355,
               "tradeCash": 307
+            }
+          ]
+        },
+        "PlayStation 5 Slim Digital 1TB boxed": {
+          "variant": "PlayStation 5 Slim Digital 1TB boxed",
+          "storage": "1TB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SPS5SD1TB30G001",
+              "title": "Playstation 5 Slim Digital Ed. Console, 1TB, 30th Ann. Grey, Boxed",
+              "price": 510,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TB30G001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5B30E20ACAE12D2CC67A8BA735124FC7&position=10",
+              "tradeVoucher": 377,
+              "tradeCash": 326
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5SD1TBW001",
+              "title": "Playstation 5 Slim Digital Edition Console, 1TB, White, Boxed",
+              "price": 400,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TBW001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5B30E20ACAE12D2CC67A8BA735124FC7&position=14",
+              "tradeVoucher": 260,
+              "tradeCash": 184
             }
           ]
         },
@@ -379,59 +141,9 @@
               "id": "SPS5SD825GBW003",
               "title": "Playstation 5 Slim Digital Edition Console, 825GB, White, Discounted",
               "price": 365,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5SD825GBW003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=7695D2141DD79B80C5685E614A8984EF&position=6",
+              "url": "https://uk.webuy.com/product-detail?id=SPS5SD825GBW003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5B30E20ACAE12D2CC67A8BA735124FC7&position=15",
               "tradeVoucher": 237,
               "tradeCash": 167
-            }
-          ]
-        },
-        "PlayStation 5 Slim Digital 1TB boxed": {
-          "variant": "PlayStation 5 Slim Digital 1TB boxed",
-          "storage": "1TB",
-          "condition": "boxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SPS5SD1TBW001",
-              "title": "Playstation 5 Slim Digital Edition Console, 1TB, White, Boxed",
-              "price": 400,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TBW001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=7695D2141DD79B80C5685E614A8984EF&position=9",
-              "tradeVoucher": 260,
-              "tradeCash": 184
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5SD1TB30G001",
-              "title": "Playstation 5 Slim Digital Ed. Console, 1TB, 30th Ann. Grey, Boxed",
-              "price": 510,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TB30G001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5FE325D3A64C46FF64736AA4123CB054&position=6",
-              "tradeVoucher": 377,
-              "tradeCash": 326
-            }
-          ]
-        },
-        "PlayStation 5 Slim Digital 1TB unboxed": {
-          "variant": "PlayStation 5 Slim Digital 1TB unboxed",
-          "storage": "1TB",
-          "condition": "unboxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SPS5SD1TBW002",
-              "title": "Playstation 5 Slim Digital Edition Console, 1TB, White, Unboxed",
-              "price": 385,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TBW002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=7695D2141DD79B80C5685E614A8984EF&position=10",
-              "tradeVoucher": 250,
-              "tradeCash": 177
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5SD1TB30G002",
-              "title": "Playstation 5 Slim Digital Ed. Console, 1TB, 30th Ann. Grey, Unboxed",
-              "price": 490,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TB30G002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5FE325D3A64C46FF64736AA4123CB054&position=11",
-              "tradeVoucher": 362,
-              "tradeCash": 313
             }
           ]
         },
@@ -445,25 +157,9 @@
               "id": "SPS5SD825GBW002",
               "title": "Playstation 5 Slim Digital Edition Console, 825GB, White, Unboxed",
               "price": 375,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5SD825GBW002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=7695D2141DD79B80C5685E614A8984EF&position=11",
+              "url": "https://uk.webuy.com/product-detail?id=SPS5SD825GBW002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5B30E20ACAE12D2CC67A8BA735124FC7&position=17",
               "tradeVoucher": 243,
               "tradeCash": 172
-            }
-          ]
-        },
-        "PlayStation 5 Slim Digital 825GB boxed": {
-          "variant": "PlayStation 5 Slim Digital 825GB boxed",
-          "storage": "825GB",
-          "condition": "boxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SPS5SD825GBW001",
-              "title": "Playstation 5 Slim Digital Edition Console, 825GB, White, Boxed",
-              "price": 390,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5SD825GBW001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=7695D2141DD79B80C5685E614A8984EF&position=13",
-              "tradeVoucher": 253,
-              "tradeCash": 179
             }
           ]
         },
@@ -477,161 +173,9 @@
               "id": "SPS5SD1TB30G000",
               "title": "Playstation 5 Slim Digital Ed. Console, 1TB, 30th Ann. Grey, Mint",
               "price": 530,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TB30G000&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5FE325D3A64C46FF64736AA4123CB054&position=13",
+              "url": "https://uk.webuy.com/product-detail?id=SPS5SD1TB30G000&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=21A4BEB3DEF364756EFB6B5D329806D8&position=40",
               "tradeVoucher": 418,
               "tradeCash": 381
-            }
-          ]
-        }
-      }
-    },
-    "PlayStation 5 Slim": {
-      "model": "PlayStation 5 Slim",
-      "variants": {
-        "PlayStation 5 Slim 1TB discounted": {
-          "variant": "PlayStation 5 Slim 1TB discounted",
-          "storage": "1TB",
-          "condition": "discounted",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SPS5S1TBGYB003",
-              "title": "Playstation 5 Slim Console, 1TB, Ghost of Yotei Black, Discounted",
-              "price": 500,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBGYB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=0536EE6A2C0079E62ABCEC725465A5E2&position=18",
-              "tradeVoucher": 370,
-              "tradeCash": 320
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5S1TBCI003",
-              "title": "Playstation 5 Slim Console, 1TB, Chroma Indigo, Discounted",
-              "price": 420,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBCI003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=0536EE6A2C0079E62ABCEC725465A5E2&position=21",
-              "tradeVoucher": 310,
-              "tradeCash": 268
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5S1TBCB003",
-              "title": "Playstation 5 Slim Console, 1TB, Cobalt Blue, Discounted",
-              "price": 420,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBCB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=0536EE6A2C0079E62ABCEC725465A5E2&position=22",
-              "tradeVoucher": 310,
-              "tradeCash": 268
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5S1TBW003",
-              "title": "Playstation 5 Slim Console, 1TB, White, Discounted",
-              "price": 420,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBW003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5FE325D3A64C46FF64736AA4123CB054&position=7",
-              "tradeVoucher": 310,
-              "tradeCash": 268
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5S1TBVR003",
-              "title": "Playstation 5 Slim Console, 1TB, Volcanic Red, Discounted",
-              "price": 420,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBVR003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5FE325D3A64C46FF64736AA4123CB054&position=14",
-              "tradeVoucher": 310,
-              "tradeCash": 268
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5S1TBSS003",
-              "title": "Playstation 5 Slim Console, 1TB, Sterling Silver, Discounted",
-              "price": 420,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBSS003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5FE325D3A64C46FF64736AA4123CB054&position=15",
-              "tradeVoucher": 310,
-              "tradeCash": 268
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5S1TBMB003",
-              "title": "Playstation 5 Slim Console, 1TB, Midnight Black, Discounted",
-              "price": 420,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBMB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5FE325D3A64C46FF64736AA4123CB054&position=16",
-              "tradeVoucher": 310,
-              "tradeCash": 268
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5S1TBGYG003",
-              "title": "Playstation 5 Slim Console, 1TB, Ghost of Yotei Gold, Discounted",
-              "price": 500,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBGYG003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5FE325D3A64C46FF64736AA4123CB054&position=17",
-              "tradeVoucher": 370,
-              "tradeCash": 320
-            }
-          ]
-        },
-        "PlayStation 5 Slim 1TB unboxed": {
-          "variant": "PlayStation 5 Slim 1TB unboxed",
-          "storage": "1TB",
-          "condition": "unboxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SPS5S1TBGYB002",
-              "title": "Playstation 5 Slim Console, 1TB, Ghost of Yotei Black, Unboxed",
-              "price": 510,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBGYB002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=0536EE6A2C0079E62ABCEC725465A5E2&position=19",
-              "tradeVoucher": 377,
-              "tradeCash": 326
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5S1TBW002",
-              "title": "Playstation 5 Slim Console, 1TB, White, Unboxed",
-              "price": 430,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBW002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5FE325D3A64C46FF64736AA4123CB054&position=2",
-              "tradeVoucher": 318,
-              "tradeCash": 275
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5S1TBGYG002",
-              "title": "Playstation 5 Slim Console, 1TB, Ghost of Yotei Gold, Unboxed",
-              "price": 510,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBGYG002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5FE325D3A64C46FF64736AA4123CB054&position=10",
-              "tradeVoucher": 377,
-              "tradeCash": 326
-            }
-          ]
-        },
-        "PlayStation 5 Slim 1TB boxed": {
-          "variant": "PlayStation 5 Slim 1TB boxed",
-          "storage": "1TB",
-          "condition": "boxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SPS5S1TBGYB001",
-              "title": "Playstation 5 Slim Console, 1TB, Ghost of Yotei Black, Boxed",
-              "price": 520,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBGYB001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=0536EE6A2C0079E62ABCEC725465A5E2&position=20",
-              "tradeVoucher": 384,
-              "tradeCash": 332
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5S1TBW001",
-              "title": "Playstation 5 Slim Console, 1TB, White, Boxed",
-              "price": 445,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBW001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5FE325D3A64C46FF64736AA4123CB054&position=3",
-              "tradeVoucher": 329,
-              "tradeCash": 284
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5S1TBGYG001",
-              "title": "Playstation 5 Slim Console, 1TB, Ghost of Yotei Gold, Boxed",
-              "price": 520,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBGYG001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5FE325D3A64C46FF64736AA4123CB054&position=5",
-              "tradeVoucher": 384,
-              "tradeCash": 332
             }
           ]
         }
@@ -650,7 +194,16 @@
               "id": "SPS5P2TBW003",
               "title": "Playstation 5 Pro Console, 2TB, White, Discounted",
               "price": 600,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5P2TBW003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5FE325D3A64C46FF64736AA4123CB054&position=8",
+              "url": "https://uk.webuy.com/product-detail?id=SPS5P2TBW003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9A093CAC0535909C1942C1A1435390FE&position=19",
+              "tradeVoucher": 414,
+              "tradeCash": 342
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5P2TBW003",
+              "title": "Playstation 5 Pro Console, 2TB, White, Discounted",
+              "price": 600,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5P2TBW003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=0B389BEF5D59160F12FD66FF8C45DB28&position=3",
               "tradeVoucher": 414,
               "tradeCash": 342
             }
@@ -666,7 +219,7 @@
               "id": "SPS5P2TBW001",
               "title": "Playstation 5 Pro Console, 2TB, White, Boxed",
               "price": 640,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5P2TBW001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=D006ACB40A2E45792E3E8AF5009E102D&position=1",
+              "url": "https://uk.webuy.com/product-detail?id=SPS5P2TBW001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=0B389BEF5D59160F12FD66FF8C45DB28&position=1",
               "tradeVoucher": 473,
               "tradeCash": 409
             },
@@ -675,7 +228,7 @@
               "id": "SPS5P2TB30G001",
               "title": "Playstation 5 Pro Console, 2TB, 30th Anniversary Grey, Boxed",
               "price": 900,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5P2TB30G001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=D006ACB40A2E45792E3E8AF5009E102D&position=3",
+              "url": "https://uk.webuy.com/product-detail?id=SPS5P2TB30G001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=0B389BEF5D59160F12FD66FF8C45DB28&position=4",
               "tradeVoucher": 666,
               "tradeCash": 576
             }
@@ -691,7 +244,7 @@
               "id": "SPS5P2TBW002",
               "title": "Playstation 5 Pro Console, 2TB, White, Unboxed",
               "price": 620,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5P2TBW002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=D006ACB40A2E45792E3E8AF5009E102D&position=2",
+              "url": "https://uk.webuy.com/product-detail?id=SPS5P2TBW002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=0B389BEF5D59160F12FD66FF8C45DB28&position=2",
               "tradeVoucher": 427,
               "tradeCash": 353
             }
@@ -707,9 +260,465 @@
               "id": "SPS5P2TB30G000",
               "title": "Playstation 5 Pro Console, 2TB, 30th Anniversary Grey, Mint",
               "price": 960,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5P2TB30G000&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=D006ACB40A2E45792E3E8AF5009E102D&position=4",
+              "url": "https://uk.webuy.com/product-detail?id=SPS5P2TB30G000&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=0B389BEF5D59160F12FD66FF8C45DB28&position=5",
               "tradeVoucher": 758,
               "tradeCash": 691
+            }
+          ]
+        }
+      }
+    },
+    "PlayStation 5": {
+      "model": "PlayStation 5",
+      "variants": {
+        "PlayStation 5 825GB discounted": {
+          "variant": "PlayStation 5 825GB discounted",
+          "storage": "825GB",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SPS5825GBSM2003",
+              "title": "Playstation 5 Console, 825GB, Spider-Man, Discounted",
+              "price": 385,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBSM2003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9A093CAC0535909C1942C1A1435390FE&position=20",
+              "tradeVoucher": 284,
+              "tradeCash": 246
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5825GBMB003",
+              "title": "Playstation 5 Console, 825GB, Midnight Black, Discounted",
+              "price": 385,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBMB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9A093CAC0535909C1942C1A1435390FE&position=22",
+              "tradeVoucher": 284,
+              "tradeCash": 246
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5825GBNP003",
+              "title": "Playstation 5 Console, 825GB, Nova Pink, Discounted",
+              "price": 385,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBNP003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9A093CAC0535909C1942C1A1435390FE&position=24",
+              "tradeVoucher": 284,
+              "tradeCash": 246
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5825GBCR003",
+              "title": "Playstation 5 Console, 825GB, Cosmic Red, Discounted",
+              "price": 385,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBCR003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9A093CAC0535909C1942C1A1435390FE&position=25",
+              "tradeVoucher": 284,
+              "tradeCash": 246
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5825GBVR003",
+              "title": "Playstation 5 Console, 825GB, Volcanic Red, Discounted",
+              "price": 385,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBVR003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9A093CAC0535909C1942C1A1435390FE&position=30",
+              "tradeVoucher": 284,
+              "tradeCash": 246
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5825GBSB003",
+              "title": "Playstation 5 Console, 825GB, Starlight Blue, Discounted",
+              "price": 385,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBSB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9A093CAC0535909C1942C1A1435390FE&position=31",
+              "tradeVoucher": 284,
+              "tradeCash": 246
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5825GBGP003",
+              "title": "Playstation 5 Console, 825GB, Galactic Purple, Discounted",
+              "price": 385,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBGP003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9A093CAC0535909C1942C1A1435390FE&position=32",
+              "tradeVoucher": 284,
+              "tradeCash": 246
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5825GBGC003",
+              "title": "Playstation 5 Console, 825GB, Grey Camouflage, Discounted",
+              "price": 385,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBGC003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9A093CAC0535909C1942C1A1435390FE&position=33",
+              "tradeVoucher": 284,
+              "tradeCash": 246
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5825GBW003",
+              "title": "Playstation 5 Console, 825GB, White, Discounted",
+              "price": 385,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBW003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5B30E20ACAE12D2CC67A8BA735124FC7&position=3",
+              "tradeVoucher": 284,
+              "tradeCash": 246
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5825GBSS003",
+              "title": "Playstation 5 Console, 825GB, Sterling Silver, Discounted",
+              "price": 385,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBSS003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=466CB6459E5363AA95243A598E2064D9&position=56",
+              "tradeVoucher": 284,
+              "tradeCash": 246
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5825GBCB003",
+              "title": "Playstation 5 Console, 825GB, Cobalt Blue, Discounted",
+              "price": 385,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBCB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=466CB6459E5363AA95243A598E2064D9&position=57",
+              "tradeVoucher": 284,
+              "tradeCash": 246
+            }
+          ]
+        },
+        "PlayStation 5 825GB boxed": {
+          "variant": "PlayStation 5 825GB boxed",
+          "storage": "825GB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SPS5825GBSM2001",
+              "title": "Playstation 5 Console, 825GB, Spider-Man w/Spider-Man Controller, Boxed",
+              "price": 520,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBSM2001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9A093CAC0535909C1942C1A1435390FE&position=21",
+              "tradeVoucher": 384,
+              "tradeCash": 332
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5825GBW001",
+              "title": "Playstation 5 Console, 825GB, White, Boxed",
+              "price": 410,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBW001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5B30E20ACAE12D2CC67A8BA735124FC7&position=1",
+              "tradeVoucher": 303,
+              "tradeCash": 262
+            }
+          ]
+        },
+        "PlayStation 5 825GB unboxed": {
+          "variant": "PlayStation 5 825GB unboxed",
+          "storage": "825GB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SPS5825GBW002",
+              "title": "Playstation 5 Console, 825GB, White, Unboxed",
+              "price": 400,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBW002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5B30E20ACAE12D2CC67A8BA735124FC7&position=2",
+              "tradeVoucher": 296,
+              "tradeCash": 256
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5825GBSM2002",
+              "title": "Playstation 5 Console, 825GB, Spider-Man w/Spider-Man Controller, Unboxed",
+              "price": 460,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5825GBSM2002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5B30E20ACAE12D2CC67A8BA735124FC7&position=9",
+              "tradeVoucher": 340,
+              "tradeCash": 294
+            }
+          ]
+        }
+      }
+    },
+    "PlayStation 5 Slim": {
+      "model": "PlayStation 5 Slim",
+      "variants": {
+        "PlayStation 5 Slim 1TB unboxed": {
+          "variant": "PlayStation 5 Slim 1TB unboxed",
+          "storage": "1TB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SPS5S1TBGYG002",
+              "title": "Playstation 5 Slim Console, 1TB, Ghost of Yotei Gold, Unboxed",
+              "price": 510,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBGYG002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9A093CAC0535909C1942C1A1435390FE&position=23",
+              "tradeVoucher": 377,
+              "tradeCash": 326
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5S1TBW002",
+              "title": "Playstation 5 Slim Console, 1TB, White, Unboxed",
+              "price": 430,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBW002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5B30E20ACAE12D2CC67A8BA735124FC7&position=7",
+              "tradeVoucher": 318,
+              "tradeCash": 275
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5S1TBGYB002",
+              "title": "Playstation 5 Slim Console, 1TB, Ghost of Yotei Black, Unboxed",
+              "price": 510,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBGYB002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=21A4BEB3DEF364756EFB6B5D329806D8&position=45",
+              "tradeVoucher": 377,
+              "tradeCash": 326
+            }
+          ]
+        },
+        "PlayStation 5 Slim 1TB discounted": {
+          "variant": "PlayStation 5 Slim 1TB discounted",
+          "storage": "1TB",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SPS5S1TBGYG003",
+              "title": "Playstation 5 Slim Console, 1TB, Ghost of Yotei Gold, Discounted",
+              "price": 500,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBGYG003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9A093CAC0535909C1942C1A1435390FE&position=26",
+              "tradeVoucher": 370,
+              "tradeCash": 320
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5S1TBW003",
+              "title": "Playstation 5 Slim Console, 1TB, White, Discounted",
+              "price": 420,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBW003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5B30E20ACAE12D2CC67A8BA735124FC7&position=16",
+              "tradeVoucher": 310,
+              "tradeCash": 268
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5S1TBVR003",
+              "title": "Playstation 5 Slim Console, 1TB, Volcanic Red, Discounted",
+              "price": 420,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBVR003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=21A4BEB3DEF364756EFB6B5D329806D8&position=41",
+              "tradeVoucher": 310,
+              "tradeCash": 268
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5S1TBSS003",
+              "title": "Playstation 5 Slim Console, 1TB, Sterling Silver, Discounted",
+              "price": 420,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBSS003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=21A4BEB3DEF364756EFB6B5D329806D8&position=42",
+              "tradeVoucher": 310,
+              "tradeCash": 268
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5S1TBMB003",
+              "title": "Playstation 5 Slim Console, 1TB, Midnight Black, Discounted",
+              "price": 420,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBMB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=21A4BEB3DEF364756EFB6B5D329806D8&position=43",
+              "tradeVoucher": 310,
+              "tradeCash": 268
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5S1TBGYB003",
+              "title": "Playstation 5 Slim Console, 1TB, Ghost of Yotei Black, Discounted",
+              "price": 500,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBGYB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=21A4BEB3DEF364756EFB6B5D329806D8&position=44",
+              "tradeVoucher": 370,
+              "tradeCash": 320
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5S1TBCI003",
+              "title": "Playstation 5 Slim Console, 1TB, Chroma Indigo, Discounted",
+              "price": 420,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBCI003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=21A4BEB3DEF364756EFB6B5D329806D8&position=47",
+              "tradeVoucher": 310,
+              "tradeCash": 268
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5S1TBCB003",
+              "title": "Playstation 5 Slim Console, 1TB, Cobalt Blue, Discounted",
+              "price": 420,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBCB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=21A4BEB3DEF364756EFB6B5D329806D8&position=48",
+              "tradeVoucher": 310,
+              "tradeCash": 268
+            }
+          ]
+        },
+        "PlayStation 5 Slim 1TB boxed": {
+          "variant": "PlayStation 5 Slim 1TB boxed",
+          "storage": "1TB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SPS5S1TBW001",
+              "title": "Playstation 5 Slim Console, 1TB, White, Boxed",
+              "price": 445,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBW001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5B30E20ACAE12D2CC67A8BA735124FC7&position=4",
+              "tradeVoucher": 329,
+              "tradeCash": 284
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5S1TBGYG001",
+              "title": "Playstation 5 Slim Console, 1TB, Ghost of Yotei Gold, Boxed",
+              "price": 520,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBGYG001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5B30E20ACAE12D2CC67A8BA735124FC7&position=12",
+              "tradeVoucher": 384,
+              "tradeCash": 332
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5S1TBGYB001",
+              "title": "Playstation 5 Slim Console, 1TB, Ghost of Yotei Black, Boxed",
+              "price": 520,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5S1TBGYB001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=21A4BEB3DEF364756EFB6B5D329806D8&position=46",
+              "tradeVoucher": 384,
+              "tradeCash": 332
+            }
+          ]
+        }
+      }
+    },
+    "PlayStation 5 Digital": {
+      "model": "PlayStation 5 Digital",
+      "variants": {
+        "PlayStation 5 Digital 825GB discounted": {
+          "variant": "PlayStation 5 Digital 825GB discounted",
+          "storage": "825GB",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SPS5D825GBSB003",
+              "title": "Playstation 5 Digital Edition Console, 825GB, Starlight Blue, Discounted",
+              "price": 360,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBSB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9A093CAC0535909C1942C1A1435390FE&position=27",
+              "tradeVoucher": 234,
+              "tradeCash": 165
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5D825GBNP003",
+              "title": "Playstation 5 Digital Edition Console, 825GB, Nova Pink, Discounted",
+              "price": 360,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBNP003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9A093CAC0535909C1942C1A1435390FE&position=28",
+              "tradeVoucher": 234,
+              "tradeCash": 165
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5D825GBCR003",
+              "title": "Playstation 5 Digital Edition Console, 825GB, Cosmic Red, Discounted",
+              "price": 360,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBCR003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=9A093CAC0535909C1942C1A1435390FE&position=34",
+              "tradeVoucher": 234,
+              "tradeCash": 165
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5D825GBW003",
+              "title": "Playstation 5 Digital Edition Console, 825GB, White, Discounted",
+              "price": 360,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBW003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5B30E20ACAE12D2CC67A8BA735124FC7&position=6",
+              "tradeVoucher": 234,
+              "tradeCash": 165
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5D825GBVR003",
+              "title": "Playstation 5 Digital Edition Console, 825GB, Volcanic Red, Discounted",
+              "price": 360,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBVR003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=21A4BEB3DEF364756EFB6B5D329806D8&position=49",
+              "tradeVoucher": 234,
+              "tradeCash": 165
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5D825GBSS003",
+              "title": "Playstation 5 Digital Edition Console, 825GB, Sterling Silver, Discounted",
+              "price": 360,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBSS003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=21A4BEB3DEF364756EFB6B5D329806D8&position=50",
+              "tradeVoucher": 234,
+              "tradeCash": 165
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5D825GBSM2003",
+              "title": "Playstation 5 Digital Edition Console, 825GB, Spider-Man, Discounted",
+              "price": 360,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBSM2003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=21A4BEB3DEF364756EFB6B5D329806D8&position=51",
+              "tradeVoucher": 234,
+              "tradeCash": 165
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5D825GBMB003",
+              "title": "Playstation 5 Digital Edition Console, 825GB, Midnight Black, Discounted",
+              "price": 360,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBMB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=466CB6459E5363AA95243A598E2064D9&position=52",
+              "tradeVoucher": 234,
+              "tradeCash": 165
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5D825GBGP003",
+              "title": "Playstation 5 Digital Edition Console, 825GB, Galactic Purple, Discounted",
+              "price": 360,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBGP003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=466CB6459E5363AA95243A598E2064D9&position=53",
+              "tradeVoucher": 234,
+              "tradeCash": 165
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5D825GBGC003",
+              "title": "Playstation 5 Digital Edition Console, 825GB, Grey Camouflage, Discounted",
+              "price": 360,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBGC003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=466CB6459E5363AA95243A598E2064D9&position=54",
+              "tradeVoucher": 234,
+              "tradeCash": 165
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS5D825GBCB003",
+              "title": "Playstation 5 Digital Edition Console, 825GB, Cobalt Blue, Discounted",
+              "price": 360,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBCB003&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=466CB6459E5363AA95243A598E2064D9&position=55",
+              "tradeVoucher": 234,
+              "tradeCash": 165
+            }
+          ]
+        },
+        "PlayStation 5 Digital 825GB boxed": {
+          "variant": "PlayStation 5 Digital 825GB boxed",
+          "storage": "825GB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SPS5D825GBW001",
+              "title": "Playstation 5 Digital Edition Console, 825GB, White, Boxed",
+              "price": 380,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBW001&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5B30E20ACAE12D2CC67A8BA735124FC7&position=11",
+              "tradeVoucher": 247,
+              "tradeCash": 174
+            }
+          ]
+        },
+        "PlayStation 5 Digital 825GB unboxed": {
+          "variant": "PlayStation 5 Digital 825GB unboxed",
+          "storage": "825GB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SPS5D825GBW002",
+              "title": "Playstation 5 Digital Edition Console, 825GB, White, Unboxed",
+              "price": 370,
+              "url": "https://uk.webuy.com/product-detail?id=SPS5D825GBW002&categoryName=PLAYSTATION5-CONSOLES&superCatName=GAMING&title=&queryID=5B30E20ACAE12D2CC67A8BA735124FC7&position=13",
+              "tradeVoucher": 240,
+              "tradeCash": 170
             }
           ]
         }

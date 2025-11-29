@@ -106,12 +106,11 @@ export const cex: CompetitorConfig = {
           url += "&superCatName=Gaming";
           break;
 
-        case "tablets":
-        case "tv":
-        case "watches":
-        case "portable entertainment":
-          url += "&Grade=B";
-          break;
+        // case "tablets":
+        // case "watches":
+        // case "portable entertainment":
+        //   url += "&Grade=B";
+        //   break;
       }
     }
 

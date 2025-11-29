@@ -4,101 +4,6 @@
     "PlayStation 4": {
       "model": "PlayStation 4",
       "variants": {
-        "PlayStation 4 500GB discounted": {
-          "variant": "PlayStation 4 500GB discounted",
-          "storage": "500GB",
-          "condition": "discounted",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SPS4500GB003",
-              "title": "Playstation 4 Console, 500GB Black, Discounted",
-              "price": 100,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4500GB003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=67FD7084D0EA0798DED36F76480538DC&position=1",
-              "tradeVoucher": 65,
-              "tradeCash": 46
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4500GBBSL003",
-              "title": "Playstation 4 Console, 500GB Batman Steel Grey LE (No Game), Discounted",
-              "price": 120,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBBSL003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5E9DC185E8A2E8B156C0AC92998DA497&position=35",
-              "tradeVoucher": 78,
-              "tradeCash": 55
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4500GBMGR003",
-              "title": "Playstation 4 Console, 500GB Metal Gear Red LE (No Game), Discounted",
-              "price": 110,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBMGR003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5E9DC185E8A2E8B156C0AC92998DA497&position=51",
-              "tradeVoucher": 71,
-              "tradeCash": 50
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4500GBDTW003",
-              "title": "Playstation 4 Console, 500GB Destiny TK White LE (No Game), Discounted",
-              "price": 115,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBDTW003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=B934B658173DCDBFC868F9E61E720BF4&position=24",
-              "tradeVoucher": 74,
-              "tradeCash": 52
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4500GBW003",
-              "title": "Playstation 4 Console, 500GB White, Discounted",
-              "price": 115,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBW003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8AED96A087E22090088FD0B4B24D580B&position=5",
-              "tradeVoucher": 74,
-              "tradeCash": 52
-            }
-          ]
-        },
-        "PlayStation 4 1TB unboxed": {
-          "variant": "PlayStation 4 1TB unboxed",
-          "storage": "1TB",
-          "condition": "unboxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SPS41TBUCB002",
-              "title": "Playstation 4 Console, 1TB Uncharted Grey Blue (No Game), Unboxed",
-              "price": 145,
-              "url": "https://uk.webuy.com/product-detail?id=SPS41TBUCB002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5E9DC185E8A2E8B156C0AC92998DA497&position=37",
-              "tradeVoucher": 94,
-              "tradeCash": 66
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS41TBSWV002",
-              "title": "Playstation 4 Console, 1TB Star Wars LE (No Game), Unboxed",
-              "price": 160,
-              "url": "https://uk.webuy.com/product-detail?id=SPS41TBSWV002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=B934B658173DCDBFC868F9E61E720BF4&position=34",
-              "tradeVoucher": 104,
-              "tradeCash": 73
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS41TBB002",
-              "title": "Playstation 4 Console, 1TB Black, Unboxed",
-              "price": 135,
-              "url": "https://uk.webuy.com/product-detail?id=SPS41TBB002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8AED96A087E22090088FD0B4B24D580B&position=6",
-              "tradeVoucher": 87,
-              "tradeCash": 62
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS41TBCBL002",
-              "title": "Playstation 4 Console, 1TB Black Ops III LE (No Game), Unboxed",
-              "price": 150,
-              "url": "https://uk.webuy.com/product-detail?id=SPS41TBCBL002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8DF9047E98B95A6FC08995FABBF8AF09&position=72",
-              "tradeVoucher": 97,
-              "tradeCash": 69
-            }
-          ]
-        },
         "PlayStation 4 500GB unboxed": {
           "variant": "PlayStation 4 500GB unboxed",
           "storage": "500GB",
@@ -106,19 +11,19 @@
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SPS4500GBMGR002",
-              "title": "Playstation 4 Console, 500GB Metal Gear Red LE (No Game), Unboxed",
-              "price": 150,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBMGR002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5E9DC185E8A2E8B156C0AC92998DA497&position=45",
-              "tradeVoucher": 97,
-              "tradeCash": 69
+              "id": "SPS4500GBDTW002",
+              "title": "Playstation 4 Console, 500GB Destiny TK White LE (No Game), Unboxed",
+              "price": 135,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBDTW002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=58F07C5E5D7C86BDC4A6E57F474A20E4&position=35",
+              "tradeVoucher": 87,
+              "tradeCash": 62
             },
             {
               "competitor": "CEX",
               "id": "SPS4500GBBSL002",
               "title": "Playstation 4 Console, 500GB Batman Steel Grey LE (No Game), Unboxed",
               "price": 140,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBBSL002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5E9DC185E8A2E8B156C0AC92998DA497&position=46",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBBSL002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=58F07C5E5D7C86BDC4A6E57F474A20E4&position=50",
               "tradeVoucher": 91,
               "tradeCash": 64
             },
@@ -127,27 +32,79 @@
               "id": "SPS4500GBW002",
               "title": "Playstation 4 Console, 500GB White, Unboxed",
               "price": 130,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBW002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=B934B658173DCDBFC868F9E61E720BF4&position=19",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBW002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2ECB42EB7856930C2042EA23D8FD86EA&position=19",
               "tradeVoucher": 84,
               "tradeCash": 59
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4500GBDTW002",
-              "title": "Playstation 4 Console, 500GB Destiny TK White LE (No Game), Unboxed",
-              "price": 135,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBDTW002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=B934B658173DCDBFC868F9E61E720BF4&position=31",
-              "tradeVoucher": 87,
-              "tradeCash": 62
             },
             {
               "competitor": "CEX",
               "id": "SPS4500GB002",
               "title": "Playstation 4 Console, 500GB Black, Unboxed",
               "price": 105,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4500GB002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8AED96A087E22090088FD0B4B24D580B&position=1",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4500GB002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=18ED0DB13BE5ADC06A99A27C2672184B&position=1",
               "tradeVoucher": 68,
               "tradeCash": 48
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4500GBMGR002",
+              "title": "Playstation 4 Console, 500GB Metal Gear Red LE (No Game), Unboxed",
+              "price": 150,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBMGR002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=6E000DA68578444CB9B80A9FB3D818D4&position=63",
+              "tradeVoucher": 97,
+              "tradeCash": 69
+            }
+          ]
+        },
+        "PlayStation 4 500GB discounted": {
+          "variant": "PlayStation 4 500GB discounted",
+          "storage": "500GB",
+          "condition": "discounted",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SPS4500GBMGR003",
+              "title": "Playstation 4 Console, 500GB Metal Gear Red LE (No Game), Discounted",
+              "price": 110,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBMGR003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=58F07C5E5D7C86BDC4A6E57F474A20E4&position=38",
+              "tradeVoucher": 71,
+              "tradeCash": 50
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4500GBDTW003",
+              "title": "Playstation 4 Console, 500GB Destiny TK White LE (No Game), Discounted",
+              "price": 115,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBDTW003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2ECB42EB7856930C2042EA23D8FD86EA&position=23",
+              "tradeVoucher": 74,
+              "tradeCash": 52
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4500GB003",
+              "title": "Playstation 4 Console, 500GB Black, Discounted",
+              "price": 100,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4500GB003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=18ED0DB13BE5ADC06A99A27C2672184B&position=2",
+              "tradeVoucher": 65,
+              "tradeCash": 46
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4500GBW003",
+              "title": "Playstation 4 Console, 500GB White, Discounted",
+              "price": 115,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBW003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=18ED0DB13BE5ADC06A99A27C2672184B&position=8",
+              "tradeVoucher": 74,
+              "tradeCash": 52
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4500GBBSL003",
+              "title": "Playstation 4 Console, 500GB Batman Steel Grey LE (No Game), Discounted",
+              "price": 120,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBBSL003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=83978AEAC23F9142644D898AE4261D9A&position=72",
+              "tradeVoucher": 78,
+              "tradeCash": 55
             }
           ]
         },
@@ -158,19 +115,19 @@
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SPS4500GBDTW001",
-              "title": "Playstation 4 Console, 500GB Destiny TK White LE (No Game), Boxed",
-              "price": 185,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBDTW001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5E9DC185E8A2E8B156C0AC92998DA497&position=49",
-              "tradeVoucher": 127,
-              "tradeCash": 105
+              "id": "SPS4500GBMGR001",
+              "title": "Playstation 4 Console, 500GB Metal Gear Red LE (No Game), Boxed",
+              "price": 180,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBMGR001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=58F07C5E5D7C86BDC4A6E57F474A20E4&position=43",
+              "tradeVoucher": 124,
+              "tradeCash": 102
             },
             {
               "competitor": "CEX",
               "id": "SPS4500GBW001",
               "title": "Playstation 4 Console, 500GB White, Boxed",
               "price": 170,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBW001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=B934B658173DCDBFC868F9E61E720BF4&position=25",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBW001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=58F07C5E5D7C86BDC4A6E57F474A20E4&position=48",
               "tradeVoucher": 117,
               "tradeCash": 96
             },
@@ -179,25 +136,25 @@
               "id": "SPS4500GB001",
               "title": "Playstation 4 Console, 500GB Black, Boxed",
               "price": 150,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4500GB001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8AED96A087E22090088FD0B4B24D580B&position=4",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4500GB001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=18ED0DB13BE5ADC06A99A27C2672184B&position=6",
               "tradeVoucher": 103,
               "tradeCash": 85
             },
             {
               "competitor": "CEX",
-              "id": "SPS4500GBMGR001",
-              "title": "Playstation 4 Console, 500GB Metal Gear Red LE (No Game), Boxed",
-              "price": 180,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBMGR001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=57B289CB8E81E72314974644400AD37C&position=58",
-              "tradeVoucher": 124,
-              "tradeCash": 102
+              "id": "SPS4500GBDTW001",
+              "title": "Playstation 4 Console, 500GB Destiny TK White LE (No Game), Boxed",
+              "price": 185,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBDTW001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=6E000DA68578444CB9B80A9FB3D818D4&position=58",
+              "tradeVoucher": 127,
+              "tradeCash": 105
             },
             {
               "competitor": "CEX",
               "id": "SPS4500GBBSL001",
               "title": "Playstation 4 Console, 500GB Batman Steel Grey LE (No Game), Boxed",
               "price": 155,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBBSL001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=57B289CB8E81E72314974644400AD37C&position=60",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4500GBBSL001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=6E000DA68578444CB9B80A9FB3D818D4&position=65",
               "tradeVoucher": 106,
               "tradeCash": 88
             },
@@ -206,7 +163,7 @@
               "id": "SPS4500GB2AV001",
               "title": "Playstation 4 Console, 500GB 20th Anniversary Edition, Boxed",
               "price": 890,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4500GB2AV001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=914E7A5D7B83C5B315A1618078C48BD2&position=1",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4500GB2AV001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=80296E60D33A1B3F1ED8F45EEB364867&position=1",
               "tradeVoucher": 614,
               "tradeCash": 507
             }
@@ -219,28 +176,28 @@
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SPS41TBB001",
-              "title": "Playstation 4 Console, 1TB Black, Boxed",
-              "price": 180,
-              "url": "https://uk.webuy.com/product-detail?id=SPS41TBB001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=B934B658173DCDBFC868F9E61E720BF4&position=20",
-              "tradeVoucher": 124,
-              "tradeCash": 102
-            },
-            {
-              "competitor": "CEX",
               "id": "SPS41TBUCB001",
               "title": "Playstation 4 Console, 1TB Uncharted Grey Blue (No Game), Boxed",
               "price": 190,
-              "url": "https://uk.webuy.com/product-detail?id=SPS41TBUCB001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=57B289CB8E81E72314974644400AD37C&position=61",
+              "url": "https://uk.webuy.com/product-detail?id=SPS41TBUCB001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=58F07C5E5D7C86BDC4A6E57F474A20E4&position=46",
               "tradeVoucher": 131,
               "tradeCash": 108
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS41TBB001",
+              "title": "Playstation 4 Console, 1TB Black, Boxed",
+              "price": 180,
+              "url": "https://uk.webuy.com/product-detail?id=SPS41TBB001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2ECB42EB7856930C2042EA23D8FD86EA&position=24",
+              "tradeVoucher": 124,
+              "tradeCash": 102
             },
             {
               "competitor": "CEX",
               "id": "SPS41TBSWV001",
               "title": "Playstation 4 Console, 1TB Star Wars LE (No Game), Boxed",
               "price": 170,
-              "url": "https://uk.webuy.com/product-detail?id=SPS41TBSWV001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=57B289CB8E81E72314974644400AD37C&position=64",
+              "url": "https://uk.webuy.com/product-detail?id=SPS41TBSWV001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=6E000DA68578444CB9B80A9FB3D818D4&position=68",
               "tradeVoucher": 117,
               "tradeCash": 96
             },
@@ -249,7 +206,7 @@
               "id": "SPS41TBCBL001",
               "title": "Playstation 4 Console, 1TB Black Ops III LE (No Game), Boxed",
               "price": 210,
-              "url": "https://uk.webuy.com/product-detail?id=SPS41TBCBL001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=14307241F822C3F1C1505E9AD48FF794&position=11",
+              "url": "https://uk.webuy.com/product-detail?id=SPS41TBCBL001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2B9EC3C448C9DDB6204C2A467D6C5FF3&position=4",
               "tradeVoucher": 144,
               "tradeCash": 119
             }
@@ -262,39 +219,82 @@
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SPS41TBSWV003",
-              "title": "Playstation 4 Console, 1TB Star Wars LE (No Game), Discounted",
-              "price": 135,
-              "url": "https://uk.webuy.com/product-detail?id=SPS41TBSWV003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=B934B658173DCDBFC868F9E61E720BF4&position=21",
-              "tradeVoucher": 87,
-              "tradeCash": 62
+              "id": "SPS41TBCBL003",
+              "title": "Playstation 4 Console, 1TB Black Ops III LE (No Game), Discounted",
+              "price": 140,
+              "url": "https://uk.webuy.com/product-detail?id=SPS41TBCBL003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=58F07C5E5D7C86BDC4A6E57F474A20E4&position=47",
+              "tradeVoucher": 91,
+              "tradeCash": 64
             },
             {
               "competitor": "CEX",
               "id": "SPS41TBUCB003",
               "title": "Playstation 4 Console, 1TB Uncharted Grey Blue (No Game), Discounted",
               "price": 135,
-              "url": "https://uk.webuy.com/product-detail?id=SPS41TBUCB003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=B934B658173DCDBFC868F9E61E720BF4&position=28",
+              "url": "https://uk.webuy.com/product-detail?id=SPS41TBUCB003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=58F07C5E5D7C86BDC4A6E57F474A20E4&position=51",
               "tradeVoucher": 87,
               "tradeCash": 62
             },
             {
               "competitor": "CEX",
-              "id": "SPS41TBCBL003",
-              "title": "Playstation 4 Console, 1TB Black Ops III LE (No Game), Discounted",
-              "price": 140,
-              "url": "https://uk.webuy.com/product-detail?id=SPS41TBCBL003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=B934B658173DCDBFC868F9E61E720BF4&position=32",
-              "tradeVoucher": 91,
-              "tradeCash": 64
+              "id": "SPS41TBSWV003",
+              "title": "Playstation 4 Console, 1TB Star Wars LE (No Game), Discounted",
+              "price": 135,
+              "url": "https://uk.webuy.com/product-detail?id=SPS41TBSWV003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2ECB42EB7856930C2042EA23D8FD86EA&position=21",
+              "tradeVoucher": 87,
+              "tradeCash": 62
             },
             {
               "competitor": "CEX",
               "id": "SPS41TBB003",
               "title": "Playstation 4 Console, 1TB Black, Discounted",
               "price": 125,
-              "url": "https://uk.webuy.com/product-detail?id=SPS41TBB003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8AED96A087E22090088FD0B4B24D580B&position=12",
+              "url": "https://uk.webuy.com/product-detail?id=SPS41TBB003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=18ED0DB13BE5ADC06A99A27C2672184B&position=13",
               "tradeVoucher": 81,
               "tradeCash": 57
+            }
+          ]
+        },
+        "PlayStation 4 1TB unboxed": {
+          "variant": "PlayStation 4 1TB unboxed",
+          "storage": "1TB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SPS41TBSWV002",
+              "title": "Playstation 4 Console, 1TB Star Wars LE (No Game), Unboxed",
+              "price": 160,
+              "url": "https://uk.webuy.com/product-detail?id=SPS41TBSWV002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2ECB42EB7856930C2042EA23D8FD86EA&position=28",
+              "tradeVoucher": 104,
+              "tradeCash": 73
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS41TBUCB002",
+              "title": "Playstation 4 Console, 1TB Uncharted Grey Blue (No Game), Unboxed",
+              "price": 145,
+              "url": "https://uk.webuy.com/product-detail?id=SPS41TBUCB002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2ECB42EB7856930C2042EA23D8FD86EA&position=33",
+              "tradeVoucher": 94,
+              "tradeCash": 66
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS41TBB002",
+              "title": "Playstation 4 Console, 1TB Black, Unboxed",
+              "price": 135,
+              "url": "https://uk.webuy.com/product-detail?id=SPS41TBB002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=18ED0DB13BE5ADC06A99A27C2672184B&position=11",
+              "tradeVoucher": 87,
+              "tradeCash": 62
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS41TBCBL002",
+              "title": "Playstation 4 Console, 1TB Black Ops III LE (No Game), Unboxed",
+              "price": 150,
+              "url": "https://uk.webuy.com/product-detail?id=SPS41TBCBL002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=6E000DA68578444CB9B80A9FB3D818D4&position=55",
+              "tradeVoucher": 97,
+              "tradeCash": 69
             }
           ]
         }
@@ -303,76 +303,6 @@
     "PlayStation 4 Slim": {
       "model": "PlayStation 4 Slim",
       "variants": {
-        "PlayStation 4 Slim 1TB unboxed": {
-          "variant": "PlayStation 4 Slim 1TB unboxed",
-          "storage": "1TB",
-          "condition": "unboxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SPS4S1TBSB002",
-              "title": "Playstation 4 Slim Console 1TB Days Of Play Steel Black (1 SB Pad),Unboxed",
-              "price": 155,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBSB002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5E9DC185E8A2E8B156C0AC92998DA497&position=36",
-              "tradeVoucher": 100,
-              "tradeCash": 71
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS41TBGC002",
-              "title": "Playstation 4 Slim Console, 1TB Green Camouflage (No Game), Unboxed",
-              "price": 170,
-              "url": "https://uk.webuy.com/product-detail?id=SPS41TBGC002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5E9DC185E8A2E8B156C0AC92998DA497&position=47",
-              "tradeVoucher": 110,
-              "tradeCash": 78
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4S1TB002",
-              "title": "Playstation 4 Slim Console, 1TB Black, Unboxed",
-              "price": 145,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TB002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8AED96A087E22090088FD0B4B24D580B&position=13",
-              "tradeVoucher": 94,
-              "tradeCash": 66
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4S1TBGT002",
-              "title": "Playstation 4 Slim Console, 1TB Gran Turismo Silver (No Game), Unboxed",
-              "price": 140,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBGT002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8DF9047E98B95A6FC08995FABBF8AF09&position=69",
-              "tradeVoucher": 91,
-              "tradeCash": 64
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4S1TBFXV002",
-              "title": "Playstation 4 Slim Console, 1TB Final Fantasy XV LE (No Game), Unboxed",
-              "price": 150,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBFXV002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8DF9047E98B95A6FC08995FABBF8AF09&position=71",
-              "tradeVoucher": 97,
-              "tradeCash": 69
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4S1TBSMR002",
-              "title": "Playstation 4 Slim Console, 1TB Spider-Man Red (No Game), Unboxed",
-              "price": 180,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBSMR002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=57B289CB8E81E72314974644400AD37C&position=53",
-              "tradeVoucher": 117,
-              "tradeCash": 82
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4S1TBSWG002",
-              "title": "Playstation 4 Slim Console, 1TB Star Wars Grey (No Game), Unboxed",
-              "price": 180,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBSWG002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=57B289CB8E81E72314974644400AD37C&position=55",
-              "tradeVoucher": 117,
-              "tradeCash": 82
-            }
-          ]
-        },
         "PlayStation 4 Slim 1TB discounted": {
           "variant": "PlayStation 4 Slim 1TB discounted",
           "storage": "1TB",
@@ -380,46 +310,46 @@
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SPS4S1TBSB003",
-              "title": "Playstation 4 Slim Console 1TB Days Of Play Steel Black (1 Pad),Discounted",
-              "price": 150,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBSB003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5E9DC185E8A2E8B156C0AC92998DA497&position=38",
-              "tradeVoucher": 97,
-              "tradeCash": 69
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4S1TBSMR003",
-              "title": "Playstation 4 Slim Console, 1TB Spider-Man Red (No Game), Discounted",
-              "price": 150,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBSMR003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5E9DC185E8A2E8B156C0AC92998DA497&position=41",
-              "tradeVoucher": 97,
-              "tradeCash": 69
-            },
-            {
-              "competitor": "CEX",
               "id": "SPS4S1TBGT003",
               "title": "Playstation 4 Slim Console, 1TB Gran Turismo Silver (No Game), Discounted",
               "price": 135,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBGT003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5E9DC185E8A2E8B156C0AC92998DA497&position=42",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBGT003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=58F07C5E5D7C86BDC4A6E57F474A20E4&position=36",
               "tradeVoucher": 87,
               "tradeCash": 62
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4S1TBSB003",
+              "title": "Playstation 4 Slim Console 1TB Days Of Play Steel Black (1 Pad),Discounted",
+              "price": 150,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBSB003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=58F07C5E5D7C86BDC4A6E57F474A20E4&position=42",
+              "tradeVoucher": 97,
+              "tradeCash": 69
             },
             {
               "competitor": "CEX",
               "id": "SPS4S1TBSWG003",
               "title": "Playstation 4 Slim Console, 1TB Star Wars Grey (No Game), Discounted",
               "price": 140,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBSWG003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5E9DC185E8A2E8B156C0AC92998DA497&position=50",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBSWG003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=58F07C5E5D7C86BDC4A6E57F474A20E4&position=49",
               "tradeVoucher": 91,
               "tradeCash": 64
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4S1TBSMR003",
+              "title": "Playstation 4 Slim Console, 1TB Spider-Man Red (No Game), Discounted",
+              "price": 150,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBSMR003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2ECB42EB7856930C2042EA23D8FD86EA&position=27",
+              "tradeVoucher": 97,
+              "tradeCash": 69
             },
             {
               "competitor": "CEX",
               "id": "SPS4S1TBFXV003",
               "title": "Playstation 4 Slim Console, 1TB Final Fantasy XV LE (No Game), Discounted",
               "price": 130,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBFXV003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=B934B658173DCDBFC868F9E61E720BF4&position=27",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBFXV003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2ECB42EB7856930C2042EA23D8FD86EA&position=31",
               "tradeVoucher": 84,
               "tradeCash": 59
             },
@@ -428,7 +358,7 @@
               "id": "SPS41TBGC003",
               "title": "Playstation 4 Slim Console, 1TB Green Camouflage (No Game), Discounted",
               "price": 130,
-              "url": "https://uk.webuy.com/product-detail?id=SPS41TBGC003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=B934B658173DCDBFC868F9E61E720BF4&position=29",
+              "url": "https://uk.webuy.com/product-detail?id=SPS41TBGC003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2ECB42EB7856930C2042EA23D8FD86EA&position=32",
               "tradeVoucher": 84,
               "tradeCash": 59
             },
@@ -437,61 +367,131 @@
               "id": "SPS4S1TB003",
               "title": "Playstation 4 Slim Console, 1TB Black, Discounted",
               "price": 130,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TB003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8AED96A087E22090088FD0B4B24D580B&position=2",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TB003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=18ED0DB13BE5ADC06A99A27C2672184B&position=5",
               "tradeVoucher": 84,
               "tradeCash": 59
             }
           ]
         },
-        "PlayStation 4 Slim 500GB boxed": {
-          "variant": "PlayStation 4 Slim 500GB boxed",
+        "PlayStation 4 Slim 500GB unboxed": {
+          "variant": "PlayStation 4 Slim 500GB unboxed",
           "storage": "500GB",
-          "condition": "boxed",
+          "condition": "unboxed",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SPS4S500GBW001",
-              "title": "Playstation 4 Slim Console, 500GB White, Boxed",
-              "price": 175,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBW001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5E9DC185E8A2E8B156C0AC92998DA497&position=40",
-              "tradeVoucher": 120,
-              "tradeCash": 99
+              "id": "SPS4S500GBG002",
+              "title": "Playstation 4 Slim Console, 500GB Gold (With 1 Gold Pad), Unboxed",
+              "price": 155,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBG002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=58F07C5E5D7C86BDC4A6E57F474A20E4&position=37",
+              "tradeVoucher": 100,
+              "tradeCash": 71
             },
             {
               "competitor": "CEX",
-              "id": "SPS4S500GB001",
-              "title": "Playstation 4 Slim Console, 500GB Black, Boxed",
-              "price": 135,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GB001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8AED96A087E22090088FD0B4B24D580B&position=11",
-              "tradeVoucher": 93,
-              "tradeCash": 76
+              "id": "SPS4S500GBDP002",
+              "title": "Playstation 4 Slim Console, 500GB Days Of Play Blue (1 Blue Pad) Unboxed",
+              "price": 140,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBDP002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=58F07C5E5D7C86BDC4A6E57F474A20E4&position=39",
+              "tradeVoucher": 91,
+              "tradeCash": 64
             },
             {
               "competitor": "CEX",
-              "id": "SPS4S500GBG001",
-              "title": "Playstation 4 Slim Console, 500GB Gold (With 2 Gold Pads), Boxed",
-              "price": 295,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBG001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=14307241F822C3F1C1505E9AD48FF794&position=4",
-              "tradeVoucher": 203,
-              "tradeCash": 168
+              "id": "SPS4S500GBS002",
+              "title": "Playstation 4 Slim Console, 500GB Silver (With 1 Silver Pad), Unboxed",
+              "price": 130,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBS002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2ECB42EB7856930C2042EA23D8FD86EA&position=34",
+              "tradeVoucher": 84,
+              "tradeCash": 59
             },
             {
               "competitor": "CEX",
-              "id": "SPS4S500GBS001",
-              "title": "Playstation 4 Slim Console, 500GB Silver (With 2 Silver Pads), Boxed",
-              "price": 225,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBS001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=14307241F822C3F1C1505E9AD48FF794&position=9",
-              "tradeVoucher": 155,
-              "tradeCash": 128
+              "id": "SPS4S500GBW002",
+              "title": "Playstation 4 Slim Console, 500GB White, Unboxed",
+              "price": 140,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBW002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=18ED0DB13BE5ADC06A99A27C2672184B&position=9",
+              "tradeVoucher": 91,
+              "tradeCash": 64
             },
             {
               "competitor": "CEX",
-              "id": "SPS4S500GBDP001",
-              "title": "Playstation 4 Slim Console, 500GB Days Of Play Blue (2 Blue Pads) Boxed",
-              "price": 230,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBDP001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=14307241F822C3F1C1505E9AD48FF794&position=15",
-              "tradeVoucher": 158,
-              "tradeCash": 131
+              "id": "SPS4S500GB002",
+              "title": "Playstation 4 Slim Console, 500GB Black, Unboxed",
+              "price": 120,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GB002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=18ED0DB13BE5ADC06A99A27C2672184B&position=10",
+              "tradeVoucher": 78,
+              "tradeCash": 55
+            }
+          ]
+        },
+        "PlayStation 4 Slim 1TB unboxed": {
+          "variant": "PlayStation 4 Slim 1TB unboxed",
+          "storage": "1TB",
+          "condition": "unboxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SPS41TBGC002",
+              "title": "Playstation 4 Slim Console, 1TB Green Camouflage (No Game), Unboxed",
+              "price": 170,
+              "url": "https://uk.webuy.com/product-detail?id=SPS41TBGC002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=58F07C5E5D7C86BDC4A6E57F474A20E4&position=41",
+              "tradeVoucher": 110,
+              "tradeCash": 78
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4S1TBSB002",
+              "title": "Playstation 4 Slim Console 1TB Days Of Play Steel Black (1 SB Pad),Unboxed",
+              "price": 155,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBSB002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2ECB42EB7856930C2042EA23D8FD86EA&position=30",
+              "tradeVoucher": 100,
+              "tradeCash": 71
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4S1TB002",
+              "title": "Playstation 4 Slim Console, 1TB Black, Unboxed",
+              "price": 145,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TB002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=18ED0DB13BE5ADC06A99A27C2672184B&position=14",
+              "tradeVoucher": 94,
+              "tradeCash": 66
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4S1TBGT002",
+              "title": "Playstation 4 Slim Console, 1TB Gran Turismo Silver (No Game), Unboxed",
+              "price": 140,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBGT002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=6E000DA68578444CB9B80A9FB3D818D4&position=52",
+              "tradeVoucher": 91,
+              "tradeCash": 64
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4S1TBFXV002",
+              "title": "Playstation 4 Slim Console, 1TB Final Fantasy XV LE (No Game), Unboxed",
+              "price": 150,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBFXV002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=6E000DA68578444CB9B80A9FB3D818D4&position=54",
+              "tradeVoucher": 97,
+              "tradeCash": 69
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4S1TBSMR002",
+              "title": "Playstation 4 Slim Console, 1TB Spider-Man Red (No Game), Unboxed",
+              "price": 180,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBSMR002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=6E000DA68578444CB9B80A9FB3D818D4&position=60",
+              "tradeVoucher": 117,
+              "tradeCash": 82
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4S1TBSWG002",
+              "title": "Playstation 4 Slim Console, 1TB Star Wars Grey (No Game), Unboxed",
+              "price": 180,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBSWG002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=6E000DA68578444CB9B80A9FB3D818D4&position=61",
+              "tradeVoucher": 117,
+              "tradeCash": 82
             }
           ]
         },
@@ -502,10 +502,19 @@
           "listings": [
             {
               "competitor": "CEX",
+              "id": "SPS4S1TBGT001",
+              "title": "Playstation 4 Slim Console, 1TB Gran Turismo Silver (No Game), Boxed",
+              "price": 195,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBGT001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=58F07C5E5D7C86BDC4A6E57F474A20E4&position=44",
+              "tradeVoucher": 134,
+              "tradeCash": 111
+            },
+            {
+              "competitor": "CEX",
               "id": "SPS4S1TB001",
               "title": "Playstation 4 Slim Console, 1TB Black, Boxed",
               "price": 175,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TB001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=B934B658173DCDBFC868F9E61E720BF4&position=18",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TB001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2ECB42EB7856930C2042EA23D8FD86EA&position=18",
               "tradeVoucher": 120,
               "tradeCash": 99
             },
@@ -514,7 +523,7 @@
               "id": "SPS4S1TBFXV001",
               "title": "Playstation 4 Slim Console, 1TB Final Fantasy XV LE (No Game), Boxed",
               "price": 195,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBFXV001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=57B289CB8E81E72314974644400AD37C&position=56",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBFXV001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=6E000DA68578444CB9B80A9FB3D818D4&position=62",
               "tradeVoucher": 134,
               "tradeCash": 111
             },
@@ -523,45 +532,36 @@
               "id": "SPS41TBGC001",
               "title": "Playstation 4 Slim Console, 1TB Green Camouflage (No Game), Boxed",
               "price": 190,
-              "url": "https://uk.webuy.com/product-detail?id=SPS41TBGC001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=57B289CB8E81E72314974644400AD37C&position=57",
+              "url": "https://uk.webuy.com/product-detail?id=SPS41TBGC001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=6E000DA68578444CB9B80A9FB3D818D4&position=64",
               "tradeVoucher": 131,
               "tradeCash": 108
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4S1TBGT001",
-              "title": "Playstation 4 Slim Console, 1TB Gran Turismo Silver (No Game), Boxed",
-              "price": 195,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBGT001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=57B289CB8E81E72314974644400AD37C&position=59",
-              "tradeVoucher": 134,
-              "tradeCash": 111
             },
             {
               "competitor": "CEX",
               "id": "SPS4S1TBSB001",
               "title": "Playstation 4 Slim Console 1TB Days Of Play Steel Black (1 SB Pad),Boxed",
               "price": 190,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBSB001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=57B289CB8E81E72314974644400AD37C&position=62",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBSB001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=6E000DA68578444CB9B80A9FB3D818D4&position=66",
               "tradeVoucher": 131,
               "tradeCash": 108
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4S1TBSMR001",
-              "title": "Playstation 4 Slim Console, 1TB Spider-Man Red (No Game), Boxed",
-              "price": 230,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBSMR001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=14307241F822C3F1C1505E9AD48FF794&position=12",
-              "tradeVoucher": 158,
-              "tradeCash": 131
             },
             {
               "competitor": "CEX",
               "id": "SPS4S1TBSWG001",
               "title": "Playstation 4 Slim Console, 1TB Star Wars Grey (No Game), Boxed",
               "price": 210,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBSWG001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=14307241F822C3F1C1505E9AD48FF794&position=16",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBSWG001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=88BBD5DF82AF1D835434C38F9CB3C22B&position=18",
               "tradeVoucher": 144,
               "tradeCash": 119
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4S1TBSMR001",
+              "title": "Playstation 4 Slim Console, 1TB Spider-Man Red (No Game), Boxed",
+              "price": 230,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S1TBSMR001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2B9EC3C448C9DDB6204C2A467D6C5FF3&position=13",
+              "tradeVoucher": 158,
+              "tradeCash": 131
             }
           ]
         },
@@ -575,7 +575,7 @@
               "id": "SPS4S500GBDP003",
               "title": "Playstation 4 Slim Console, 500GB Days Of Play Blue (1 Pad) Discounted",
               "price": 130,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBDP003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=B934B658173DCDBFC868F9E61E720BF4&position=22",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBDP003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2ECB42EB7856930C2042EA23D8FD86EA&position=22",
               "tradeVoucher": 84,
               "tradeCash": 59
             },
@@ -584,7 +584,7 @@
               "id": "SPS4S500GBG003",
               "title": "Playstation 4 Slim Console, 500GB Gold (With 1 Pad), Discounted",
               "price": 125,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBG003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=B934B658173DCDBFC868F9E61E720BF4&position=23",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBG003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2ECB42EB7856930C2042EA23D8FD86EA&position=29",
               "tradeVoucher": 81,
               "tradeCash": 57
             },
@@ -593,7 +593,7 @@
               "id": "SPS4S500GB003",
               "title": "Playstation 4 Slim Console, 500GB Black, Discounted",
               "price": 115,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GB003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8AED96A087E22090088FD0B4B24D580B&position=10",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GB003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=18ED0DB13BE5ADC06A99A27C2672184B&position=12",
               "tradeVoucher": 74,
               "tradeCash": 52
             },
@@ -602,7 +602,7 @@
               "id": "SPS4S500GBW003",
               "title": "Playstation 4 Slim Console, 500GB White, Discounted",
               "price": 120,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBW003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8AED96A087E22090088FD0B4B24D580B&position=15",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBW003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=18ED0DB13BE5ADC06A99A27C2672184B&position=16",
               "tradeVoucher": 78,
               "tradeCash": 55
             },
@@ -611,61 +611,61 @@
               "id": "SPS4S500GBS003",
               "title": "Playstation 4 Slim Console, 500GB Silver (With 1 Pad), Discounted",
               "price": 120,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBS003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=57B289CB8E81E72314974644400AD37C&position=54",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBS003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=83978AEAC23F9142644D898AE4261D9A&position=74",
               "tradeVoucher": 78,
               "tradeCash": 55
             }
           ]
         },
-        "PlayStation 4 Slim 500GB unboxed": {
-          "variant": "PlayStation 4 Slim 500GB unboxed",
+        "PlayStation 4 Slim 500GB boxed": {
+          "variant": "PlayStation 4 Slim 500GB boxed",
           "storage": "500GB",
-          "condition": "unboxed",
+          "condition": "boxed",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SPS4S500GBS002",
-              "title": "Playstation 4 Slim Console, 500GB Silver (With 1 Silver Pad), Unboxed",
-              "price": 130,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBS002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=B934B658173DCDBFC868F9E61E720BF4&position=30",
-              "tradeVoucher": 84,
-              "tradeCash": 59
+              "id": "SPS4S500GBW001",
+              "title": "Playstation 4 Slim Console, 500GB White, Boxed",
+              "price": 175,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBW001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2ECB42EB7856930C2042EA23D8FD86EA&position=26",
+              "tradeVoucher": 120,
+              "tradeCash": 99
             },
             {
               "competitor": "CEX",
-              "id": "SPS4S500GB002",
-              "title": "Playstation 4 Slim Console, 500GB Black, Unboxed",
-              "price": 120,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GB002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8AED96A087E22090088FD0B4B24D580B&position=7",
-              "tradeVoucher": 78,
-              "tradeCash": 55
+              "id": "SPS4S500GB001",
+              "title": "Playstation 4 Slim Console, 500GB Black, Boxed",
+              "price": 135,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GB001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=18ED0DB13BE5ADC06A99A27C2672184B&position=3",
+              "tradeVoucher": 93,
+              "tradeCash": 76
             },
             {
               "competitor": "CEX",
-              "id": "SPS4S500GBW002",
-              "title": "Playstation 4 Slim Console, 500GB White, Unboxed",
-              "price": 140,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBW002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8AED96A087E22090088FD0B4B24D580B&position=8",
-              "tradeVoucher": 91,
-              "tradeCash": 64
+              "id": "SPS4S500GBS001",
+              "title": "Playstation 4 Slim Console, 500GB Silver (With 2 Silver Pads), Boxed",
+              "price": 225,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBS001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2B9EC3C448C9DDB6204C2A467D6C5FF3&position=3",
+              "tradeVoucher": 155,
+              "tradeCash": 128
             },
             {
               "competitor": "CEX",
-              "id": "SPS4S500GBDP002",
-              "title": "Playstation 4 Slim Console, 500GB Days Of Play Blue (1 Blue Pad) Unboxed",
-              "price": 140,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBDP002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=57B289CB8E81E72314974644400AD37C&position=52",
-              "tradeVoucher": 91,
-              "tradeCash": 64
+              "id": "SPS4S500GBG001",
+              "title": "Playstation 4 Slim Console, 500GB Gold (With 2 Gold Pads), Boxed",
+              "price": 295,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBG001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2B9EC3C448C9DDB6204C2A467D6C5FF3&position=7",
+              "tradeVoucher": 203,
+              "tradeCash": 168
             },
             {
               "competitor": "CEX",
-              "id": "SPS4S500GBG002",
-              "title": "Playstation 4 Slim Console, 500GB Gold (With 1 Gold Pad), Unboxed",
-              "price": 155,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBG002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=57B289CB8E81E72314974644400AD37C&position=66",
-              "tradeVoucher": 100,
-              "tradeCash": 71
+              "id": "SPS4S500GBDP001",
+              "title": "Playstation 4 Slim Console, 500GB Days Of Play Blue (2 Blue Pads) Boxed",
+              "price": 230,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4S500GBDP001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2B9EC3C448C9DDB6204C2A467D6C5FF3&position=17",
+              "tradeVoucher": 158,
+              "tradeCash": 131
             }
           ]
         }
@@ -684,43 +684,34 @@
               "id": "SPS4P1TBLU2B002",
               "title": "Playstation 4 Pro Console, 1TB Last Of Us 2 Black (No Game), Unboxed",
               "price": 200,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBLU2B002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5E9DC185E8A2E8B156C0AC92998DA497&position=39",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBLU2B002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=58F07C5E5D7C86BDC4A6E57F474A20E4&position=40",
               "tradeVoucher": 138,
               "tradeCash": 114
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4P1TB002",
-              "title": "Playstation 4 Pro Console, 1TB Black, Unboxed",
-              "price": 160,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TB002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8AED96A087E22090088FD0B4B24D580B&position=9",
-              "tradeVoucher": 104,
-              "tradeCash": 73
             },
             {
               "competitor": "CEX",
               "id": "SPS4P1TBGW002",
               "title": "Playstation 4 Pro Console, 1TB Glacier White (No Game/DLC), Unboxed",
               "price": 165,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBGW002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8AED96A087E22090088FD0B4B24D580B&position=17",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBGW002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2ECB42EB7856930C2042EA23D8FD86EA&position=20",
               "tradeVoucher": 107,
               "tradeCash": 75
             },
             {
               "competitor": "CEX",
-              "id": "SPS4P1TBGOW002",
-              "title": "Playstation 4 Pro Console, 1TB God Of War Silver (No Game), Unboxed",
-              "price": 190,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBGOW002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=57B289CB8E81E72314974644400AD37C&position=63",
-              "tradeVoucher": 123,
-              "tradeCash": 87
+              "id": "SPS4P1TB002",
+              "title": "Playstation 4 Pro Console, 1TB Black, Unboxed",
+              "price": 160,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TB002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=18ED0DB13BE5ADC06A99A27C2672184B&position=7",
+              "tradeVoucher": 104,
+              "tradeCash": 73
             },
             {
               "competitor": "CEX",
               "id": "SPS4P1TBDSW002",
               "title": "Playstation 4 Pro Console, 1TB Death Stranding White (No Game), Unboxed",
               "price": 175,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBDSW002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=57B289CB8E81E72314974644400AD37C&position=67",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBDSW002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=83978AEAC23F9142644D898AE4261D9A&position=70",
               "tradeVoucher": 113,
               "tradeCash": 80
             },
@@ -729,16 +720,43 @@
               "id": "SPS4P1TBSWB002",
               "title": "Playstation 4 Pro Console, 1TB Star Wars Black (No Game), Unboxed",
               "price": 185,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBSWB002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=57B289CB8E81E72314974644400AD37C&position=68",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBSWB002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=83978AEAC23F9142644D898AE4261D9A&position=71",
               "tradeVoucher": 127,
               "tradeCash": 105
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4P1TBGOW002",
+              "title": "Playstation 4 Pro Console, 1TB God Of War Silver (No Game), Unboxed",
+              "price": 190,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBGOW002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=6E000DA68578444CB9B80A9FB3D818D4&position=67",
+              "tradeVoucher": 123,
+              "tradeCash": 87
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4P1TBLU2B002",
+              "title": "Playstation 4 Pro Console, 1TB Last Of Us 2 Black (No Game), Unboxed",
+              "price": 200,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBLU2B002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2B9EC3C448C9DDB6204C2A467D6C5FF3&position=2",
+              "tradeVoucher": 138,
+              "tradeCash": 114
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4P1TBSMR002",
+              "title": "Playstation 4 Pro Console, 1TB Spider-Man Red (No Game), Unboxed",
+              "price": 215,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBSMR002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2B9EC3C448C9DDB6204C2A467D6C5FF3&position=5",
+              "tradeVoucher": 148,
+              "tradeCash": 122
             },
             {
               "competitor": "CEX",
               "id": "SPS4P1TBMH002",
               "title": "Playstation 4 Pro Console, 1TB Monster Hunter Black (No Game), Unboxed",
               "price": 220,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBMH002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=14307241F822C3F1C1505E9AD48FF794&position=6",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBMH002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2B9EC3C448C9DDB6204C2A467D6C5FF3&position=9",
               "tradeVoucher": 151,
               "tradeCash": 125
             },
@@ -747,18 +765,9 @@
               "id": "SPS4P1TBKH3B002",
               "title": "Playstation 4 Pro Console, 1TB Kingdom Hearts III Black (No Game), Unboxed",
               "price": 225,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBKH3B002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=14307241F822C3F1C1505E9AD48FF794&position=7",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBKH3B002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2B9EC3C448C9DDB6204C2A467D6C5FF3&position=10",
               "tradeVoucher": 146,
               "tradeCash": 103
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4P1TBSMR002",
-              "title": "Playstation 4 Pro Console, 1TB Spider-Man Red (No Game), Unboxed",
-              "price": 215,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBSMR002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=14307241F822C3F1C1505E9AD48FF794&position=14",
-              "tradeVoucher": 148,
-              "tradeCash": 122
             }
           ]
         },
@@ -769,46 +778,19 @@
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SPS4P1TBSWB003",
-              "title": "Playstation 4 Pro Console, 1TB Star Wars Black (No Game), Discounted",
-              "price": 165,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBSWB003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5E9DC185E8A2E8B156C0AC92998DA497&position=43",
-              "tradeVoucher": 107,
-              "tradeCash": 75
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4P1TBDSW003",
-              "title": "Playstation 4 Pro Console, 1TB Death Stranding White (No Game), Discounted",
-              "price": 165,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBDSW003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5E9DC185E8A2E8B156C0AC92998DA497&position=44",
-              "tradeVoucher": 107,
-              "tradeCash": 75
-            },
-            {
-              "competitor": "CEX",
               "id": "SPS4P1TBMH003",
               "title": "Playstation 4 Pro Console, 1TB Monster Hunter Black (No Game), Discounted",
               "price": 165,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBMH003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5E9DC185E8A2E8B156C0AC92998DA497&position=48",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBMH003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=58F07C5E5D7C86BDC4A6E57F474A20E4&position=45",
               "tradeVoucher": 107,
               "tradeCash": 75
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4P1TBGOW003",
-              "title": "Playstation 4 Pro Console, 1TB God Of War Silver (No Game), Discounted",
-              "price": 170,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBGOW003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=B934B658173DCDBFC868F9E61E720BF4&position=26",
-              "tradeVoucher": 110,
-              "tradeCash": 78
             },
             {
               "competitor": "CEX",
               "id": "SPS4P1TB003",
               "title": "Playstation 4 Pro Console, 1TB Black, Discounted",
               "price": 150,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TB003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8AED96A087E22090088FD0B4B24D580B&position=3",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TB003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=18ED0DB13BE5ADC06A99A27C2672184B&position=4",
               "tradeVoucher": 97,
               "tradeCash": 69
             },
@@ -817,27 +799,54 @@
               "id": "SPS4P1TBGW003",
               "title": "Playstation 4 Pro Console, 1TB Glacier White (No Game/DLC), Discounted",
               "price": 155,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBGW003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8AED96A087E22090088FD0B4B24D580B&position=16",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBGW003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=18ED0DB13BE5ADC06A99A27C2672184B&position=17",
               "tradeVoucher": 100,
               "tradeCash": 71
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4P1TBLU2B003",
-              "title": "Playstation 4 Pro Console, 1TB Last Of Us 2 Black (No Game), Discounted",
-              "price": 175,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBLU2B003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8DF9047E98B95A6FC08995FABBF8AF09&position=73",
-              "tradeVoucher": 113,
-              "tradeCash": 80
             },
             {
               "competitor": "CEX",
               "id": "SPS4P1TBSMR003",
               "title": "Playstation 4 Pro Console, 1TB Spider-Man Red (No Game), Discounted",
               "price": 190,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBSMR003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=57B289CB8E81E72314974644400AD37C&position=65",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBSMR003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=83978AEAC23F9142644D898AE4261D9A&position=69",
               "tradeVoucher": 123,
               "tradeCash": 87
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4P1TBDSW003",
+              "title": "Playstation 4 Pro Console, 1TB Death Stranding White (No Game), Discounted",
+              "price": 165,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBDSW003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=6E000DA68578444CB9B80A9FB3D818D4&position=53",
+              "tradeVoucher": 107,
+              "tradeCash": 75
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4P1TBLU2B003",
+              "title": "Playstation 4 Pro Console, 1TB Last Of Us 2 Black (No Game), Discounted",
+              "price": 175,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBLU2B003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=6E000DA68578444CB9B80A9FB3D818D4&position=56",
+              "tradeVoucher": 113,
+              "tradeCash": 80
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4P1TBGOW003",
+              "title": "Playstation 4 Pro Console, 1TB God Of War Silver (No Game), Discounted",
+              "price": 170,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBGOW003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=6E000DA68578444CB9B80A9FB3D818D4&position=57",
+              "tradeVoucher": 110,
+              "tradeCash": 78
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4P1TBSWB003",
+              "title": "Playstation 4 Pro Console, 1TB Star Wars Black (No Game), Discounted",
+              "price": 165,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBSWB003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=6E000DA68578444CB9B80A9FB3D818D4&position=59",
+              "tradeVoucher": 107,
+              "tradeCash": 75
             }
           ]
         },
@@ -851,7 +860,7 @@
               "id": "SPS4P1TBGW001",
               "title": "Playstation 4 Pro Console, 1TB Glacier White (No Game/DLC), Boxed",
               "price": 195,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBGW001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=B934B658173DCDBFC868F9E61E720BF4&position=33",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBGW001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2ECB42EB7856930C2042EA23D8FD86EA&position=25",
               "tradeVoucher": 134,
               "tradeCash": 111
             },
@@ -860,7 +869,7 @@
               "id": "SPS4P1TB001",
               "title": "Playstation 4 Pro Console, 1TB Black, Boxed",
               "price": 195,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TB001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8AED96A087E22090088FD0B4B24D580B&position=14",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TB001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=18ED0DB13BE5ADC06A99A27C2672184B&position=15",
               "tradeVoucher": 134,
               "tradeCash": 111
             },
@@ -869,7 +878,7 @@
               "id": "SPS4P1TBLU2B001",
               "title": "Playstation 4 Pro Console, 1TB Last Of Us 2 Black (No Game), Boxed",
               "price": 230,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBLU2B001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=14307241F822C3F1C1505E9AD48FF794&position=1",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBLU2B001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2B9EC3C448C9DDB6204C2A467D6C5FF3&position=1",
               "tradeVoucher": 158,
               "tradeCash": 131
             },
@@ -878,25 +887,16 @@
               "id": "SPS4P1TBDSW001",
               "title": "Playstation 4 Pro Console, 1TB Death Stranding White (No Game), Boxed",
               "price": 220,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBDSW001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=14307241F822C3F1C1505E9AD48FF794&position=2",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBDSW001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2B9EC3C448C9DDB6204C2A467D6C5FF3&position=6",
               "tradeVoucher": 151,
               "tradeCash": 125
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS4P1TBKH3B001",
-              "title": "Playstation 4 Pro Console, 1TB Kingdom Hearts III Black (No Game), Boxed",
-              "price": 265,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBKH3B001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=14307241F822C3F1C1505E9AD48FF794&position=3",
-              "tradeVoucher": 182,
-              "tradeCash": 151
             },
             {
               "competitor": "CEX",
               "id": "SPS4P1TBSWB001",
               "title": "Playstation 4 Pro Console, 1TB Star Wars Black (No Game), Boxed",
               "price": 255,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBSWB001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=14307241F822C3F1C1505E9AD48FF794&position=5",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBSWB001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2B9EC3C448C9DDB6204C2A467D6C5FF3&position=8",
               "tradeVoucher": 175,
               "tradeCash": 145
             },
@@ -905,7 +905,7 @@
               "id": "SPS4P1TBSMR001",
               "title": "Playstation 4 Pro Console, 1TB Spider-Man Red (No Game), Boxed",
               "price": 265,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBSMR001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=14307241F822C3F1C1505E9AD48FF794&position=8",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBSMR001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2B9EC3C448C9DDB6204C2A467D6C5FF3&position=11",
               "tradeVoucher": 182,
               "tradeCash": 151
             },
@@ -914,7 +914,7 @@
               "id": "SPS4P1TBGOW001",
               "title": "Playstation 4 Pro Console, 1TB God Of War Silver (No Game), Boxed",
               "price": 260,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBGOW001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=14307241F822C3F1C1505E9AD48FF794&position=10",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBGOW001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2B9EC3C448C9DDB6204C2A467D6C5FF3&position=12",
               "tradeVoucher": 179,
               "tradeCash": 148
             },
@@ -923,9 +923,18 @@
               "id": "SPS4P1TBMH001",
               "title": "Playstation 4 Pro Console, 1TB Monster Hunter Black (No Game), Boxed",
               "price": 250,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBMH001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=14307241F822C3F1C1505E9AD48FF794&position=13",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBMH001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2B9EC3C448C9DDB6204C2A467D6C5FF3&position=14",
               "tradeVoucher": 172,
               "tradeCash": 142
+            },
+            {
+              "competitor": "CEX",
+              "id": "SPS4P1TBKH3B001",
+              "title": "Playstation 4 Pro Console, 1TB Kingdom Hearts III Black (No Game), Boxed",
+              "price": 265,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBKH3B001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2B9EC3C448C9DDB6204C2A467D6C5FF3&position=16",
+              "tradeVoucher": 182,
+              "tradeCash": 151
             }
           ]
         },
@@ -939,25 +948,9 @@
               "id": "SPS4P1TBKH3B003",
               "title": "Playstation 4 Pro Console, 1TB Kingdom Hearts III Black (No Game), Discoun",
               "price": 165,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBKH3B003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=8DF9047E98B95A6FC08995FABBF8AF09&position=70",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P1TBKH3B003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=83978AEAC23F9142644D898AE4261D9A&position=73",
               "tradeVoucher": 107,
               "tradeCash": 75
-            }
-          ]
-        },
-        "PlayStation 4 Pro 2TB boxed": {
-          "variant": "PlayStation 4 Pro 2TB boxed",
-          "storage": "2TB",
-          "condition": "boxed",
-          "listings": [
-            {
-              "competitor": "CEX",
-              "id": "SPS4P2TBTDB001",
-              "title": "Playstation 4 Pro Console, 2TB 500 Million Blue + Blue Camera, Boxed",
-              "price": 590,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P2TBTDB001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5B41267A80FC445216A2B482E7EDAC10&position=1",
-              "tradeVoucher": 407,
-              "tradeCash": 336
             }
           ]
         },
@@ -971,7 +964,7 @@
               "id": "SPS4P2TBTDB003",
               "title": "Playstation 4 Pro Console, 2TB 500 Million Blue + Blue Camera, Discounted",
               "price": 420,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P2TBTDB003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5B41267A80FC445216A2B482E7EDAC10&position=2",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P2TBTDB003&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=88BBD5DF82AF1D835434C38F9CB3C22B&position=19",
               "tradeVoucher": 0,
               "tradeCash": 0
             }
@@ -987,9 +980,25 @@
               "id": "SPS4P2TBTDB002",
               "title": "Playstation 4 Pro Console, 2TB 500 Million Blue + Blue Camera, Unboxed",
               "price": 430,
-              "url": "https://uk.webuy.com/product-detail?id=SPS4P2TBTDB002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=5B41267A80FC445216A2B482E7EDAC10&position=3",
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P2TBTDB002&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=88BBD5DF82AF1D835434C38F9CB3C22B&position=20",
               "tradeVoucher": 0,
               "tradeCash": 0
+            }
+          ]
+        },
+        "PlayStation 4 Pro 2TB boxed": {
+          "variant": "PlayStation 4 Pro 2TB boxed",
+          "storage": "2TB",
+          "condition": "boxed",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SPS4P2TBTDB001",
+              "title": "Playstation 4 Pro Console, 2TB 500 Million Blue + Blue Camera, Boxed",
+              "price": 590,
+              "url": "https://uk.webuy.com/product-detail?id=SPS4P2TBTDB001&categoryName=PLAYSTATION4-CONSOLES&superCatName=GAMING&title=&queryID=2B9EC3C448C9DDB6204C2A467D6C5FF3&position=15",
+              "tradeVoucher": 407,
+              "tradeCash": 336
             }
           ]
         }
