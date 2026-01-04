@@ -226,7 +226,6 @@ export async function getConsoleResults(
     const { results, variants } = await scrapeAllPriceRangesCEX(
       browser,
       baseUrl,
-      priceRanges || defaultConsolePriceRanges,
       parseConsoleVariantKey,
       3
     );

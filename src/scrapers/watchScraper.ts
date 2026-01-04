@@ -148,7 +148,6 @@ export async function getWatchResults(
     const { results, variants } = await scrapeAllPriceRangesCEX(
       browser,
       baseUrl,
-      priceRanges,
       parseWatchVariantKey,
       3
     );

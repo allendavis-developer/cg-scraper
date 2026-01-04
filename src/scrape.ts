@@ -21,53 +21,13 @@ import fs from "fs/promises";
 
   try {
 
-    // const result = await getWatchResults(browser, {
-    //   competitor: "CEX",
-    //   item: "",
-    //   category: "watches",
-    //   subcategory: "Smartwatches", // ✅ specify subcategory exactly as on CEX
-    //   broad: false, // narrow scrape (single search page)
-    // });
-
-    // const result = await getSpeakerResults(browser, {
-    //   competitor: "CEX",
-    //   item: "bluetooth speaker",
-    //   category: "bluetooth speaker",
-    //   subcategory: "Media Player Accessories", // ✅ specify subcategory exactly as on CEX
-    //   broad: false, // narrow scrape (single search page)
-    // });
-
-    const result = await getConsoleResults(browser, {
+    const result = await getGenericItemResults(browser, {
       competitor: "CEX",
-      item: "playstation portal remote player",
-      category: "consoles",
-      subcategory: "", // ✅ specify subcategory exactly as on CEX
-      broad: false, // narrow scrape (single search page)
+      item: "",
+      category: "",
+      subcategory: "drone",
+      broad: false,
     });
-
-    // const result = await getHeadphoneResults(browser, {
-    //   competitor: "CEX",
-    //   item: "",
-    //   category: "headphones",
-    //   subcategory: "Headphones - Apple", // ✅ specify subcategory exactly as on CEX
-    //   broad: false, // narrow scrape (single search page)
-    // });
-
-    // const result = await getConsoleResults(browser, {
-    //   competitor: "CEX",
-    //   item: "",
-    //   category: "consoles",
-    //   subcategory: "Wii Consoles", // ✅ specify subcategory exactly as on CEX
-    //   broad: false, // narrow scrape (single search page)
-    // });
-
-    // const result = await getConsoleResults(browser, {
-    //   competitor: "CEX",
-    //   item: "",
-    //   category: "consoles",
-    //   subcategory: "Wii U Consoles", // ✅ specify subcategory exactly as on CEX
-    //   broad: false, // narrow scrape (single search page)
-    // });
 
 
     console.log(util.inspect(result, { depth: null, colors: true }));

@@ -25,14 +25,11 @@ const portableEntertainmentCategoryMap = {
   "headphones": "973",
 } as const;
 
-// Wearable Tech mapping
-const wearableTechCategoryMap = {
-  "smart watch": "1043",
-  "smartwatch": "1043",
-  "fitness tracker": "1043",
-  "wearable": "1043",
+const droneCategoryMap = {
+  "drone accessories": "1152",
+  "drone": "1151",
+  "drones": "1151",
 } as const;
-
 
 
 
@@ -87,6 +84,17 @@ export const cex: CompetitorConfig = {
         url += `&categoryName=${encodeURIComponent(subcategory)}&categoryIds=${catId}`;
       }
 
+      // Handle drones
+      else if (sub.includes("drone")) {
+        type DroneKey = keyof typeof droneCategoryMap;
+        const matchedKey = (Object.keys(droneCategoryMap) as DroneKey[]).find((k) =>
+          sub.includes(k)
+        );
+        const catId = matchedKey ? droneCategoryMap[matchedKey] : "1151";
+        url += `&categoryIds=${catId}`;
+      }
+
+
       // Everything else
       else {
         url += `&categoryFriendlyName=${encodeURIComponent(subcategory)}`;
@@ -96,7 +104,7 @@ export const cex: CompetitorConfig = {
     if (category) {
       switch (category.toLowerCase()) {
         case "smartphones and mobile":
-          url += "&superCatName=Phones&Grade=B";
+          url += "&superCatName=Phones";
           if (attributes?.storage) {
             url += `&Capacity=${encodeURIComponent(attributes.storage)}`;
           }
@@ -105,12 +113,6 @@ export const cex: CompetitorConfig = {
         case "games (discs/cartridges)":
           url += "&superCatName=Gaming";
           break;
-
-        // case "tablets":
-        // case "watches":
-        // case "portable entertainment":
-        //   url += "&Grade=B";
-        //   break;
       }
     }
 

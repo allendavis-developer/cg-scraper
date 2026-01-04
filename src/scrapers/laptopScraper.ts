@@ -231,7 +231,6 @@ export async function getLaptopResults(
     const { results } = await scrapeAllPriceRangesCEX(
       browser,
       baseUrl,
-      priceRanges || [[0, 200], [201, 400], [401, 800], [801, 1500], [1501, 3000]],
       parseLaptopVariantKey,
       3
     );

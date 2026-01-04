@@ -120,22 +120,13 @@ export function transformScrapeResultToMobileScrapeResult(
 
 /* --------------------------- Default Price Ranges --------------------------- */
 
-const defaultMobilePriceRanges: [number, number][] = [
-  [0, 100],
-  [101, 200],
-  [201, 400],
-  [401, 600],
-  [601, 1000],
-  [1001, 2000],
-];
-
 /* --------------------------- Main Entry --------------------------- */
 
 export async function getMobileResults(
   browser: Browser,
   options: MobileSearchOptions,
 ): Promise<MobileScrapeResult> {
-  const { competitor, item, attributes, broad, subcategory, priceRanges = defaultMobilePriceRanges } = options;
+  const { competitor, item, attributes, broad, subcategory } = options;
 
   if (competitor !== "CEX") {
     throw new Error(`Unsupported competitor: ${competitor}`);
@@ -167,7 +158,6 @@ export async function getMobileResults(
     const { results, variants } = await scrapeAllPriceRangesCEX(
       browser,
       baseUrl,
-      priceRanges || defaultMobilePriceRanges,
       parseMobileVariantKey,
       3
     );

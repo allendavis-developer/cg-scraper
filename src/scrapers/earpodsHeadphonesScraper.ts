@@ -264,7 +264,6 @@ export async function getHeadphoneResults(
     const { results, variants } = await scrapeAllPriceRangesCEX(
       browser,
       baseUrl,
-      priceRanges,
       parseHeadphoneVariantKey,
       3
     );

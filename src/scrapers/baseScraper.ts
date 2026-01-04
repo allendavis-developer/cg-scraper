@@ -303,7 +303,6 @@ export async function scrapeAllPagesParallel(
 export async function scrapeAllPriceRangesCEX(
   browser: Browser,
   baseUrl: string,
-  spriceRanges: [number, number][], // now passed in
   parseVariantKey?: (title: string) => string,
   concurrency: number = 3
 ): Promise<{ results: any[]; variants: VariantGroup[] }> {

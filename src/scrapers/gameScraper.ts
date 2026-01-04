@@ -98,7 +98,6 @@ export async function getGameResults(
   const { results, variants } = await scrapeAllPriceRangesCEX(
     browser,
     baseUrl,
-    priceRangesGames,
     parseGameVariantKey,
     3
   );

@@ -153,7 +153,6 @@ export async function getTVResults(
     const { results } = await scrapeAllPriceRangesCEX(
       browser,
       baseUrl,
-      priceRanges,
       parseTVVariantKey,
       3
     );

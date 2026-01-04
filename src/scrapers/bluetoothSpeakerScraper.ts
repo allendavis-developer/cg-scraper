@@ -162,7 +162,6 @@ export async function getSpeakerResults(
     const { results } = await scrapeAllPriceRangesCEX(
       browser,
       baseUrl,
-      priceRanges,
       parseSpeakerVariantKey,
       3
     );

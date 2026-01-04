@@ -1,108 +1,336 @@
 {
   "competitor": "CEX",
   "models": {
-    "PlayStation Portal Remote Player": {
-      "model": "PlayStation Portal Remote Player",
+    "DJI Mavic Air 2 (Fly More Kit) Foldable Quadcopter - Grey": {
+      "model": "DJI Mavic Air 2 (Fly More Kit) Foldable Quadcopter - Grey",
       "variants": {
-        "PlayStation Portal Remote Player N/A boxed": {
-          "variant": "PlayStation Portal Remote Player N/A boxed",
-          "storage": "N/A",
-          "condition": "boxed",
+        "DJI Mavic Air 2 (Fly More Kit) Foldable Quadcopter - Grey B": {
+          "variant": "DJI Mavic Air 2 (Fly More Kit) Foldable Quadcopter - Grey B",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SPS5PSP001",
-              "title": "Playstation Portal Remote Player, White, Boxed",
-              "price": 170,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5PSP001&categoryName=PLAYSTATION5-ACCESSORIES&superCatName=GAMING&title=&queryID=4AA0B69A33D0D02F6F2C7FC9298ACF69&position=1",
-              "tradeVoucher": 110,
-              "tradeCash": 78
-            },
+              "id": "SROBDJIMAVA24KFMOBB",
+              "title": "DJI Mavic Air 2 (Fly More Kit) Foldable Quadcopter - Grey",
+              "price": 250,
+              "url": "https://uk.webuy.com/product-detail?id=SROBDJIMAVA24KFMOBB&categoryName=DRONES&superCatName=ELECTRONICS&title=&queryID=6CF3D6C371054D9364BFAFC179BE1504&position=1",
+              "tradeVoucher": 167,
+              "tradeCash": 137,
+              "condition": "B"
+            }
+          ]
+        }
+      }
+    },
+    "DJI Mini 4 Pro (DJI RC 2) Fly More Combo Foldable Quadcopter": {
+      "model": "DJI Mini 4 Pro (DJI RC 2) Fly More Combo Foldable Quadcopter",
+      "variants": {
+        "DJI Mini 4 Pro (DJI RC 2) Fly More Combo Foldable Quadcopter B": {
+          "variant": "DJI Mini 4 Pro (DJI RC 2) Fly More Combo Foldable Quadcopter B",
+          "listings": [
             {
               "competitor": "CEX",
-              "id": "SPS5PSPMB001",
-              "title": "Playstation Portal Remote Player, Midnight Black, Boxed",
+              "id": "6941565969101B",
+              "title": "DJI Mini 4 Pro (DJI RC 2) Fly More Combo Foldable Quadcopter",
+              "price": 540,
+              "url": "https://uk.webuy.com/product-detail?id=6941565969101B&categoryName=DRONES&superCatName=ELECTRONICS&title=&queryID=6CF3D6C371054D9364BFAFC179BE1504&position=2",
+              "tradeVoucher": 361,
+              "tradeCash": 297,
+              "condition": "B"
+            }
+          ]
+        },
+        "DJI Mini 4 Pro (DJI RC 2) Fly More Combo Foldable Quadcopter A": {
+          "variant": "DJI Mini 4 Pro (DJI RC 2) Fly More Combo Foldable Quadcopter A",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "6941565969101A",
+              "title": "DJI Mini 4 Pro (DJI RC 2) Fly More Combo Foldable Quadcopter",
+              "price": 590,
+              "url": "https://uk.webuy.com/product-detail?id=6941565969101A&categoryName=DRONES&superCatName=ELECTRONICS&title=&queryID=6CF3D6C371054D9364BFAFC179BE1504&position=13",
+              "tradeVoucher": 395,
+              "tradeCash": 324,
+              "condition": "A"
+            }
+          ]
+        }
+      }
+    },
+    "DJI Mini 3 (DJI RC Remote Controller) Foldable Quadcopter": {
+      "model": "DJI Mini 3 (DJI RC Remote Controller) Foldable Quadcopter",
+      "variants": {
+        "DJI Mini 3 (DJI RC Remote Controller) Foldable Quadcopter B": {
+          "variant": "DJI Mini 3 (DJI RC Remote Controller) Foldable Quadcopter B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "6941565949271B",
+              "title": "DJI Mini 3 (DJI RC Remote Controller) Foldable Quadcopter",
+              "price": 300,
+              "url": "https://uk.webuy.com/product-detail?id=6941565949271B&categoryName=DRONES&superCatName=ELECTRONICS&title=&queryID=6CF3D6C371054D9364BFAFC179BE1504&position=3",
+              "tradeVoucher": 201,
+              "tradeCash": 165,
+              "condition": "B"
+            }
+          ]
+        }
+      }
+    },
+    "DJI Mini 2 Fly More Kit (With All Accessories) Foldable Quadcopter": {
+      "model": "DJI Mini 2 Fly More Kit (With All Accessories) Foldable Quadcopter",
+      "variants": {
+        "DJI Mini 2 Fly More Kit (With All Accessories) Foldable Quadcopter B": {
+          "variant": "DJI Mini 2 Fly More Kit (With All Accessories) Foldable Quadcopter B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SDRODJIMIN2FMKB",
+              "title": "DJI Mini 2 Fly More Kit (With All Accessories) Foldable Quadcopter",
+              "price": 220,
+              "url": "https://uk.webuy.com/product-detail?id=SDRODJIMIN2FMKB&categoryName=DRONES&superCatName=ELECTRONICS&title=&queryID=6CF3D6C371054D9364BFAFC179BE1504&position=4",
+              "tradeVoucher": 147,
+              "tradeCash": 121,
+              "condition": "B"
+            }
+          ]
+        }
+      }
+    },
+    "DJI Mini 3 Pro Fly More Combo Drone&DJI RC Remote (All Accessories)": {
+      "model": "DJI Mini 3 Pro Fly More Combo Drone&DJI RC Remote (All Accessories)",
+      "variants": {
+        "DJI Mini 3 Pro Fly More Combo Drone&DJI RC Remote (All Accessories) B": {
+          "variant": "DJI Mini 3 Pro Fly More Combo Drone&DJI RC Remote (All Accessories) B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SROBDJIM3PFMCRCB",
+              "title": "DJI Mini 3 Pro Fly More Combo Drone&DJI RC Remote (All Accessories)",
+              "price": 400,
+              "url": "https://uk.webuy.com/product-detail?id=SROBDJIM3PFMCRCB&categoryName=DRONES&superCatName=ELECTRONICS&title=&queryID=6CF3D6C371054D9364BFAFC179BE1504&position=5",
+              "tradeVoucher": 268,
+              "tradeCash": 220,
+              "condition": "B"
+            }
+          ]
+        }
+      }
+    },
+    "DJI Neo Quadcopter Drone (No RC)": {
+      "model": "DJI Neo Quadcopter Drone (No RC)",
+      "variants": {
+        "DJI Neo Quadcopter Drone (No RC) B": {
+          "variant": "DJI Neo Quadcopter Drone (No RC) B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SROBDJINEONRB",
+              "title": "DJI Neo Quadcopter Drone (No RC)",
+              "price": 95,
+              "url": "https://uk.webuy.com/product-detail?id=SROBDJINEONRB&categoryName=DRONES&superCatName=ELECTRONICS&title=&queryID=6CF3D6C371054D9364BFAFC179BE1504&position=6",
+              "tradeVoucher": 59,
+              "tradeCash": 41,
+              "condition": "B"
+            }
+          ]
+        }
+      }
+    },
+    "DJI Mini 3 Fly More Combo Drone & DJI RC Remote (All Accessories)": {
+      "model": "DJI Mini 3 Fly More Combo Drone & DJI RC Remote (All Accessories)",
+      "variants": {
+        "DJI Mini 3 Fly More Combo Drone & DJI RC Remote (All Accessories) B": {
+          "variant": "DJI Mini 3 Fly More Combo Drone & DJI RC Remote (All Accessories) B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "6941565949912B",
+              "title": "DJI Mini 3 Fly More Combo Drone & DJI RC Remote (All Accessories)",
+              "price": 380,
+              "url": "https://uk.webuy.com/product-detail?id=6941565949912B&categoryName=DRONES&superCatName=ELECTRONICS&title=&queryID=6CF3D6C371054D9364BFAFC179BE1504&position=7",
+              "tradeVoucher": 254,
+              "tradeCash": 209,
+              "condition": "B"
+            }
+          ]
+        }
+      }
+    },
+    "DJI Mini 2 (4k Camera) Foldable Quadcopter - Grey": {
+      "model": "DJI Mini 2 (4k Camera) Foldable Quadcopter - Grey",
+      "variants": {
+        "DJI Mini 2 (4k Camera) Foldable Quadcopter - Grey B": {
+          "variant": "DJI Mini 2 (4k Camera) Foldable Quadcopter - Grey B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SROBDJIMIN2GB",
+              "title": "DJI Mini 2 (4k Camera) Foldable Quadcopter - Grey",
               "price": 180,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5PSPMB001&categoryName=PLAYSTATION5-ACCESSORIES&superCatName=GAMING&title=&queryID=4AA0B69A33D0D02F6F2C7FC9298ACF69&position=3",
-              "tradeVoucher": 117,
-              "tradeCash": 82
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5PSP30G001",
-              "title": "Playstation Portal Remote Player, 30th Anniversary Grey, Boxed",
-              "price": 230,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5PSP30G001&categoryName=PLAYSTATION5-ACCESSORIES&superCatName=GAMING&title=&queryID=4AA0B69A33D0D02F6F2C7FC9298ACF69&position=6",
-              "tradeVoucher": 158,
-              "tradeCash": 131
+              "url": "https://uk.webuy.com/product-detail?id=SROBDJIMIN2GB&categoryName=DRONES&superCatName=ELECTRONICS&title=&queryID=6CF3D6C371054D9364BFAFC179BE1504&position=8",
+              "tradeVoucher": 120,
+              "tradeCash": 99,
+              "condition": "B"
             }
           ]
-        },
-        "PlayStation Portal Remote Player N/A unboxed": {
-          "variant": "PlayStation Portal Remote Player N/A unboxed",
-          "storage": "N/A",
-          "condition": "unboxed",
+        }
+      }
+    },
+    "DJI Neo Drone Fly More Combo (w/ All Accessories)": {
+      "model": "DJI Neo Drone Fly More Combo (w/ All Accessories)",
+      "variants": {
+        "DJI Neo Drone Fly More Combo (w/ All Accessories) B": {
+          "variant": "DJI Neo Drone Fly More Combo (w/ All Accessories) B",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SPS5PSP002",
-              "title": "Playstation Portal Remote Player, White, Unboxed",
-              "price": 155,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5PSP002&categoryName=PLAYSTATION5-ACCESSORIES&superCatName=GAMING&title=&queryID=4AA0B69A33D0D02F6F2C7FC9298ACF69&position=2",
-              "tradeVoucher": 100,
-              "tradeCash": 71
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5PSPMB002",
-              "title": "Playstation Portal Remote Player, Midnight Black, Unboxed",
-              "price": 170,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5PSPMB002&categoryName=PLAYSTATION5-ACCESSORIES&superCatName=GAMING&title=&queryID=4AA0B69A33D0D02F6F2C7FC9298ACF69&position=5",
-              "tradeVoucher": 110,
-              "tradeCash": 78
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5PSP30G002",
-              "title": "Playstation Portal Remote Player, 30th Anniversary Grey, Unboxed",
-              "price": 215,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5PSP30G002&categoryName=PLAYSTATION5-ACCESSORIES&superCatName=GAMING&title=&queryID=4AA0B69A33D0D02F6F2C7FC9298ACF69&position=8",
-              "tradeVoucher": 148,
-              "tradeCash": 122
+              "id": "SROBDJINEODFMCB",
+              "title": "DJI Neo Drone Fly More Combo (w/ All Accessories)",
+              "price": 180,
+              "url": "https://uk.webuy.com/product-detail?id=SROBDJINEODFMCB&categoryName=DRONES&superCatName=ELECTRONICS&title=&queryID=6CF3D6C371054D9364BFAFC179BE1504&position=9",
+              "tradeVoucher": 113,
+              "tradeCash": 79,
+              "condition": "B"
             }
           ]
-        },
-        "PlayStation Portal Remote Player N/A discounted": {
-          "variant": "PlayStation Portal Remote Player N/A discounted",
-          "storage": "N/A",
-          "condition": "discounted",
+        }
+      }
+    },
+    "DJI Mini 2 SE Drone": {
+      "model": "DJI Mini 2 SE Drone",
+      "variants": {
+        "DJI Mini 2 SE Drone B": {
+          "variant": "DJI Mini 2 SE Drone B",
           "listings": [
             {
               "competitor": "CEX",
-              "id": "SPS5PSP003",
-              "title": "Playstation Portal Remote Player, White, Discounted",
+              "id": "6941565947888B",
+              "title": "DJI Mini 2 SE Drone",
               "price": 150,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5PSP003&categoryName=PLAYSTATION5-ACCESSORIES&superCatName=GAMING&title=&queryID=4AA0B69A33D0D02F6F2C7FC9298ACF69&position=4",
-              "tradeVoucher": 97,
-              "tradeCash": 69
-            },
-            {
-              "competitor": "CEX",
-              "id": "SPS5PSPMB003",
-              "title": "Playstation Portal Remote Player, Midnight Black, Discounted",
-              "price": 155,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5PSPMB003&categoryName=PLAYSTATION5-ACCESSORIES&superCatName=GAMING&title=&queryID=4AA0B69A33D0D02F6F2C7FC9298ACF69&position=7",
+              "url": "https://uk.webuy.com/product-detail?id=6941565947888B&categoryName=DRONES&superCatName=ELECTRONICS&title=&queryID=6CF3D6C371054D9364BFAFC179BE1504&position=10",
               "tradeVoucher": 100,
-              "tradeCash": 71
-            },
+              "tradeCash": 82,
+              "condition": "B"
+            }
+          ]
+        }
+      }
+    },
+    "DJI Mavic Mini Foldable Quadcopter - Grey": {
+      "model": "DJI Mavic Mini Foldable Quadcopter - Grey",
+      "variants": {
+        "DJI Mavic Mini Foldable Quadcopter - Grey B": {
+          "variant": "DJI Mavic Mini Foldable Quadcopter - Grey B",
+          "listings": [
             {
               "competitor": "CEX",
-              "id": "SPS5PSP30G003",
-              "title": "Playstation Portal Remote Player, 30th Anniversary Grey, Discounted",
-              "price": 190,
-              "url": "https://uk.webuy.com/product-detail?id=SPS5PSP30G003&categoryName=PLAYSTATION5-ACCESSORIES&superCatName=GAMING&title=&queryID=4AA0B69A33D0D02F6F2C7FC9298ACF69&position=9",
-              "tradeVoucher": 131,
-              "tradeCash": 108
+              "id": "190021338951B",
+              "title": "DJI Mavic Mini Foldable Quadcopter - Grey",
+              "price": 135,
+              "url": "https://uk.webuy.com/product-detail?id=190021338951B&categoryName=DRONES&superCatName=ELECTRONICS&title=&queryID=6CF3D6C371054D9364BFAFC179BE1504&position=11",
+              "tradeVoucher": 90,
+              "tradeCash": 74,
+              "condition": "B"
+            }
+          ]
+        }
+      }
+    },
+    "DJI Mini 4K Fly More Combo (With All Accessories)": {
+      "model": "DJI Mini 4K Fly More Combo (With All Accessories)",
+      "variants": {
+        "DJI Mini 4K Fly More Combo (With All Accessories) B": {
+          "variant": "DJI Mini 4K Fly More Combo (With All Accessories) B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "6941565980397B",
+              "title": "DJI Mini 4K Fly More Combo (With All Accessories)",
+              "price": 260,
+              "url": "https://uk.webuy.com/product-detail?id=6941565980397B&categoryName=DRONES&superCatName=ELECTRONICS&title=&queryID=6CF3D6C371054D9364BFAFC179BE1504&position=12",
+              "tradeVoucher": 174,
+              "tradeCash": 143,
+              "condition": "B"
+            }
+          ]
+        }
+      }
+    },
+    "DJI Mini 2 SE Fly More Combo (With All Accessories)": {
+      "model": "DJI Mini 2 SE Fly More Combo (With All Accessories)",
+      "variants": {
+        "DJI Mini 2 SE Fly More Combo (With All Accessories) B": {
+          "variant": "DJI Mini 2 SE Fly More Combo (With All Accessories) B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "6941565947895B",
+              "title": "DJI Mini 2 SE Fly More Combo (With All Accessories)",
+              "price": 170,
+              "url": "https://uk.webuy.com/product-detail?id=6941565947895B&categoryName=DRONES&superCatName=ELECTRONICS&title=&queryID=6CF3D6C371054D9364BFAFC179BE1504&position=14",
+              "tradeVoucher": 113,
+              "tradeCash": 93,
+              "condition": "B"
+            }
+          ]
+        }
+      }
+    },
+    "DJI Mini 4k Foldable Quadcopter - Grey": {
+      "model": "DJI Mini 4k Foldable Quadcopter - Grey",
+      "variants": {
+        "DJI Mini 4k Foldable Quadcopter - Grey B": {
+          "variant": "DJI Mini 4k Foldable Quadcopter - Grey B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "SROBDJIMIN4KGB",
+              "title": "DJI Mini 4k Foldable Quadcopter - Grey",
+              "price": 180,
+              "url": "https://uk.webuy.com/product-detail?id=SROBDJIMIN4KGB&categoryName=DRONES&superCatName=ELECTRONICS&title=&queryID=6CF3D6C371054D9364BFAFC179BE1504&position=15",
+              "tradeVoucher": 120,
+              "tradeCash": 99,
+              "condition": "B"
+            }
+          ]
+        }
+      }
+    },
+    "DJI Mini 4 Pro(DJI RC 2) Foldable Mini Drone": {
+      "model": "DJI Mini 4 Pro(DJI RC 2) Foldable Mini Drone",
+      "variants": {
+        "DJI Mini 4 Pro(DJI RC 2) Foldable Mini Drone B": {
+          "variant": "DJI Mini 4 Pro(DJI RC 2) Foldable Mini Drone B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "6941565969040B",
+              "title": "DJI Mini 4 Pro(DJI RC 2) Foldable Mini Drone",
+              "price": 450,
+              "url": "https://uk.webuy.com/product-detail?id=6941565969040B&categoryName=DRONES&superCatName=ELECTRONICS&title=&queryID=6CF3D6C371054D9364BFAFC179BE1504&position=16",
+              "tradeVoucher": 301,
+              "tradeCash": 247,
+              "condition": "B"
+            }
+          ]
+        }
+      }
+    },
+    "DJI Mavic Air 2S (Fly More Kit) Foldable Quadcopter": {
+      "model": "DJI Mavic Air 2S (Fly More Kit) Foldable Quadcopter",
+      "variants": {
+        "DJI Mavic Air 2S (Fly More Kit) Foldable Quadcopter B": {
+          "variant": "DJI Mavic Air 2S (Fly More Kit) Foldable Quadcopter B",
+          "listings": [
+            {
+              "competitor": "CEX",
+              "id": "6941565911216B",
+              "title": "DJI Mavic Air 2S (Fly More Kit) Foldable Quadcopter",
+              "price": 350,
+              "url": "https://uk.webuy.com/product-detail?id=6941565911216B&categoryName=DRONES&superCatName=ELECTRONICS&title=&queryID=6CF3D6C371054D9364BFAFC179BE1504&position=17",
+              "tradeVoucher": 234,
+              "tradeCash": 192,
+              "condition": "B"
             }
           ]
         }

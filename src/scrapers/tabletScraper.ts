@@ -190,7 +190,6 @@ export async function getTabletResults(
     const { results, variants } = await scrapeAllPriceRangesCEX(
       browser,
       baseUrl,
-      priceRanges,
       parseTabletVariantKey,
       3
     );
