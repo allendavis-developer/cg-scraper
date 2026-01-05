@@ -92,101 +92,156 @@ async function handleCMP(page: Page) {
   }
 }
 
-/**
- * Scrape CEX search results from a page
- */
-/**
- * Scrape CEX search results from a page
- */
-export async function scrapeCEX(page: Page, containerSelector: string, titleSelector: string, priceSelector: string, urlSelector: string): Promise<CEXProduct[]> {
-  const results: CEXProduct[] = [];
+export async function scrapeCEX(
+  page: Page,
+  containerSelector: string,
+  titleSelector: string,
+  priceSelector: string,
+  urlSelector: string
+): Promise<CEXProduct[]> {
+
   const BASE_URL = "https://uk.webuy.com";
-  // 🧹 Remove or dismiss the cookie consent overlay
-  await handleCMP(page);
 
-  // Wait for the main container to load
-  await page.waitForSelector(containerSelector, { state: "attached", timeout: 10000 });
+  // Wait for cards to exist (no stabilization loop)
+  await page.waitForSelector(containerSelector, { timeout: 10000 });
 
-   // Wait for the number of cards to stabilize
-    await page.waitForFunction(
-      (sel) => {
-        const counts: number[] = (window as any)._cardCounts || [];
-        const current = document.querySelectorAll(sel).length;
-        counts.push(current);
-        (window as any)._cardCounts = counts.slice(-5);
-        // Check if the last few counts are identical (stable)
-        return counts.length >= 3 && counts.every((n) => n === counts[0]);
-      },
-      containerSelector,
-      { timeout: 10000 }
-    );
+  return page.evaluate(
+    ({ containerSelector, titleSelector, priceSelector, urlSelector, BASE_URL }) => {
+      const parsePrice = (text: string | null): number | null => {
+        if (!text) return null;
+        const num = text.replace(/[^\d.]/g, "");
+        return num ? Number(num) : null;
+      };
 
-  // Turn on the Trade-in toggle (shows voucher & cash)
-  const tradeInToggleInput = await page.$('div.toggle-switch input[type="checkbox"]');
-  if (tradeInToggleInput) {
-    const isChecked = await tradeInToggleInput.isChecked(); // true if toggle is already on
+      return Array.from(document.querySelectorAll(containerSelector)).map(card => {
+        const titleEl = card.querySelector(titleSelector);
+        const priceEl = card.querySelector(priceSelector);
+        const urlEl = card.querySelector(urlSelector);
 
-    if (!isChecked) {
-      console.log("🟢 Enabling trade-in toggle...");
-      const slider = await page.$('div.toggle-switch label.cx-switch-button span.slider');
-      if (slider) {
-        await slider.click();
-        await page.waitForTimeout(500); // wait for UI to update
-      }
-    } else {
-      console.log("✅ Trade-in toggle already enabled.");
-    }
-  }
+        const title = titleEl?.textContent?.trim() ?? "";
+        const price = parsePrice(priceEl?.textContent ?? null);
+
+        const relativeUrl = urlEl?.getAttribute("href") ?? null;
+        const url = relativeUrl
+          ? relativeUrl.startsWith("http")
+            ? relativeUrl
+            : new URL(relativeUrl, BASE_URL).href
+          : null;
+
+        let id: string | null = null;
+        if (url) {
+          const match = url.match(/[?&]id=([^&]+)/);
+          if (match) id = decodeURIComponent(match[1]);
+        }
+
+        return {
+          competitor: "CEX" as const,
+          id,
+          title,
+          price,
+          url,
+        };
+      });
+    },
+    { containerSelector, titleSelector, priceSelector, urlSelector, BASE_URL }
+  );
+}
 
 
-  // Get all product cards
-  const cards = await page.$$(containerSelector);
-  for (const card of cards) {
-    try {
-      const titleEl = await card.$(titleSelector);
-      const priceEl = await card.$(priceSelector);
-      const urlEl = await card.$(urlSelector);
-      const gradeEl = await card.$(".grade-letter");
+/**
+ * OLD Scrape CEX search results from a page THAT HAS THE TRADE IN TOGGLE, 
+ * rn we can derive the trade in cash prices dynamically using cex's api, 
+ * until the cex's api stops working we dont need to run handlecmp and toggle the trade in 
+ * this will save a bunch of time 
+ * cuz for some reason i cant run scraping in parallel anymore cause cloudflare blocks so time is paramount
+ */
+// export async function scrapeCEX(page: Page, containerSelector: string, titleSelector: string, priceSelector: string, urlSelector: string): Promise<CEXProduct[]> {
+//   const results: CEXProduct[] = [];
+//   const BASE_URL = "https://uk.webuy.com";
+//   // // 🧹 Remove or dismiss the cookie consent overlay
+//   // await handleCMP(page);
 
-      if (!titleEl || !priceEl) continue;
+//   // Wait for the main container to load
+//   await page.waitForSelector(containerSelector, { state: "attached", timeout: 10000 });
 
-      const title = (await titleEl.innerText()).trim();
-      const priceText = (await priceEl.innerText()).trim();
-      const price = parsePrice(priceText);
-      const relativeUrl = urlEl ? await urlEl.getAttribute("href") : null;
-      const grade = gradeEl ? (await gradeEl.innerText()).trim() : null;
+//    // Wait for the number of cards to stabilize
+//     await page.waitForFunction(
+//       (sel) => {
+//         const counts: number[] = (window as any)._cardCounts || [];
+//         const current = document.querySelectorAll(sel).length;
+//         counts.push(current);
+//         (window as any)._cardCounts = counts.slice(-5);
+//         // Check if the last few counts are identical (stable)
+//         return counts.length >= 3 && counts.every((n) => n === counts[0]);
+//       },
+//       containerSelector,
+//       { timeout: 10000 }
+//     );
 
-      // Make URL absolute
-      const url = relativeUrl
-        ? relativeUrl.startsWith("http")
-          ? relativeUrl
-          : new URL(relativeUrl, BASE_URL).href
-        : null;
+//   // // Turn on the Trade-in toggle (shows voucher & cash)
+//   // const tradeInToggleInput = await page.$('div.toggle-switch input[type="checkbox"]');
+//   // if (tradeInToggleInput) {
+//   //   const isChecked = await tradeInToggleInput.isChecked(); // true if toggle is already on
+
+//   //   if (!isChecked) {
+//   //     console.log("🟢 Enabling trade-in toggle...");
+//   //     const slider = await page.$('div.toggle-switch label.cx-switch-button span.slider');
+//   //     if (slider) {
+//   //       await slider.click();
+//   //       await page.waitForTimeout(500); // wait for UI to update
+//   //     }
+//   //   } else {
+//   //     console.log("✅ Trade-in toggle already enabled.");
+//   //   }
+//   // }
+
+
+//   // Get all product cards
+//   const cards = await page.$$(containerSelector);
+//   for (const card of cards) {
+//     try {
+//       const titleEl = await card.$(titleSelector);
+//       const priceEl = await card.$(priceSelector);
+//       const urlEl = await card.$(urlSelector);
+//       const gradeEl = await card.$(".grade-letter");
+
+//       if (!titleEl || !priceEl) continue;
+
+//       const title = (await titleEl.innerText()).trim();
+//       const priceText = (await priceEl.innerText()).trim();
+//       const price = parsePrice(priceText);
+//       const relativeUrl = urlEl ? await urlEl.getAttribute("href") : null;
+//       // const grade = gradeEl ? (await gradeEl.innerText()).trim() : null;
+
+//       // Make URL absolute
+//       const url = relativeUrl
+//         ? relativeUrl.startsWith("http")
+//           ? relativeUrl
+//           : new URL(relativeUrl, BASE_URL).href
+//         : null;
 
         
-        // Trade-in values
-      const voucherEl = await card.$('.tradeInPrices p:first-child span');
-      const cashEl = await card.$('.tradeInPrices p:nth-child(2) span');
-      const tradeVoucher = voucherEl ? parsePrice(await voucherEl.innerText()) : null;
-      const tradeCash = cashEl ? parsePrice(await cashEl.innerText()) : null;
+//       //   // Trade-in values
+//       // const voucherEl = await card.$('.tradeInPrices p:first-child span');
+//       // const cashEl = await card.$('.tradeInPrices p:nth-child(2) span');
+//       // const tradeVoucher = voucherEl ? parsePrice(await voucherEl.innerText()) : null;
+//       // const tradeCash = cashEl ? parsePrice(await cashEl.innerText()) : null;
 
 
-      // Extract ID from URL query param `id`
-      let id: string | null = null;
-      if (url) {
-        const match = url.match(/[?&]id=([^&]+)/);
-        if (match) id = decodeURIComponent(match[1]);
-      }
+//       // Extract ID from URL query param `id`
+//       let id: string | null = null;
+//       if (url) {
+//         const match = url.match(/[?&]id=([^&]+)/);
+//         if (match) id = decodeURIComponent(match[1]);
+//       }
 
-      // Only include products with grade B or missing grade OR title ending with 'B' This way I should only get results
-      if ((!grade || grade === "B") || /\bB\b$/i.test(title.trim())) {
-        results.push({ competitor: "CEX", id, title, price, url, tradeVoucher, tradeCash });
-      }
+//       // results.push({ competitor: "CEX", id, title, price, url, tradeVoucher, tradeCash });
+//       results.push({ competitor: "CEX", id, title, price, url });
 
-    } catch (err) {
-      console.error("Error parsing CEX card:", err);
-    }
-  }
+//     } catch (err) {
+//       console.error("Error parsing CEX card:", err);
+//     }
+//   }
 
-  return results;
-}
+//   return results;
+// }

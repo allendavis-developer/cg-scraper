@@ -303,7 +303,7 @@ export async function scrapeAllPagesParallel(
         }
 
         // Wait until content container exists
-        await tempPage.waitForSelector(container, { timeout: 15000 });
+        // await tempPage.waitForSelector(container, { timeout: 15000 });
 
         const pageResults = await scrapeCEX(tempPage, container, title, price, url);
         console.log(`📄 Results for page ${pageNum}: ${pageResults.length}`);
