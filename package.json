@@ -26,9 +26,18 @@
     "scrape:watch": "npm run scrape -- watch",
     "send:watch": "npm run scrape -- --send watch",
     "scrape:generic": "npm run scrape -- generic",
+    "send:generic": "npm run scrape -- --send generic",
 
-    "send:generic": "npm run scrape -- --send generic"
-    
+
+    "scrape:camera": "npm run scrape -- camera",
+    "send:camera": "npm run scrape -- --send camera",
+
+    "scrape:mixers": "npm run scrape -- mixers",
+    "send:mixers": "npm run scrape -- --send mixers",
+
+    "scrape:vr": "npm run scrape -- vr",
+    "send:vr": "npm run scrape -- --send vr"
+
 
   },
   "keywords": [],

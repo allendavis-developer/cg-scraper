@@ -1,41 +1,21 @@
-import type { MobileSearchOptions } from "./scrapers/mobileScraper.js";
-import type { GameSearchOptions } from "./scrapers/gameScraper.js";
-import type { ConsoleSearchOptions } from "./scrapers/consoleScraper.js";
-import type { LaptopSearchOptions } from "./scrapers/laptopScraper.js";
-import type { TabletSearchOptions } from "./scrapers/tabletScraper.js";
-import type { TVSearchOptions } from "./scrapers/tvScraper.js";
-import type { WatchSearchOptions } from "./scrapers/watchScraper.js";
-import type { HeadphoneSearchOptions } from "./scrapers/earpodsHeadphonesScraper.js";
-import type { SpeakerSearchOptions } from "./scrapers/bluetoothSpeakerScraper.js";
-
-
-import { getGenericItemResults, type GenericItemSearchOptions } from "./scrapers/genericItemScraper.js";
-
-
+import {type GenericItemSearchOptions } from "./scrapers/genericItemScraper.js";
 
 interface DjangoUploadMeta {
   categoryName: string;
   subcategoryName: string;
 }
 
-interface BaseScrapeConfig {
+export interface ScrapeConfig extends GenericItemSearchOptions {
   name: string;
+
+  /**
+   * Optional metadata only.
+   * Not used for scraping logic anymore.
+   */
+  type?: string;
+
   django: DjangoUploadMeta;
 }
-
-export type ScrapeConfig =
-  | (GameSearchOptions & BaseScrapeConfig & { type: "game" })
-  | (MobileSearchOptions & BaseScrapeConfig & { type: "mobile" })
-  | (ConsoleSearchOptions & BaseScrapeConfig & { type: "console" })
-  
-  | (LaptopSearchOptions & BaseScrapeConfig & { type: "laptop" })
-  | (TabletSearchOptions & BaseScrapeConfig & { type: "tablet" })
-  | (TVSearchOptions & BaseScrapeConfig & { type: "tv" })
-  | (WatchSearchOptions & BaseScrapeConfig & { type: "watch" })
-  | (HeadphoneSearchOptions & BaseScrapeConfig & { type: "headphone" })
-  | (SpeakerSearchOptions & BaseScrapeConfig & { type: "speaker" })
-  | (GenericItemSearchOptions & BaseScrapeConfig & { type: "generic" });
-
 
 
 
@@ -215,7 +195,7 @@ export const scrapeConfigs: ScrapeConfig[] = [
   // ------------------------------------ CAMERAS ----------------------------------------
   {
     name: "CEX Cameras Compact System",
-    type: "generic",
+    type: "camera",
     competitor: "CEX",
     item: "",
     category: "cameras",
@@ -229,7 +209,7 @@ export const scrapeConfigs: ScrapeConfig[] = [
 
   {
     name: "CEX Cameras Compact Cameras",
-    type: "generic",
+    type: "camera",
     competitor: "CEX",
     item: "",
     category: "cameras",
@@ -243,7 +223,7 @@ export const scrapeConfigs: ScrapeConfig[] = [
 
   {
     name: "CEX Cameras Digital SLR Cameras",
-    type: "generic",
+    type: "camera",
     competitor: "CEX",
     item: "",
     category: "cameras",
@@ -258,7 +238,7 @@ export const scrapeConfigs: ScrapeConfig[] = [
   // ---------------------------------- MUSIC TECH ---------------------------------------
     {
     name: "CEX DJ Decks and Mixers",
-    type: "generic",
+    type: "mixers",
     competitor: "CEX",
     item: "",
     category: "cameras",
@@ -273,7 +253,7 @@ export const scrapeConfigs: ScrapeConfig[] = [
   // ---------------------------------- VR HEADSETS -----------------------------------------
    {
     name: "CEX VR Headsets",
-    type: "generic",
+    type: "vr",
     competitor: "CEX",
     item: "",
     category: "cameras",
