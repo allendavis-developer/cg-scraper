@@ -115,20 +115,21 @@ async function determinePriceRanges(
     [1400, 3000],
     [3000, 6200],
     [6200, 10000],
-
   ]
 ): Promise<[number, number][]> {
   const finalRanges: [number, number][] = [];
+  
+  // Create a single page to reuse for all checks
+  const page = await browser.newPage();
 
   async function checkResults(minPrice: number, maxPrice: number): Promise<number> {
     const urlWithRange = `${baseUrl}&sellPrice=${minPrice}:${maxPrice}`;
-    const tempPage = await browser.newPage();
 
     try {
-      await tempPage.goto(urlWithRange, { waitUntil: "domcontentloaded", timeout: 30000 });
+      await page.goto(urlWithRange, { waitUntil: "domcontentloaded", timeout: 30000 });
 
       // Wait for either the no-results div to be visible OR stats element to have numbers
-      await tempPage.waitForFunction(() => {
+      await page.waitForFunction(() => {
         const noResultsDiv = document.querySelector('div.cx-no-results') as HTMLElement;
         if (noResultsDiv && noResultsDiv.style.display !== 'none') return true;
         
@@ -137,10 +138,10 @@ async function determinePriceRanges(
       }, { timeout: 20000 });
 
       // Small delay to ensure DOM finishes rendering
-      await tempPage.waitForTimeout(500);
+      await page.waitForTimeout(500);
 
       // Check if no-results div is visible
-      const noResultsDiv = await tempPage.locator('div.cx-no-results').first();
+      const noResultsDiv = await page.locator('div.cx-no-results').first();
       const isVisible = await noResultsDiv.evaluate((el: HTMLElement) => el.style.display !== 'none');
       
       if (isVisible) {
@@ -149,7 +150,7 @@ async function determinePriceRanges(
       }
 
       // Get total results from stats element
-      const resultsElements = await tempPage.locator('div.ais-Stats.stats-text p.text-base.font-normal');
+      const resultsElements = await page.locator('div.ais-Stats.stats-text p.text-base.font-normal');
       const totalResultsText = await resultsElements.first().textContent();
       
       if (!totalResultsText) {
@@ -162,8 +163,9 @@ async function determinePriceRanges(
 
       return totalResults;
 
-    } finally {
-      await tempPage.close();
+    } catch (error) {
+      console.error(`❌ Error checking range £${minPrice} - £${maxPrice}:`, error);
+      return 0;
     }
   }
 
@@ -192,9 +194,11 @@ async function determinePriceRanges(
     await splitIfNeeded(minPrice, maxPrice);
   }
 
+  // Close the page when done
+  await page.close();
+
   return finalRanges;
 }
-
 
 /* ----------------------------- Generic Scraper ----------------------------- */
 export async function scrapeAllPagesParallel(
@@ -243,7 +247,6 @@ export async function scrapeAllPagesParallel(
   async function worker() {
     const tab = await browser.newPage();
     // (do NOT close inside the worker)
-
     while (pageQueue.length > 0) {
       const pageNum = pageQueue.shift();
       if (!pageNum) break;

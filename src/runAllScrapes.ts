@@ -39,7 +39,7 @@ selectedConfigs.forEach((c) => console.log(`  • ${c.name}`));
 (async () => {
   if (!sendOnly) {
     // === Scraping mode ===
-    const { browser } = await setupPlaywright(true); // headless
+    const { browser } = await setupPlaywright(false); // headless
     const startTime = Date.now();
 
     try {
