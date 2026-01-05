@@ -1,9 +1,59 @@
+import fs from "fs";
+import fsp from "fs/promises";
+import path from "path";
+import util from "util";
+
+const LOG_DIR = "./logs";
+const LOG_FILE = path.join(LOG_DIR, "scrape-runner.log");
+
+fs.mkdirSync(LOG_DIR, { recursive: true });
+
+const logStream = fs.createWriteStream(LOG_FILE, { flags: "a" });
+
+type ConsoleLevel = "log" | "info" | "warn" | "error" | "debug";
+
+const LEVELS: readonly ConsoleLevel[] = [
+  "log",
+  "info",
+  "warn",
+  "error",
+  "debug",
+] as const;
+
+function formatArgs(args: readonly unknown[]): string {
+  return args
+    .map(arg =>
+      typeof arg === "string"
+        ? arg
+        : util.inspect(arg, { depth: null, colors: false })
+    )
+    .join(" ");
+}
+
+function writeLog(level: string, args: readonly unknown[]): void {
+  const timestamp = new Date().toISOString();
+  logStream.write(
+    `[${timestamp}] [${level}] ${formatArgs(args)}\n`
+  );
+}
+
+LEVELS.forEach((level: ConsoleLevel): void => {
+  const original: (...args: unknown[]) => void =
+    console[level].bind(console);
+
+  console[level] = (...args: unknown[]): void => {
+    writeLog(level.toUpperCase(), args);
+
+    // Optional: also output to terminal
+    original(...args);
+  };
+});
+
+
+
 import { setupPlaywright } from "./utils/playwright.js";
 import { uploadScrapeResultToDjango } from "./uploadToDjango.js";
 import { scrapeConfigs, ScrapeConfig } from "./scrapeConfigs.js";
-import util from "util";
-import fs from "fs/promises";
-import path from "path";
 import { getGenericItemResults } from "./scrapers/genericItemScraper.js";
 
 const SCRAPE_OUTPUT_DIR = "./scrapeResults";
@@ -35,11 +85,11 @@ const selectedConfigs =
 
   if (!sendOnly) {
     // === Scraping mode ===
-    const { browser, context } = await setupPlaywright(false); // headless
+    const { browser, context } = await setupPlaywright(true); // headless
     const startTime = Date.now();
 
     try {
-      await fs.mkdir(SCRAPE_OUTPUT_DIR, { recursive: true });
+      await fsp.mkdir(SCRAPE_OUTPUT_DIR, { recursive: true });
 
       for (const config of selectedConfigs) {
         try {
@@ -47,7 +97,7 @@ const selectedConfigs =
 
           // Save results only
           const filePath = path.join(SCRAPE_OUTPUT_DIR, `${config.name.replace(/\s+/g, "_")}.json`);
-          await fs.writeFile(filePath, JSON.stringify(result, null, 2));
+          await fsp.writeFile(filePath, JSON.stringify(result, null, 2));
 
         } catch (err) {
           console.error(`❌ Failed scrape for ${config.name}:`, err);
@@ -64,14 +114,14 @@ const selectedConfigs =
     for (const config of selectedConfigs) {
       try {
         const filePath = path.join(SCRAPE_OUTPUT_DIR, `${config.name.replace(/\s+/g, "_")}.json`);
-        const exists = await fs.stat(filePath).then(() => true).catch(() => false);
+        const exists = await fsp.stat(filePath).then(() => true).catch(() => false);
 
         if (!exists) {
           console.warn(`⚠️ File not found for ${config.name}, skipping upload`);
           continue;
         }
 
-        const parsed = JSON.parse(await fs.readFile(filePath, "utf8"));
+        const parsed = JSON.parse(await fsp.readFile(filePath, "utf8"));
         await uploadScrapeResultToDjango(parsed, config.django);
         console.log(`✅ Uploaded ${config.name} to Django`);
       } catch (err) {

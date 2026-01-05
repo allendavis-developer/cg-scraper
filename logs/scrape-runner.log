@@ -1,0 +1,312 @@
+[2026-01-05T16:44:39.813Z] [LOG] Running 1 selected scrapes:
+[2026-01-05T16:44:39.814Z] [LOG]   • CEX DJ Decks and Mixers
+[2026-01-05T16:44:40.185Z] [LOG] Navigating to: https://uk.webuy.com/search?stext=&categoryFriendlyName=DJ%20Decks%20and%20Mixers
+[2026-01-05T16:44:40.186Z] [LOG] 
+🔹 Determining optimal price ranges dynamically...
+[2026-01-05T16:44:42.658Z] [LOG] 🔹 Price range £0 - £200: 797 results
+[2026-01-05T16:44:42.659Z] [LOG] ✅ Accepting range £0 - £200
+[2026-01-05T16:44:44.602Z] [LOG] 🔹 Price range £200 - £600: 228 results
+[2026-01-05T16:44:44.602Z] [LOG] ✅ Accepting range £200 - £600
+[2026-01-05T16:44:46.494Z] [LOG] 🔹 Price range £600 - £1400: 80 results
+[2026-01-05T16:44:46.494Z] [LOG] ✅ Accepting range £600 - £1400
+[2026-01-05T16:44:48.327Z] [LOG] 🔹 Price range £1400 - £3000: 6 results
+[2026-01-05T16:44:48.327Z] [LOG] ✅ Accepting range £1400 - £3000
+[2026-01-05T16:44:50.742Z] [LOG] 🔹 Price range £3000 - £6200: 0 results (no listings)
+[2026-01-05T16:44:53.378Z] [LOG] 🔹 Price range £6200 - £10000: 0 results (no listings)
+[2026-01-05T16:44:53.408Z] [LOG] ✅ Generated 4 price ranges: [ [ 0, 200 ], [ 200, 600 ], [ 600, 1400 ], [ 1400, 3000 ] ]
+[2026-01-05T16:44:53.409Z] [LOG] 
+🔹 Scraping price range £0 - £200
+[2026-01-05T16:44:57.254Z] [LOG] Total results: 797, total pages: 47
+[2026-01-05T16:44:57.255Z] [LOG] 📦 Processing 47 pages in 16 batches (concurrency: 3)
+[2026-01-05T16:44:57.255Z] [LOG] 
+🔄 Processing batch: pages 1, 2, 3
+[2026-01-05T16:44:57.256Z] [LOG] 🔍 Scraping page 1 (attempt 1)
+[2026-01-05T16:44:57.342Z] [LOG] 🔍 Scraping page 3 (attempt 1)
+[2026-01-05T16:44:57.346Z] [LOG] 📄 Results for page 1: 17
+[2026-01-05T16:44:57.346Z] [LOG] ✅ Page 1 done
+[2026-01-05T16:44:57.352Z] [LOG] 🔍 Scraping page 2 (attempt 1)
+[2026-01-05T16:44:59.549Z] [LOG] 📄 Results for page 3: 17
+[2026-01-05T16:44:59.549Z] [LOG] ✅ Page 3 done
+[2026-01-05T16:45:01.211Z] [LOG] 📄 Results for page 2: 17
+[2026-01-05T16:45:01.212Z] [LOG] ✅ Page 2 done
+[2026-01-05T16:45:01.277Z] [LOG] ✅ Batch complete. Total results so far: 51
+[2026-01-05T16:45:01.277Z] [LOG] 
+🔄 Processing batch: pages 4, 5, 6
+[2026-01-05T16:45:01.386Z] [LOG] 🔍 Scraping page 6 (attempt 1)
+[2026-01-05T16:45:01.389Z] [LOG] 🔍 Scraping page 4 (attempt 1)
+[2026-01-05T16:45:01.402Z] [LOG] 🔍 Scraping page 5 (attempt 1)
+[2026-01-05T16:45:04.462Z] [LOG] 📄 Results for page 6: 17
+[2026-01-05T16:45:04.463Z] [LOG] ✅ Page 6 done
+[2026-01-05T16:45:05.464Z] [LOG] 📄 Results for page 5: 17
+[2026-01-05T16:45:05.465Z] [LOG] ✅ Page 5 done
+[2026-01-05T16:45:05.611Z] [LOG] 📄 Results for page 4: 17
+[2026-01-05T16:45:05.611Z] [LOG] ✅ Page 4 done
+[2026-01-05T16:45:05.694Z] [LOG] ✅ Batch complete. Total results so far: 102
+[2026-01-05T16:45:05.695Z] [LOG] 
+🔄 Processing batch: pages 7, 8, 9
+[2026-01-05T16:45:05.810Z] [LOG] 🔍 Scraping page 9 (attempt 1)
+[2026-01-05T16:45:05.814Z] [LOG] 🔍 Scraping page 7 (attempt 1)
+[2026-01-05T16:45:05.823Z] [LOG] 🔍 Scraping page 8 (attempt 1)
+[2026-01-05T16:45:08.069Z] [LOG] 📄 Results for page 9: 17
+[2026-01-05T16:45:08.069Z] [LOG] ✅ Page 9 done
+[2026-01-05T16:45:09.931Z] [LOG] 📄 Results for page 8: 17
+[2026-01-05T16:45:09.932Z] [LOG] ✅ Page 8 done
+[2026-01-05T16:45:10.042Z] [LOG] 📄 Results for page 7: 17
+[2026-01-05T16:45:10.043Z] [LOG] ✅ Page 7 done
+[2026-01-05T16:45:10.125Z] [LOG] ✅ Batch complete. Total results so far: 153
+[2026-01-05T16:45:10.125Z] [LOG] 
+🔄 Processing batch: pages 10, 11, 12
+[2026-01-05T16:45:10.259Z] [LOG] 🔍 Scraping page 10 (attempt 1)
+[2026-01-05T16:45:10.263Z] [LOG] 🔍 Scraping page 12 (attempt 1)
+[2026-01-05T16:45:10.267Z] [LOG] 🔍 Scraping page 11 (attempt 1)
+[2026-01-05T16:45:12.704Z] [LOG] 📄 Results for page 12: 17
+[2026-01-05T16:45:12.704Z] [LOG] ✅ Page 12 done
+[2026-01-05T16:45:14.135Z] [LOG] 📄 Results for page 11: 17
+[2026-01-05T16:45:14.135Z] [LOG] ✅ Page 11 done
+[2026-01-05T16:45:14.292Z] [LOG] 📄 Results for page 10: 17
+[2026-01-05T16:45:14.292Z] [LOG] ✅ Page 10 done
+[2026-01-05T16:45:14.378Z] [LOG] ✅ Batch complete. Total results so far: 204
+[2026-01-05T16:45:14.379Z] [LOG] 
+🔄 Processing batch: pages 13, 14, 15
+[2026-01-05T16:45:14.494Z] [LOG] 🔍 Scraping page 15 (attempt 1)
+[2026-01-05T16:45:14.496Z] [LOG] 🔍 Scraping page 13 (attempt 1)
+[2026-01-05T16:45:14.500Z] [LOG] 🔍 Scraping page 14 (attempt 1)
+[2026-01-05T16:45:16.685Z] [LOG] 📄 Results for page 15: 17
+[2026-01-05T16:45:16.686Z] [LOG] ✅ Page 15 done
+[2026-01-05T16:45:18.465Z] [LOG] 📄 Results for page 14: 17
+[2026-01-05T16:45:18.465Z] [LOG] ✅ Page 14 done
+[2026-01-05T16:45:18.611Z] [LOG] 📄 Results for page 13: 17
+[2026-01-05T16:45:18.611Z] [LOG] ✅ Page 13 done
+[2026-01-05T16:45:18.713Z] [LOG] ✅ Batch complete. Total results so far: 255
+[2026-01-05T16:45:18.714Z] [LOG] 
+🔄 Processing batch: pages 16, 17, 18
+[2026-01-05T16:45:18.835Z] [LOG] 🔍 Scraping page 18 (attempt 1)
+[2026-01-05T16:45:18.839Z] [LOG] 🔍 Scraping page 16 (attempt 1)
+[2026-01-05T16:45:18.845Z] [LOG] 🔍 Scraping page 17 (attempt 1)
+[2026-01-05T16:45:21.949Z] [LOG] 📄 Results for page 18: 17
+[2026-01-05T16:45:21.949Z] [LOG] ✅ Page 18 done
+[2026-01-05T16:45:22.669Z] [LOG] 📄 Results for page 17: 17
+[2026-01-05T16:45:22.669Z] [LOG] ✅ Page 17 done
+[2026-01-05T16:45:23.028Z] [LOG] 📄 Results for page 16: 17
+[2026-01-05T16:45:23.028Z] [LOG] ✅ Page 16 done
+[2026-01-05T16:45:23.105Z] [LOG] ✅ Batch complete. Total results so far: 306
+[2026-01-05T16:45:23.105Z] [LOG] 
+🔄 Processing batch: pages 19, 20, 21
+[2026-01-05T16:45:23.224Z] [LOG] 🔍 Scraping page 21 (attempt 1)
+[2026-01-05T16:45:23.231Z] [LOG] 🔍 Scraping page 19 (attempt 1)
+[2026-01-05T16:45:23.240Z] [LOG] 🔍 Scraping page 20 (attempt 1)
+[2026-01-05T16:45:26.453Z] [LOG] 📄 Results for page 21: 17
+[2026-01-05T16:45:26.453Z] [LOG] ✅ Page 21 done
+[2026-01-05T16:45:27.025Z] [LOG] 📄 Results for page 20: 17
+[2026-01-05T16:45:27.026Z] [LOG] ✅ Page 20 done
+[2026-01-05T16:45:27.032Z] [LOG] 📄 Results for page 19: 17
+[2026-01-05T16:45:27.032Z] [LOG] ✅ Page 19 done
+[2026-01-05T16:45:27.123Z] [LOG] ✅ Batch complete. Total results so far: 357
+[2026-01-05T16:45:27.123Z] [LOG] 
+🔄 Processing batch: pages 22, 23, 24
+[2026-01-05T16:45:27.273Z] [LOG] 🔍 Scraping page 24 (attempt 1)
+[2026-01-05T16:45:27.314Z] [LOG] 🔍 Scraping page 22 (attempt 1)
+[2026-01-05T16:45:27.318Z] [LOG] 🔍 Scraping page 23 (attempt 1)
+[2026-01-05T16:45:30.185Z] [LOG] 📄 Results for page 24: 17
+[2026-01-05T16:45:30.186Z] [LOG] ✅ Page 24 done
+[2026-01-05T16:45:31.175Z] [LOG] 📄 Results for page 23: 17
+[2026-01-05T16:45:31.176Z] [LOG] ✅ Page 23 done
+[2026-01-05T16:45:31.379Z] [LOG] 📄 Results for page 22: 17
+[2026-01-05T16:45:31.379Z] [LOG] ✅ Page 22 done
+[2026-01-05T16:45:31.466Z] [LOG] ✅ Batch complete. Total results so far: 408
+[2026-01-05T16:45:31.467Z] [LOG] 
+🔄 Processing batch: pages 25, 26, 27
+[2026-01-05T16:45:31.588Z] [LOG] 🔍 Scraping page 27 (attempt 1)
+[2026-01-05T16:45:31.599Z] [LOG] 🔍 Scraping page 25 (attempt 1)
+[2026-01-05T16:45:31.608Z] [LOG] 🔍 Scraping page 26 (attempt 1)
+[2026-01-05T16:45:34.092Z] [LOG] 📄 Results for page 27: 17
+[2026-01-05T16:45:34.093Z] [LOG] ✅ Page 27 done
+[2026-01-05T16:45:35.622Z] [LOG] 📄 Results for page 26: 17
+[2026-01-05T16:45:35.622Z] [LOG] ✅ Page 26 done
+[2026-01-05T16:45:35.703Z] [LOG] 📄 Results for page 25: 17
+[2026-01-05T16:45:35.703Z] [LOG] ✅ Page 25 done
+[2026-01-05T16:45:35.793Z] [LOG] ✅ Batch complete. Total results so far: 459
+[2026-01-05T16:45:35.794Z] [LOG] 
+🔄 Processing batch: pages 28, 29, 30
+[2026-01-05T16:45:35.904Z] [LOG] 🔍 Scraping page 28 (attempt 1)
+[2026-01-05T16:45:35.906Z] [LOG] 🔍 Scraping page 30 (attempt 1)
+[2026-01-05T16:45:35.908Z] [LOG] 🔍 Scraping page 29 (attempt 1)
+[2026-01-05T16:45:37.803Z] [LOG] 📄 Results for page 30: 17
+[2026-01-05T16:45:37.804Z] [LOG] ✅ Page 30 done
+[2026-01-05T16:45:39.961Z] [LOG] 📄 Results for page 29: 17
+[2026-01-05T16:45:39.961Z] [LOG] ✅ Page 29 done
+[2026-01-05T16:45:40.128Z] [LOG] 📄 Results for page 28: 17
+[2026-01-05T16:45:40.128Z] [LOG] ✅ Page 28 done
+[2026-01-05T16:45:40.221Z] [LOG] ✅ Batch complete. Total results so far: 510
+[2026-01-05T16:45:40.222Z] [LOG] 
+🔄 Processing batch: pages 31, 32, 33
+[2026-01-05T16:45:40.342Z] [LOG] 🔍 Scraping page 33 (attempt 1)
+[2026-01-05T16:45:40.344Z] [LOG] 🔍 Scraping page 31 (attempt 1)
+[2026-01-05T16:45:40.348Z] [LOG] 🔍 Scraping page 32 (attempt 1)
+[2026-01-05T16:45:42.300Z] [LOG] 📄 Results for page 33: 17
+[2026-01-05T16:45:42.301Z] [LOG] ✅ Page 33 done
+[2026-01-05T16:45:44.574Z] [LOG] 📄 Results for page 31: 17
+[2026-01-05T16:45:44.574Z] [LOG] ✅ Page 31 done
+[2026-01-05T16:45:44.576Z] [LOG] 📄 Results for page 32: 17
+[2026-01-05T16:45:44.576Z] [LOG] ✅ Page 32 done
+[2026-01-05T16:45:44.663Z] [LOG] ✅ Batch complete. Total results so far: 561
+[2026-01-05T16:45:44.663Z] [LOG] 
+🔄 Processing batch: pages 34, 35, 36
+[2026-01-05T16:45:44.779Z] [LOG] 🔍 Scraping page 36 (attempt 1)
+[2026-01-05T16:45:44.790Z] [LOG] 🔍 Scraping page 34 (attempt 1)
+[2026-01-05T16:45:44.795Z] [LOG] 🔍 Scraping page 35 (attempt 1)
+[2026-01-05T16:45:46.736Z] [LOG] 📄 Results for page 36: 17
+[2026-01-05T16:45:46.736Z] [LOG] ✅ Page 36 done
+[2026-01-05T16:45:48.711Z] [LOG] 📄 Results for page 35: 17
+[2026-01-05T16:45:48.711Z] [LOG] ✅ Page 35 done
+[2026-01-05T16:45:48.903Z] [LOG] 📄 Results for page 34: 17
+[2026-01-05T16:45:48.903Z] [LOG] ✅ Page 34 done
+[2026-01-05T16:45:49.034Z] [LOG] ✅ Batch complete. Total results so far: 612
+[2026-01-05T16:45:49.035Z] [LOG] 
+🔄 Processing batch: pages 37, 38, 39
+[2026-01-05T16:45:49.152Z] [LOG] 🔍 Scraping page 39 (attempt 1)
+[2026-01-05T16:45:49.154Z] [LOG] 🔍 Scraping page 37 (attempt 1)
+[2026-01-05T16:45:49.159Z] [LOG] 🔍 Scraping page 38 (attempt 1)
+[2026-01-05T16:45:51.185Z] [LOG] 📄 Results for page 39: 17
+[2026-01-05T16:45:51.185Z] [LOG] ✅ Page 39 done
+[2026-01-05T16:45:53.332Z] [LOG] 📄 Results for page 38: 17
+[2026-01-05T16:45:53.332Z] [LOG] ✅ Page 38 done
+[2026-01-05T16:45:53.356Z] [LOG] 📄 Results for page 37: 17
+[2026-01-05T16:45:53.356Z] [LOG] ✅ Page 37 done
+[2026-01-05T16:45:53.456Z] [LOG] ✅ Batch complete. Total results so far: 663
+[2026-01-05T16:45:53.456Z] [LOG] 
+🔄 Processing batch: pages 40, 41, 42
+[2026-01-05T16:45:53.568Z] [LOG] 🔍 Scraping page 42 (attempt 1)
+[2026-01-05T16:45:53.570Z] [LOG] 🔍 Scraping page 40 (attempt 1)
+[2026-01-05T16:45:53.575Z] [LOG] 🔍 Scraping page 41 (attempt 1)
+[2026-01-05T16:45:55.852Z] [LOG] 📄 Results for page 42: 17
+[2026-01-05T16:45:55.853Z] [LOG] ✅ Page 42 done
+[2026-01-05T16:45:57.712Z] [LOG] 📄 Results for page 41: 17
+[2026-01-05T16:45:57.712Z] [LOG] ✅ Page 41 done
+[2026-01-05T16:45:57.724Z] [LOG] 📄 Results for page 40: 17
+[2026-01-05T16:45:57.725Z] [LOG] ✅ Page 40 done
+[2026-01-05T16:45:57.928Z] [LOG] ✅ Batch complete. Total results so far: 714
+[2026-01-05T16:45:57.928Z] [LOG] 
+🔄 Processing batch: pages 43, 44, 45
+[2026-01-05T16:45:58.041Z] [LOG] 🔍 Scraping page 45 (attempt 1)
+[2026-01-05T16:45:58.044Z] [LOG] 🔍 Scraping page 43 (attempt 1)
+[2026-01-05T16:45:58.050Z] [LOG] 🔍 Scraping page 44 (attempt 1)
+[2026-01-05T16:46:00.153Z] [LOG] 📄 Results for page 45: 17
+[2026-01-05T16:46:00.154Z] [LOG] ✅ Page 45 done
+[2026-01-05T16:46:02.179Z] [LOG] 📄 Results for page 44: 17
+[2026-01-05T16:46:02.179Z] [LOG] ✅ Page 44 done
+[2026-01-05T16:46:02.181Z] [LOG] 📄 Results for page 43: 17
+[2026-01-05T16:46:02.182Z] [LOG] ✅ Page 43 done
+[2026-01-05T16:46:02.279Z] [LOG] ✅ Batch complete. Total results so far: 765
+[2026-01-05T16:46:02.279Z] [LOG] 
+🔄 Processing batch: pages 46, 47
+[2026-01-05T16:46:02.361Z] [LOG] 🔍 Scraping page 47 (attempt 1)
+[2026-01-05T16:46:02.371Z] [LOG] 🔍 Scraping page 46 (attempt 1)
+[2026-01-05T16:46:05.929Z] [LOG] 📄 Results for page 47: 15
+[2026-01-05T16:46:05.929Z] [LOG] ✅ Page 47 done
+[2026-01-05T16:46:06.834Z] [LOG] 📄 Results for page 46: 17
+[2026-01-05T16:46:06.834Z] [LOG] ✅ Page 46 done
+[2026-01-05T16:46:06.899Z] [LOG] ✅ Batch complete. Total results so far: 797
+[2026-01-05T16:46:06.943Z] [LOG] 🎉 Scraped 745 distinct variants.
+[2026-01-05T16:46:06.945Z] [LOG] 
+🔹 Scraping price range £200 - £600
+[2026-01-05T16:46:11.153Z] [LOG] Total results: 228, total pages: 14
+[2026-01-05T16:46:11.154Z] [LOG] 📦 Processing 14 pages in 5 batches (concurrency: 3)
+[2026-01-05T16:46:11.154Z] [LOG] 
+🔄 Processing batch: pages 1, 2, 3
+[2026-01-05T16:46:11.154Z] [LOG] 🔍 Scraping page 1 (attempt 1)
+[2026-01-05T16:46:11.240Z] [LOG] 📄 Results for page 1: 17
+[2026-01-05T16:46:11.240Z] [LOG] ✅ Page 1 done
+[2026-01-05T16:46:11.243Z] [LOG] 🔍 Scraping page 3 (attempt 1)
+[2026-01-05T16:46:11.249Z] [LOG] 🔍 Scraping page 2 (attempt 1)
+[2026-01-05T16:46:14.239Z] [LOG] 📄 Results for page 3: 17
+[2026-01-05T16:46:14.240Z] [LOG] ✅ Page 3 done
+[2026-01-05T16:46:15.330Z] [LOG] 📄 Results for page 2: 17
+[2026-01-05T16:46:15.330Z] [LOG] ✅ Page 2 done
+[2026-01-05T16:46:15.392Z] [LOG] ✅ Batch complete. Total results so far: 51
+[2026-01-05T16:46:15.393Z] [LOG] 
+🔄 Processing batch: pages 4, 5, 6
+[2026-01-05T16:46:15.509Z] [LOG] 🔍 Scraping page 6 (attempt 1)
+[2026-01-05T16:46:15.512Z] [LOG] 🔍 Scraping page 4 (attempt 1)
+[2026-01-05T16:46:15.527Z] [LOG] 🔍 Scraping page 5 (attempt 1)
+[2026-01-05T16:46:17.540Z] [LOG] 📄 Results for page 6: 17
+[2026-01-05T16:46:17.540Z] [LOG] ✅ Page 6 done
+[2026-01-05T16:46:19.832Z] [LOG] 📄 Results for page 5: 17
+[2026-01-05T16:46:19.832Z] [LOG] ✅ Page 5 done
+[2026-01-05T16:46:19.947Z] [LOG] 📄 Results for page 4: 17
+[2026-01-05T16:46:19.947Z] [LOG] ✅ Page 4 done
+[2026-01-05T16:46:20.037Z] [LOG] ✅ Batch complete. Total results so far: 102
+[2026-01-05T16:46:20.038Z] [LOG] 
+🔄 Processing batch: pages 7, 8, 9
+[2026-01-05T16:46:20.156Z] [LOG] 🔍 Scraping page 9 (attempt 1)
+[2026-01-05T16:46:20.157Z] [LOG] 🔍 Scraping page 7 (attempt 1)
+[2026-01-05T16:46:20.158Z] [LOG] 🔍 Scraping page 8 (attempt 1)
+[2026-01-05T16:46:22.809Z] [LOG] 📄 Results for page 9: 17
+[2026-01-05T16:46:22.809Z] [LOG] ✅ Page 9 done
+[2026-01-05T16:46:24.206Z] [LOG] 📄 Results for page 8: 17
+[2026-01-05T16:46:24.206Z] [LOG] ✅ Page 8 done
+[2026-01-05T16:46:24.458Z] [LOG] 📄 Results for page 7: 17
+[2026-01-05T16:46:24.459Z] [LOG] ✅ Page 7 done
+[2026-01-05T16:46:24.560Z] [LOG] ✅ Batch complete. Total results so far: 153
+[2026-01-05T16:46:24.560Z] [LOG] 
+🔄 Processing batch: pages 10, 11, 12
+[2026-01-05T16:46:24.668Z] [LOG] 🔍 Scraping page 12 (attempt 1)
+[2026-01-05T16:46:24.670Z] [LOG] 🔍 Scraping page 10 (attempt 1)
+[2026-01-05T16:46:24.676Z] [LOG] 🔍 Scraping page 11 (attempt 1)
+[2026-01-05T16:46:26.853Z] [LOG] 📄 Results for page 12: 17
+[2026-01-05T16:46:26.854Z] [LOG] ✅ Page 12 done
+[2026-01-05T16:46:28.693Z] [LOG] 📄 Results for page 11: 17
+[2026-01-05T16:46:28.693Z] [LOG] ✅ Page 11 done
+[2026-01-05T16:46:28.702Z] [LOG] 📄 Results for page 10: 17
+[2026-01-05T16:46:28.702Z] [LOG] ✅ Page 10 done
+[2026-01-05T16:46:28.798Z] [LOG] ✅ Batch complete. Total results so far: 204
+[2026-01-05T16:46:28.798Z] [LOG] 
+🔄 Processing batch: pages 13, 14
+[2026-01-05T16:46:28.890Z] [LOG] 🔍 Scraping page 13 (attempt 1)
+[2026-01-05T16:46:28.894Z] [LOG] 🔍 Scraping page 14 (attempt 1)
+[2026-01-05T16:46:31.398Z] [LOG] 📄 Results for page 14: 7
+[2026-01-05T16:46:31.398Z] [LOG] ✅ Page 14 done
+[2026-01-05T16:46:32.512Z] [LOG] 📄 Results for page 13: 17
+[2026-01-05T16:46:32.512Z] [LOG] ✅ Page 13 done
+[2026-01-05T16:46:32.568Z] [LOG] ✅ Batch complete. Total results so far: 228
+[2026-01-05T16:46:32.602Z] [LOG] 🎉 Scraped 227 distinct variants.
+[2026-01-05T16:46:32.603Z] [LOG] 
+🔹 Scraping price range £600 - £1400
+[2026-01-05T16:46:35.927Z] [LOG] Total results: 80, total pages: 5
+[2026-01-05T16:46:35.928Z] [LOG] 📦 Processing 5 pages in 2 batches (concurrency: 3)
+[2026-01-05T16:46:35.928Z] [LOG] 
+🔄 Processing batch: pages 1, 2, 3
+[2026-01-05T16:46:35.928Z] [LOG] 🔍 Scraping page 1 (attempt 1)
+[2026-01-05T16:46:36.025Z] [LOG] 📄 Results for page 1: 17
+[2026-01-05T16:46:36.026Z] [LOG] ✅ Page 1 done
+[2026-01-05T16:46:36.033Z] [LOG] 🔍 Scraping page 3 (attempt 1)
+[2026-01-05T16:46:36.035Z] [LOG] 🔍 Scraping page 2 (attempt 1)
+[2026-01-05T16:46:39.444Z] [LOG] 📄 Results for page 3: 17
+[2026-01-05T16:46:39.444Z] [LOG] ✅ Page 3 done
+[2026-01-05T16:46:40.037Z] [LOG] 📄 Results for page 2: 17
+[2026-01-05T16:46:40.037Z] [LOG] ✅ Page 2 done
+[2026-01-05T16:46:40.091Z] [LOG] ✅ Batch complete. Total results so far: 51
+[2026-01-05T16:46:40.092Z] [LOG] 
+🔄 Processing batch: pages 4, 5
+[2026-01-05T16:46:40.173Z] [LOG] 🔍 Scraping page 4 (attempt 1)
+[2026-01-05T16:46:40.178Z] [LOG] 🔍 Scraping page 5 (attempt 1)
+[2026-01-05T16:46:42.351Z] [LOG] 📄 Results for page 5: 12
+[2026-01-05T16:46:42.351Z] [LOG] ✅ Page 5 done
+[2026-01-05T16:46:44.108Z] [LOG] 📄 Results for page 4: 17
+[2026-01-05T16:46:44.109Z] [LOG] ✅ Page 4 done
+[2026-01-05T16:46:44.173Z] [LOG] ✅ Batch complete. Total results so far: 80
+[2026-01-05T16:46:44.208Z] [LOG] 🎉 Scraped 80 distinct variants.
+[2026-01-05T16:46:44.209Z] [LOG] 
+🔹 Scraping price range £1400 - £3000
+[2026-01-05T16:46:47.477Z] [LOG] Total results: 6, total pages: 1
+[2026-01-05T16:46:47.478Z] [LOG] 📦 Processing 1 pages in 1 batches (concurrency: 3)
+[2026-01-05T16:46:47.479Z] [LOG] 
+🔄 Processing batch: pages 1
+[2026-01-05T16:46:47.480Z] [LOG] 🔍 Scraping page 1 (attempt 1)
+[2026-01-05T16:46:47.505Z] [LOG] 📄 Results for page 1: 6
+[2026-01-05T16:46:47.505Z] [LOG] ✅ Page 1 done
+[2026-01-05T16:46:47.506Z] [LOG] ✅ Batch complete. Total results so far: 6
+[2026-01-05T16:46:47.536Z] [LOG] 🎉 Scraped 6 distinct variants.
+[2026-01-05T16:46:47.536Z] [LOG] 
+🎉 Total scraped 1040 distinct variants across all price ranges.
+[2026-01-05T16:46:47.821Z] [LOG] 🕒 Finished all scrapes in 127.637s
