@@ -43,13 +43,20 @@ export function transformScrapeResultToGenericScrapeResult(
 ): GenericScrapeResult {
   const { competitor, results } = scrapeResult;
 
+  function stripCommas(value: string): string {
+    return value.replace(/,/g, "").replace(/\s+/g, " ").trim();
+  }
+
+
   const grouped = groupResultsByVariant(
     results as (CEXProduct & { condition?: string | null })[],
     (item) => {
-      const model = item.title.trim();
-      const variant = item.condition
-        ? `${model} ${item.condition}`
-        : model;
+      const rawModel = item.title.trim();
+      const model = stripCommas(rawModel);
+
+      const variant = stripCommas(
+        item.condition ? `${model} ${item.condition}` : model
+      );
 
       return { model, variant };
     }
@@ -103,7 +110,8 @@ export async function getGenericItemResults(
 
   let scrapeResult: ScrapeResult;
 
-  const conditionRegex = /\s*,?\s*([ABC])$/i;
+  const conditionRegex =
+    /\s*,?\s*(A|B|C|BOXED|UNBOXED|DISCOUNTED)$/i;
 
   if (!broad) {
     const page = await browser.newPage();
@@ -117,8 +125,7 @@ export async function getGenericItemResults(
       const match = r.title.trim().match(conditionRegex);
 
       const condition = match ? match[1].toUpperCase() : null;
-      const cleanTitle = r.title.replace(conditionRegex, "").trim();
-
+      
       return {
         ...r,
         title: r.title,

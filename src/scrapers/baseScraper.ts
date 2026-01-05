@@ -125,48 +125,65 @@ async function determinePriceRanges(
   async function checkResults(minPrice: number, maxPrice: number): Promise<number> {
     const urlWithRange = `${baseUrl}&sellPrice=${minPrice}:${maxPrice}`;
 
-    try {
-      await page.goto(urlWithRange, { waitUntil: "domcontentloaded", timeout: 30000 });
+    // 🔹 Add retry logic here
+    let attempts = 0;
+    const maxAttempts = 3;
 
-      // Wait for either the no-results div to be visible OR stats element to have numbers
-      await page.waitForFunction(() => {
-        const noResultsDiv = document.querySelector('div.cx-no-results') as HTMLElement;
-        if (noResultsDiv && noResultsDiv.style.display !== 'none') return true;
+    while (attempts < maxAttempts) {
+      attempts++;
+      
+      try {
+        await page.goto(urlWithRange, { waitUntil: "domcontentloaded", timeout: 30000 });
+
+        // Wait for either the no-results div to be visible OR stats element to have numbers
+        await page.waitForFunction(() => {
+          const noResultsDiv = document.querySelector('div.cx-no-results') as HTMLElement;
+          if (noResultsDiv && noResultsDiv.style.display !== 'none') return true;
+          
+          const statsEl = document.querySelector('div.ais-Stats.stats-text p.text-base.font-normal');
+          return statsEl && /\d/.test(statsEl.textContent || '');
+        }, { timeout: 20000 });
+
+        // Small delay to ensure DOM finishes rendering
+        await page.waitForTimeout(500);
+
+        // Check if no-results div is visible
+        const noResultsDiv = await page.locator('div.cx-no-results').first();
+        const isVisible = await noResultsDiv.evaluate((el: HTMLElement) => el.style.display !== 'none');
         
-        const statsEl = document.querySelector('div.ais-Stats.stats-text p.text-base.font-normal');
-        return statsEl && /\d/.test(statsEl.textContent || '');
-      }, { timeout: 20000 });
+        if (isVisible) {
+          console.log(`🔹 Price range £${minPrice} - £${maxPrice}: 0 results (no listings)`);
+          return 0;
+        }
 
-      // Small delay to ensure DOM finishes rendering
-      await page.waitForTimeout(500);
+        // Get total results from stats element
+        const resultsElements = await page.locator('div.ais-Stats.stats-text p.text-base.font-normal');
+        const totalResultsText = await resultsElements.first().textContent();
+        
+        if (!totalResultsText) {
+          console.log(`⚠️ Price range £${minPrice} - £${maxPrice}: Could not read results count`);
+          return 0;
+        }
 
-      // Check if no-results div is visible
-      const noResultsDiv = await page.locator('div.cx-no-results').first();
-      const isVisible = await noResultsDiv.evaluate((el: HTMLElement) => el.style.display !== 'none');
-      
-      if (isVisible) {
-        console.log(`🔹 Price range £${minPrice} - £${maxPrice}: 0 results (no listings)`);
-        return 0;
+        const totalResults = parseInt(totalResultsText.replace(/,/g, '').replace(/\D/g, ''));
+        console.log(`🔹 Price range £${minPrice} - £${maxPrice}: ${totalResults} results`);
+
+        return totalResults;
+
+      } catch (error) {
+        console.error(`❌ Attempt ${attempts}/${maxAttempts} failed for range £${minPrice} - £${maxPrice}:`, error);
+        
+        if (attempts < maxAttempts) {
+          console.log(`🔁 Retrying in 3 seconds...`);
+          await page.waitForTimeout(3000);
+        } else {
+          console.error(`⚠️ All retries exhausted for range £${minPrice} - £${maxPrice}, returning 0`);
+          return 0; // 🔹 Return 0 instead of throwing
+        }
       }
-
-      // Get total results from stats element
-      const resultsElements = await page.locator('div.ais-Stats.stats-text p.text-base.font-normal');
-      const totalResultsText = await resultsElements.first().textContent();
-      
-      if (!totalResultsText) {
-        console.log(`⚠️ Price range £${minPrice} - £${maxPrice}: Could not read results count`);
-        return 0;
-      }
-
-      const totalResults = parseInt(totalResultsText.replace(/,/g, '').replace(/\D/g, ''));
-      console.log(`🔹 Price range £${minPrice} - £${maxPrice}: ${totalResults} results`);
-
-      return totalResults;
-
-    } catch (error) {
-      console.error(`❌ Error checking range £${minPrice} - £${maxPrice}:`, error);
-      return 0;
     }
+
+    return 0; // Fallback (shouldn't reach here)
   }
 
   async function splitIfNeeded(minPrice: number, maxPrice: number) {
@@ -200,102 +217,121 @@ async function determinePriceRanges(
   return finalRanges;
 }
 
+
 /* ----------------------------- Generic Scraper ----------------------------- */
 export async function scrapeAllPagesParallel(
   browser: Browser,
   baseUrl: string,
   parseVariantKey?: (title: string) => string,
-  concurrency: number = 3
+  concurrency: number = 1
 ): Promise<{ results: any[]; variants: VariantGroup[] }> {
   const resultsPerPage = 17;
   const allResults: any[] = [];
   const variantsMap: Record<string, VariantGroup> = {};
   const { container, title, price, url } = cex.selectors;
 
-
-  // 1️⃣ Open a temp page to get total results
+  // 1️⃣ Open a temp page to get total results with retry logic
   const tempPage = await browser.newPage();
-  await tempPage.goto(baseUrl, { waitUntil: "domcontentloaded" });
+  
+  let totalResults = 0;
+  let totalPages = 0;
+  let setupAttempts = 0;
+  const maxSetupAttempts = 3;
+  
+  while (setupAttempts < maxSetupAttempts) {
+    setupAttempts++;
+    
+    try {
+      await tempPage.goto(baseUrl, { waitUntil: "domcontentloaded", timeout: 30000 });
 
-  // Wait for JS to render the stats element dynamically
-  await tempPage.waitForFunction(() => {
-    const el = document.querySelector('div.ais-Stats.stats-text p.text-base.font-normal');
-    return el && /\d/.test(el.textContent || '');
-  }, { timeout: 20000 });
+      // Wait for JS to render the stats element dynamically
+      await tempPage.waitForFunction(() => {
+        const el = document.querySelector('div.ais-Stats.stats-text p.text-base.font-normal');
+        return el && /\d/.test(el.textContent || '');
+      }, { timeout: 20000 });
 
-  const resultsElements = await tempPage.locator('div.ais-Stats.stats-text p.text-base.font-normal');
-  await resultsElements.first().waitFor({ state: 'attached', timeout: 15000 });
+      const resultsElements = await tempPage.locator('div.ais-Stats.stats-text p.text-base.font-normal');
+      await resultsElements.first().waitFor({ state: 'attached', timeout: 15000 });
 
-  // Small delay to ensure DOM finishes rendering
-  await tempPage.waitForTimeout(500); 
+      // Small delay to ensure DOM finishes rendering
+      await tempPage.waitForTimeout(500); 
 
-  const totalResultsText = await resultsElements.first().textContent();
-  if (!totalResultsText) {
-    await tempPage.close();
-    throw new Error("Failed to read total results text from page");
+      const totalResultsText = await resultsElements.first().textContent();
+      if (!totalResultsText) {
+        throw new Error("Failed to read total results text from page");
+      }
+
+      totalResults = parseInt(totalResultsText.replace(/,/g, '').replace(/\D/g, ''));
+      totalPages = Math.ceil(totalResults / resultsPerPage);
+
+      console.log(`Total results: ${totalResults}, total pages: ${totalPages}`);
+      break; // Success, exit retry loop
+      
+    } catch (error) {
+      console.error(`❌ Setup attempt ${setupAttempts}/${maxSetupAttempts} failed:`, error);
+      
+      if (setupAttempts < maxSetupAttempts) {
+        console.log(`🔁 Retrying setup in 3 seconds...`);
+        await tempPage.waitForTimeout(3000);
+      } else {
+        console.error(`⚠️ All setup attempts exhausted, closing page and returning empty results`);
+        await tempPage.close();
+        return { results: [], variants: [] };
+      }
+    }
   }
 
-  const totalResults = parseInt(totalResultsText.replace(/,/g, '').replace(/\D/g, ''));
-  const totalPages = Math.ceil(totalResults / resultsPerPage);
+  // 🔹 DON'T close - reuse it!
+  // await tempPage.close(); ❌ REMOVE THIS LINE
 
-  console.log(`Total results: ${totalResults}, total pages: ${totalPages}`);
-  await tempPage.close();
+  // 2️⃣ Reuse tempPage for scraping
+  for (let pageNum = 1; pageNum <= totalPages; pageNum++) {
+    console.log(`🔍 Scraping page ${pageNum}`);
 
-  // 2️⃣ Prepare a queue of page numbers
-  const pageQueue = Array.from({ length: totalPages }, (_, i) => i + 1);
+    let success = false;
+    let attempts = 0;
 
-  async function worker() {
-    const tab = await browser.newPage();
-    // (do NOT close inside the worker)
-    while (pageQueue.length > 0) {
-      const pageNum = pageQueue.shift();
-      if (!pageNum) break;
+    while (!success && attempts < 2) {
+      attempts++;
 
-      const pagedUrl = `${baseUrl}&page=${pageNum}`;
-      console.log(`🔍 Scraping page ${pageNum}: ${pagedUrl}`);
+      try {
+        // 🔹 Page 1 is already loaded, skip navigation
+        if (pageNum > 1) {
+          const pagedUrl = `${baseUrl}&page=${pageNum}`;
+          await navigateSafely(tempPage, pagedUrl);
+          await tempPage.waitForTimeout(1000 + Math.random() * 2000);
+        }
 
-      let success = false;
-      let attempts = 0;
+        // Wait until content container exists
+        await tempPage.waitForSelector(container, { timeout: 15000 });
 
-      while (!success && attempts < 2) {
-        attempts++;
+        const pageResults = await scrapeCEX(tempPage, container, title, price, url);
+        console.log(`📄 Results for page ${pageNum}: ${pageResults.length}`);
 
-        try {
-          // 🔹 Use a helper to ensure full navigation/reload safety
-          await navigateSafely(tab, pagedUrl);
+        for (const result of pageResults) {
+          const key = parseVariantKey ? parseVariantKey(result.title) : result.title.trim();
+          if (!variantsMap[key]) variantsMap[key] = { key, rawTitles: [] };
+          variantsMap[key].rawTitles.push(result.title);
+          allResults.push(result);
+        }
 
-          // Wait until content container exists
-          await tab.waitForSelector(container, { timeout: 15000 });
+        console.log(`✅ Page ${pageNum} done`);
+        success = true;
 
-          const pageResults = await scrapeCEX(tab, container, title, price, url);
-          console.log(`📄 Results for page ${pageNum}: ${pageResults.length}`);
-
-          for (const result of pageResults) {
-            const key = parseVariantKey ? parseVariantKey(result.title) : result.title.trim();
-            if (!variantsMap[key]) variantsMap[key] = { key, rawTitles: [] };
-            variantsMap[key].rawTitles.push(result.title);
-            allResults.push(result);
-          }
-
-          console.log(`✅ Page ${pageNum} done`);
-          success = true;
-
-        } catch (err) {
-          console.error(`❌ Attempt ${attempts} failed for page ${pageNum}: ${err}`);
-          if (attempts < 2) {
-            console.log(`🔁 Retrying page ${pageNum}...`);
-            await tab.waitForTimeout(3000);
-          } else {
-            console.log(`⚠️ Skipping page ${pageNum} after ${attempts} failed attempts`);
-          }
+      } catch (err) {
+        console.error(`❌ Attempt ${attempts} failed for page ${pageNum}: ${err}`);
+        if (attempts < 2) {
+          console.log(`🔁 Retrying page ${pageNum}...`);
+          await tempPage.waitForTimeout(3000);
+        } else {
+          console.log(`⚠️ Skipping page ${pageNum} after ${attempts} failed attempts`);
         }
       }
     }
   }
 
-
-  // 4️⃣ Start worker tabs (limited concurrency)
-  await Promise.all(Array.from({ length: concurrency }, () => worker()));
+  // 🔹 Close at the end
+  await tempPage.close();
 
   const variants = Object.values(variantsMap);
   console.log(`🎉 Scraped ${variants.length} distinct variants.`);
