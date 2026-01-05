@@ -1,4 +1,4 @@
-import { Page, Browser } from "playwright";
+import { Browser, Page, BrowserContext } from "playwright";
 import { cex } from "../competitors/cex";
 import { scrapeCEX } from "../scrapers/cex";
 
@@ -105,7 +105,7 @@ async function navigateSafely(page: Page, url: string) {
 
 
 async function determinePriceRanges(
-  browser: Browser,
+  context: BrowserContext,  // Changed from Browser
   baseUrl: string,
   maxResultsPerRange: number,
   initialRanges: [number, number][] = [
@@ -120,7 +120,7 @@ async function determinePriceRanges(
   const finalRanges: [number, number][] = [];
   
   // Create a single page to reuse for all checks
-  const page = await browser.newPage();
+  const page = await context.newPage();
 
   async function checkResults(minPrice: number, maxPrice: number): Promise<number> {
     const urlWithRange = `${baseUrl}&sellPrice=${minPrice}:${maxPrice}`;
@@ -220,10 +220,10 @@ async function determinePriceRanges(
 
 /* ----------------------------- Generic Scraper ----------------------------- */
 export async function scrapeAllPagesParallel(
-  browser: Browser,
+  context: BrowserContext,  // Changed from Browser
   baseUrl: string,
   parseVariantKey?: (title: string) => string,
-  concurrency: number = 1
+  concurrency: number = 3
 ): Promise<{ results: any[]; variants: VariantGroup[] }> {
   const resultsPerPage = 17;
   const allResults: any[] = [];
@@ -231,7 +231,7 @@ export async function scrapeAllPagesParallel(
   const { container, title, price, url } = cex.selectors;
 
   // 1️⃣ Open a temp page to get total results with retry logic
-  const tempPage = await browser.newPage();
+  const tempPage = await context.newPage();
   
   let totalResults = 0;
   let totalPages = 0;
@@ -284,53 +284,88 @@ export async function scrapeAllPagesParallel(
   // 🔹 DON'T close - reuse it!
   // await tempPage.close(); ❌ REMOVE THIS LINE
 
-  // 2️⃣ Reuse tempPage for scraping
-  for (let pageNum = 1; pageNum <= totalPages; pageNum++) {
-    console.log(`🔍 Scraping page ${pageNum}`);
-
-    let success = false;
-    let attempts = 0;
-
-    while (!success && attempts < 2) {
-      attempts++;
-
-      try {
-        // 🔹 Page 1 is already loaded, skip navigation
-        if (pageNum > 1) {
-          const pagedUrl = `${baseUrl}&page=${pageNum}`;
-          await navigateSafely(tempPage, pagedUrl);
-          await tempPage.waitForTimeout(1000 + Math.random() * 2000);
-        }
-
-        // Wait until content container exists
-        // await tempPage.waitForSelector(container, { timeout: 15000 });
-
-        const pageResults = await scrapeCEX(tempPage, container, title, price, url);
-        console.log(`📄 Results for page ${pageNum}: ${pageResults.length}`);
-
-        for (const result of pageResults) {
-          const key = parseVariantKey ? parseVariantKey(result.title) : result.title.trim();
-          if (!variantsMap[key]) variantsMap[key] = { key, rawTitles: [] };
-          variantsMap[key].rawTitles.push(result.title);
-          allResults.push(result);
-        }
-
-        console.log(`✅ Page ${pageNum} done`);
-        success = true;
-
-      } catch (err) {
-        console.error(`❌ Attempt ${attempts} failed for page ${pageNum}: ${err}`);
-        if (attempts < 2) {
-          console.log(`🔁 Retrying page ${pageNum}...`);
-          await tempPage.waitForTimeout(3000);
-        } else {
-          console.log(`⚠️ Skipping page ${pageNum} after ${attempts} failed attempts`);
-        }
-      }
-    }
+  // 2️⃣ Process pages in parallel batches
+  const pageNumbers = Array.from({ length: totalPages }, (_, i) => i + 1);
+  const batches: number[][] = [];
+  for (let i = 0; i < pageNumbers.length; i += concurrency) {
+    batches.push(pageNumbers.slice(i, i + concurrency));
   }
 
-  // 🔹 Close at the end
+  console.log(`📦 Processing ${totalPages} pages in ${batches.length} batches (concurrency: ${concurrency})`);
+
+  for (const batch of batches) {
+    console.log(`\n🔄 Processing batch: pages ${batch.join(', ')}`);
+    
+    const batchPromises = batch.map(async (pageNum) => {
+      // Create a new page for each concurrent scrape
+      const page = pageNum === 1 ? tempPage : await context.newPage();
+      
+      let success = false;
+      let attempts = 0;
+
+      while (!success && attempts < 2) {
+        attempts++;
+
+        try {
+          console.log(`🔍 Scraping page ${pageNum} (attempt ${attempts})`);
+          
+          // Page 1 is already loaded in tempPage, skip navigation
+          if (pageNum > 1) {
+            const pagedUrl = `${baseUrl}&page=${pageNum}`;
+            await navigateSafely(page, pagedUrl);
+            await page.waitForTimeout(1000 + Math.random() * 2000);
+          }
+
+          const pageResults = await scrapeCEX(page, container, title, price, url);
+          console.log(`📄 Results for page ${pageNum}: ${pageResults.length}`);
+
+          const pageData: any[] = [];
+          for (const result of pageResults) {
+            const key = parseVariantKey ? parseVariantKey(result.title) : result.title.trim();
+            pageData.push({ result, key });
+          }
+
+          console.log(`✅ Page ${pageNum} done`);
+          success = true;
+          
+          return { pageNum, data: pageData, page };
+
+        } catch (err) {
+          console.error(`❌ Attempt ${attempts} failed for page ${pageNum}: ${err}`);
+          if (attempts < 2) {
+            console.log(`🔁 Retrying page ${pageNum}...`);
+            await page.waitForTimeout(3000);
+          } else {
+            console.log(`⚠️ Skipping page ${pageNum} after ${attempts} failed attempts`);
+            return { pageNum, data: [], page };
+          }
+        }
+      }
+      
+      return { pageNum, data: [], page };
+    });
+
+    // Wait for all pages in this batch to complete
+    const batchResults = await Promise.all(batchPromises);
+
+    // Process results and close pages (except tempPage)
+    for (const { pageNum, data, page } of batchResults) {
+      for (const { result, key } of data) {
+        if (!variantsMap[key]) variantsMap[key] = { key, rawTitles: [] };
+        variantsMap[key].rawTitles.push(result.title);
+        allResults.push(result);
+      }
+      
+      // Close the page if it's not the tempPage
+      if (pageNum !== 1) {
+        await page.close();
+      }
+    }
+    
+    console.log(`✅ Batch complete. Total results so far: ${allResults.length}`);
+  }
+
+  // 🔹 Close tempPage at the end
   await tempPage.close();
 
   const variants = Object.values(variantsMap);
@@ -340,7 +375,7 @@ export async function scrapeAllPagesParallel(
 }
 
 export async function scrapeAllPriceRangesCEX(
-  browser: Browser,
+  context: BrowserContext,  // Changed from Browser
   baseUrl: string,
   parseVariantKey?: (title: string) => string,
   concurrency: number = 3
@@ -350,7 +385,7 @@ export async function scrapeAllPriceRangesCEX(
   const maxResultsPerRange = 59 * 17;
 
   console.log(`\n🔹 Determining optimal price ranges dynamically...`);
-  const priceRanges = await determinePriceRanges(browser, baseUrl, maxResultsPerRange);
+  const priceRanges = await determinePriceRanges(context, baseUrl, maxResultsPerRange);
   console.log(`✅ Generated ${priceRanges.length} price ranges:`, priceRanges);
 
   for (const [minPrice, maxPrice] of priceRanges) {
@@ -358,7 +393,7 @@ export async function scrapeAllPriceRangesCEX(
     console.log(`\n🔹 Scraping price range £${minPrice} - £${maxPrice}`);
 
     const { results, variants } = await scrapeAllPagesParallel(
-      browser,
+      context,
       urlWithRange,
       parseVariantKey,
       concurrency

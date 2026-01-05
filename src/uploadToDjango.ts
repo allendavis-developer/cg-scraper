@@ -1,13 +1,11 @@
 import fetch from "node-fetch"; // npm i node-fetch if needed
-import { MobileScrapeResult } from "./scrapers/mobileScraper"; // adjust import to your path
-import { GameScrapeResult } from "./scrapers/gameScraper"; // adjust import to your path
 import { BaseVariant } from "./scrapers/baseScraper"; // adjust import to your path
-
+import { GenericScrapeResult } from "./scrapers/genericItemScraper";
 /**
  * Sends scrape result to Django
  */
 export async function uploadScrapeResultToDjango(
-  scrapeResult: MobileScrapeResult | GameScrapeResult,
+  scrapeResult: GenericScrapeResult,
   {
     categoryName,
     subcategoryName,

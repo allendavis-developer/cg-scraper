@@ -9,7 +9,6 @@ import { getGenericItemResults } from "./scrapers/genericItemScraper.js";
 const SCRAPE_OUTPUT_DIR = "./scrapeResults";
 
 // Parse command line
-// Parse command line
 const args = process.argv.slice(2);
 
 const sendOnly = args.includes("--send");
@@ -36,7 +35,7 @@ const selectedConfigs =
 
   if (!sendOnly) {
     // === Scraping mode ===
-    const { browser } = await setupPlaywright(true); // headless
+    const { browser, context } = await setupPlaywright(false); // headless
     const startTime = Date.now();
 
     try {
@@ -44,7 +43,7 @@ const selectedConfigs =
 
       for (const config of selectedConfigs) {
         try {
-          const result = await getGenericItemResults(browser, config);
+          const result = await getGenericItemResults(context, config);
 
           // Save results only
           const filePath = path.join(SCRAPE_OUTPUT_DIR, `${config.name.replace(/\s+/g, "_")}.json`);

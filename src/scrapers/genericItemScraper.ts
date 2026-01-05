@@ -1,4 +1,4 @@
-import { Browser } from "playwright";
+import { Browser, Page, BrowserContext } from "playwright";
 import { cex } from "../competitors/cex";
 import { scrapeCEX } from "./cex";
 import {
@@ -86,7 +86,7 @@ export function transformScrapeResultToGenericScrapeResult(
 /* --------------------------- Main Entry --------------------------- */
 
 export async function getGenericItemResults(
-  browser: Browser,
+  context: BrowserContext,  // Changed parameter
   options: GenericItemSearchOptions
 ): Promise<GenericScrapeResult> {
   const {
@@ -114,7 +114,7 @@ export async function getGenericItemResults(
     /\s*,?\s*(A|B|C|BOXED|UNBOXED|DISCOUNTED)$/i;
 
   if (!broad) {
-    const page = await browser.newPage();
+    const page = await context.newPage();
     await page.goto(baseUrl, { waitUntil: "domcontentloaded" });
     const { container, title, price, url } = cex.selectors;
     let results = await scrapeCEX(page, container, title, price, url);
@@ -137,7 +137,7 @@ export async function getGenericItemResults(
     scrapeResult = { competitor, results: filteredResults };
   } else {
     const { results, variants } = await scrapeAllPriceRangesCEX(
-      browser,
+      context,
       baseUrl,
       (title) => title.trim(),
       3
